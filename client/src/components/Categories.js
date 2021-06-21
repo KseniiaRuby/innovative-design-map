@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './Categories.css'
 
 export function SelectCategory() {
    const [categoryState, setCategoryState] = useState("Category")
