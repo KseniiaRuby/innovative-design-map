@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import background from "./Calgary_DT.jpg"
+import './Categories.css'
 
 export function SelectCategory() {
    const [categoryState, setCategoryState] = useState("Category")
