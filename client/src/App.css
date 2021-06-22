@@ -1,3 +1,15 @@
-/* .body {
-   background-color:black;
-} */
+body {
+   margin: 2.5em;
+   /* background-color: black; */
+   color: white;
+   background-image: url('./components/Calgary_DT.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+   font-size: 5em;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
