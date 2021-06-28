@@ -1,22 +1,15 @@
-import './App.css'
-import { SelectCategory } from './components/Categories'
-import Map from './components/Map/Map'
-
-
-
+import './App.css';
+import { SelectCategory } from './components/Categories';
 
 function App() {
-   return (
-      <div>
-         <div className="App">
-            <header className="App-header">
-            </header>
-            <SelectCategory />
-            <Map />
-
-         </div>
-      </div>
-   )
+  return (
+    <div className="App">
+      <header className="App-header">
+        
+        </header>
+        <SelectCategory />
+    </div>
+  )
 }
 
-export default App
+export default App;
