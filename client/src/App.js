@@ -1,7 +1,8 @@
-import './App.css'
-import { SelectCategory } from './components/Categories'
-import Map from './components/Map/Map'
+// import './App.css'
 
+import { SelectCategory } from './components/Categories'
+import Map from './components/Map/Map';
+import MarkPointOnMap from './components/MarkPointOnMap';
 
 
 
@@ -12,7 +13,8 @@ function App() {
             <header className="App-header">
             </header>
             <SelectCategory />
-            <Map />
+            {/* <Map /> */}
+            <MarkPointOnMap />
 
          </div>
       </div>
