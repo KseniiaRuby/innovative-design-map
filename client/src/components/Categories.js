@@ -7,27 +7,28 @@ export function SelectCategory() {
 
    return (
       <div className="header"> What makes Calgary
-      <br></br>
+         <br></br>
          <select
-            style={{ fontSize:`0.7em` }}
-            className="custom-select"            
+            style={{ fontSize: `0.5em` }}
+            className="custom-select"
             value={categoryState}
             onChange={(e) => {
                const selectedCategory = e.target.value
                setCategoryState(selectedCategory)
             }}
          >
-         <option value="green">green</option>
-         <option value="resilient">resilient</option>
-         <option value="adaptive">adaptive</option>
-         <option value="clean">clean</option>
-         <option value="vibrant">vibrant</option>
-         <option value="safe">safe</option>
-         <option value="healthy">healthy</option>
-         <option value="smart">smart</option>
-         <option value="accessible">accessible</option>
+            <option value=""></option>
+            <option value="green">green</option>
+            <option value="resilient">resilient</option>
+            <option value="adaptive">adaptive</option>
+            <option value="clean">clean</option>
+            <option value="vibrant">vibrant</option>
+            <option value="safe">safe</option>
+            <option value="healthy">healthy</option>
+            <option value="smart">smart</option>
+            <option value="accessible">accessible</option>
          </select> ?
-      {categoryState, []}
-</div>
+         {categoryState, []}
+      </div>
    )
 }
