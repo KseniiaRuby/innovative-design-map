@@ -1,23 +1,23 @@
-import './App.css'
+ import './App.css'
 
 import { SelectCategory } from './components/Categories'
-import Map from './components/Map/Map'
+// import Map from './components/Map/Map'
 import MarkPointOnMap from './components/MarkPointOnMap'
-
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function App() {
    return (
-      <div>
-         <div className="App">
-            <header className="App-header">
-            </header>
-            <SelectCategory />
-            {/* <Map /> */}
-            <MarkPointOnMap />
+      <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={SelectCategory} />
+          <Route path='/MarkPointOnMap' component={MarkPointOnMap} />
+        </Switch>
+      </Router>
+    </>
 
-         </div>
-      </div>
    )
 }
 

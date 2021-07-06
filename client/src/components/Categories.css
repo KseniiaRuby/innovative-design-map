@@ -1,1 +1,11 @@
-
+body { 
+    margin: 2.5em;
+    background-color: black;
+    color: white;
+    background-image: url('./Calgary_DT.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 5em;
+ }
