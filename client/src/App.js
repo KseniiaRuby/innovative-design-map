@@ -1,8 +1,8 @@
-// import './App.css'
+import './App.css'
 
 import { SelectCategory } from './components/Categories'
-import Map from './components/Map/Map';
-import MarkPointOnMap from './components/MarkPointOnMap';
+import Map from './components/Map/Map'
+import MarkPointOnMap from './components/MarkPointOnMap'
 
 
 
