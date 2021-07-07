@@ -55,7 +55,7 @@ function MarkPointOnMap() {
             ))}
 
             {selectedPark ? (
-               <Popup
+               <Popup className="img-description-on-map"
                   latitude={selectedPark.geometry.coordinates[1]}
                   longitude={selectedPark.geometry.coordinates[0]}
                   onClose={() => {
@@ -63,7 +63,7 @@ function MarkPointOnMap() {
                   }}
                >
                   <div>
-                     <img className="img-description-on-map" src={selectedPark.properties.PICTURE_LI} />
+                     <img src={selectedPark.properties.PICTURE_LI} />
                      <h2>{selectedPark.properties.NAME}</h2>
                      <p>{selectedPark.properties.FACILITY_F}</p>
                      <p>{selectedPark.properties.ADDRESS}</p>
