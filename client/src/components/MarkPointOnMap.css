@@ -47,3 +47,7 @@ code {
 
     color: #011627;
 }
+
+.img-description-on-map img {
+   width: 250px;
+}
