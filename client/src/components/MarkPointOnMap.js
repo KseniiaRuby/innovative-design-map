@@ -30,7 +30,7 @@ function MarkPointOnMap() {
       <div>
          <ReactMapGL
             {...viewport}
-            mapboxApiAccessToken="pk.eyJ1IjoiNG5hdmluIiwiYSI6ImNrcXI1ZmZleTBoeTAyb214Z3p6YTV4Ym0ifQ.VDPYZg-kHBSFmV88mjM8Fg"
+            mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
             // mapStyle="mapbox://styles/4navin/ckqb7gi7q1mpr19laybxakhhf"
             onViewportChange={viewport => {
                setViewport(viewport)
