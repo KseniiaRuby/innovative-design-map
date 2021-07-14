@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as parkDate from "../data/calgary-buildings.json";
-import "./MarkPointOnMap.css";
+import "../styles/MarkPointOnMap.css";
 
 function MarkPointOnMap() {
   const [viewport, setViewport] = useState({

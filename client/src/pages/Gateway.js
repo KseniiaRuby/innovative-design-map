@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Categories.css";
+import "../styles/Pages.css";
 
-export function SelectCategory() {
+export function Gateway() {
   //   const [city, setCity] = useState();
   const [gateway, setGateway] = useState();
 
