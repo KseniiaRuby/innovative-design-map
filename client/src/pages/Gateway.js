@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../styles/Pages.css";
 
 export function Gateway() {
-  //   const [city, setCity] = useState();
+  // const [city, setCity] = useState();
   const [gateway, setGateway] = useState();
 
   return (
