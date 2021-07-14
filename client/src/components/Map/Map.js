@@ -1,50 +1,48 @@
-import React, { useRef, useEffect, useState } from 'react'
-import mapboxgl from 'mapbox-gl'
-import './Map.css'
+import React, { useRef, useEffect, useState } from "react";
+import mapboxgl from "mapbox-gl";
+import "./Map.css";
 
 mapboxgl.accessToken =
-   'pk.eyJ1Ijoia3NlbmlpYXJ1YnkiLCJhIjoiY2txYjNxaXluMDJrYzJucDMyMzkzdGtyNyJ9.eZdgn5XDNT_QVCpogoDWKA'
+  "pk.eyJ1Ijoia3NlbmlpYXJ1YnkiLCJhIjoiY2txYjNxaXluMDJrYzJucDMyMzkzdGtyNyJ9.eZdgn5XDNT_QVCpogoDWKA";
 const Map = () => {
-   const mapContainerRef = useRef(null)
+  const mapContainerRef = useRef(null);
 
-   const [lng, setLng] = useState(5)
-   const [lat, setLat] = useState(34)
-   const [zoom, setZoom] = useState(1.5)
+  const [lng, setLng] = useState(5);
+  const [lat, setLat] = useState(34);
+  const [zoom, setZoom] = useState(1.5);
 
-   // Initialize map when component mounts
-   useEffect(() => {
-      const map = new mapboxgl.Map({
-         container: mapContainerRef.current,
-         style: 'mapbox://styles/mapbox/light-v10',
-         // style: 'mapbox://styles/mapbox/dark-v10',
-         // style: 'mapbox://styles/mapbox/satellite-streets-v11',
-         center: [-114.066666, 51.049999],
-         zoom: 12
-      })
+  // Initialize map when component mounts
+  useEffect(() => {
+    const map = new mapboxgl.Map({
+      container: mapContainerRef.current,
+      style: "mapbox://styles/mapbox/light-v10",
+      // style: 'mapbox://styles/mapbox/dark-v10',
+      // style: 'mapbox://styles/mapbox/satellite-streets-v11',
+      center: [-114.066666, 51.049999],
+      zoom: 12,
+    });
 
-      // Add navigation control (the +/- zoom buttons)
-      map.addControl(new mapboxgl.NavigationControl(), 'top-right')
+    // Add navigation control (the +/- zoom buttons)
+    map.addControl(new mapboxgl.NavigationControl(), "top-right");
 
-      map.on('move', () => {
-         setLng(map.getCenter().lng.toFixed(4))
-         setLat(map.getCenter().lat.toFixed(4))
-         setZoom(map.getZoom().toFixed(2))
-      })
+    map.on("move", () => {
+      setLng(map.getCenter().lng.toFixed(4));
+      setLat(map.getCenter().lat.toFixed(4));
+      setZoom(map.getZoom().toFixed(2));
+    });
 
-      // Clean up on unmount
-      return () => map.remove()
-   }, []) // eslint-disable-line react-hooks/exhaustive-deps
+    // Clean up on unmount
+    return () => map.remove();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-   return (
-      <div>
-         <div className='sidebarStyle'>
-            <div>
-               {/* Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} */}
-            </div>
-         </div>
-         <div className='map-container' ref={mapContainerRef} />
+  return (
+    <div>
+      <div className="sidebarStyle">
+        <div>{/* Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} */}</div>
       </div>
-   )
-}
+      <div className="map-container" ref={mapContainerRef} />
+    </div>
+  );
+};
 
-export default Map
+export default Map;

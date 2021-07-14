@@ -1,60 +1,26 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Innovative Design Mapping Project
+      <div>
+        <div className="navbar-container">
+          <Link to="/" className="nav-links">
+            Home
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}>
-                Menu
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Search
-              </Link>
-            </li>
-           
-            <li>
-              <Link
-                to='/MarkPointOnMap'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Map
-              </Link>
-            </li>
-          </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+          {/* <Link to="/" className="nav-links">
+            Menu
+          </Link>
+          <Link to="/" className="nav-links">
+            Search
+          </Link> */}
+          <Link to="/MarkPointOnMap" className="nav-links">
+            Map
+          </Link>
         </div>
-      </nav>
+      </div>
     </>
   );
 }
