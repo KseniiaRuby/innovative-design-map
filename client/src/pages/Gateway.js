@@ -2,32 +2,21 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Pages.css";
 
+export let selectedGateway = "";
+
 export function Gateway() {
-  // const [city, setCity] = useState();
   const [gateway, setGateway] = useState();
 
   return (
     <div className="category-block">
       What makes Calgary
       <br></br>
-      {/* <select
-        className="list-style"
-        value={city}
-        onChange={(e) => {
-          const selectedCity = e.target.value;
-          setCity(selectedCity);
-        }}
-      >
-        <option value="Calgary">Calgary</option>
-        <option value="Edmonton">Edmonton</option>
-        <option value="Lethbridge">Lethbridge</option>
-      </select> */}
       <div className="list-spacer">
         <select
           className="list-style"
           value={gateway}
           onChange={(e) => {
-            const selectedGateway = e.target.value;
+            selectedGateway = e.target.value;
             setGateway(selectedGateway);
           }}
         >
