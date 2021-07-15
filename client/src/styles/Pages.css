@@ -11,7 +11,7 @@
   font-size: 4.5em;
   padding-top: 2em;
   padding-left: 0.5em;
-  padding-bottom: 26vh;
+  padding-bottom: 55%;
 }
 
 .list-style {
@@ -24,4 +24,21 @@
 
 option {
   color: black;
+}
+
+.button-spacer {
+  padding-left: 40%;
+}
+
+.lets-go-button {
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

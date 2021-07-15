@@ -1,4 +1,3 @@
-// import "./styles/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Gateway } from "./pages/Gateway";
 import { Category } from "./pages/Category";

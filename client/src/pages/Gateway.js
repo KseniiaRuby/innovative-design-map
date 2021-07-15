@@ -42,6 +42,11 @@ export function Gateway() {
           <option value="accessible">accessible</option>
         </select>
         &nbsp;?
+        <div>
+          <div className="button-spacer">
+            <button className="lets-go-button">Let's Go</button>
+          </div>
+        </div>
       </div>
     </div>
   );
