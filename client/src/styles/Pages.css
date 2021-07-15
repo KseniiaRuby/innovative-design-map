@@ -14,6 +14,10 @@
   padding-bottom: 55%;
 }
 
+.list-spacer {
+  text-align: left;
+}
+
 .list-style {
   color: white;
   background-color: transparent !important;
@@ -30,15 +34,18 @@ option {
   padding-left: 40%;
 }
 
-.lets-go-button {
-  background-color: #555555; /* Green */
-  border: none;
+.button-styling {
   color: white;
-  padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
+}
+
+.button-lets-go {
+  background-color: #757575;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-family: sans-serif;
+  font-size: 19px;
   cursor: pointer;
 }

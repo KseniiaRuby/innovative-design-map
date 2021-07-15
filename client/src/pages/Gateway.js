@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Pages.css";
 
 export function Gateway() {
@@ -21,7 +22,7 @@ export function Gateway() {
         <option value="Edmonton">Edmonton</option>
         <option value="Lethbridge">Lethbridge</option>
       </select> */}
-      <div>
+      <div className="list-spacer">
         <select
           className="list-style"
           value={gateway}
@@ -44,7 +45,11 @@ export function Gateway() {
         &nbsp;?
         <div>
           <div className="button-spacer">
-            <button className="lets-go-button">Let's Go</button>
+            <button className="button-lets-go">
+              <Link className="button-styling" to="/Category">
+                LET'S GO
+              </Link>
+            </button>
           </div>
         </div>
       </div>
