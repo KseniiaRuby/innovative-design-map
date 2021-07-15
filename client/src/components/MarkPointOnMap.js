@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
-import * as parkDate from "../data/calgary-buildings.json";
+// import * as parkDate from "../data/calgary-buildings.json"
+import * as projectsInformation from "../data/projectsampleinfo.json";
 import "../styles/MarkPointOnMap.css";
 
 function MarkPointOnMap() {
@@ -9,14 +10,14 @@ function MarkPointOnMap() {
     longitude: -114.0719,
     width: "100vw",
     height: "90vh",
-    zoom: 13,
+    zoom: 12,
   });
-  const [selectedPark, setSelectedPark] = useState(null);
+  const [selectProject, setSelectProject] = useState(null);
 
   useEffect(() => {
     const listener = (e) => {
       if (e.key === "Escape") {
-        setSelectedPark(null);
+        setSelectProject(null);
       }
     };
     window.addEventListener("keydown", listener);
@@ -36,39 +37,44 @@ function MarkPointOnMap() {
           setViewport(viewport);
         }}
       >
-        {parkDate.features.map((park) => (
+        {projectsInformation.features.map((project) => (
           <Marker
-            key={park.properties.PARK_ID}
-            latitude={park.geometry.coordinates[1]}
-            longitude={park.geometry.coordinates[0]}
+            key={project.Project_Information.Project_ID}
+            latitude={project.geometry.coordinates[1]}
+            longitude={project.geometry.coordinates[0]}
           >
             <button
               className="marker-btn"
               onClick={(e) => {
                 e.preventDefault();
-                setSelectedPark(park);
+                setSelectProject(project);
               }}
             >
-              <img src={park.properties.PICTURE_LI} alt="Building In Calgary" />
+              {/* Library */}
+              {/* <img src={selectProject.Project_Information.Main_Image} alt="Building In Calgary" /> */}
+              <img src={project.Project_Information.Main_Image} alt="" />
             </button>
           </Marker>
         ))}
 
-        {selectedPark ? (
+        {selectProject ? (
           <Popup
             className="img-description-on-map"
-            latitude={selectedPark.geometry.coordinates[1]}
-            longitude={selectedPark.geometry.coordinates[0]}
+            latitude={selectProject.geometry.coordinates[1]}
+            longitude={selectProject.geometry.coordinates[0]}
             onClose={() => {
-              setSelectedPark(null);
+              setSelectProject(null);
             }}
           >
             <div>
-              <img src={selectedPark.properties.PICTURE_LI} />
-              <h2>{selectedPark.properties.NAME}</h2>
-              <p>{selectedPark.properties.FACILITY_F}</p>
-              <p>{selectedPark.properties.ADDRESS}</p>
-              <p>{selectedPark.properties.DESCRIPTIO}</p>
+              <img src={selectProject.Project_Information.Main_Image} />
+              <h2>{selectProject.Project_Information.Project_Name}</h2>
+              <p>{selectProject.Project_Information.Date_Of_Completion}</p>
+              <p>{selectProject.Project_Information.Location.Address}</p>
+              <p>{selectProject.Project_Information.Location.City}</p>
+              <p>{selectProject.Project_Information.Location.Province}</p>
+              <p>{selectProject.Project_Information.Location.Postal_Code}</p>
+              <p>{selectProject.Project_Information.Project_Description}</p>
             </div>
           </Popup>
         ) : null}
