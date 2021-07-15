@@ -51,7 +51,14 @@
          },
          "Innovation_Descriptions": {
             "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
-            "Feature_Words": ["public space","social interaction","community engagement", "active transportation", "public transportation", "mixed-modal access"],
+            "Feature_Words": [
+               "public space",
+               "social interaction",
+               "community engagement", 
+               "active transportation", 
+               "public transportation", 
+               "mixed-modal access"
+            ],
             "Primary_Type_of_Innovation": {
                "Classification": "culture_heritage_and_society",
                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"

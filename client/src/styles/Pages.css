@@ -1,0 +1,60 @@
+.category-block {
+  display: block;
+  background-color: black;
+  color: white;
+  background-image: url(../images/Calgary_DT.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4.5em;
+  padding-top: 2em;
+  padding-left: 0.5em;
+  padding-bottom: 55%;
+}
+
+.category-explore {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  height: 100vh;
+}
+
+.list-spacer {
+  text-align: left;
+}
+
+.list-style {
+  color: white;
+  background-color: transparent !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  scroll-behavior: smooth;
+}
+
+option {
+  color: black;
+}
+
+.button-spacer {
+  padding-left: 40%;
+}
+
+.button-styling {
+  color: white;
+  text-decoration: none;
+}
+
+.button-lets-go {
+  background-color: #757575;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+}
