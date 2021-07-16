@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+      {
+         "Project_Information": {
+            "Project_ID": "",
+            "Project_Name": "",
+            "Date_Of_Completion": "",
+            "Project_Description": "",
+              "Location": {
+               "Address": "",
+               "City": "",
+               "Province": "",
+               "Postal_Code": ""
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Completion_Date": "",
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": ""
+         },
+         "Vistors_Information": {
+            "Open_To_Public": false,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": [],
+            "Feature_Words": [],
+            "Primary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": []
+            },
+         "Main_Image":""
+      }
+   ]
+}

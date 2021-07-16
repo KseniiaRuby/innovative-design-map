@@ -1,0 +1,1024 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+      {
+         "Project_Information": {
+            "Project_ID": "1",
+            "Project_Name": "Central Library",
+            "Date_Of_Completion": "Built in February 19, 1967",
+            "Project_Description": "The Calgary Central Library, also known as the Calgary New Central Library, is a public library in Calgary, Alberta, Canada, and the flagship branch of the Calgary Public Library system",
+              "Location": {
+               "Address": "800 3 Street SE",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2G 2E7"
+               },
+            "PhoneNumber": "(403) 260-2600",
+            "Hours": {
+               "Sunday": "12:00 PM - 5:00 PM",
+               "Monday": "9:00 AM - 8:00 PM",
+               "Tuesday": "9:00 AM - 8:00 PM",
+               "Wednesday": "9:00 AM - 8:00 PM",
+               "Thursday": "9:00 AM - 8:00 PM",
+               "Friday": "9:00 AM - 6:00 PM",
+               "Saturday": "9:00 AM - 5:00 PM"
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Completion_Date": "2018",
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": [
+               "public space",
+               "social interaction",
+               "community engagement", 
+               "active transportation", 
+               "public transportation", 
+               "mixed-modal access"
+            ],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "transportation_and_infrastructure",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0550, 51.0454]
+            }
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "2",
+            "Project_Name": "Harry Hays Building",
+            "Date_Of_Completion": "Built in 1978",
+            "Project_Description": "The federal building in downtown Calgary, the Harry Hays Building, is named in his honour. The building is an 8-story, 671,500 square foot building covering an entire block next to the Bow River, designed by Chandler Kennedy and completed in 1978.",
+              "Location": {
+               "Address": "220 4 Ave SE",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2G 4X3"
+               },
+            "PhoneNumber": "(800) 277-9914",
+            "Hours": {
+               "Sunday": "Closed",
+               "Monday": "8:30 AM - 4:00 PM",
+               "Tuesday": "8:30 AM - 4:00 PM",
+               "Wednesday": "8:30 AM - 4:00 PM",
+               "Thursday": "8:30 AM - 4:00 PM",
+               "Friday": "8:30 AM - 4:00 PM",
+               "Saturday": "Closed"
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+            
+            
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["public space","social interaction","community engagement", "active transportation", "public transportation", "mixed-modal access"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "transportation_and_infrastructure",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0591, 51.0499]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "3",
+            "Project_Name": "Telus Sky",
+            "Date_Of_Completion": "2018/01/18",
+            "Project_Description": "",
+              "Location": {
+               "Address": "685 Centre St S",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2G 2C7"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["Green"],
+            "Feature_Words": ["water management","sustainability", "ecosystems"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "climate_and_environment",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0632, 51.0467]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "4",
+            "Project_Name": "Peace Bridge",
+            "Date_Of_Completion": "2012/03/24",
+            "Project_Description": "Peace Bridge is a bridge that accommodates people walking and cycling across the Bow River in Calgary, Alberta, Canada. The bridge, designed by Spanish architect Santiago Calatrava, opened for use on March 24, 2012. It has the popular nickname 'Finger Trap Bridge' for its visual similarity to the finger trap puzzle",
+              "Location": {
+               "Address": "Peace Bridge",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": ""
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0790, 51.0539]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "5",
+            "Project_Name": "Calgary Tower",
+            "Date_Of_Completion": "1967/02/24",
+            "Project_Description": "The Calgary Tower is a 190.8-meter free standing observation tower in the downtown core of Calgary, Alberta, Canada",
+              "Location": {
+               "Address": "101 9 Ave SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 1J9"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0631, 51.0443]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "6",
+            "Project_Name": "Bow Tower",
+            "Date_Of_Completion": "2018/06/13",
+            "Project_Description": "The Bow is a 158,000-square-metre office building in downtown Calgary, Alberta, Canada. The 236 metre building is currently the second tallest office tower in Calgary, since construction of Cenovus' Brookfield Place; and the third tallest in Canada outside Toronto",
+              "Location": {
+               "Address": "500 Centre St S",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2G 0E3"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.061821, 51.048031]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "7",
+            "Project_Name": "Studio Bell, home of the National Music Centre",
+            "Date_Of_Completion": "2016/07/01",
+            "Project_Description": "The National Music Centre is a non-profit museum and performance venue located in Calgary, Alberta, Canada. The centre's permanent building, branded Studio Bell",
+              "Location": {
+               "Address": "850 4 St SE",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2G 0L8"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0526, 51.0446]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "8",
+            "Project_Name": "Brookfield Place",
+            "Date_Of_Completion": "2016/07/01",
+            "Project_Description": "Brookfield Place is a skyscraper located in downtown Calgary, Alberta, Canada. The complex is home to Brookfield Place East, a 56-storey 247 m office tower, which upon its completion in 2017, became the tallest building in Calgary, exceeding The Bow",
+              "Location": {
+               "Address": "225 6 Ave SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 3S9"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0660, 51.0472]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "9",
+            "Project_Name": "Bankers Hall",
+            "Date_Of_Completion": "",
+            "Project_Description": "Bankers Hall is a building complex located in downtown Calgary, Alberta, which includes twin 52-storey office towers (197 metres high), designed by the architectural firm Cohos Evamy in postmodern architectural style",
+              "Location": {
+               "Address": "Bankers Hall, 315 8 Ave SW #402",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 4K1"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0689, 51.0456]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "10",
+            "Project_Name": "Home Oil Tower",
+            "Date_Of_Completion": "circa 1977",
+            "Project_Description": "Home Oil Tower is part of a high-rise office skyscraper complex in Calgary, Alberta, Canada. It is located at 324 8 Avenue SW, on historic Stephen Avenue in downtown Calgary",
+              "Location": {
+               "Address": "324 8 Avenue SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 2Z2"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0694, 51.0458]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "11",
+            "Project_Name": "Sunlife Plaza",
+            "Date_Of_Completion": "circa 1981",
+            "Project_Description": "The Ampersand is a high-rise office complex in Calgary, Alberta, Canada. It consists of three identical skyscrapers, designated as North, West and East Tower, and connected by the lobby at ground level and by a shopping gallery at Plus 15 level",
+              "Location": {
+               "Address": "112 4 Ave SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 3N3"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0642, 51.0496]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "12",
+            "Project_Name": "Hotel Fairmont Palliser",
+            "Date_Of_Completion": "1914/06/01",
+            "Project_Description": "The Fairmont Palliser, formerly known as the Palliser Hotel, is a hotel of the Canada-based Fairmont Hotels and Resorts chain. The historic hotel (1914) is located in downtown Calgary, Alberta at 133 9th Avenue SW adjacent to the Calgary Tower and Palliser Square. The Palliser is one of Calgary's oldest and most luxurious hotels",
+              "Location": {
+               "Address": "133 9 Ave SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 2M3"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0650, 51.0443]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "13",
+            "Project_Name": "Calgary Courts Centre",
+            "Date_Of_Completion": "circa 2007",
+            "Project_Description": "Calgary Courts Centre is the largest court facility in Canada, and is located in Calgary, Alberta.[4] It was constructed by the Government of Alberta and provides over 1 million square feet (90,000 m²) of court and office space",
+              "Location": {
+               "Address": "601 5 St SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 5P7"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0738, 51.0472]
+            }
+         
+      },
+      {
+         "Project_Information": {
+            "Project_ID": "14",
+            "Project_Name": "First Tower",
+            "Date_Of_Completion": "circa 1968",
+            "Project_Description": "Class A office space in the downtown core, with an entire floor at the Plus 15 level dedicated to the employee experience. A new way to attract and retain the best talent in the market — where office space puts people first.",
+              "Location": {
+               "Address": "411 1 St SE",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2G 4Y5"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0608, 51.0490]
+            }
+         
+      },
+       {
+         "Project_Information": {
+            "Project_ID": "15",
+            "Project_Name": "Bow Valley Square",
+            "Date_Of_Completion": "circa 1972",
+            "Project_Description": "Bow Valley Square is a four-tower office tower complex located in downtown Calgary, Alberta, Canada. The complex constructed in stages between 1972 and 1982 was home to Calgary's tallest building between 1974 and 1976. The complex is owned by Alberta Investment Management Corporation, OMERS and Oxford Properties Group.",
+              "Location": {
+               "Address": "205 5 Ave SW",
+               "City": "Calgary",
+               "Province": "Alberta",
+               "Postal_Code": "T2P 2V7"
+               },
+            "PhoneNumber": "",
+            "Hours": {
+               "Sunday": "",
+               "Monday": "",
+               "Tuesday": "",
+               "Wednesday": "",
+               "Thursday": "",
+               "Friday": "",
+               "Saturday": ""
+               },
+            "Contact_Information": {
+               "Company_Name": "",
+               "First_Name": "",
+               "Last_Name": "",
+               "Email": "",
+               "Phone_Number": "",
+               "Project_Website": ""
+               },
+            "Neighbourhood": "Downtown",
+            "Project_Owners_and_Clients": [],
+            "Project_Designers_Collaborations": [],
+            "Project_Typology": [],
+            "Project_Profile": "",
+            "Key_Facts_About_The_Project": "",
+            "Main_Image":"../images/red_marker2.png"
+         },
+         "Vistors_Information": {
+            "Open_To_Public": true,
+            "Reception": "",
+            "Other_Comments": ""
+         },
+         "Innovation_Descriptions": {
+            "Gateway_Words": ["vibrant", "inclusive", "accessible", "connected"],
+            "Feature_Words": ["tourism","place making"],
+            "Primary_Type_of_Innovation": {
+               "Classification": "culture_heritage_and_society",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Secondary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed de eiusmod tempor indcididunt ut labore et"
+            },
+            "Tertiary_Type_of_Innovation": {
+               "Classification": "",
+               "Description": ""
+            },
+            "General_Profile": "",
+            "Key_Facts": []
+         },
+            "geometry": {
+            "type": "Point",
+            "coordinates": [-114.0664, 51.0480]
+            }
+         
+      }
+
+   ]
+}
