@@ -1,25 +1,23 @@
-//  import './App.css'
-
-import { SelectCategory } from './components/Categories'
-// import Map from './components/Map/Map'
-import MarkPointOnMap from './components/MarkPointOnMap'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { Gateway } from "./pages/Gateway"
+import Category from "./pages/Category"
+import MarkPointOnMap from "./components/MarkPointOnMap"
+import Navbar from "./components/Navbar"
 import ProjectPage from './pages/projectPage/ProjectPage'
 
 function App() {
    return (
       <>
          <Router>
-            <Navbar />
             <Switch>
-               <Route path='/' exact component={SelectCategory} />
-               <Route path='/MarkPointOnMap' component={MarkPointOnMap} />
+               <Route path="/" exact component={Gateway} />
+               <Route path="/Category" component={Category} />
+               <Route path="/MarkPointOnMap" component={MarkPointOnMap} />
                <Route path='/ProjectPage' component={ProjectPage} />
             </Switch>
+            <Navbar />
          </Router>
       </>
-
    )
 }
 

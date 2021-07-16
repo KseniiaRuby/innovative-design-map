@@ -17,8 +17,8 @@ code {
 }
 
 .marker-btn img {
-   width: 50px;
-   height: 50px;
+   width: 30px;
+   height: 30px;
    border-radius: 50%;
 }
 
@@ -28,24 +28,18 @@ code {
    font-size: medium;
    position: fixed;
    object-fit: contain;
-
-    left: 25%;
-    top: 30%;
-
-    width: 50%;
-
-    border: 1px solid #011627;
-    border-radius: 1em;
-    box-shadow: -2px 5px 5px #242323;
-
-    background-color: #FDFFFC;
-
-    display:block;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    color: #011627;
+   left: 25%;
+   top: 30%;
+   width: 50%;
+   border: 1px solid #011627;
+   border-radius: 1em;
+   box-shadow: -2px 5px 5px #242323;
+   background-color: #fdfffc;
+   display: block;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   color: #011627;
 }
 
 .img-description-on-map img {

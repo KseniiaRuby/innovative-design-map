@@ -1,0 +1,16 @@
+.header-container {
+  background-color: black;
+  position: fixed;
+  text-align: left;
+  padding: 0px 0px 0px 10px;
+  top: 0;
+  width: 100%;
+  height: 120px;
+}
+
+.title-text {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem 1rem 1rem 1rem;
+}

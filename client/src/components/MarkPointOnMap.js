@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import ReactMapGL, { Marker, Popup } from "react-map-gl"
 // import * as parkDate from "../data/calgary-buildings.json"
-import '../styles/MarkPointOnMap.css'
-import * as projectsInformation from '../data/projectsampleinfo.json'
+import * as projectsInformation from "../data/projectsampleinfo.json"
+import "../styles/MarkPointOnMap.css"
 
 function MarkPointOnMap() {
    const [viewport, setViewport] = useState({
@@ -10,12 +10,12 @@ function MarkPointOnMap() {
       longitude: -114.0719,
       width: "100vw",
       height: "100vh",
-      zoom: 14
+      zoom: 12,
    })
    const [selectProject, setSelectProject] = useState(null)
 
    useEffect(() => {
-      const listener = e => {
+      const listener = (e) => {
          if (e.key === "Escape") {
             setSelectProject(null)
          }
@@ -33,11 +33,11 @@ function MarkPointOnMap() {
             {...viewport}
             mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
             // mapStyle="mapbox://styles/4navin/ckqb7gi7q1mpr19laybxakhhf"
-            onViewportChange={viewport => {
+            onViewportChange={(viewport) => {
                setViewport(viewport)
             }}
          >
-            {projectsInformation.features.map(project => (
+            {projectsInformation.features.map((project) => (
                <Marker
                   key={project.Project_Information.Project_ID}
                   latitude={project.geometry.coordinates[1]}
@@ -45,18 +45,21 @@ function MarkPointOnMap() {
                >
                   <button
                      className="marker-btn"
-                     onClick={e => {
+                     onClick={(e) => {
                         e.preventDefault()
                         setSelectProject(project)
                      }}
-                  >Library
-                     {/* <img src={project.properties.PICTURE_LI} alt="Building In Calgary" /> */}
+                  >
+                     {/* Library */}
+                     {/* <img src={selectProject.Project_Information.Main_Image} alt="Building In Calgary" /> */}
+                     <img src={project.Project_Information.Main_Image} alt="" />
                   </button>
                </Marker>
             ))}
 
             {selectProject ? (
-               <Popup className="img-description-on-map"
+               <Popup
+                  className="img-description-on-map"
                   latitude={selectProject.geometry.coordinates[1]}
                   longitude={selectProject.geometry.coordinates[0]}
                   onClose={() => {
