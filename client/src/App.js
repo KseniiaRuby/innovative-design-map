@@ -4,10 +4,11 @@ import Category from "./pages/Category"
 import MarkPointOnMap from "./components/MarkPointOnMap"
 import Navbar from "./components/Navbar"
 import ProjectPage from './pages/projectPage/ProjectPage'
+import ClassificationProvider from "./store/ClassificationProvider"
 
 function App() {
    return (
-      <>
+      <ClassificationProvider>
          <Router>
             <Switch>
                <Route path="/" exact component={Gateway} />
@@ -17,7 +18,7 @@ function App() {
             </Switch>
             <Navbar />
          </Router>
-      </>
+      </ClassificationProvider>
    )
 }
 
