@@ -4,8 +4,7 @@ const Schema = mongoose.Schema;
 
 const classificationSchema = new Schema({
   classifications: String,
-  classificationId: Number,
-  unique: true,
+  classificationId: { Number, unique: true },
   gatewayWords: [String],
   featureWords: [String],
   longDescription: String,
