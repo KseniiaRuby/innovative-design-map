@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link to="/" className="nav-links">
             Search
           </Link> */}
-          <Link to="/MarkPointOnMap" className="nav-links">
+          <Link to="/Map" className="nav-links">
             Map
           </Link>
         </div>

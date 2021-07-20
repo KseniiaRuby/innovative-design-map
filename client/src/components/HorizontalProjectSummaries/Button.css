@@ -4,10 +4,10 @@
 }
 
 .btn {
-  padding: 8px 20px;
+  /* padding: 8px 50px 8px 50px; */
   border-radius: 2px;
   outline: auto;
-  border:white;
+  border: white;
   cursor: pointer;
   /* text-align: center; */
   /* object-fit: contain; */
@@ -16,44 +16,44 @@
 .btn--primary {
   background-color: var(--primary);
   /* color: #242424; */
-  border: .1px solid var(--primary);
-  object-fit: cover;
+  border: 1px solid var(--primary);
+  /* object-fit: cover; */
   /* height: 100%; */
   /* width: 100%; */
   /* text-align: center;  */
 }
 
 .btn--outline {
-  /* background-color: transparent; */
-  background-color:white;
+  /* background-color: transparent;
+  background-color: white;
   color: #fff;
   padding: 8px 20px;
   border: 1px solid var(--primary);
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; */
 }
 
-.btn--medium {
+/* .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
-}
+} */
 
 .btn--large {
-  /* padding: 12px 26px; */
   /* padding: 150px 0px; */
-  padding: 12px 26px;
+  padding: 12px 20px 12px 20px;
+  margin: 0px 35px 0px 35px;
   font-size: 18px;
   color: white;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   align-content: left;
-  object-fit: contain;
+  object-fit: contain; */
   /* text-shadow: 2px 2px black; */
   /* text-shadow: 2px 2px white; */
 }
 
-.btn--large:hover,
-.btn--medium:hover {
-  transition: all 0.3s ease-out;
-  /* background: #fff; */
-  color: #242424;
-  transition: 250ms;
-}
+/* .btn--large:hover, */
+/* .btn--medium:hover { */
+/* transition: all 0.3s ease-out; */
+/* background: #fff; */
+/* color: #242424; */
+/* transition: 250ms; */
+/* } */

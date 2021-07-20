@@ -1,6 +1,6 @@
 .header-container {
   background-color: black;
-  border-bottom: 4px solid gray;
+  border-bottom: 2px solid gray;
   position: fixed;
   text-align: left;
   top: 0;
@@ -10,11 +10,12 @@
 
 .classification-container {
   background-color: black;
+  border-bottom: 2px solid gray;
   text-align: left;
   top: 120px;
   width: 100%;
   padding-top: 120px;
-  height: 120px;
+  height: 105px;
 }
 
 .title-text {

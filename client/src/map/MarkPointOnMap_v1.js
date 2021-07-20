@@ -64,7 +64,7 @@ function MarkPointOnMap() {
             }}
           >
             <div>
-              <img src={selectedPark.properties.PICTURE_LI} />
+              {/* <img src={selectedPark.properties.PICTURE_LI} /> */}
               <h2>{selectedPark.properties.NAME}</h2>
               <p>{selectedPark.properties.FACILITY_F}</p>
               <p>{selectedPark.properties.ADDRESS}</p>
