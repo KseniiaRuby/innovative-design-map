@@ -3,8 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const classificationSchema = new Schema({
-  classifications: String,
-  classificationId: { Number, unique: true },
+  classificationName: String,
   gatewayWords: [String],
   featureWords: [String],
   longDescription: String,
