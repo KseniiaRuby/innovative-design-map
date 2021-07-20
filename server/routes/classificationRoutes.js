@@ -3,6 +3,7 @@ const router = express.Router();
 const {
   getClassifications,
   getClassificationById,
+  newClassifications,
 } = require("../controller/classificationControllers");
 
 // Get all products from db
@@ -10,7 +11,10 @@ const {
 
 router.get("/", getClassifications);
 
-// Get a classificstion by id from db
+// route GET /api/classifications
+router.post("/", newClassifications);
+
+// Get a classification by id from db
 // route GET /api/classification/:id
 router.get("/:id", getClassificationById);
 

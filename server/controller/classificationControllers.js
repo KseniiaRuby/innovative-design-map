@@ -9,6 +9,18 @@ const getClassifications = async (req, res) => {
     res.status(500).json({ message: "Server Error" });
   }
 };
+const newClassifications = async (req, res) => {
+  let newClassification = req.body;
+  try {
+    const classifications = new Classification(newClassification);
+    await classifications.save();
+    console.log("Created Classifications", classifications);
+    res.send(classifications);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+};
 
 const getClassificationById = async (req, res) => {
   try {
@@ -23,5 +35,6 @@ const getClassificationById = async (req, res) => {
 
 module.exports = {
   getClassifications,
-  getClassificationById
+  getClassificationById,
+  newClassifications,
 };

@@ -1,7 +1,52 @@
-[{
-"classificationName":"Green and En" ,
-"gatewayWords": [],
-"featureWords": [],
-"longDescription": "This is a long description",
-"shortDescription":"This is a short description "
-}]
+[ {
+    "classificationName":"Climate and Environment" ,
+    "gatewayWords": ["Green", "Resilient", "Adaptive"],
+    "featureWords": [ "Water Management", "Sustainability", "Restorative", "Ecosystems", "Green Economy", "Risk management", "Air Quality", "Ecological", "Mitigation", "Adaptation", "Waste Management", "Environmental Management", "Eco friendly", "Zero waste", "Carbon foot print", "Green Network", "Habitat Restoration"],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"
+ },
+ {
+    "classificationName":"Energy and Resources" ,
+    "gatewayWords": ["Clean", "Efficient"],
+    "featureWords": [ "Renewable Energy", "Solar Energy", "Regeneration", "Urban Agriculture", "Clean Energy", "Alternative Fuels", "Hydropower", "Regenerative Design", "Recycling", "Energy Efficiency", "Net-Zero Energy", "Adaptive Reuse", "Performance"," Natural Resources", "Green Energy", "Circular Economy", "Technical", "Power"],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"  
+ },
+ {
+    "classificationName":"Culture Heritage and Society",
+    "gatewayWords": ["Inclusive", "Vibrant"],
+    "featureWords": [ "Public Art", "Community Engagement","Vernacular Architecture", "Tourism", "Educational","Spiritual", "Creativity", "Lifestyle", "Public Space", "Social Interaction", "Culture", "Historical", "Heritage", "Place Making", "Regional", "Faith", "Narrative", "Experience", "Pride", "Preservation", "Multicultural", "Neighbourly"],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"   
+ },
+ {
+    "classificationName":"Equity and Social Justice",
+    "gatewayWords": ["Safe", "Diverse"],
+    "featureWords": [ "Housing", "Policy", "Humanitarian","Agency","Security", "Leadership","Participation", "Equality", "Service", "Collaboration", "Responsible", "Governance", "Demonstration", "Democratic",  "Inclusion", "Representation", "Affordability","Universal Design", "Opportunity", "Restorative Justice", "Virtuous", "Redistributive", "Reparative", "Facilitative"],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"   
+ },
+ {
+    "classificationName":"Health and Wellness",
+    "gatewayWords": ["Healthy", "Active"],
+    "featureWords": [ "Healthcare","Public Health", "Hospitable", "Sanitation", "Fit",   "Well-Being","Care", "Thriving", "Fitness", "Protected", "Walkable Neighbourhoods", "Rest", "Recreation", "Entertainment", "wholesome", "Leisure",  "Complete Communities","Pleasure","Hygiene","Nourished", "Maintenance", "Aid", "Supportive", "Flourish", "conditioned" ],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"    
+ },
+ {
+    "classificationName":"Technology",
+    "gatewayWords": ["Smart", "Human-Oriented", "Dynamic"],
+    "featureWords": [ "Investment", "Entrepreneurship", "Enterprise", "Transformative", "New Markets", "Global",  "Growth", "Local Business", "Employment", "Opportunistic", "Information Economy", "Competitive", "Generative", "Economic Diversification",  "Capacity Development", "Partnerships", "User-Oriented",  "Intelligent", "Innovation", "Futuristic", "Digital", "Integrative"],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"     
+ },
+ {
+    "classificationName":"Transportation and Infrastructure",
+    "gatewayWords": ["Accessible", "Connected"],
+    "featureWords": [ "Contingency", "Active Transportation", "Public Transportation", "Communications", "Mixed-Modal Access", "Developable", "Modular", "High Tech", "Industrial Science", "Connectivity", "Integration", "Assemblage", "Network", "Modality", "Inter-Connected", "Transit"],
+    "longDescription": "This is a long description",
+    "shortDescription":"This is a short description"       
+ }
+    ]
+
+

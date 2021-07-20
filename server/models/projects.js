@@ -1,58 +1,32 @@
+require("./db");
 const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-const projectsSchema = new mongoose({
-  projectName: { String },
-  calssificationId: { type: Number },
+const projectsSchema = new Schema({
+  projectName: String,
+  calssificationId: Number,
   dateOfCompletion: Number,
-  projectDescription: { String },
-  location: {
-    address: { String },
-    city: { String },
-    province: { String },
-    postalCode: {
-      String,
-      pattern:
-        "^(\\[a-zA-Z]{1}[0-9]{1}[a-zA-Z]{1}\\)?^(\\[0-9]{1}[a-zA-Z]{1}[0-9]{1}\\)$",
-    },
-  },
-  phoneNumber: {
-    String,
-    pattern: "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$",
-  },
+  projectDescription: String,
+
+  phoneNumber: String,
   hours: {
-    sunday: { String },
-    monday: { String },
-    tuesday: { String },
-    wednesday: { String },
-    thursday: { String },
-    friday: { String },
-    saturday: { String },
+    sunday: String,
+    monday: String,
+    tuesday: String,
+    wednesday: String,
+    thursday: String,
+    friday: String,
+    saturday: String,
   },
   contactInformation: {
-    companyName: {
-      String,
-    },
-    firstName: {
-      String,
-    },
-    lastName: {
-      String,
-    },
-    email: {
-      String,
-      pattern: "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
-    },
-    phoneNumber: {
-      String,
-      pattern: "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$",
-    },
-    projectWebsite: {
-      String,
-    },
+    companyName: String,
+    firstName: String,
+    lastName: String,
+    email: String,
+    phoneNumber: String,
+    projectWebsite: String,
   },
-  Neighbourhood: {
-    String,
-  },
+  Neighbourhood: String,
   projectOwnersAndClients: [String],
   projectDesignersCollaborations: [String],
   completionDate: Number,
@@ -80,9 +54,18 @@ const projectsSchema = new mongoose({
     generalProfile: String,
     keyFacts: [String],
   },
-  geometry: {
-    type: "Point",
-    coordinates: [],
+  location: {
+    type: {
+      type: String,
+      enum: ["Point"],
+    },
+    coordinates: {
+      type: [Number],
+    },
+    address: String,
+    city: String,
+    province: String,
+    postalCode: String,
   },
   Image_Url: String,
 });
