@@ -1,12 +1,11 @@
 // import { useState, useEffect } from "react";
-// import { SelectedClassification } from "../pages/Gateway";
-import "../../../styles/Header.css";
-import { selectedClassification } from "../../Gateway";
 // import { GetClassification } from "../../../reducer/ClassificationReducer";
+import "../styles/Header.css";
+import { selectedClassification } from "../pages/Gateway";
 
 export default function Header() {
   // const [classification, setClassification] = useState(SelectedClassification);
-  //   const classificationCtx = useContext(ClassificationContext);
+  // const classificationCtx = useContext(ClassificationContext);
 
   // useEffect(() => {
   //   console.log("Classification name was updated");
@@ -21,8 +20,6 @@ export default function Header() {
   //     </>
   //   );
   // }, [classification]);
-
-  console.log("Classification Page");
 
   return (
     <>

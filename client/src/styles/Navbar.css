@@ -4,7 +4,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100vw;
   height: 10vh;
+  bottom: 0px;
+  position: fixed;
 }
 
 .nav-links {

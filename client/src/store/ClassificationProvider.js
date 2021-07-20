@@ -1,8 +1,9 @@
 import ClassificationContext from "./ClassificationContext";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 export default function ClassificationProvider({ children }) {
-  const [gatewayWords, setgatewayWords] = useState([
+  // const [gatewayWords, setgatewayWords] = useState([
+  const gatewayWords = [
     "green",
     "resilient",
     "adaptive",
@@ -17,7 +18,7 @@ export default function ClassificationProvider({ children }) {
     "dynamic",
     "accessible",
     "connected",
-  ]);
+  ];
 
   //   const [classification, setClassification] = useState([
   //     {
@@ -36,9 +37,9 @@ export default function ClassificationProvider({ children }) {
   //     },
   //   ]);
 
-  useEffect(() => {
-    console.log("ClassificationProvider Page: Gateway words initialized.");
-  }, [gatewayWords]);
+  // useEffect(() => {
+  //   console.log("ClassificationProvider Page: Gateway words initialized.");
+  // }, [gatewayWords]);
 
   function getAllGatewayWords() {
     return gatewayWords;

@@ -6,6 +6,13 @@ import ClassificationContext from "../store/ClassificationContext";
 export let selectedGateway = "";
 export let selectedClassification = "";
 
+// function inputValidation() {
+//   if (selectedGateway === "") {
+//     alert("Please select a gateway word option.");
+//     return false;
+//   }
+// }
+
 export function Gateway() {
   const classificationCtx = useContext(ClassificationContext);
   const [gateway, setGateway] = useState();
@@ -14,7 +21,6 @@ export function Gateway() {
   selectedClassification = classification;
 
   useEffect(() => {
-    console.log("Gateway Page: Word was updated to: ", selectedGateway);
     //  if (gateway === "green" || gateway === "resilient" || gateway === "adaptive") {
     switch (gateway) {
       case "green":
@@ -40,7 +46,7 @@ export function Gateway() {
         return;
       case "healthy":
       case "active":
-        setClassification("Healthy & Wellness");
+        setClassification("Health & Wellness");
         selectedClassification = classification;
         return;
       case "smart":
@@ -49,19 +55,24 @@ export function Gateway() {
         setClassification("Technology");
         selectedClassification = classification;
         return;
-      case "Accessible":
-      case "Connected":
+      case "accessible":
+      case "connected":
         setClassification("Transportation & Infrastructure");
         selectedClassification = classification;
         return;
       default:
         return;
     }
-  }, [gateway]);
+  }, [gateway, classification]);
 
   return (
     <div className="category-block">
-      What makes Calgary
+      <br></br>
+      What
+      <br></br>
+      makes
+      <br></br>
+      Calgary
       <br></br>
       <div className="list-spacer">
         <select
@@ -74,17 +85,8 @@ export function Gateway() {
         >
           <option value=""></option>
           {classificationCtx.getAllGatewayWords().map((gatewayWord) => {
-            return <option value={gatewayWord}>{gatewayWord}</option>;
+            return <option key={gatewayWord}>{gatewayWord}</option>;
           })}
-
-          {/* <option value="resilient">resilient</option>
-               <option value="adaptive">adaptive</option>
-               <option value="clean">clean</option>
-               <option value="vibrant">vibrant</option>
-               <option value="safe">safe</option>
-               <option value="healthy">healthy</option>
-               <option value="smart">smart</option>
-               <option value="accessible">accessible</option> */}
         </select>
         &nbsp;?
         <div>
