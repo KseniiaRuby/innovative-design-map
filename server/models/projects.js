@@ -1,61 +1,88 @@
 const mongoose = require("mongoose");
 
-const projectSchema = new mongoose.Schema({
-  Project_Information: {
-    type: String,
-    Project_Name: "",
-    Location: {
-      Address: "",
-      City: "",
-      Province: "",
-      Postal_Code: "",
-      Coordinates: [],
+const projectsSchema = new mongoose({
+  projectName: { String },
+  calssificationId: { type: Number },
+  dateOfCompletion: Number,
+  projectDescription: { String },
+  location: {
+    address: { String },
+    city: { String },
+    province: { String },
+    postalCode: {
+      String,
+      pattern:
+        "^(\\[a-zA-Z]{1}[0-9]{1}[a-zA-Z]{1}\\)?^(\\[0-9]{1}[a-zA-Z]{1}[0-9]{1}\\)$",
     },
-    Neighbourhood: "",
-    Project_Owners_and_Clients: [],
-    Project_Designers_Collaborations: [],
-    Completion_Date: "",
-    Project_Typology: [],
-    Project_Profile: "",
-    Key_Facts_About_The_Project: "",
   },
-  Contact_Information: {
-    Company_Name: "",
-    First_Name: "",
-    Last_Name: "",
-    Email: "",
-    Phone_Number: "",
-    Project_Website: "",
+  phoneNumber: {
+    String,
+    pattern: "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$",
   },
-  Vistors_Information: {
-    Open_To_Public: false,
-    Reception: "",
-    Other_Comments: "",
+  hours: {
+    sunday: { String },
+    monday: { String },
+    tuesday: { String },
+    wednesday: { String },
+    thursday: { String },
+    friday: { String },
+    saturday: { String },
   },
-  Innovation_Descriptions: {
-    Primary_Type_of_Innovation: {
-      Classification: "",
-      Description: "",
+  contactInformation: {
+    companyName: {
+      String,
     },
-    Secondary_Type_of_Innovation: {
-      Classification: "",
-      Description: "",
+    firstName: {
+      String,
     },
-    Tertiary_Type_of_Innovation: {
-      Classification: "",
-      Description: "",
+    lastName: {
+      String,
     },
-    General_Profile: "",
-    Key_Facts: [],
+    email: {
+      String,
+      pattern: "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",
+    },
+    phoneNumber: {
+      String,
+      pattern: "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$",
+    },
+    projectWebsite: {
+      String,
+    },
   },
-  Classification_List: {
-    Classification: [],
-    Gateway_Words: [],
-    Feature_Words: [],
+  Neighbourhood: {
+    String,
   },
-  // Image,
+  projectOwnersAndClients: [String],
+  projectDesignersCollaborations: [String],
+  completionDate: Number,
+  projectTypology: String,
+  projectProfile: String,
+  keyFactsAboutTheProject: String,
+
+  vistorsInformation: {
+    openToPublic: Boolean,
+    reception: String,
+    otherComments: String,
+  },
+  innovationDescriptions: {
+    featureWords: [String],
+
+    primaryTypeofInnovation: {
+      classificationId: Number,
+    },
+    secondaryTypeOfInnovation: {
+      classificationId: Number,
+    },
+    tertiaryTypeofInnovation: {
+      classificationId: Number,
+    },
+    generalProfile: String,
+    keyFacts: [String],
+  },
+  geometry: {
+    type: "Point",
+    coordinates: [],
+  },
+  Image_Url: String,
 });
-
-const Project = mongoose.model('project',projectSchema)
-
-module.exports = Project;
