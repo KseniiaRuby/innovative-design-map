@@ -15,7 +15,7 @@ export let selectedClassification = "";
 
 export function Gateway() {
   const classificationCtx = useContext(ClassificationContext);
-  const [gateway, setGateway] = useState();
+  const [gateway, setGateway] = useState(selectedGateway);
   const [classification, setClassification] = useState();
 
   selectedClassification = classification;
