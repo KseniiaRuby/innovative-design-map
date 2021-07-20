@@ -18,7 +18,9 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
+seaderScript.js
+seaderScript4.js
+seaderScript5.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
