@@ -1,10 +1,10 @@
-import React from 'react';
-import '../components/Button.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Button.css";
+// import { Link } from "react-router-dom";
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ["btn--medium", "btn--large"];
 
 export const Button = ({
   children,
@@ -12,23 +12,23 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
-  linkProperty
+  linkProperty,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-  const link = linkProperty ? linkProperty: '/'
+  const link = linkProperty ? linkProperty : "/";
   return (
-    <Link to={link} className='btn-mobile'>
-      <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
-        type={type}
-      >
-        {children}
-      </button>
-    </Link>
+    // <Link to={link} className="btn-mobile">
+    <button
+      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      onClick={onClick}
+      type={type}
+    >
+      {children}
+    </button>
+    // </Link>
   );
 };

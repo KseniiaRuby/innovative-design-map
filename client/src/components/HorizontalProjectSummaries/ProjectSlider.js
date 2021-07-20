@@ -1,9 +1,9 @@
-import React, { useState, Link } from "react";
-import { Button } from "../components/Button";
-import * as projectData from "../data/projectsampleinfo.json";
+import React, { useState } from "react";
+import { Button } from "./Button";
+import * as projectData from "../../data/projectsampleinfo.json";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
-import "../styles/Button.css";
-import "../styles/ProjectSlider.css";
+// import "./Button.css";
+import "./ProjectSlider.css";
 
 const ProjectSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -37,16 +37,16 @@ const ProjectSlider = ({ slides }) => {
                 className="btn"
                 buttonStyle="btn--primary"
                 buttonSize="btn--large"
-                linkProperty="/"
+                // linkProperty="/"
               >
                 <div>
                   <h2 className="project-name-align">
-                    {project.properties.NAME}{" "}
+                    {project.Project_Information.Project_Name}{" "}
                   </h2>
                   {/* <img src={project.properties.PICTURE_LI} /> */}
                   <p className="description-align">
                     {" "}
-                    {project.properties.DESCRIPTIO}
+                    {project.Project_Information.Project_Description}
                   </p>
                 </div>
               </Button>
