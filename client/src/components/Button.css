@@ -39,7 +39,8 @@
 
 .btn--large {
   /* padding: 12px 26px; */
-  padding: 150px 0px;
+  /* padding: 150px 0px; */
+  padding: 12px 26px;
   font-size: 18px;
   color: white;
   flex-wrap: wrap;
