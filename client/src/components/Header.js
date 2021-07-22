@@ -1,8 +1,11 @@
-import React from "react";
-import { selectedGateway } from "../pages/Gateway";
+import { useContext } from "react";
+import ClassificationContext from "../store/ClassificationContext";
+// import { selectedGateway } from "../pages/Gateway";
 import "../styles/Header.css";
 
 export default function Header() {
+  const classificationCtx = useContext(ClassificationContext);
+
   return (
     <>
       <div>
@@ -10,7 +13,7 @@ export default function Header() {
           <div className="title-text">
             What makes <u>Calgary</u>
             <br></br>
-            <u>{selectedGateway}</u>&nbsp;?
+            <u>{classificationCtx.gatewayWord}</u>&nbsp;?
           </div>
         </div>
       </div>

@@ -1,8 +1,18 @@
-import { createContext } from "react"
+import { createContext } from "react";
 
 const ClassificationContext = createContext({
-   getAllGatewayWords: () => { }
-})
+  // Initialize gateway word
+  //
+  gatewayWord: undefined,
 
+  // Initialize classification
+  //
+  classification: undefined,
 
-export default ClassificationContext
+  setGatewayWord: () => {},
+  setClassification: () => {},
+
+  getAllGatewayWords: () => {},
+});
+
+export default ClassificationContext;
