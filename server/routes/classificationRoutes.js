@@ -10,7 +10,7 @@ const {
 // route GET /api/classifications
 router.get("/", getClassifications);
 
-// route GET /api/classifications
+// route POST /api/classifications
 router.post("/", newClassifications);
 
 // Get a classification by id from db

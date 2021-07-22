@@ -2,11 +2,11 @@ require("./db");
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const projectsSchema = new Schema({
+const projectSchema = new Schema({
   projectName: String,
-  calssificationId: Number,
-  dateOfCompletion: Number,
+  dateOfCompletion: String,
   projectDescription: String,
+  atAGlance: [String],
 
   phoneNumber: String,
   hours: {
@@ -28,14 +28,14 @@ const projectsSchema = new Schema({
   },
   Neighbourhood: String,
   projectOwnersAndClients: [String],
-  projectDesignersCollaborations: [String],
-  completionDate: Number,
+  projectDesigners: String,
+  projectCollaborations: [String],
   projectTypology: String,
   projectProfile: String,
   keyFactsAboutTheProject: String,
 
   vistorsInformation: {
-    openToPublic: Boolean,
+    openToPublic: String,
     reception: String,
     otherComments: String,
   },
@@ -43,16 +43,23 @@ const projectsSchema = new Schema({
     featureWords: [String],
 
     primaryTypeofInnovation: {
-      classificationId: Number,
+      classificationId: String,
+      projectDescription: String,
+      gatewayWord: String,
     },
     secondaryTypeOfInnovation: {
-      classificationId: Number,
+      classificationId: String,
+      projectDescription: String,
+      gatewayWord: String,
     },
     tertiaryTypeofInnovation: {
-      classificationId: Number,
+      classificationId: String,
+      projectDescription: String,
+      gatewayWord: String,
     },
     generalProfile: String,
     keyFacts: [String],
+    relatedProjects: [String],
   },
   location: {
     type: {
@@ -67,5 +74,27 @@ const projectsSchema = new Schema({
     province: String,
     postalCode: String,
   },
-  Image_Url: String,
+  imageUrls: {
+    image1: {
+      image: String,
+      alt: String,
+    },
+    image2: {
+      image: String,
+      alt: String,
+    },
+    image3: {
+      image: String,
+      alt: String,
+    },
+    image4: {
+      image: String,
+      alt: String,
+    },
+    image5: {
+      image: String,
+      alt: String,
+    },
+  },
 });
+module.exports = mongoose.model("Projects", projectSchema, "Projects");

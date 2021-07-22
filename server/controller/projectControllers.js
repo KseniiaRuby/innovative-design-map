@@ -1,4 +1,4 @@
-const Project = require("../models/projects");
+const Project = require("../models/Project");
 
 const getProjects = async (req, res) => {
   try {
@@ -21,7 +21,21 @@ const getProjectById = async (req, res) => {
   }
 };
 
+const newProjects = async (req, res) => {
+  let newProject = req.body;
+  try {
+    const Projects = new Project(newProject);
+    await Projects.save();
+    console.log("Created Project", Projects);
+    res.send(Projects);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+};
+
 module.exports = {
   getProjects,
-  getProjectById
+  getProjectById,
+  newProjects,
 };
