@@ -1,10 +1,10 @@
-[ 
-    {
+[
+  {
     "projectName": "Riverdale Avenue Retaining Wall Replacement Project",
     "dateOfCompletion": "2019",
     "projectDescription": "The Riverdale project is a civic improvement project that replaced a 220 m long failing timber retaining wall with a bioengineered solution that meets the City of Calgary's goals of the Riparian Strategy. The Project protects a steep slope above the south bank of the Elbow River, which in turn, protects a busy reach of the Elbow River pathway, Riverdale Avenue and important underground infrastructure.",
     "atAGlance": ["Bioengineering", "Riparian", "Flood Risk"],
-  
+
     "phoneNumber": "",
     "hours": {
       "sunday": "",
@@ -12,7 +12,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-     " friday": "",
+      " friday": "",
       "saturday": ""
     },
     "contactInformation": {
@@ -30,72 +30,87 @@
     "projectTypology": "Retaining Wall",
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
-  
+
     "vistorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
     },
     "innovationDescriptions": {
-      "featureWords": ["Sustainability", "Biodiversity", "Restorative", "Ecosystems", "Risk Management", "Mitigation"],
-  
+      "featureWords": [
+        "Sustainability",
+        "Biodiversity",
+        "Restorative",
+        "Ecosystems",
+        "Risk Management",
+        "Mitigation"
+      ],
+
       "primaryTypeofInnovation": {
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
         "projectDescription": "The Riverdale project directly contributes to the city's urban design initiatives to protect riparian health, connect the public to the river, and recognize the value of riparian areas in flood risk management and future costs by implementing innovative bioengineering designs that suit the project site. Since the completion of construction, the area has seen the native vegetation become established and provide assistance to the engineered structures through increased erosion protection and root growth. ",
-        "gatewayWord":"Resilient"
+        "gatewayWord": "Resilient"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Technology",
         "classificationId": "60f7567f5a51197896a14919",
         "projectDescription": "The project was broken into three phases, wattle fence test section, live grating, vegetated H pile wal. Each phase consisted on unique and innovative bioengineering techniques that combined existing natural and engineered materials and used them in ways that enhance the environment, creates human wildlife and fish habitat and meet the engineering goals. Live grating was identified as the highest performing bioengineering project in the city according to the riparian monitoring program. ",
-        "gatewayWord":""
+        "gatewayWord": ""
       },
       "tertiaryTypeofInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
         "projectDescription": "The fast establishment of the vegetation assist with stabilization of the river bank and improves the riparian health when compared to the failing timber wall, provides an education opportunity for the public to see the value fo re-establishing damaged riparian areas, and drastically reduces the future costs of maintenance or flood risk damages. The significant growth over the past three years is a testament to the care, consideration and innovation that went into the design and construction of the project. ",
-        "gatewayWord":""
+        "gatewayWord": ""
       },
       "generalProfile": "",
       "keyFacts": [""],
-      "relatedProjects":["MacKimmie Complex", "Confederation Park Lagoon Viewing Deck", "West Eau Claire Park", "Dale Hodges Park"]
+      "relatedProjects": [
+        "MacKimmie Complex",
+        "Confederation Park Lagoon Viewing Deck",
+        "West Eau Claire Park",
+        "Dale Hodges Park"
+      ]
     },
     "location": {
-      "type":"Point",
-      "coordinates": 
-         [-114.091689, 510043.8 ],
+      "type": "Point",
+      "coordinates": [-114.091689, 510043.8],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
-    "imageUrls":{
-        "image1":{ "image":"https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
-            "alt":"Riverdale-Avenue-Retaining-Wall-Replacement-Project-1 border=0>"
-        },
-        
-        "image2":{ "image":"https://i.ibb.co/1Mh9JBL/Riverdale-Avenue-Retaining-Wall-Replacement-Project-2.jpg",
-            "alt":"Riverdale-Avenue-Retaining-Wall-Replacement-Project-2 border=0>"
-        },
-        
-        "image3":{ "image":"https://i.ibb.co/WkfVxq9/Riverdale-Avenue-Retaining-Wall-Replacement-Project-3.jpg",
-            "alt":"Riverdale-Avenue-Retaining-Wall-Replacement-Project-3 border=0>"  
-        },
-        "image4":{ "image":"",
-            "alt":""  
-        },
-        "image5":{ "image":"",
-            "alt":""  
-        }
+    "imageUrls": {
+      "image1": {
+        "image": "https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
+        "alt": "Riverdale-Avenue-Retaining-Wall-Replacement-Project-1 border=0>"
+      },
+
+      "image2": {
+        "image": "https://i.ibb.co/1Mh9JBL/Riverdale-Avenue-Retaining-Wall-Replacement-Project-2.jpg",
+        "alt": "Riverdale-Avenue-Retaining-Wall-Replacement-Project-2 border=0>"
+      },
+
+      "image3": {
+        "image": "https://i.ibb.co/WkfVxq9/Riverdale-Avenue-Retaining-Wall-Replacement-Project-3.jpg",
+        "alt": "Riverdale-Avenue-Retaining-Wall-Replacement-Project-3 border=0>"
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
     }
- },
- { 
- "projectName": "MacKimmie Complex",
+  },
+  {
+    "projectName": "MacKimmie Complex",
     "dateOfCompletion": "2021",
     "projectDescription": "The design for the MacKimmie complex redevelopment enhances the overall campus identity by creating a clear and cohesive architectural complex at the heart of the University. The design recognizes that innovation in teaching and learning is about more than just technology. It is about recognizing the importance of leveraging physical space, formal and informal, to promost student success and advance teaching and learning. The design also makes visible and tactile the many innovative sustainable aspects of the project.",
-    "atAGlance": ["Zero Carbon Building Standard", "Canada Green Building Council", "Mechanical Ventilization", "Photovoltaics"],
-  
+    "atAGlance": [
+      "Zero Carbon Building Standard",
+      "Canada Green Building Council",
+      "Mechanical Ventilization",
+      "Photovoltaics"
+    ],
+
     "phoneNumber": "",
     "hours": {
       "sunday": "",
@@ -103,7 +118,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-     " friday": "",
+      " friday": "",
       "saturday": ""
     },
     "contactInformation": {
@@ -116,252 +131,413 @@
     },
     "Neighbourhood": "University of Calgary",
     "projectOwnersAndClients": [""],
-    "projectDesigners":"DIALOG",
+    "projectDesigners": "DIALOG",
     "Collaborations": [""],
     "projectTypology": "University Building",
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
-  
+
     "vistorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
     },
     "innovationDescriptions": {
-      "featureWords": ["Sustainability", "Eco Friendly", "Carbon Foot Print", "Clean Energy", "Natural Resources"],
-  
+      "featureWords": [
+        "Sustainability",
+        "Eco Friendly",
+        "Carbon Foot Print",
+        "Clean Energy",
+        "Natural Resources"
+      ],
+
       "primaryTypeofInnovation": {
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
         "projectDescription": "The MacKimmie Complex is one of several pilot projects, and the first one in Alberta, striving for certification with the Canada Green Building Council's new Zero Carbon Building Standard. This program seeks to establish a framework that targets the reduction and eventual elimination of carbon emissions as the key metric for building performance. This buildings uses a dynamic double skin facade with automated windows and shades to optimize views, daylighting and minimize glare. The ventilated double facade harvests solar energy and provides preheated outdoor air to the building spaces through automated window vents.",
-        "gatewayWord":"Green"
+        "gatewayWord": "Green"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Energy and Resources",
         "classificationId": "60f756165a51197896a14911",
         "projectDescription": "The integrated design approach for the building and systems is to minimize energy use using passive climate techniques such as natural ventilation, thermal mass, heat recovery and use solar exposure. The project demonstrates that a deep retrofit of an existing 50+ year old structure can result in a building that exceeds the environmental performance of new construction. A mechanical ventilization system supplements the spaces from a raised floor system when the facade levels are insufficient. ",
-        "gatewayWord":""
+        "gatewayWord": ""
       },
       "tertiaryTypeofInnovation": {
         "classificationName": "Technology",
         "classificationId": "60f7567f5a51197896a14919",
         "projectDescription": "The tower is heated and cooled using radiant panels and augmented with an afterhours night flush system; pre-charging the exposed thermal mass of the tower with cool night air using central flushing fans and the perimeter façade windows. Reusing the structure allowed the project to sequester 8069 tons of embodied carbon with the existing concrete and to use the frame as a heat sinks. Finally the roof plane of the complex and portions of the facade incorporate photovoltaics to leverage an abundance of solar access. ",
-        "gatewayWord":""
+        "gatewayWord": ""
       },
       "generalProfile": "",
       "keyFacts": [""],
-      "relatedProjects":["Riverdale Avenue Retaining Wall Replacement Project", "Confederation Park Lagoon Viewing Deck", "West Eau Claire Park", "Dale Hodges Park"]
+      "relatedProjects": [
+        "Riverdale Avenue Retaining Wall Replacement Project",
+        "Confederation Park Lagoon Viewing Deck",
+        "West Eau Claire Park",
+        "Dale Hodges Park"
+      ]
     },
     "location": {
-      "type":"Point",
-      "coordinates": 
-         [ -114.1288190568724, 51.0777657885169],
+      "type": "Point",
+      "coordinates": [-114.1288190568724, 51.0777657885169],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
-    "imageUrls":{
-        "image1":{ "image":"https://i.ibb.co/QfmCBv9/Mac-Kimmie-Complex-1.jpg",
-            "alt":"Mac-Kimmie-Complex-1 border=0>"
-        },
-        
-        "image2":{ "image":"https://i.ibb.co/nDzTHL7/Mac-Kimmie-Complex-2.jpg", 
-            "alt":"Mac-Kimmie-Complex-2 border=0>"
-        },
-        
-        "image3":{ "image":"https://i.ibb.co/NrMsm7C/Mac-Kimmie-Complex-3.jpg",
-            "alt":"Mac-Kimmie-Complex-3 border=0>" 
-        },
-        "image4":{ "image":"https://i.ibb.co/09gXLK6/Mac-Kimmie-Complex-4.jpg",
-            "alt":"Mac-Kimmie-Complex-4 border=0>"
-        },
-        "image5":{ "image":"https://i.ibb.co/wrJcgYR/Mac-Kimmie-Complex-5.jpg",
-            "alt":"Mac-Kimmie-Complex-5 border=0>" 
-        }
-    }
- },
- { 
-    "projectName": "Confederation Park Lagoon Viewing Deck",
-       "dateOfCompletion": "2019",
-       "projectDescription": "Confederation Park is a picturesque coulee park in northwest Calgary. A focal point within the west side of the park is the central lagoon. The lagoon edge has always been a preferred spot for park visitors to stop, enjoy the view and appreciate waterfowl.",
-       "atAGlance": ["ZCoulee", "Native Species", "Geometrics"],
-     
-       "phoneNumber": "",
-       "hours": {
-         "sunday": "",
-         "monday": "",
-         "tuesday": "",
-         "wednesday": "",
-         "thursday": "",
-        " friday": "",
-         "saturday": ""
-       },
-       "contactInformation": {
-         "companyName": "",
-         "firstName": "",
-         "lastName": "",
-         "email": "",
-         "phoneNumber": "",
-         "projectWebsite": ""
-       },
-       "Neighbourhood": "Confederation Park",
-       "projectOwnersAndClients": [""],
-       "projectDesigners":"Community Initiative",
-       "Collaborations": ["Lion's Club", "Rick Hansen Foundation"],
-       "projectTypology": "Viewing Deck",
-       "projectProfile": "",
-       "keyFactsAboutTheProject": "",
-     
-       "vistorsInformation": {
-         "openToPublic": "",
-         "reception": "",
-         "otherComments": ""
-       },
-       "innovationDescriptions": {
-         "featureWords": ["Sustainability", "Biodiversity", "Restorative", "Ecosystems", "Risk Management", "Mitigation", "Habitat Restoration"],
-     
-         "primaryTypeofInnovation": {
-           "classificationName": "Climate and Environment",
-           "classificationId": "60f755985a51197896a1490f",
-           "projectDescription": "As it is a favored location, the shoreline where users congregate had become eroded, denuded of vegetation, degraded and unsightly. Futhermore the slope into the water presented some concerns regarding public safety. Surrounding disturbed areas were restored with native plants. An interpretive sign describes the waterfowl and bird life and gently discourages indiscriminate feeding. The lagoon deck is intentionally subordinate to the overall Confederation Park design. ",
-           "gatewayWord":"Resilient"
-         },
-         "secondaryTypeOfInnovation": {
-           "classificationName": "Culture, Heritage and Society",
-           "classificationId": "60f756335a51197896a14913",
-           "projectDescription": "The surrounding communities take great pride in this historic park and played a significant role in the public engagement strategy and volunteer efforts that aided in the project's overall success. In honour of their own centennial, thirteen local Lion's Club chapters also contributed by organizing volunteers for planing and raising donations for the deck and native plant installations. In all, this project greatly benefited from this wide ranging community involvement. ",
-           "gatewayWord":""
-         },
-         "tertiaryTypeofInnovation": {
-           "classificationName": "Equity and Social Justice",
-           "classificationId": "60f756465a51197896a14915",
-           "projectDescription": "The built design allows users to have a direct wetland experience without implicating the shoreline. The scale is suitable for individual casual use and also for small groups. The deck can be accessed from the Regional Path by a gentle paved ramp or from a small staircase. The material palette is concise and uses natural materials in simple geometrics. The project aims to provide convenient and fully integrated accessible routes to the water edge while protecting and restoring the landscape area.",
-           "gatewayWord":""
-         },
-         "generalProfile": "",
-         "keyFacts": [""],
-         "relatedProjects":["Riverdale Avenue Retaining Wall Replacement Project", "MacKimmie Complex", "Viewing Deck", "West Eau Claire Park","Dale Hodges Park"]
-       },
-       "location": {
-         "type":"Point",
-         "coordinates": 
-            [ -114.07934579852986, 51.080350349690654],
-         "address": "",
-         "city": "Calgary",
-         "province": "Alberta",
-         "postalCode": ""
-       },
-       "imageUrls":{
-           "image1":{ "image":"https://i.ibb.co/MMnSLYh/Confederation-Park-Lagoon-Viewing-Deck-1.jpg", 
-               "alt":"Confederation-Park-Lagoon-Viewing-Deck-1 border=0>"
-           },
-           
-           "image2":{ "image":"https://i.ibb.co/z73g7Jr/Confederation-Park-Lagoon-Viewing-Deck-2.png", 
-               "alt":"Confederation-Park-Lagoon-Viewing-Deck-2 border=0>"
-           },
-           
-           "image3":{ "image":"https://i.ibb.co/n0XqLbD/Confederation-Park-Lagoon-Viewing-Deck-3.png",
-               "alt":"Confederation-Park-Lagoon-Viewing-Deck-3 border=0>"
-           },
-           "image4":{ "image":"https://i.ibb.co/h2kCxNL/Confederation-Park-Lagoon-Viewing-Deck-4.png",
-               "alt":"Confederation-Park-Lagoon-Viewing-Deck-4 border=0>"
-           },
-           "image5":{ "image":"",
-               "alt":"" 
-           }
-       }
-    },
-    { 
-        "projectName": "West Eau Claire Park",
-           "dateOfCompletion": "2018",
-           "projectDescription": "West Eau Claire Park and Public Realm defines a new vision for a highly valued public space along the Bow River in Calgary. It has created new public amenities while weaving flood mitigation measures into the fabric of the parl. The cohesive integration of urban design and flood attenuation requirements will have a lasting, positive impact on the daily lives of citizens while strengthening the city's resiliency to a changing climate.",
-           "atAGlance": ["Riparian", "Calgary Flood Resiliency Strategy", "Flood Wall"],
-         
-           "phoneNumber": "",
-           "hours": {
-             "sunday": "",
-             "monday": "",
-             "tuesday": "",
-             "wednesday": "",
-             "thursday": "",
-            " friday": "",
-             "saturday": ""
-           },
-           "contactInformation": {
-             "companyName": "",
-             "firstName": "",
-             "lastName": "",
-             "email": "",
-             "phoneNumber": "",
-             "projectWebsite": ""
-           },
-           "Neighbourhood": "Downtown",
-           "projectOwnersAndClients": [""],
-           "projectDesigners":"O2 Planning + Design",
-           "Collaborations": [""],
-           "projectTypology": "Public Park",
-           "projectProfile": "",
-           "keyFactsAboutTheProject": "",
-         
-           "vistorsInformation": {
-             "openToPublic": "",
-             "reception": "",
-             "otherComments": ""
-           },
-           "innovationDescriptions": {
-             "featureWords": ["Sustainability", "Restorative", "Risk Management", "Mitigation", "Environmental Management", "Green Network"],
-         
-             "primaryTypeofInnovation": {
-               "classificationName": "Climate and Environment",
-               "classificationId": "60f755985a51197896a1490f",
-               "projectDescription": "The park's public realm improvements were undertaken as part of the West Eau Claire Public Realm Plan. Importantly, the improvements were completed in concert with the first phase of the downtown flood barrier. To minimize the impact of the barrier on the park and public spaces, as well as capitalize on the opportunities created by the barrier, a series of design strategies were developed. These strategies ensured that the public realm improvements met the needs of park users while seamlessly incorporating the flood barrier.",
-               "gatewayWord":"Resilient"
-             },
-             "secondaryTypeOfInnovation": {
-               "classificationName": "Culture, Heritage and Society",
-               "classificationId": "60f756335a51197896a14913",
-               "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation patterns. It contains a new public art installation by local artist that was developed through a collaborative process and community engagement.",
-               "gatewayWord":""
-             },
-             "tertiaryTypeofInnovation": {
-               "classificationName": "Health and Wellness",
-               "classificationId": "60f756625a51197896a14917",
-               "projectDescription": "The plan created separate routes for cyclists and pedestrians including a six-metre wide riverside pedestrian promenade and a lagoon boardwalk. New passive and active spaces enhance the natural and cultural heritage of the park. These include multiple river vista and access points, a great lawn and sculpture garden, and a new public space at the south end of the Peace Bridge. The Cove and The Mound are terraces that step up and down to the river to create gathering spaces with picture perfect views to the Peace Bridge.",
-               "gatewayWord":""
-             },
-             "generalProfile": "",
-             "keyFacts": [""],
-             "relatedProjects":["Riverdale Avenue Retaining Wall Replacement Project", "MacKimmie Complex", "Viewing Deck","Dale Hodges Park"]
-           },
-           "location": {
-             "type":"Point",
-             "coordinates": 
-                [ -114.07889244232888, 51.05337615479902],
-             "address": "",
-             "city": "Calgary",
-             "province": "Alberta",
-             "postalCode": ""
-           },
-           "imageUrls":{
-               "image1":{ "image":"https://i.ibb.co/7jtk8zJ/West-Eau-Claire-Park-1.png", 
-                   "alt":"West-Eau-Claire-Park-1 border=0>"
-               },
-               
-               "image2":{ "image":"https://i.ibb.co/7jtk8zJ/West-Eau-Claire-Park-1.png", 
-                   "alt":"West-Eau-Claire-Park-2 border=0>"
-               },
-               
-               "image3":{ "image":"https://i.ibb.co/Fm7Xchj/West-Eau-Claire-Park-3.jpg",
-                   "alt":"West-Eau-Claire-Park-3 border=0>"
-               },
-               "image4":{ "image":"https://i.ibb.co/jv93bG6/West-Eau-Claire-Park-4.jpg",
-                   "alt":"West-Eau-Claire-Park-4 border=0>"
-               },
-               "image5":{ "image":"https://i.ibb.co/Sn0563z/West-Eau-Claire-Park-5.jpg",
-                   "alt":"West-Eau-Claire-Park-5 border=0>"
-               }
-           }
-    }
+    "imageUrls": {
+      "image1": {
+        "image": "https://i.ibb.co/QfmCBv9/Mac-Kimmie-Complex-1.jpg",
+        "alt": "Mac-Kimmie-Complex-1 border=0>"
+      },
 
-]       
+      "image2": {
+        "image": "https://i.ibb.co/nDzTHL7/Mac-Kimmie-Complex-2.jpg",
+        "alt": "Mac-Kimmie-Complex-2 border=0>"
+      },
+
+      "image3": {
+        "image": "https://i.ibb.co/NrMsm7C/Mac-Kimmie-Complex-3.jpg",
+        "alt": "Mac-Kimmie-Complex-3 border=0>"
+      },
+      "image4": {
+        "image": "https://i.ibb.co/09gXLK6/Mac-Kimmie-Complex-4.jpg",
+        "alt": "Mac-Kimmie-Complex-4 border=0>"
+      },
+      "image5": {
+        "image": "https://i.ibb.co/wrJcgYR/Mac-Kimmie-Complex-5.jpg",
+        "alt": "Mac-Kimmie-Complex-5 border=0>"
+      }
+    }
+  },
+  {
+    "projectName": "Confederation Park Lagoon Viewing Deck",
+    "dateOfCompletion": "2019",
+    "projectDescription": "Confederation Park is a picturesque coulee park in northwest Calgary. A focal point within the west side of the park is the central lagoon. The lagoon edge has always been a preferred spot for park visitors to stop, enjoy the view and appreciate waterfowl.",
+    "atAGlance": ["ZCoulee", "Native Species", "Geometrics"],
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Confederation Park",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Community Initiative",
+    "Collaborations": ["Lion's Club", "Rick Hansen Foundation"],
+    "projectTypology": "Viewing Deck",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "vistorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Sustainability",
+        "Biodiversity",
+        "Restorative",
+        "Ecosystems",
+        "Risk Management",
+        "Mitigation",
+        "Habitat Restoration"
+      ],
+
+      "primaryTypeofInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "As it is a favored location, the shoreline where users congregate had become eroded, denuded of vegetation, degraded and unsightly. Futhermore the slope into the water presented some concerns regarding public safety. Surrounding disturbed areas were restored with native plants. An interpretive sign describes the waterfowl and bird life and gently discourages indiscriminate feeding. The lagoon deck is intentionally subordinate to the overall Confederation Park design. ",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The surrounding communities take great pride in this historic park and played a significant role in the public engagement strategy and volunteer efforts that aided in the project's overall success. In honour of their own centennial, thirteen local Lion's Club chapters also contributed by organizing volunteers for planing and raising donations for the deck and native plant installations. In all, this project greatly benefited from this wide ranging community involvement. ",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeofInnovation": {
+        "classificationName": "Equity and Social Justice",
+        "classificationId": "60f756465a51197896a14915",
+        "projectDescription": "The built design allows users to have a direct wetland experience without implicating the shoreline. The scale is suitable for individual casual use and also for small groups. The deck can be accessed from the Regional Path by a gentle paved ramp or from a small staircase. The material palette is concise and uses natural materials in simple geometrics. The project aims to provide convenient and fully integrated accessible routes to the water edge while protecting and restoring the landscape area.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+        "Riverdale Avenue Retaining Wall Replacement Project",
+        "MacKimmie Complex",
+        "Viewing Deck",
+        "West Eau Claire Park",
+        "Dale Hodges Park"
+      ]
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-114.07934579852986, 51.080350349690654],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "https://i.ibb.co/MMnSLYh/Confederation-Park-Lagoon-Viewing-Deck-1.jpg",
+        "alt": "Confederation-Park-Lagoon-Viewing-Deck-1 border=0>"
+      },
+
+      "image2": {
+        "image": "https://i.ibb.co/z73g7Jr/Confederation-Park-Lagoon-Viewing-Deck-2.png",
+        "alt": "Confederation-Park-Lagoon-Viewing-Deck-2 border=0>"
+      },
+
+      "image3": {
+        "image": "https://i.ibb.co/n0XqLbD/Confederation-Park-Lagoon-Viewing-Deck-3.png",
+        "alt": "Confederation-Park-Lagoon-Viewing-Deck-3 border=0>"
+      },
+      "image4": {
+        "image": "https://i.ibb.co/h2kCxNL/Confederation-Park-Lagoon-Viewing-Deck-4.png",
+        "alt": "Confederation-Park-Lagoon-Viewing-Deck-4 border=0>"
+      },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+  {
+    "projectName": "West Eau Claire Park",
+    "dateOfCompletion": "2018",
+    "projectDescription": "West Eau Claire Park and Public Realm defines a new vision for a highly valued public space along the Bow River in Calgary. It has created new public amenities while weaving flood mitigation measures into the fabric of the parl. The cohesive integration of urban design and flood attenuation requirements will have a lasting, positive impact on the daily lives of citizens while strengthening the city's resiliency to a changing climate.",
+    "atAGlance": [
+      "Riparian",
+      "Calgary Flood Resiliency Strategy",
+      "Flood Wall"
+    ],
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "O2 Planning + Design",
+    "Collaborations": [""],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "vistorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Sustainability",
+        "Restorative",
+        "Risk Management",
+        "Mitigation",
+        "Environmental Management",
+        "Green Network"
+      ],
+
+      "primaryTypeofInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "The park's public realm improvements were undertaken as part of the West Eau Claire Public Realm Plan. Importantly, the improvements were completed in concert with the first phase of the downtown flood barrier. To minimize the impact of the barrier on the park and public spaces, as well as capitalize on the opportunities created by the barrier, a series of design strategies were developed. These strategies ensured that the public realm improvements met the needs of park users while seamlessly incorporating the flood barrier.",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation patterns. It contains a new public art installation by local artist that was developed through a collaborative process and community engagement.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeofInnovation": {
+        "classificationName": "Health and Wellness",
+        "classificationId": "60f756625a51197896a14917",
+        "projectDescription": "The plan created separate routes for cyclists and pedestrians including a six-metre wide riverside pedestrian promenade and a lagoon boardwalk. New passive and active spaces enhance the natural and cultural heritage of the park. These include multiple river vista and access points, a great lawn and sculpture garden, and a new public space at the south end of the Peace Bridge. The Cove and The Mound are terraces that step up and down to the river to create gathering spaces with picture perfect views to the Peace Bridge.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+        "Riverdale Avenue Retaining Wall Replacement Project",
+        "MacKimmie Complex",
+        "Viewing Deck",
+        "Dale Hodges Park"
+      ]
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-114.07889244232888, 51.05337615479902],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "https://i.ibb.co/7jtk8zJ/West-Eau-Claire-Park-1.png",
+        "alt": "West-Eau-Claire-Park-1 border=0>"
+      },
+
+      "image2": {
+        "image": "https://i.ibb.co/7jtk8zJ/West-Eau-Claire-Park-1.png",
+        "alt": "West-Eau-Claire-Park-2 border=0>"
+      },
+
+      "image3": {
+        "image": "https://i.ibb.co/Fm7Xchj/West-Eau-Claire-Park-3.jpg",
+        "alt": "West-Eau-Claire-Park-3 border=0>"
+      },
+      "image4": {
+        "image": "https://i.ibb.co/jv93bG6/West-Eau-Claire-Park-4.jpg",
+        "alt": "West-Eau-Claire-Park-4 border=0>"
+      },
+      "image5": {
+        "image": "https://i.ibb.co/Sn0563z/West-Eau-Claire-Park-5.jpg",
+        "alt": "West-Eau-Claire-Park-5 border=0>"
+      }
+    }
+  },
+  {
+    "projectName": "Dale Hodges Park",
+    "dateOfCompletion": "2010",
+    "projectDescription": "Dale Hodges Park is the site of the former Klippert gravel pit. The City purchased the land to restore the environmental health of the area, and realized an opportunity to address the stormwater pipes carrying untreated stormwater into the Bow River. This project is a unique collaboration between Parks, Water Resources and Public Art.The park is located along the northern bank of the Bow River and treats the stormwater (runoff from rain or melting snow) flowing from neighbouring communities in northwest Calgary before it enters the Bow River.",
+    "atAGlance": [
+      "Stormwater Management",
+      "Water Engineering",
+      "Landscape Filtration"
+    ],
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Varsity",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "O2 Planning + Design",
+    "Collaborations": [
+      "Sans Façon (City of Calgary WATERSHED+)",
+      "AECOM",
+      "Source2Source"
+    ],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "vistorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Sustainability",
+        "Biodiversity",
+        "Biodiversity",
+        "Risk Management",
+        "Mitigation",
+        "Ecosystems",
+        "Conservation",
+        "Habitat Restoration"
+      ],
+
+      "primaryTypeofInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "The forms of the water structures and landforms are inspired by natural river morphology as well as hydrologic and sedimentation processes. O2 and S2S sculpted polishing marshes and wet meadows, their forms inspired by anabranches or river scrolls. The scrolling forms in the landscape enhance filtration, create diverse habitats, and provide more depth to store water when necessary. The network of pathways and boardwalks mimic and contrast these forms: visitors can read the river’s story over time. The final outflow stream discharges to an important trout habitat area, designed to serve as refuge during river flood conditions.",
+        "gatewayWord": "Green"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Energy and Resources",
+        "classificationId": "60f756165a51197896a14911",
+        "projectDescription": "A team comprised of O2, Source 2 Source Inc., Sans Facon for Watershed+ and AECOM worked collaboratively to transform the site. Structured around a series of designed aquatic and upland habitats, the flow of water within the park begins in the upstream residential communities where runoff travels through pipes before daylighting in the park. The aquatic journey within the park expresses the integration of water engineering, public art, landscape architecture and ecological design.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeofInnovation": {
+        "classificationName": "Health and Wellness",
+        "classificationId": "60f756625a51197896a14917",
+        "projectDescription": "The initial investment in Dale Hodges Park was made in 2010 when The City acquired the land from Klippert Concrete. As part of The City's ongoing commitment to environmental sustainability, the ecological integrity of the area was restored while enhancing the park's recreational and educational values. What was once a contaminated gravel pit has now been remediated and transformed into a functional, natural space that not only treats stormwater, but can be enjoyed and explored by Calgarians for generations to come.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [""]
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-114.17013441164436, 51.08776534748862],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "https://i.ibb.co/cxfj8Mq/Dale-Hodges-Park-1.jpg",
+        "alt": "Dale-Hodges-Park-1 border=0>"
+      },
+
+      "image2": {
+        "image": "https://i.ibb.co/CQxkk02/Dale-Hodges-Park-2.jpg",
+        "alt": "Dale-Hodges-Park-2 border=0>"
+      },
+
+      "image3": {
+        "image": "https://i.ibb.co/PrqM7Fm/Dale-Hodges-Park-3.jpg",
+        "alt": "Dale-Hodges-Park-3 border=0>"
+      },
+      "image4": {
+        "image": "https://i.ibb.co/zFmxthY/Dale-Hodges-Park-4.jpg",
+        "alt": "Dale-Hodges-Park-4 border=0>"
+      },
+      "image5": {
+        "image": "https://i.ibb.co/g3vwxp5/Dale-Hodges-Park-5.jpg",
+        "alt": "Dale-Hodges-Park-5 border=0>"
+      }
+    }
+  }
+]
