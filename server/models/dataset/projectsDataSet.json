@@ -31,7 +31,7 @@
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
 
-    "vistorsInformation": {
+    "visitorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
@@ -132,12 +132,12 @@
     "Neighbourhood": "University of Calgary",
     "projectOwnersAndClients": [""],
     "projectDesigners": "DIALOG",
-    "Collaborations": [""],
+    "projectCollaborations": [""],
     "projectTypology": "University Building",
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
 
-    "vistorsInformation": {
+    "visitorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
@@ -238,12 +238,12 @@
     "Neighbourhood": "Confederation Park",
     "projectOwnersAndClients": [""],
     "projectDesigners": "Community Initiative",
-    "Collaborations": ["Lion's Club", "Rick Hansen Foundation"],
+    "projectCollaborations": ["Lion's Club", "Rick Hansen Foundation"],
     "projectTypology": "Viewing Deck",
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
 
-    "vistorsInformation": {
+    "visitorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
@@ -348,12 +348,12 @@
     "Neighbourhood": "Downtown",
     "projectOwnersAndClients": [""],
     "projectDesigners": "O2 Planning + Design",
-    "Collaborations": [""],
+    "projectCollaborations": [""],
     "projectTypology": "Public Park",
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
 
-    "vistorsInformation": {
+    "visitorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
@@ -459,7 +459,7 @@
     "Neighbourhood": "Varsity",
     "projectOwnersAndClients": [""],
     "projectDesigners": "O2 Planning + Design",
-    "Collaborations": [
+    "projectCollaborations": [
       "Sans Façon (City of Calgary WATERSHED+)",
       "AECOM",
       "Source2Source"
@@ -468,7 +468,7 @@
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
 
-    "vistorsInformation": {
+    "visitorsInformation": {
       "openToPublic": "",
       "reception": "",
       "otherComments": ""
