@@ -2,19 +2,19 @@ const express = require("express");
 const router = express.Router();
 const {
   getClassifications,
-  getClassificationById,
+  // getClassificationById,
   newClassifications,
 } = require("../controller/classificationControllers");
 
 // Get all products from db
 // route GET /api/classifications
-router.get("/", getClassifications);
+router.get("/getclassifications", getClassifications);
 
 // route POST /api/classifications
 router.post("/", newClassifications);
 
 // Get a classification by id from db
 // route GET /api/classification/:id
-router.get("/:id", getClassificationById);
+// router.get("/:id", getClassificationById);
 
 module.exports = router;
