@@ -42,7 +42,7 @@ const projectSchema = new Schema({
   innovationDescriptions: {
     featureWords: [String],
 
-    primaryTypeofInnovation: {
+    primaryTypeOfInnovation: {
       classificationId: String,
       projectDescription: String,
       gatewayWord: String,
@@ -52,7 +52,7 @@ const projectSchema = new Schema({
       projectDescription: String,
       gatewayWord: String,
     },
-    tertiaryTypeofInnovation: {
+    tertiaryTypeOfInnovation: {
       classificationId: String,
       projectDescription: String,
       gatewayWord: String,

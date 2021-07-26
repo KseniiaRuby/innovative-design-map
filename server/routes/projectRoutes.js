@@ -3,12 +3,14 @@ const router = express.Router();
 const {
   getProjects,
   getProjectById,
-  newProjects
+  newProjects,
+  findProjectSummariesByClassification
 } = require("../controller/projectControllers");
 
-// Get all products from db
-// route GET /api/projects
 
+router.get('/findSummariesByClassification', findProjectSummariesByClassification)
+
+// route GET /api/projects
 router.get("/", getProjects);
 
 // Get a project by id from db

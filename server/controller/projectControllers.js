@@ -1,3 +1,5 @@
+const {ObjectId} = require('mongodb')
+
 const Project = require("../models/Project");
 
 const getProjects = async (req, res) => {
@@ -9,6 +11,26 @@ const getProjects = async (req, res) => {
     res.status(500).json({ message: "Server Error" });
   }
 };
+
+const findProjectSummariesByClassification = async (req, res) => {
+  try {
+    let classificationId = req.query.classificationId
+    let classification = new ObjectId(classificationId)
+    const projects = await Project.find(
+      { $or: [
+          { "innovationDescriptions.primaryTypeOfInnovation.classificationId": classification },
+          { "innovationDescriptions.secondaryTypeOfInnovation.classificationId": classification },
+          { "innovationDescriptions.tertiaryTypeOfInnovation.classificationId": classification }
+        ]
+      },
+      { "projectName": 1, "location": 1, "projectDescription": 1 }
+    );
+    res.json(projects);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+}
 
 const getProjectById = async (req, res) => {
   try {
@@ -38,4 +60,5 @@ module.exports = {
   getProjects,
   getProjectById,
   newProjects,
+  findProjectSummariesByClassification,
 };
