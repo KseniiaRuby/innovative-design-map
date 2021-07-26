@@ -13,8 +13,6 @@ const ClassificationContext = createContext({
   setClassification: () => {},
 
   getAllClassifications: () => {},
-  // Call getAllClassifications
-
   getAllGatewayWords: () => {},
 });
 

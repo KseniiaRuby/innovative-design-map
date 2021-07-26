@@ -9,6 +9,7 @@ const getClassifications = async (req, res) => {
     res.status(500).json({ message: "Server Error" });
   }
 };
+
 const newClassifications = async (req, res) => {
   let newClassification = req.body;
   try {
