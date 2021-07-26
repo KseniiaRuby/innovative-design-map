@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 export default function ClassificationProvider({ children }) {
   const [gatewayWord, setGatewayWord] = useState();
   const [classification, setClassification] = useState();
+  const [response, setResponse] = useState();
 
   const gatewayWords = [
     "green",
@@ -88,6 +89,26 @@ export default function ClassificationProvider({ children }) {
   function getAllGatewayWords() {
     return gatewayWords;
   }
+
+  const getAllClassifications = async () => {
+    let allClassifications = {};
+
+    try {
+      let response = await fetch("/api/classifications");
+      if (response.status !== 200) {
+        let errorMessage = await response.text();
+        console.log("We had an error: ", errorMessage);
+        setResponse(errorMessage);
+      } else if (response.status === 200) {
+        let data = await response.json();
+        allClassifications(data);
+      } else {
+        setResponse(undefined);
+      }
+    } catch (error) {
+      console.error("Failed to reach the server");
+    }
+  };
 
   return (
     <ClassificationContext.Provider
