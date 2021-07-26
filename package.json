@@ -1,0 +1,27 @@
+{
+  "name": "innovative-design-map",
+  "version": "1.0.0",
+  "description": "npm install ### `npm start` Open [http://localhost:5000]",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd server && npm install && cd ..",
+    "install-client": "cd client && npm install && cd ..",
+    "install": "npm run install-server && npm run install-client",
+    "build-server": "cd server && npm build && cd ..",
+    "build-client": "cd client && npm build && cd ..",
+    "build": "npm run build-server && npm run build-client",
+    "test-server": "cd server && npm test && cd ..",
+    "test-client": "cd client && npm test && cd ..",
+    "test": "npm run test-server && npm run test-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navinjetha/innovative-design-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navinjetha/innovative-design-map/issues"
+  },
+  "homepage": "https://github.com/navinjetha/innovative-design-map#readme"
+}
