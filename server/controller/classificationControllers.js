@@ -22,19 +22,18 @@ const newClassifications = async (req, res) => {
   }
 };
 
-const getClassificationById = async (req, res) => {
-  try {
-    const classification = await Classification.findById(req.params.id);
+// const getClassificationById = async (req, res) => {
+//   try {
+//     const classification = await Classification.findById(req.params.id);
 
-    res.json(classification);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Server Error" });
-  }
-};
+//     res.json(classification);
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).json({ message: "Server Error" });
+//   }
+// };
 
 module.exports = {
   getClassifications,
-  getClassificationById,
   newClassifications,
 };
