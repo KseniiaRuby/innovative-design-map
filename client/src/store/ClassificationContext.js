@@ -1,6 +1,9 @@
 import { createContext } from "react";
 
 const ClassificationContext = createContext({
+  // All available gateway words
+  allGatewayWords: [],
+  
   // Initialize gateway word
   //
   gatewayWord: undefined,
@@ -13,7 +16,6 @@ const ClassificationContext = createContext({
   setClassification: () => {},
 
   getAllClassifications: () => {},
-  getAllGatewayWords: () => {},
 });
 
 export default ClassificationContext;

@@ -89,7 +89,7 @@ export function Gateway() {
           }}
         >
           <option value=""></option>
-          {classificationCtx.getAllGatewayWords().map((gatewayWord) => {
+          {classificationCtx.allGatewayWords.map((gatewayWord) => {
             return <option key={gatewayWord}>{gatewayWord}</option>;
           })}
         </select>

@@ -8,7 +8,7 @@ const {
 
 // Get all products from db
 // route GET /api/classifications
-router.get("/getclassifications", getClassifications);
+router.get("/", getClassifications);
 
 // route POST /api/classifications
 router.post("/", newClassifications);

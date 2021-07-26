@@ -10,8 +10,8 @@ app.use(express.json());
 
 //routes
 
-app.use("/api/classifications", classificationRoutes);
-app.use("/api/projects", projectRoutes);
+app.use("/api/classification", classificationRoutes);
+app.use("/api/project", projectRoutes);
 
 const port = process.env.PORT || 5000;
 

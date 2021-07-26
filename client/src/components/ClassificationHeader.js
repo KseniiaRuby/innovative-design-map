@@ -32,8 +32,8 @@ export default function Header() {
     <>
       <div>
         <div className="classification-container">
-          {/* <div className="title-text">{selectedClassification}</div> */}
-          <div className="title-text">{classificationCtx.classification}</div>
+          { classificationCtx.classification && <div className="title-text">{classificationCtx.classification.classificationName}</div> }          
+          { classificationCtx.classification && <div className="description-text">{classificationCtx.classification.shortDescription}</div> }          
         </div>
       </div>
     </>
