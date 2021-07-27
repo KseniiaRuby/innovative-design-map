@@ -39,7 +39,7 @@ export default function ClassificationProvider({ children }) {
     let foundClassification = allClassifications.find((classification) => {
       return classification.gatewayWords.includes(gatewayWord);
     });
-    console.log("Found classification name: ", foundClassification);
+    console.log("Found classification: ", foundClassification);
     setClassification(foundClassification);
     //
     //
