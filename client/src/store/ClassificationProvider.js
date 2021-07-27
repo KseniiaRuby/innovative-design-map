@@ -41,13 +41,26 @@ export default function ClassificationProvider({ children }) {
     });
     console.log("Found classification: ", foundClassification);
     setClassification(foundClassification);
-    //
-    //
+  }, [gatewayWord]);
+
+  useEffect(() => {
     console.log("Looking up project summaries for gateway word: ", gatewayWord);
+
     const getProjectSummaries = async () => {
+      // let classificationId = classification._id;
+      console.log("State Object: ", classification);
+      console.log(typeof classification);
+      // console.log(typeof classification._id);
+      // console.log("ID: ", classification._id);
+      // console.log("Classification ID: ", classificationId);
+      const requestOptions = {
+        method: "GET",
+      };
       try {
         let response = await fetch(
-          "/api/project/findSummariesByClassification"
+          "/api/project/findSummariesByClassification/",
+          // "/api/project/findSummariesByClassification/" + classificationId,
+          requestOptions
         );
         if (response.status !== 200) {
           throw new Error("Fetch for project summaries failed");
@@ -58,7 +71,7 @@ export default function ClassificationProvider({ children }) {
         console.log("Error on client-side.", err);
       }
     };
-    getProjectSummaries();
+    getProjectSummaries(classification);
   }, [gatewayWord]);
 
   return (
