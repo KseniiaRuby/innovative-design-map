@@ -1,22 +1,14 @@
-:root {
-  --primary: black;
-}
+.btn-large {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
 
-.btn {
-  border-radius: 2px;
-  outline: auto;
-  border: white;
-  cursor: pointer;
-}
-
-.btn--primary {
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
-}
-
-.btn--large {
-  padding: 12px 20px 12px 20px;
+  padding: 5px 20px 10px 20px;
   margin: 0px 70px 0px 70px;
-  font-size: 18px;
+}
+
+.btn-text {
   color: white;
+  font-size: 18px;
+  text-decoration: none;
 }

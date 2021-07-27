@@ -13,8 +13,6 @@ export default function Header() {
           <div className="title-text">
             What makes <u>Calgary</u>
             <br></br>
-            {/* <u>{classificationCtx.gatewayWord}</u>&nbsp;? */}
-            {/*  */}
             <select
               className="list-style"
               value={classificationCtx.gatewayWord}
@@ -29,7 +27,6 @@ export default function Header() {
               })}
             </select>
             &nbsp;?
-            {/*  */}
           </div>
         </div>
       </div>
