@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import ClassificationContext from "../store/ClassificationContext";
-// import { selectedGateway } from "../pages/Gateway";
 import "../styles/Header.css";
 
 export default function Header() {
   const classificationCtx = useContext(ClassificationContext);
+  let selectedGateway = "";
 
   return (
     <>
@@ -13,7 +13,23 @@ export default function Header() {
           <div className="title-text">
             What makes <u>Calgary</u>
             <br></br>
-            <u>{classificationCtx.gatewayWord}</u>&nbsp;?
+            {/* <u>{classificationCtx.gatewayWord}</u>&nbsp;? */}
+            {/*  */}
+            <select
+              className="list-style"
+              value={classificationCtx.gatewayWord}
+              onChange={(e) => {
+                selectedGateway = e.target.value;
+                classificationCtx.setGatewayWord(selectedGateway);
+              }}
+            >
+              <option value=""></option>
+              {classificationCtx.allGatewayWords.map((gatewayWord) => {
+                return <option key={gatewayWord}>{gatewayWord}</option>;
+              })}
+            </select>
+            &nbsp;?
+            {/*  */}
           </div>
         </div>
       </div>
