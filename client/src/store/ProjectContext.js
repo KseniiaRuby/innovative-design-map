@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const ProjectContext = createContext({
-  // All project summaries by classification
+  // Get all projects
   getAllProjects: [],
 });
 
