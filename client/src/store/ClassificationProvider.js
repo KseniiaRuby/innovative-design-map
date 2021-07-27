@@ -46,7 +46,9 @@ export default function ClassificationProvider({ children }) {
     console.log("Looking up project summaries for gateway word: ", gatewayWord);
     const getProjectSummaries = async () => {
       try {
-        let response = await fetch("/api/findSummariesByClassification");
+        let response = await fetch(
+          "/api/project/findSummariesByClassification"
+        );
         if (response.status !== 200) {
           throw new Error("Fetch for project summaries failed");
         }
