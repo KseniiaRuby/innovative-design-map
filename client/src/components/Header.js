@@ -21,7 +21,6 @@ export default function Header() {
                 classificationCtx.setGatewayWord(selectedGateway);
               }}
             >
-              <option value=""></option>
               {classificationCtx.allGatewayWords.map((gatewayWord) => {
                 return <option key={gatewayWord}>{gatewayWord}</option>;
               })}
