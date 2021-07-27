@@ -12,7 +12,6 @@ app.use(express.json());
 
 app.use("/api/classification", classificationRoutes);
 app.use("/api/project", projectRoutes);
-app.use("/api/findSummariesByClassification", projectRoutes);
 
 const port = process.env.PORT || 5000;
 
