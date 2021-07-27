@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import * as projectData from "../../data/projectsampleinfo.json";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
-// import "./Button.css";
 import "./ProjectSlider.css";
 
 const ProjectSlider = ({ slides }) => {
@@ -33,17 +32,11 @@ const ProjectSlider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <Button
-                className="btn"
-                buttonStyle="btn--primary"
-                buttonSize="btn--large"
-                // linkProperty="/"
-              >
+              <Button>
                 <div>
                   <h2 className="project-name-align">
                     {project.Project_Information.Project_Name}{" "}
                   </h2>
-                  {/* <img src={project.properties.PICTURE_LI} /> */}
                   <p className="description-align">
                     {" "}
                     {project.Project_Information.Project_Description}
