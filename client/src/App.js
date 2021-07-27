@@ -6,20 +6,23 @@ import Map from "./pages/Map";
 import Navbar from "./components/Navbar";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
 import ClassificationProvider from "./store/ClassificationProvider";
+import ProjectProvider from "./store/ProjectProvider";
 
 function App() {
   return (
-    <ClassificationProvider>
-      <Router>
-        <Switch>
-          <Route path="/" exact component={Gateway} />
-          <Route path="/Category" component={Category} />
-          <Route path="/Map" component={Map} />
-          <Route path="/ProjectPage" component={ProjectPage} />
-        </Switch>
-        <Navbar />
-      </Router>
-    </ClassificationProvider>
+    <ProjectProvider>
+      <ClassificationProvider>
+        <Router>
+          <Switch>
+            <Route path="/" exact component={Gateway} />
+            <Route path="/Category" component={Category} />
+            <Route path="/Map" component={Map} />
+            <Route path="/ProjectPage" component={ProjectPage} />
+          </Switch>
+          <Navbar />
+        </Router>
+      </ClassificationProvider>
+    </ProjectProvider>
   );
 }
 

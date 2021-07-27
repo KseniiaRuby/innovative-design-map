@@ -4,11 +4,13 @@ const {
   getProjects,
   getProjectById,
   newProjects,
-  findProjectSummariesByClassification
+  findProjectSummariesByClassification,
 } = require("../controller/projectControllers");
 
-
-router.get('/findSummariesByClassification', findProjectSummariesByClassification)
+router.get(
+  "/findProjectSummariesByClassification",
+  findProjectSummariesByClassification
+);
 
 // route GET /api/projects
 router.get("/", getProjects);
