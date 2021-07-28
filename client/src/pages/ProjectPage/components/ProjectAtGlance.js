@@ -1,12 +1,12 @@
 import React from 'react'
-import '../ProjectPage.css'
+import '../../../styles/Styles.css'
 
 const ProjectAtGlance = () => {
    return (
       <div className="border project-at-glance">
          <p><u>At a glance</u></p>
          <div>
-            Public Space, Leed Gold, Stormawater Management
+            Public Space, Leed Gold, Stormwater Management
          </div>
       </div>
    )

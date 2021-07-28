@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
-import './Map.css'
+import "../styles/Styles.css"
 
 mapboxgl.accessToken = REACT_APP_MAPBOX_TOKEN
 const Map = () => {

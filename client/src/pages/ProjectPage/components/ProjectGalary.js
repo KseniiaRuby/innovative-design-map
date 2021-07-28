@@ -1,5 +1,6 @@
 import React from 'react'
-import '../ProjectPage.css'
+import '../../../styles/Styles.css'
+
 
 const ProjectGalary = () => {
    return (
