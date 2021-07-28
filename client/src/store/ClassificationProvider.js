@@ -6,7 +6,7 @@ export default function ClassificationProvider({ children }) {
   const [allGatewayWords, setAllGatewayWords] = useState([]);
   const [gatewayWord, setGatewayWord] = useState();
   const [classification, setClassification] = useState();
-  const [projectSummaries, setProjectSummaries] = useState();
+  const [projectSummaries, setProjectSummaries] = useState([]);
 
   useEffect(() => {
     const getAllClassifications = async () => {
@@ -35,44 +35,52 @@ export default function ClassificationProvider({ children }) {
   }, [allClassifications]);
 
   useEffect(() => {
-    console.log("Looking up classification for gateway word: ", gatewayWord);
-    let foundClassification = allClassifications.find((classification) => {
-      return classification.gatewayWords.includes(gatewayWord);
-    });
-    console.log("Found classification: ", foundClassification);
-    setClassification(foundClassification);
+    if (gatewayWord) {
+      console.log("Looking up classification for gateway word: ", gatewayWord);
+      let foundClassification = allClassifications.find((classification) => {
+        return classification.gatewayWords.includes(gatewayWord);
+      });
+      console.log("Found classification: ", foundClassification);
+      setClassification(foundClassification);
+    }
   }, [gatewayWord]);
 
   useEffect(() => {
-    console.log("Looking up project summaries for gateway word: ", gatewayWord);
-
     const getProjectSummaries = async () => {
-      // let classificationId = classification._id;
-      console.log("State Object: ", classification);
-      console.log(typeof classification);
-      // console.log(typeof classification._id);
-      // console.log("ID: ", classification._id);
-      // console.log("Classification ID: ", classificationId);
       const requestOptions = {
         method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
       };
-      try {
-        let response = await fetch(
-          "/api/project/findSummariesByClassification/",
-          // "/api/project/findSummariesByClassification/" + classificationId,
-          requestOptions
+
+      if (classification) {
+        console.log(
+          "Looking up project summaries for classification: ",
+          classification.classificationName
         );
-        if (response.status !== 200) {
-          throw new Error("Fetch for project summaries failed");
+        try {
+          console.log("Classification ID: ", classification._id);
+          let response = await fetch(
+            "/api/project/findProjectSummariesByClassification?classificationId=" +
+              classification._id,
+            requestOptions
+          );
+          if (response.status !== 200) {
+            throw new Error("Fetch for project summaries failed");
+          }
+          let projects = await response.json();
+          setProjectSummaries(projects);
+          console.log("Project Summaries 1: " + projects);
+        } catch (err) {
+          console.log("Error on client-side.", err);
         }
-        let projects = await response.json();
-        setProjectSummaries(projects);
-      } catch (err) {
-        console.log("Error on client-side.", err);
       }
     };
-    getProjectSummaries(classification);
-  }, [gatewayWord]);
+    getProjectSummaries();
+  }, [classification]);
+
+  // console.log("Project Summaries 2: " + JSON.stringify(projectSummaries));
 
   return (
     <ClassificationContext.Provider

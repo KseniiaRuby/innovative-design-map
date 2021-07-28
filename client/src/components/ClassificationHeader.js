@@ -17,6 +17,8 @@ export default function Header() {
           {classificationCtx.classification && (
             <div className="description-text">
               {classificationCtx.classification.shortDescription}
+              {/* {classificationCtx.projectSummaries.length > 0 &&
+                JSON.stringify(classificationCtx.projectSummaries[0].location)} */}
             </div>
           )}
         </div>
