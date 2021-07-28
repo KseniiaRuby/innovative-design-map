@@ -44,9 +44,9 @@ const findProjectSummariesByClassification = async (req, res) => {
 
 const getProjectById = async function (req, res) {
   try {
-    const projectCalled = await Project.findOne({ _id: req.params.id });
-    console.info(`Found Project:`, projectCalled);
-    res.send(projectCalled);
+    const projectSelected = await Project.findOne({ _id: req.params.id });
+    console.info(`Found Project:`, projectSelected);
+    res.send(projectSelected);
   } catch (error) {
     console.log(error);
     res.sendStatus(500);
