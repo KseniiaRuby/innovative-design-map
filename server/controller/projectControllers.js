@@ -1,4 +1,4 @@
-const {ObjectId} = require('mongodb')
+const { ObjectId } = require("mongodb");
 
 const Project = require("../models/Project");
 
@@ -14,32 +14,42 @@ const getProjects = async (req, res) => {
 
 const findProjectSummariesByClassification = async (req, res) => {
   try {
-    let classificationId = req.query.classificationId
-    let classification = new ObjectId(classificationId)
+    let classificationId = req.query.classificationId;
+    let classification = new ObjectId(classificationId);
     const projects = await Project.find(
-      { $or: [
-          { "innovationDescriptions.primaryTypeOfInnovation.classificationId": classification },
-          { "innovationDescriptions.secondaryTypeOfInnovation.classificationId": classification },
-          { "innovationDescriptions.tertiaryTypeOfInnovation.classificationId": classification }
-        ]
+      {
+        $or: [
+          {
+            "innovationDescriptions.primaryTypeOfInnovation.classificationId":
+              classification,
+          },
+          {
+            "innovationDescriptions.secondaryTypeOfInnovation.classificationId":
+              classification,
+          },
+          {
+            "innovationDescriptions.tertiaryTypeOfInnovation.classificationId":
+              classification,
+          },
+        ],
       },
-      { "projectName": 1, "location": 1, "projectDescription": 1 }
+      { projectName: 1, location: 1, projectDescription: 1 }
     );
     res.json(projects);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Server Error" });
   }
-}
+};
 
-const getProjectById = async (req, res) => {
+const getProjectById = async function (req, res) {
   try {
-    const project = await Project.findById(req.params.id);
-
-    res.json(project);
+    const projectCalled = await Project.findOne({ _id: req.params.id });
+    console.info(`Found Project:`, projectCalled);
+    res.send(projectCalled);
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Server Error" });
+    console.log(error);
+    res.sendStatus(500);
   }
 };
 
