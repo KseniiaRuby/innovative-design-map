@@ -12,7 +12,7 @@ const getProjects = async (req, res) => {
   }
 };
 
-const findProjectSummariesByClassification = async (req, res) => {
+const findProjectsByClassification = async (req, res) => {
   try {
     let classificationId = req.query.classificationId;
     let classification = new ObjectId(classificationId);
@@ -70,5 +70,5 @@ module.exports = {
   getProjects,
   getProjectById,
   newProjects,
-  findProjectSummariesByClassification,
+  findProjectsByClassification,
 };

@@ -6,7 +6,7 @@ export default function ClassificationProvider({ children }) {
   const [allGatewayWords, setAllGatewayWords] = useState([]);
   const [gatewayWord, setGatewayWord] = useState();
   const [classification, setClassification] = useState();
-  const [projectSummaries, setProjectSummaries] = useState([]);
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     const getAllClassifications = async () => {
@@ -46,7 +46,7 @@ export default function ClassificationProvider({ children }) {
   }, [gatewayWord]);
 
   useEffect(() => {
-    const getProjectSummaries = async () => {
+    const getProjects = async () => {
       const requestOptions = {
         method: "GET",
         headers: {
@@ -62,7 +62,7 @@ export default function ClassificationProvider({ children }) {
         try {
           console.log("Classification ID: ", classification._id);
           let response = await fetch(
-            "/api/project/findProjectSummariesByClassification?classificationId=" +
+            "/api/project/findProjectsByClassification?classificationId=" +
               classification._id,
             requestOptions
           );
@@ -70,14 +70,14 @@ export default function ClassificationProvider({ children }) {
             throw new Error("Fetch for project summaries failed");
           }
           let projects = await response.json();
-          setProjectSummaries(projects);
-          console.log("Project Summaries: " + projects);
+          setProjects(projects);
+          console.log("Projects: " + JSON.stringify(projects));
         } catch (err) {
           console.log("Error on client-side.", err);
         }
       }
     };
-    getProjectSummaries();
+    getProjects();
   }, [gatewayWord, classification]);
 
   // console.log("Project Summaries 2: " + JSON.stringify(projectSummaries));
@@ -89,7 +89,7 @@ export default function ClassificationProvider({ children }) {
         gatewayWord,
         setGatewayWord,
         classification,
-        projectSummaries,
+        projects,
       }}
     >
       {children}
