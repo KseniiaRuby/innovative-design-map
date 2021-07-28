@@ -1,0 +1,357 @@
+* {
+   background-color: black;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+   font-size: 1em;
+}
+
+body {}
+
+option {
+   /* color: black; */
+}
+
+:root {}
+
+.project-dual-grid-container {}
+
+.project-main-photo {}
+
+.directory-dual-grid-container {}
+
+/* "What makes ..." title on Landing(Gateway) Page*/
+
+.choose-gateway-word-title {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 3.5em;
+   padding-left: 0.5em;
+   -webkit-text-fill-color: black;
+   /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   padding-top: 3em;
+   background-image: url(../images/Calgary_DT.jpg);
+   padding-bottom: 100%;
+   margin: auto;
+}
+
+/*Dropdown list on Landing(Gateway) Page*/
+
+.list-spacer {
+   text-align: left;
+   background-color: transparent !important;
+}
+
+.list-style {
+   color: white;
+   font-size: 0.75em;
+}
+
+/*Let's Go Button on Landing(Gateway) Page*/
+
+.button-spacer {
+   padding-left: 35%;
+}
+
+.button-styling {
+   text-decoration: none;
+   text-align: center;
+}
+
+.button-lets-go {
+   font-size: 20px;
+}
+
+/* Navbar */
+
+.navbar-container {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 6vh;
+   bottom: 0px;
+   position: fixed;
+}
+
+.nav-links {
+   color: rgb(182, 174, 174);
+   font-size: 1.5rem;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+}
+
+/*  */
+
+.category-explore {
+   text-align: center;
+   font-size: 2.5em;
+   height: 100vh;
+}
+
+/*  */
+
+.projects-title {
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5em;
+   padding: 1em 0em 1em 1.35em;
+   margin: auto;
+}
+
+/* Projects Slider on Classification, Map and Individual Project Page */
+
+.slider {
+   position: fixed;
+}
+
+.project-name-align {
+   /* text-align: left; */
+   font-size: 1em;
+   font-weight: 400;
+}
+
+.description-align {
+   font-size: 0.5em;
+   /* text-align: left; */
+   font-weight: lighter;
+}
+
+.right-arrow {
+   position: absolute;
+   top: 25px;
+   right: 20px;
+   font-size: 2rem;
+   /* color: white; */
+   z-index: 10;
+   /* cursor: pointer; */
+   user-select: none;
+}
+
+.left-arrow {
+   position: absolute;
+   top: 25px;
+   left: 20px;
+   font-size: 2rem;
+   /* color: white; */
+   z-index: 10;
+   /* cursor: pointer; */
+   user-select: none;
+}
+
+.slide {
+   opacity: 0;
+}
+
+.slide.active {
+   opacity: 1;
+   transition-duration: 1s;
+}
+
+/* Project Slider Buttons */
+
+.btn-large {
+   background-color: black;
+   border: 2px solid white;
+   border-radius: 5px;
+   padding: 5px 20px 10px 20px;
+   margin: 0px 70px 0px 70px;
+}
+
+.btn-text {
+   color: white;
+   font-size: 18px;
+   text-decoration: none;
+}
+
+/* Project Page */
+
+.container-grid {
+   display: grid;
+}
+
+.border {
+   border-style: solid;
+   border-width: thin;
+   border-color: rgb(255, 255, 255);
+}
+
+.container-grid-two-in-the-row {
+   display: grid;
+   grid-template-columns: repeat(2, auto);
+}
+
+.project-header {
+   background-image: url ("http://https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg");
+   background-position: right;
+   background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+   text-align: left;
+   font-size: 2em;
+}
+
+.project-main-image {
+   /* border-radius: 8px; */
+   /* border-radius: 4px; */
+   /* padding: 5px; */
+   /* width: 150px; */
+}
+
+.projectpageleftsideshortcuts {
+   /* flex: 3; */
+   min-width: min(50%, 100vh);
+}
+
+.project-description {
+   font-size: 1.2em;
+}
+
+/* Project Buttons under Header */
+
+.project-buttons {
+   font-size: 1rem;
+}
+
+/* .project-related-features {
+   text-align: right
+} */
+
+.project-related-features, force-left {
+   text-align: left
+}
+
+.project-at-glance {
+   text-align: left;
+}
+
+/* Classification Page */
+
+.header {
+   font-size: 5em;
+   padding-top: 1rem;
+}
+
+/* Header "What makes..." on Classification Page and Map Page */
+
+.header-container {
+   background-color: black;
+   border-bottom: 2px solid gray;
+   position: fixed;
+   text-align: left;
+   top: 0;
+   width: 100%;
+   height: 120px;
+}
+
+/* Classification Title Text on Classification Page */
+
+.title-text {
+   color: white;
+   font-size: 1.75rem;
+   /*  */
+   -webkit-text-fill-color: black;
+   /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 0.25px;
+   -webkit-text-stroke-color: white;
+   /*  */
+   text-decoration: none;
+   padding: 1.5rem 1rem 1rem 2rem;
+}
+
+/* Classification Container on Classification Page */
+
+.classification-container {
+   background-color: black;
+   border-bottom: 2px solid gray;
+   text-align: left;
+   top: 120px;
+   width: 100%;
+   padding-top: 120px;
+   height: 105px;
+}
+
+/* Classification Container Description Text on Classification Page */
+
+.description-text {
+   color: white;
+   font-size: 1 rem;
+   text-decoration: none;
+   padding: 0rem 1rem 1rem 2rem;
+}
+
+/* Map */
+
+.map {
+   background-color: none;
+}
+
+/* Mark Points on Map */
+
+.map-container {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+.sidebarStyle {
+   display: inline-block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 12px;
+   background-color: #404040;
+   color: #ffffff;
+   z-index: 1 !important;
+   padding: 6px;
+   font-weight: bold;
+}
+
+/*  */
+
+.marker-btn {
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+
+/*  */
+
+.marker-btn img {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+}
+
+/*  */
+
+.img-description-on-map {
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+   width: 50px;
+   font-size: medium;
+   position: fixed;
+   object-fit: contain;
+   left: 25%;
+   top: 30%;
+   width: 50%;
+   border: 1px solid #011627;
+   border-radius: 1em;
+   box-shadow: -2px 5px 5px #242323;
+   background-color: #fdfffc;
+   display: block;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   color: #011627;
+}
+
+/* Image on map ??? Do we use it? */
+
+.img-description-on-map img {
+   width: 150px;
+}
