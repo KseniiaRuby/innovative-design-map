@@ -1,4 +1,5 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import ProjectHeader from "./components/ProjectHeader";
 import ProjectPageLeftSideShortcuts from "./components/ProjectPageLeftSideShortcuts";
 import ProjectDescription from "./components/ProjectDescription";
@@ -11,14 +12,29 @@ import "./ProjectPage.css";
 //
 
 const ProjectPage = () => {
+  const params = useParams();
+  const data = {
+    // projectName: params.id,
+    projectName: "TENET",
+    projectDescription: "ENTROPY INVERTED TURNSTILES WORLD LINE",
+  };
+
+  // params.id
+  // useState
+  //  projectID
+  // useEffect
+  //  getProjectByID route
+
   return (
     <div className="app-wrap">
       <div>
-        <ProjectHeader />
+        {/* <ProjectHeader /> */}
+        <ProjectHeader projectName={data.projectName} />
       </div>
       <div className="container">
         <ProjectPageLeftSideShortcuts />
-        <ProjectDescription />
+        {/* <ProjectDescription /> */}
+        <ProjectDescription projectDescription={data.projectDescription} />
       </div>
       <ProjectRelatedFeatures />
       <ProjectAtGlance />

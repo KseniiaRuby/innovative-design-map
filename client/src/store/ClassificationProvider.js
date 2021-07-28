@@ -36,11 +36,11 @@ export default function ClassificationProvider({ children }) {
 
   useEffect(() => {
     if (gatewayWord) {
-      console.log("Looking up classification for gateway word: ", gatewayWord);
+      console.log("Looking up classification for Gateway word: ", gatewayWord);
       let foundClassification = allClassifications.find((classification) => {
         return classification.gatewayWords.includes(gatewayWord);
       });
-      console.log("Found classification: ", foundClassification);
+      console.log("Found Classification object: ", foundClassification);
       setClassification(foundClassification);
     }
   }, [gatewayWord]);
@@ -56,7 +56,7 @@ export default function ClassificationProvider({ children }) {
 
       if (classification) {
         console.log(
-          "Looking up project summaries for classification: ",
+          "Looking up project summaries for Classification Name: ",
           classification.classificationName
         );
         try {
@@ -71,14 +71,14 @@ export default function ClassificationProvider({ children }) {
           }
           let projects = await response.json();
           setProjectSummaries(projects);
-          console.log("Project Summaries 1: " + projects);
+          console.log("Project Summaries: " + projects);
         } catch (err) {
           console.log("Error on client-side.", err);
         }
       }
     };
     getProjectSummaries();
-  }, [classification]);
+  }, [gatewayWord, classification]);
 
   // console.log("Project Summaries 2: " + JSON.stringify(projectSummaries));
 

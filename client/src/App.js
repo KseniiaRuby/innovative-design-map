@@ -17,7 +17,8 @@ function App() {
             <Route path="/" exact component={Gateway} />
             <Route path="/Category" component={Category} />
             <Route path="/Map" component={Map} />
-            <Route path="/ProjectPage" component={ProjectPage} />
+            {/* <Route path="/ProjectPage" component={ProjectPage} /> */}
+            <Route path="/ProjectPage/:id" component={ProjectPage} />
           </Switch>
           <Navbar />
         </Router>
