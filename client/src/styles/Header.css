@@ -21,6 +21,11 @@
 .title-text {
   color: white;
   font-size: 1.75rem;
+  /*  */
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: white;
+  /*  */
   text-decoration: none;
   padding: 1rem 1rem 0.5rem 2rem;
 }

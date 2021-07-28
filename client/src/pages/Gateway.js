@@ -9,13 +9,15 @@ export function Gateway() {
 
   return (
     <div className="category-block">
-      <br></br>
-      What
-      <br></br>
-      makes
-      <br></br>
-      Calgary
-      <br></br>
+      <div className="title-block">
+        <br></br>
+        What
+        <br></br>
+        makes
+        <br></br>
+        Calgary
+        <br></br>
+      </div>
       <div className="list-spacer">
         <select
           className="list-style"
