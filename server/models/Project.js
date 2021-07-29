@@ -43,16 +43,19 @@ const projectSchema = new Schema({
     featureWords: [String],
 
     primaryTypeOfInnovation: {
+      classificationName: String,
       classificationId: String,
       projectDescription: String,
       gatewayWord: String,
     },
     secondaryTypeOfInnovation: {
+      classificationName: String,
       classificationId: String,
       projectDescription: String,
       gatewayWord: String,
     },
     tertiaryTypeOfInnovation: {
+      classificationName: String,
       classificationId: String,
       projectDescription: String,
       gatewayWord: String,
