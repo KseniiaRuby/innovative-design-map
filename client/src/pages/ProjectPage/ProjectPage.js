@@ -36,7 +36,7 @@ const ProjectPage = () => {
           let data = await response.json();
           setProject(data);
           console.log("Project: " + JSON.stringify(data));
-          console.log("Project: " + JSON.stringify(data._id));
+          console.log("Project ID: " + JSON.stringify(data._id));
         } catch (err) {
           console.log("Error on client-side.", err);
         }

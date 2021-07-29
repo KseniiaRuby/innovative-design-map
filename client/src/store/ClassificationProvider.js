@@ -71,7 +71,7 @@ export default function ClassificationProvider({ children }) {
           }
           let projects = await response.json();
           setProjects(projects);
-          console.log("Projects: " + JSON.stringify(projects));
+          console.log("Project Summary: " + JSON.stringify(projects));
         } catch (err) {
           console.log("Error on client-side.", err);
         }
