@@ -40,7 +40,7 @@ const ProjectPageLeftSideShortcuts = ({
       <div>
         Hours:
         <br />
-        Sunday: 12:00 PM - 5:00 PM
+        {/* Sunday: 12:00 PM - 5:00 PM
         <br />
         Monday: 9:00 AM - 8:00 PM
         <br />
@@ -52,7 +52,7 @@ const ProjectPageLeftSideShortcuts = ({
         <br />
         Friday: 9:00 AM - 6:00 PM
         <br />
-        Saturday: 9:00 AM - 5:00 PM
+        Saturday: 9:00 AM - 5:00 PM */}
       </div>
       <br />
       <div>Audio Tour</div>
