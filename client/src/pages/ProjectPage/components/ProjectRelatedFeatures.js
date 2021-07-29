@@ -1,18 +1,28 @@
 import React from 'react'
 import '../../../styles/Styles.css'
 
-
-
-const ProjectRelatedFeatures = () => {
+const ProjectRelatedFeatures = ({
+   projectPrimaryName,
+   projectSecondaryName,
+   projectTertiaryName
+}) => {
    return (
       <div className="border-bottom border-top project-related-features">
-         <p>
+         <div>
+            <br />
+
             <u className="force-left">Features</u>
-            <br />
-            Culture, heritage and Society
-            <br />
-            Transporattion and Infrastructure
-         </p>
+            <p className="text-in-the-box">
+               Culture, heritage and Society
+            </p>
+            <p className="text-in-the-box">
+               Transporattion and Infrastructure
+            </p>
+
+         </div>
+         {/* <p>{projectPrimaryName}</p>
+         <p>{projectSecondaryName}</p>
+         <p>{projectTertiaryName}</p> */}
       </div>
    )
 }

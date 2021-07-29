@@ -99,7 +99,9 @@ option {
    height: 100vh;
 }
 
-/*  */
+/* Classification Page */
+
+/* Project Title on Classification Page */
 
 .projects-title {
    text-align: left;
@@ -219,7 +221,7 @@ option {
 }
 
 .project-container {
-   padding-bottom: 1em;
+   /* padding-bottom: 1em; */
    /* position: relative;
    display: flex;
    text-align: right; */
@@ -268,8 +270,10 @@ option {
    text-align: right
 } */
 
-.project-related-features, force-left {
+.project-related-features {
    /* text-align: left; */
+   /* outline-style: solid; */
+   /* text-decoration-line: blanchedalmond; */
 }
 
 .project-at-glance {
@@ -328,8 +332,10 @@ option {
 /* Map */
 
 .map {
+   height: 25%;
+   /* size: 15em; */
    /* background-color: none; */
-   padding: 10% 0em 0em 0em;
+   /* padding: 2em 0em 0em 0em; */
 }
 
 /* Mark Points on Map */
