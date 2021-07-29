@@ -1,6 +1,7 @@
 // import ScrollMenu from "react-horizontal-scrolling-menu";
 import Header from "../components/Header"
 import MarkPointOnMap from "../components/MarkPointOnMap"
+import Navbar from "../components/Navbar"
 import "../styles/Styles.css"
 // import HorizontalProjectMenu from "../components/HorizontalProjectSummaries/HorizontalProjectMenu"
 
@@ -10,7 +11,7 @@ export default function Map() {
          <MarkPointOnMap />
          <Header />
          {/* <HorizontalProjectMenu /> */}
-
+         <Navbar />
       </div>
    )
 }

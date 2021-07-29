@@ -1,53 +1,53 @@
-import React from "react";
-import "../../../styles/Styles.css";
+import React from "react"
+import "../../../styles/Styles.css"
 
 const ProjectHeader = ({
-  projectName,
-  projectImageBackground,
-  projectImageAlt,
+   projectName,
+   projectImageBackground,
+   projectImageAlt,
 }) => {
-  var sectionStyle = {
-    // width: "100%",
-    // height: "200%",
-    background: "url(" + { projectImageBackground } + ")",
-    //   backgroundImage:
-    //     "https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
-  };
+   var sectionStyle = {
+      // width: "100%",
+      // height: "200%",
+      background: "url(" + { projectImageBackground } + ")",
+      //   backgroundImage:
+      //     "https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
+   }
 
-  return (
-    // <div className="border-bottom  project-header">
-    <div
-      className="border-bottom  project-header"
+   return (
+      // <div className="border-bottom  project-header">
+      <div
+         className="border-bottom  project-header"
       // style={sectionStyle}
       // background={"url(" + { projectImageBackground } + ")"}
       // background-image={"url(" + { projectImageBackground } + ")"}
-    >
-      <div className="project-container">
-        <div className="project-title"> {projectName} </div>
-        {/* <div className="project-image"> */}
+      >
+         <div className="project-container">
+            <div className="project-title"> {projectName} </div>
+            {/* <div className="project-image"> */}
 
-        <img
-          src={projectImageBackground}
-          alt={projectImageAlt}
-          style={{ width: "75%" }}
-          max-width={"inherit"}
-          max-height={"inherit"}
-          height={"inherit"}
-          width={"inherit"}
-          object-fit={"cover"}
-          float={"right"}
-        />
-      </div>
-      {/* </div> */}
-      {/* New Central Library */}
-      <br />
-      <br />
-      {/* <div className="project-buttons">
+            <img
+               src={projectImageBackground}
+               alt={projectImageAlt}
+               style={{ width: "75%", padding: "0em 0em 0em 3em" }}
+            // max-width={"inherit"}
+            // max-height={"inherit"}
+            // height={"inherit"}
+            // width={"inherit"}
+            //  object-fit={"cover"}
+            //  float={"right"}
+            />
+         </div>
+         {/* </div> */}
+         {/* New Central Library */}
+         <br />
+         <br />
+         {/* <div className="project-buttons">
         <button>CHECK IN</button>
         <button>ADD TO FAVOURITES</button>
         <button>SHARE</button>
       </div> */}
-    </div>
-  );
-};
-export default ProjectHeader;
+      </div>
+   )
+}
+export default ProjectHeader
