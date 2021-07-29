@@ -3,7 +3,7 @@ import '../../../styles/Styles.css'
 
 const ProjectClassifications = () => {
    return (
-      <div className="border projectclassification">
+      <div className="border-bottom projectclassification">
          Project Classifications
       </div>
    )

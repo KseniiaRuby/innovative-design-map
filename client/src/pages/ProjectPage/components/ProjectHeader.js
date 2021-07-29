@@ -4,7 +4,7 @@ import "../../../styles/Styles.css"
 
 const ProjectHeader = ({ projectName }) => {
    return (
-      <div div className="border project-header">
+      <div div className="border-bottom  project-header">
          {projectName}
          {/* New Central Library */}
          <br />
