@@ -274,8 +274,7 @@ option {
    text-align: right
 } */
 
-.project-related-features,
-force-left {
+.project-related-features {
   /* text-align: left; */
 }
 
