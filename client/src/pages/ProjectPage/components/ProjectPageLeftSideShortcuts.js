@@ -6,7 +6,7 @@ import "../../../styles/Styles.css"
 const ProjectPageLeftSideShortcuts = () => {
    // const ProjectAddress = ('#/projectsInformation.Location.Address')
    return (
-      <div className="border projectpageleftsideshortcuts" >
+      <div className="border-right projectpageleftsideshortcuts" >
          <div >
             Address:
             <br />

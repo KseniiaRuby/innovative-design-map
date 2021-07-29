@@ -3,7 +3,7 @@ import '../../../styles/Styles.css'
 
 const ProjectAtGlance = () => {
    return (
-      <div className="border project-at-glance">
+      <div className="border-bottom project-at-glance">
          <p><u>At a glance</u></p>
          <div>
             Public Space, Leed Gold, Stormwater Management

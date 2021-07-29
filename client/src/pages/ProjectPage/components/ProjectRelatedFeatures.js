@@ -5,7 +5,7 @@ import '../../../styles/Styles.css'
 
 const ProjectRelatedFeatures = () => {
    return (
-      <div className="border project-related-features">
+      <div className="border-bottom project-related-features">
          <p>
             <u className="force-left">Features</u>
             <br />

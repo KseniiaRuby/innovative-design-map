@@ -4,7 +4,7 @@ import '../../../styles/Styles.css'
 
 const ProjectGalary = () => {
    return (
-      <div className="border projectpage">
+      <div className="border-bottom projectpage">
          VIEW GALARY
          <div>
          </div>

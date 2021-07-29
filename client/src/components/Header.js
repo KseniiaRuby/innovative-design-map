@@ -9,7 +9,7 @@ export default function Header() {
    return (
       <>
          <div>
-            <div className="header-container">
+            <div className="header-container border-bottom ">
                <div className="title-text">
                   What makes <u>Calgary</u>
                   <select
