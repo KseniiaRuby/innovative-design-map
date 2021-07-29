@@ -1,279 +1,286 @@
 * {
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: left;
-   font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 1em;
 }
 
 body {
-   background-color: black;
+  color: white;
+  background-color: black;
 }
 
 option {
-   /* color: black; */
+  /* color: black; */
 }
 
-:root {}
+:root {
+}
 
-.project-dual-grid-container {}
+.project-dual-grid-container {
+}
 
-.project-main-photo {}
+.project-main-photo {
+}
 
-.directory-dual-grid-container {}
+.directory-dual-grid-container {
+}
 
 /* "What makes ..." title on Landing(Gateway) Page*/
 
 .choose-gateway-word-title {
-   /* background-position: center; */
-   background-repeat: no-repeat;
-   background-size: cover;
-   font-size: 3.5em;
-   padding-left: 0.5em;
-   -webkit-text-fill-color: black;
-   /* Will override color (regardless of order) */
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;
-   padding-top: 3em;
-   background-image: url("../images/Calgary_DT.jpg");
-   /* background-size: 100%; */
-   padding-bottom: 75%;
-   margin: auto;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 3.5em;
+  padding-left: 0.5em;
+  -webkit-text-fill-color: black;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  padding-top: 3em;
+  background-image: url("../images/Calgary_DT.jpg");
+  /* background-size: 100%; */
+  padding-bottom: 75%;
+  margin: auto;
 }
 
 /*Dropdown list on Landing(Gateway) Page*/
 
 .list-spacer {
-   text-align: left;
-   background-color: transparent !important;
+  text-align: left;
+  background-color: transparent !important;
 }
 
 .list-style {
-   color: rgb(0, 0, 0);
-   font-size: 0.65em;
-   background-color: transparent !important;
+  color: rgb(0, 0, 0);
+  font-size: 0.65em;
+  background-color: transparent !important;
 }
 
 /*Let's Go Button on Landing(Gateway) Page*/
 
 .button-spacer {
-   padding-left: 62%;
+  /* padding-left: 62%; */
+  padding-left: 235px;
 }
 
 .button-styling {
-   text-decoration: none;
-   text-align: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button-lets-go {
-   background-color: rgb(10, 10, 10);
-   font-size: 20px;
+  background-color: rgb(10, 10, 10);
+  font-size: 20px;
 }
 
 /* Navbar */
 
 .navbar-container {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   width: 100vw;
-   height: 6vh;
-   bottom: 0px;
-   position: fixed;
-   padding-top: 1%;
-   background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 6vh;
+  bottom: 0px;
+  position: fixed;
+  padding-top: 1%;
+  background-color: black;
 }
 
 .nav-links {
-   color: rgb(182, 174, 174);
-   font-size: 1.5rem;
-   text-decoration: none;
-   padding: 0.5rem 1rem;
+  color: rgb(182, 174, 174);
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 /*  */
 
 .category-explore {
-   text-align: center;
-   font-size: 2.5em;
-   height: 100vh;
+  text-align: center;
+  font-size: 2.5em;
+  height: 100vh;
 }
 
 /*  */
 
 .projects-title {
-   text-align: left;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 1.5em;
-   padding: 1.5em 0em 1em 1.35em;
-   margin: auto;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  padding: 1.5em 0em 1em 1.35em;
+  margin: auto;
 }
 
 /* Projects Slider on Classification, Map and Individual Project Page */
 
 .slider {
-   position: fixed;
+  position: fixed;
 }
 
 .project-name-align {
-   /* text-align: left; */
-   font-size: 1em;
-   font-weight: 400;
+  /* text-align: left; */
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .description-align {
-   font-size: 0.5em;
-   /* text-align: left; */
-   font-weight: lighter;
+  font-size: 0.5em;
+  /* text-align: left; */
+  font-weight: lighter;
 }
 
 .right-arrow {
-   position: absolute;
-   top: 25px;
-   right: 20px;
-   font-size: 2rem;
-   /* color: white; */
-   z-index: 10;
-   /* cursor: pointer; */
-   user-select: none;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  font-size: 2rem;
+  /* color: white; */
+  z-index: 10;
+  /* cursor: pointer; */
+  user-select: none;
 }
 
 .left-arrow {
-   position: absolute;
-   top: 25px;
-   left: 20px;
-   font-size: 2rem;
-   /* color: white; */
-   z-index: 10;
-   /* cursor: pointer; */
-   user-select: none;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-size: 2rem;
+  /* color: white; */
+  z-index: 10;
+  /* cursor: pointer; */
+  user-select: none;
 }
 
 .slide {
-   opacity: 0;
+  opacity: 0;
 }
 
 .slide.active {
-   opacity: 1;
-   transition-duration: 1s;
+  opacity: 1;
+  transition-duration: 1s;
 }
 
 /* Project Slider Buttons */
 
 .btn-large {
-   background-color: black;
-   border: 2px solid white;
-   border-radius: 5px;
-   padding: 5px 20px 10px 20px;
-   margin: 0px 70px 0px 70px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 20px 10px 20px;
+  margin: 0px 70px 0px 70px;
 }
 
 .btn-text {
-   color: white;
-   font-size: 18px;
-   text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 /* Project Page */
 
 .container-grid {
-   display: grid;
-   padding-bottom: 15%;
+  display: grid;
+  padding-bottom: 15%;
 }
 
 .border-top {
-   border-top: 2px solid gray;
+  border-top: 2px solid gray;
 }
 
 .border-bottom {
-   border-bottom: 2px solid gray;
+  border-bottom: 2px solid gray;
 }
 
 .border-right {
-   border-right: 2px solid gray;
+  border-right: 2px solid gray;
 }
 
 .container-grid-two-in-the-row {
-   display: grid;
-   grid-template-columns: repeat(2, auto);
+  display: grid;
+  grid-template-columns: repeat(2, auto);
 }
 
 .project-header {
-   /* background-position: left; */
-   /* background-repeat: no-repeat; */
-   /* background-attachment: fixed; */
-   /* background-size: 75%; */
-   /* text-align: right; */
-   font-size: 2em;
-   padding: 1em 0em 1em 0em;
-   /* border: 1px solid; */
-   width: 20opx;
-   /* height: 20vh; */
-   overflow: hidden;
-   display: flex;
+  /* background-position: left; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-size: 75%; */
+  /* text-align: right; */
+  font-size: 2em;
+  padding: 1em 0em 1em 0em;
+  /* border: 1px solid; */
+  width: 20opx;
+  /* height: 20vh; */
+  overflow: hidden;
+  display: flex;
 }
 
 .navbar-project-page {
-   /* overflow: visible; */
-   position: unset;
+  /* overflow: visible; */
+  position: unset;
 }
 
 .project-container {
-   padding-bottom: 1em;
-   /* position: relative;
+  padding-bottom: 1em;
+  /* position: relative;
    display: flex;
    text-align: right; */
 }
 
 .project-title {
-   padding: 5% 2em 0% 0%;
-   position: absolute;
-   font-size: 1.25em;
+  padding: 5% 2em 0% 0%;
+  position: absolute;
+  font-size: 1.25em;
 }
 
 .project-centered {
-   /* position: absolute;
+  /* position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%); */
 }
 
 .projectpageleftsideshortcuts {
-   /* flex: 3; */
-   /* padding: 10px 0px 0px 0px; */
-   /* min-width: min(50%, 100vh); */
+  /* flex: 3; */
+  padding: 20px 0px 20px 0px;
+  /* min-width: min(50%, 100vh); */
 }
 
 .project-description {
-   padding: 0px 10px 0px 10px;
-   font-size: 1.1em;
+  padding: 0px 10px 0px 10px;
+  font-size: 1.1em;
 }
 
 .classificationTitle {
-   /* font-size: 12px; */
+  /* font-size: 12px; */
 }
 
 .classificationName {
-   /* font-size: 1.1em; */
+  /* font-size: 1.1em; */
 }
 
 /* Project Buttons under Header */
 
 .project-buttons {
-   font-size: 1rem;
-   /* padding: 0px 0px 50px 0px; */
+  font-size: 1rem;
+  /* padding: 0px 0px 50px 0px; */
 }
 
 /* .project-related-features {
    text-align: right
 } */
 
-.project-related-features, force-left {
-   /* text-align: left; */
+.project-related-features,
+force-left {
+  /* text-align: left; */
 }
 
 .project-at-glance {
-   /* text-align: left; */
+  /* text-align: left; */
 }
 
 /* Classification Page */
@@ -281,55 +288,55 @@ option {
 /* Header "What makes..." on Classification Page and Map Page */
 
 .header-container {
-   background-color: black;
-   position: fixed;
-   text-align: left;
-   font-size: 5em;
-   top: 0;
-   width: 100%;
-   height: 120px;
+  background-color: black;
+  position: fixed;
+  text-align: left;
+  font-size: 5em;
+  top: 0;
+  width: 100%;
+  height: 120px;
 }
 
 /* Classification Title Text on Classification Page */
 
 .title-text {
-   color: white;
-   font-size: 1.75rem;
-   /*  */
-   -webkit-text-fill-color: black;
-   /* Will override color (regardless of order) */
-   -webkit-text-stroke-width: 0.75px;
-   -webkit-text-stroke-color: white;
-   /*  */
-   text-decoration: none;
-   padding: 1.5rem 1rem 1rem 2rem;
+  color: white;
+  font-size: 1.75rem;
+  /*  */
+  -webkit-text-fill-color: black;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: white;
+  /*  */
+  text-decoration: none;
+  padding: 1.5rem 1rem 1rem 2rem;
 }
 
 /* Classification Container on Classification Page */
 
 .classification-container {
-   background-color: black;
-   text-align: left;
-   top: 120px;
-   width: 100%;
-   padding-top: 120px;
-   height: 105px;
+  background-color: black;
+  text-align: left;
+  top: 120px;
+  width: 100%;
+  padding-top: 120px;
+  height: 105px;
 }
 
 /* Classification Container Description Text on Classification Page */
 
 .description-text {
-   color: white;
-   font-size: 1 rem;
-   text-decoration: none;
-   padding: 0rem 1rem 1rem 2rem;
+  color: white;
+  font-size: 1 rem;
+  text-decoration: none;
+  padding: 0rem 1rem 1rem 2rem;
 }
 
 /* Map */
 
 .map {
-   /* background-color: none; */
-   padding: 10% 0em 0em 0em;
+  /* background-color: none; */
+  padding: 10% 0em 0em 0em;
 }
 
 /* Mark Points on Map */
@@ -343,32 +350,32 @@ option {
 } */
 
 .sidebarStyle {
-   display: inline-block;
-   position: absolute;
-   top: 0;
-   left: 0;
-   margin: 12px;
-   background-color: #404040;
-   color: #ffffff;
-   z-index: 1 !important;
-   padding: 6px;
-   font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
 }
 
 /*  */
 
 .marker-btn {
-   background: none;
-   border: none;
-   cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 /*  */
 
 .marker-btn img {
-   width: 30px;
-   height: 30px;
-   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 /*  */
