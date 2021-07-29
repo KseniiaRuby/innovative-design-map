@@ -80,8 +80,6 @@ export default function ClassificationProvider({ children }) {
     getProjects();
   }, [gatewayWord, classification]);
 
-  // console.log("Project Summaries 2: " + JSON.stringify(projectSummaries));
-
   return (
     <ClassificationContext.Provider
       value={{
