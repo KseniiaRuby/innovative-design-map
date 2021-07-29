@@ -24,7 +24,7 @@ option {
 /* "What makes ..." title on Landing(Gateway) Page*/
 
 .choose-gateway-word-title {
-   background-position: center;
+   /* background-position: center; */
    background-repeat: no-repeat;
    background-size: cover;
    font-size: 3.5em;
@@ -35,7 +35,8 @@ option {
    -webkit-text-stroke-color: white;
    padding-top: 3em;
    background-image: url("../images/Calgary_DT.jpg");
-   /* padding-bottom: 100%; */
+   /* background-size: 100%; */
+   padding-bottom: 75%;
    margin: auto;
 }
 
@@ -47,14 +48,15 @@ option {
 }
 
 .list-style {
-   color: white;
-   font-size: 0.75em;
+   color: rgb(0, 0, 0);
+   font-size: 0.65em;
+   background-color: transparent !important;
 }
 
 /*Let's Go Button on Landing(Gateway) Page*/
 
 .button-spacer {
-   padding-left: 35%;
+   padding-left: 62%;
 }
 
 .button-styling {
@@ -63,6 +65,7 @@ option {
 }
 
 .button-lets-go {
+   background-color: rgb(10, 10, 10);
    font-size: 20px;
 }
 
@@ -77,6 +80,8 @@ option {
    height: 6vh;
    bottom: 0px;
    position: fixed;
+   padding-top: 1%;
+   background-color: black;
 }
 
 .nav-links {
@@ -100,7 +105,7 @@ option {
    text-align: left;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 1.5em;
-   padding: 1em 0em 1em 1.35em;
+   padding: 1.5em 0em 1em 1.35em;
    margin: auto;
 }
 
@@ -195,10 +200,10 @@ option {
 
 .project-header {
    /* background-position: left; */
-   background-repeat: no-repeat;
+   /* background-repeat: no-repeat; */
    /* background-attachment: fixed; */
-   background-size: 75%;
-   text-align: right;
+   /* background-size: 75%; */
+   /* text-align: right; */
    font-size: 2em;
    padding: 1em 0em 1em 0em;
    /* border: 1px solid; */
@@ -208,42 +213,35 @@ option {
    display: flex;
 }
 
+.navbar-project-page {
+   /* overflow: visible; */
+   position: unset;
+}
+
 .project-container {
-   position: relative;
+   padding-bottom: 1em;
+   /* position: relative;
    display: flex;
-   text-align: right;
+   text-align: right; */
 }
 
 .project-title {
-   padding: 1em 5em 0em 0em;
+   padding: 5% 2em 0% 0%;
    position: absolute;
-   font-size: 2em;
-}
-
-.project-image {
-   /* position: relative; */
-   /* text-align: center; */
-   /* color: white; */
+   font-size: 1.25em;
 }
 
 .project-centered {
-   position: absolute;
+   /* position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
-}
-
-.project-main-image {
-   /* border-radius: 8px; */
-   /* border-radius: 4px; */
-   /* padding: 5px; */
-   /* width: 150px; */
+   transform: translate(-50%, -50%); */
 }
 
 .projectpageleftsideshortcuts {
    /* flex: 3; */
-   padding: 10px 0px 0px 0px;
-   min-width: min(50%, 100vh);
+   /* padding: 10px 0px 0px 0px; */
+   /* min-width: min(50%, 100vh); */
 }
 
 .project-description {
@@ -252,11 +250,11 @@ option {
 }
 
 .classificationTitle {
-   font-size: 12px;
+   /* font-size: 12px; */
 }
 
 .classificationName {
-   font-size: 1.1em;
+   /* font-size: 1.1em; */
 }
 
 /* Project Buttons under Header */
@@ -271,11 +269,11 @@ option {
 } */
 
 .project-related-features, force-left {
-   text-align: left;
+   /* text-align: left; */
 }
 
 .project-at-glance {
-   text-align: left;
+   /* text-align: left; */
 }
 
 /* Classification Page */
@@ -311,7 +309,6 @@ option {
 
 .classification-container {
    background-color: black;
-   border-bottom: 2px solid gray;
    text-align: left;
    top: 120px;
    width: 100%;
@@ -331,18 +328,19 @@ option {
 /* Map */
 
 .map {
-   background-color: none;
+   /* background-color: none; */
+   padding: 10% 0em 0em 0em;
 }
 
 /* Mark Points on Map */
 
-.map-container {
+/* .map-container {
    position: absolute;
    top: 0;
    bottom: 0;
    left: 0;
    right: 0;
-}
+} */
 
 .sidebarStyle {
    display: inline-block;
@@ -375,7 +373,7 @@ option {
 
 /*  */
 
-.img-description-on-map {
+/* .img-description-on-map {
    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
    width: 50px;
    font-size: medium;
@@ -393,10 +391,10 @@ option {
    justify-content: space-between;
    align-items: center;
    color: #011627;
-}
+} */
 
 /* Image on map ??? Do we use it? */
 
-.img-description-on-map img {
+/* .img-description-on-map img {
    width: 150px;
-}
+} */
