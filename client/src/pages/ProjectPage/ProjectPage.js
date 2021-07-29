@@ -6,7 +6,7 @@ import ProjectDescription from "./components/ProjectDescription";
 import ProjectRelatedFeatures from "./components/ProjectRelatedFeatures";
 import ProjectAtGlance from "./components/ProjectAtGlance";
 import ProjectClassifications from "./components/ProjectClassifications";
-import ProjectGalary from "./components/ProjectGalary";
+import ProjectGallery from "./components/ProjectGallery";
 import "../../styles/Styles.css";
 
 const ProjectPage = () => {
@@ -37,6 +37,13 @@ const ProjectPage = () => {
           setProject(data);
           console.log("Project: " + JSON.stringify(data));
           console.log("Project ID: " + JSON.stringify(data._id));
+          console.log(
+            "Project Name: " +
+              JSON.stringify(
+                data.innovationDescriptions.secondaryTypeOfInnovation
+                  .classificationName
+              )
+          );
         } catch (err) {
           console.log("Error on client-side.", err);
         }
@@ -49,7 +56,11 @@ const ProjectPage = () => {
     return (
       <div className="container-grid">
         <div>
-          <ProjectHeader projectName={project.projectName} />
+          <ProjectHeader
+            projectName={project.projectName}
+            projectImageBackground={project.imageUrls.image1.image}
+            projectImageAlt={project.imageUrls.image1.alt}
+          />
         </div>
         <div className="container-grid-two-in-the-row">
           <ProjectPageLeftSideShortcuts
@@ -58,12 +69,47 @@ const ProjectPage = () => {
             projectProvince={project.location.province}
             projectPostalCode={project.location.postalCode}
           />
-          <ProjectDescription projectDescription={project.projectDescription} />
+          <ProjectDescription
+            //  projectDescription={project.projectDescription}
+            projectName={project.projectName}
+            projectTypology={project.projectTypology}
+            projectNeighbourhood={project.Neighbourhood}
+            projectCity={project.location.city}
+            projectProvince={project.location.province}
+            projectFirm={project.companyName}
+            projectYear={project.dateOfCompletion}
+            projectClient={project.projectOwnersAndClients}
+          />
         </div>
         <ProjectRelatedFeatures />
         <ProjectAtGlance />
-        <ProjectClassifications />
-        <ProjectGalary />
+        <ProjectClassifications
+          projectPrimaryName={
+            project.innovationDescriptions.primaryTypeOfInnovation
+              .classificationName
+          }
+          projectPrimaryDescription={
+            project.innovationDescriptions.primaryTypeOfInnovation
+              .projectDescription
+          }
+          projectSecondaryName={
+            project.innovationDescriptions.secondaryTypeOfInnovation
+              .classificationName
+          }
+          projectSecondaryDescription={
+            project.innovationDescriptions.secondaryTypeOfInnovation
+              .projectDescription
+          }
+          projectTertiaryName={
+            project.innovationDescriptions.tertiaryTypeOfInnovation
+              .classificationName
+          }
+          projectTertiaryDescription={
+            project.innovationDescriptions.tertiaryTypeOfInnovation
+              .projectDescription
+          }
+        />
+        <ProjectGallery />
       </div>
     );
   }
