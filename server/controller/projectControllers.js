@@ -32,8 +32,8 @@ const findProjectsByClassification = async (req, res) => {
               classification,
           },
         ],
-      }
-      //{ projectName: 1, location: 1, projectDescription: 1 }
+      },
+      { projectName: 1, location: 1, projectDescription: 1 }
     );
     res.json(projects);
   } catch (error) {
