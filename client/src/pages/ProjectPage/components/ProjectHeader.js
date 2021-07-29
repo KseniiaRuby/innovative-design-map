@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "../../../styles/Styles.css"
 
 const ProjectHeader = ({
@@ -15,38 +16,40 @@ const ProjectHeader = ({
    }
 
    return (
-      // <div className="border-bottom  project-header">
-      <div
-         className="border-bottom  project-header"
-      // style={sectionStyle}
-      // background={"url(" + { projectImageBackground } + ")"}
-      // background-image={"url(" + { projectImageBackground } + ")"}
-      >
-         <div className="project-container">
-            <div className="project-title"> {projectName} </div>
-            {/* <div className="project-image"> */}
+      <div className="border-bottom">
+         <div
+            className="project-header"
+         // style={sectionStyle}
+         // background={"url(" + { projectImageBackground } + ")"}
+         // background-image={"url(" + { projectImageBackground } + ")"}
+         >
+            <div className="project-container">
+               <div className="project-title"> {projectName} </div>
+               {/* <div className="project-image"> */}
 
-            <img
-               src={projectImageBackground}
-               alt={projectImageAlt}
-               style={{ width: "75%", padding: "0em 0em 0em 3em" }}
-            // max-width={"inherit"}
-            // max-height={"inherit"}
-            // height={"inherit"}
-            // width={"inherit"}
-            //  object-fit={"cover"}
-            //  float={"right"}
-            />
+               <img
+                  src={projectImageBackground}
+                  alt={projectImageAlt}
+                  style={{ width: "75%", padding: "0em 0em 0em 3em" }}
+               // max-width={"inherit"}
+               // max-height={"inherit"}
+               // height={"inherit"}
+               // width={"inherit"}
+               //  object-fit={"cover"}
+               //  float={"right"}
+               />
+            </div>
+            {/* </div> */}
+            {/* New Central Library */}
+            <br />
+            <br />
          </div>
-         {/* </div> */}
-         {/* New Central Library */}
-         <br />
-         <br />
-         {/* <div className="project-buttons">
-        <button>CHECK IN</button>
-        <button>ADD TO FAVOURITES</button>
-        <button>SHARE</button>
-      </div> */}
+         <div className="project-buttons">
+            {/* <button>CHECK IN</button> */}
+            <Link to="" className="nav-links">Like</Link>
+            <Link to="" className="nav-links">Share</Link>
+
+         </div>
       </div>
    )
 }
