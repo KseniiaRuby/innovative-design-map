@@ -52,7 +52,12 @@ const ProjectPage = () => {
           <ProjectHeader projectName={project.projectName} />
         </div>
         <div className="container-grid-two-in-the-row">
-          <ProjectPageLeftSideShortcuts />
+          <ProjectPageLeftSideShortcuts
+            projectAddress={project.location.address}
+            projectCity={project.location.city}
+            projectProvince={project.location.province}
+            projectPostalCode={project.location.postalCode}
+          />
           <ProjectDescription projectDescription={project.projectDescription} />
         </div>
         <ProjectRelatedFeatures />
