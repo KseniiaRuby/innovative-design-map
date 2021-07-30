@@ -9,21 +9,19 @@ import ClassificationContext from "../../store/ClassificationContext"
 
 const ProjectSlider = ({
    slides,
-   projectImageBackground,
-   projectImageAlt
+   // ProjectSummaryImage
 }) => {
    // const sectionStyle = {
    //    // width: "100%",
    //    // height: "200%",
-   //    background: "url(" + { projectImageBackground } + ")"
-   //    // console.log(
-   //    //   "Project Summaries: " + JSON.stringify(classificationCtx.projectSummaries)
-   //    // );
+   //    background: "url(" + { ProjectSummaryImage } + ")"
+   //    //   backgroundImage:
+   //    //     "https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
    // }
    const classificationCtx = useContext(ClassificationContext)
-
    const [current, setCurrent] = useState(0)
    const features = Array.from(classificationCtx.projects)
+   // const ProjectSummaryImage = Array.from()
    // const length = slides.length;
    const length = features.length
    // const features = Array.from(projectData.features);
@@ -55,14 +53,14 @@ const ProjectSlider = ({
                   {index === current && (
                      // <Button>
                      <Button linkProperty={`/ProjectPage/` + project._id}>
-                        <div>
-                           {/* <img
-                              src={projectImageBackground}
-                              alt={projectImageAlt}
-                              style={{ width: "20%", padding: "0em 0em 0em 3em" }}
-                           /> */}
+                        <div className="slider-div">
                            <h2 className="project-name-align">
                               {project.projectName}{" "}
+                              <img
+                                 src={project.imageUrls.image1.image}
+                                 alt={project.imageUrls.image1.alt}
+                                 style={{ width: "100%", height: "100%", padding: "0em 0em 0em 0em", opacity: "50%", overflow: "hidden" }}
+                              />
                            </h2>
                            <p className="description-align">
                               {" "}
