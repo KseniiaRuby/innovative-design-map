@@ -8,21 +8,21 @@ const ProjectRelatedFeatures = ({
 }) => {
    return (
       <div className="border-bottom border-top project-related-features">
-         <div>
-            <br />
+         {/* {/* <div>
+            <br /> */}
 
-            <u className="force-left">Features</u>
-            <p className="text-in-the-box">
-               Culture, heritage and Society
-            </p>
-            <p className="text-in-the-box">
-               Transporattion and Infrastructure
-            </p>
+         <u className="force-left">Features</u>
+         {/* <p className="text-in-the-box">
+            Culture, heritage and Society
+         </p> */}
+         {/* <p className="text-in-the-box">
+            Transporattion and Infrastructure
+          </p> */}
 
-         </div>
-         {/* <p>{projectPrimaryName}</p>
+         {/* </div> */}
+         <p>{projectPrimaryName}</p>
          <p>{projectSecondaryName}</p>
-         <p>{projectTertiaryName}</p> */}
+         <p>{projectTertiaryName}</p>
       </div>
    )
 }

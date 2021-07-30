@@ -286,6 +286,11 @@ option {
    /* text-align: left; */
 }
 
+.slider-on-project-page {
+   /* position: unset; */
+   /* display: flex; */
+}
+
 /* Classification Page */
 
 /* Header "What makes..." on Classification Page and Map Page */
