@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import ProjectHeader from "./components/ProjectHeader";
 import ProjectPageLeftSideShortcuts from "./components/ProjectPageLeftSideShortcuts";
 import ProjectDescription from "./components/ProjectDescription";
-import ProjectRelatedFeatures from "./components/ProjectRelatedFeatures";
+import ProjectRelatedClassifications from "./components/ProjectRelatedClassifications";
 import FeatureWordsList from "./components/ProjectFeatureWords";
 import ProjectClassifications from "./components/ProjectClassifications";
 import ProjectGallery from "./components/ProjectGallery";
@@ -36,6 +36,9 @@ const ProjectPage = () => {
             throw new Error("Fetch for project ID failed");
           }
           let data = await response.json();
+          // data.location.city = ""
+          // data.location.province = ""
+
           setProject(data);
           console.log("Project: " + JSON.stringify(data));
           console.log("Project ID: " + JSON.stringify(data._id));
@@ -66,12 +69,17 @@ const ProjectPage = () => {
             />
           </div>
           <div className="container-grid-two-in-the-row">
-            <ProjectPageLeftSideShortcuts
-              projectAddress={project.location.address}
-              projectCity={project.location.city}
-              projectProvince={project.location.province}
-              projectPostalCode={project.location.postalCode}
-            />
+            {(project.location.address ||
+              project.location.city ||
+              project.location.province ||
+              project.location.postalCode) && (
+              <ProjectPageLeftSideShortcuts
+                projectAddress={project.location.address}
+                projectCity={project.location.city}
+                projectProvince={project.location.province}
+                projectPostalCode={project.location.postalCode}
+              />
+            )}
             <ProjectDescription
               //  projectDescription={project.projectDescription}
               projectName={project.projectName}
@@ -84,7 +92,7 @@ const ProjectPage = () => {
               projectClient={project.projectOwnersAndClients}
             />
           </div>
-          <ProjectRelatedFeatures
+          <ProjectRelatedClassifications
             projectPrimaryName={
               project.innovationDescriptions.primaryTypeOfInnovation
                 .classificationName

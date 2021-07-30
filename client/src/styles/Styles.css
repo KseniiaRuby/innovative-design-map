@@ -213,7 +213,7 @@ option {
   /* background-size: 75%; */
   /* text-align: right; */
   font-size: 2em;
-  padding: 1em 0em 1em 0em;
+  padding: 1em 0em 0em 0em;
   /* border: 1px solid; */
   width: 20opx;
   /* height: 20vh; */
@@ -248,8 +248,7 @@ option {
 }
 
 .projectpageleftsideshortcuts {
-  /* flex: 3; */
-  padding: 20px 0px 20px 0px;
+  padding: 1em 1em 1em 1em;
   /* min-width: min(50%, 100vh); */
 }
 
@@ -276,18 +275,7 @@ option {
   bottom: 0px;
 }
 
-/* .project-related-features {
-   text-align: right
-} */
-
-.project-related-features {
-  /* text-align: left; */
-  /* outline-style: solid; */
-  /* text-decoration-line: blanchedalmond; */
-}
-
-.featureWords {
-  /* text-align: left; */
+.project-at-glance {
 }
 
 .slider-on-project-page {
