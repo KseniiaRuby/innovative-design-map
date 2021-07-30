@@ -4,7 +4,7 @@ import ProjectHeader from "./components/ProjectHeader"
 import ProjectPageLeftSideShortcuts from "./components/ProjectPageLeftSideShortcuts"
 import ProjectDescription from "./components/ProjectDescription"
 import ProjectRelatedClassifications from "./components/ProjectRelatedClassifications"
-import ProjectAtGlance from "./components/ProjectAtGlance"
+import FeatureWordsList from "./components/ProjectFeatureWords"
 import ProjectClassifications from "./components/ProjectClassifications"
 import ProjectGallery from "./components/ProjectGallery"
 import Navbar from "../../components/Navbar"
@@ -69,18 +69,17 @@ const ProjectPage = () => {
                   />
                </div>
                <div className="container-grid-two-in-the-row">
-                  {
-                     (project.location.address ||
-                        project.location.city ||
-                        project.location.province ||
-                        project.location.postalCode) &&
-
-                     <ProjectPageLeftSideShortcuts
-                        projectAddress={project.location.address}
-                        projectCity={project.location.city}
-                        projectProvince={project.location.province}
-                        projectPostalCode={project.location.postalCode}
-                     />}
+                  {(project.location.address ||
+                     project.location.city ||
+                     project.location.province ||
+                     project.location.postalCode) && (
+                        <ProjectPageLeftSideShortcuts
+                           projectAddress={project.location.address}
+                           projectCity={project.location.city}
+                           projectProvince={project.location.province}
+                           projectPostalCode={project.location.postalCode}
+                        />
+                     )}
                   <ProjectDescription
                      //  projectDescription={project.projectDescription}
                      projectName={project.projectName}
@@ -105,8 +104,11 @@ const ProjectPage = () => {
                   projectTertiaryName={
                      project.innovationDescriptions.tertiaryTypeOfInnovation
                         .classificationName
-                  } />
-               <ProjectAtGlance />
+                  }
+               />
+               <FeatureWordsList
+                  featureWords={project.innovationDescriptions.featureWords}
+               />
                <ProjectClassifications
                   projectPrimaryName={
                      project.innovationDescriptions.primaryTypeOfInnovation
