@@ -7,8 +7,8 @@ const ProjectRelatedClassifications = ({
    projectTertiaryName
 }) => {
    return (
-      <div className="border-bottom border-top">
-         <u className="force-left">Classifications</u>
+      <div className="border-bottom border-top projectclassification">
+         <u>Classifications</u>
          <p>{projectPrimaryName}</p>
          <p>{projectSecondaryName}</p>
          <p>{projectTertiaryName}</p>

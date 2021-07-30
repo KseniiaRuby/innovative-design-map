@@ -7,10 +7,10 @@ const ProjectHeader = ({
    projectImageBackground,
    projectImageAlt,
 }) => {
-   var sectionStyle = {
+   const sectionStyle = {
       // width: "100%",
       // height: "200%",
-      background: "url(" + { projectImageBackground } + ")",
+      background: "url(" + { projectImageBackground } + ")"
       //   backgroundImage:
       //     "https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
    }
