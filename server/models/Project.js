@@ -6,8 +6,6 @@ const projectSchema = new Schema({
   projectName: String,
   dateOfCompletion: String,
   projectDescription: String,
-  atAGlance: [String],
-
   phoneNumber: String,
   hours: {
     sunday: String,
