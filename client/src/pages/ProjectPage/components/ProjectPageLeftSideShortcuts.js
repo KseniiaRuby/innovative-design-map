@@ -12,49 +12,34 @@ const ProjectPageLeftSideShortcuts = ({
    console.log("Project Address: ", projectAddress)
    return (
       <div className="border-right projectpageleftsideshortcuts">
-         <div>
+         <p>
             Address:
             <br />
-            {projectAddress}
+            <u>{projectAddress}</u>
             <br />
             City:
             <br />
-            {projectCity}
-            {/* 800 3 Street SE */}
+            <u>{projectCity}</u>
             <br />
             Province:
             <br />
-            {projectProvince}
-            {/* Calgary */}
+            <u>{projectProvince}</u>
             <br />
             Postal Code:
             <br />
-            {projectPostalCode}
-            {/* Alberta */}
-            {/* <br /> */}
-            {/* T2G 2E7 */}
-         </div>
-         <br />
-         <div>Access to Public: Yes</div>
-         <br />
-         <div>
-            {/* Hours: */}
-            <br />
-            {/* Sunday: 12:00 PM - 5:00 PM
-        <br />
+            <u>{projectPostalCode}</u >
+         </p>
+         {/* <p>Access to Public: Yes</p> */}
+         {/* <p> */}
+         {/* Hours: */}
+         {/* Sunday: 12:00 PM - 5:00 PM
         Monday: 9:00 AM - 8:00 PM
-        <br />
         Tuesday: 9:00 AM - 8:00 PM
-        <br />
         Wednesday: 9:00 AM - 8:00 PM
-        <br />
         Thursday: 9:00 AM - 8:00 PM
-        <br />
         Friday: 9:00 AM - 6:00 PM
-        <br />
         Saturday: 9:00 AM - 5:00 PM */}
-         </div>
-         <br />
+         {/* </p> */}
          {/* <div>Audio Tour</div> */}
       </div>
    )

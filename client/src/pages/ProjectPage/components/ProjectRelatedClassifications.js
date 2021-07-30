@@ -7,19 +7,8 @@ const ProjectRelatedClassifications = ({
    projectTertiaryName
 }) => {
    return (
-      <div className="border-bottom border-top project-related-features">
-         {/* {/* <div>
-            <br /> */}
-
+      <div className="border-bottom border-top">
          <u className="force-left">Classifications</u>
-         {/* <p className="text-in-the-box">
-            Culture, heritage and Society
-         </p> */}
-         {/* <p className="text-in-the-box">
-            Transporattion and Infrastructure
-          </p> */}
-
-         {/* </div> */}
          <p>{projectPrimaryName}</p>
          <p>{projectSecondaryName}</p>
          <p>{projectTertiaryName}</p>

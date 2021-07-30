@@ -244,8 +244,7 @@ option {
 }
 
 .projectpageleftsideshortcuts {
-   /* flex: 3; */
-   padding: 20px 0px 20px 0px;
+   padding: 1em 1em 1em 1em ;
    /* min-width: min(50%, 100vh); */
 }
 
@@ -272,18 +271,8 @@ option {
    bottom: 0px;
 }
 
-/* .project-related-features {
-   text-align: right
-} */
-
-.project-related-features {
-   /* text-align: left; */
-   /* outline-style: solid; */
-   /* text-decoration-line: blanchedalmond; */
-}
-
 .project-at-glance {
-   /* text-align: left; */
+
 }
 
 .slider-on-project-page {
