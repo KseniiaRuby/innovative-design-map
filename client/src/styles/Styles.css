@@ -120,15 +120,18 @@ option {
 }
 
 .project-name-align {
-   /* text-align: left; */
    font-size: 1em;
    font-weight: 400;
 }
 
 .description-align {
    font-size: 0.5em;
-   /* text-align: left; */
    font-weight: lighter;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 
 .right-arrow {
@@ -244,13 +247,17 @@ option {
 }
 
 .projectpageleftsideshortcuts {
-   padding: 1em 1em 1em 1em ;
+   padding: 1em 1em 1em 1em;
    /* min-width: min(50%, 100vh); */
 }
 
 .project-description {
-   padding: 0px 10px 0px 10px;
+   padding: 1em 1em 0em 1em;
    font-size: 1.1em;
+}
+
+.projectclassification {
+   padding: 1em 0.5em 0em 0.5em;
 }
 
 .classificationTitle {
@@ -271,9 +278,7 @@ option {
    bottom: 0px;
 }
 
-.project-at-glance {
-
-}
+.project-at-glance {}
 
 .slider-on-project-page {
    /* position: unset; */
