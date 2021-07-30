@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../styles/Styles.css'
 
-const ProjectRelatedFeatures = ({
+const ProjectRelatedClassifications = ({
    projectPrimaryName,
    projectSecondaryName,
    projectTertiaryName
@@ -11,7 +11,7 @@ const ProjectRelatedFeatures = ({
          {/* {/* <div>
             <br /> */}
 
-         <u className="force-left">Features</u>
+         <u className="force-left">Classifications</u>
          {/* <p className="text-in-the-box">
             Culture, heritage and Society
          </p> */}
@@ -27,4 +27,4 @@ const ProjectRelatedFeatures = ({
    )
 }
 
-export default ProjectRelatedFeatures
+export default ProjectRelatedClassifications

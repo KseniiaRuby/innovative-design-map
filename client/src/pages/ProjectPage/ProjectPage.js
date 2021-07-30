@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import ProjectHeader from "./components/ProjectHeader"
 import ProjectPageLeftSideShortcuts from "./components/ProjectPageLeftSideShortcuts"
 import ProjectDescription from "./components/ProjectDescription"
-import ProjectRelatedFeatures from "./components/ProjectRelatedFeatures"
+import ProjectRelatedClassifications from "./components/ProjectRelatedClassifications"
 import ProjectAtGlance from "./components/ProjectAtGlance"
 import ProjectClassifications from "./components/ProjectClassifications"
 import ProjectGallery from "./components/ProjectGallery"
@@ -84,7 +84,7 @@ const ProjectPage = () => {
                      projectClient={project.projectOwnersAndClients}
                   />
                </div>
-               <ProjectRelatedFeatures
+               <ProjectRelatedClassifications
                   projectPrimaryName={
                      project.innovationDescriptions.primaryTypeOfInnovation
                         .classificationName
