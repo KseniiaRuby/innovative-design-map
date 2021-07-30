@@ -8,6 +8,7 @@ import ProjectAtGlance from "./components/ProjectAtGlance"
 import ProjectClassifications from "./components/ProjectClassifications"
 import ProjectGallery from "./components/ProjectGallery"
 import Navbar from "../../components/Navbar"
+// import HorizontalProjectMenu from "../../components/HorizontalProjectSummaries/HorizontalProjectMenu"
 import "../../styles/Styles.css"
 
 const ProjectPage = () => {
@@ -83,7 +84,19 @@ const ProjectPage = () => {
                      projectClient={project.projectOwnersAndClients}
                   />
                </div>
-               <ProjectRelatedFeatures />
+               <ProjectRelatedFeatures
+                  projectPrimaryName={
+                     project.innovationDescriptions.primaryTypeOfInnovation
+                        .classificationName
+                  }
+                  projectSecondaryName={
+                     project.innovationDescriptions.secondaryTypeOfInnovation
+                        .classificationName
+                  }
+                  projectTertiaryName={
+                     project.innovationDescriptions.tertiaryTypeOfInnovation
+                        .classificationName
+                  } />
                <ProjectAtGlance />
                <ProjectClassifications
                   projectPrimaryName={
@@ -116,6 +129,9 @@ const ProjectPage = () => {
                <Navbar />
             </div>
             {/* <ProjectGallery /> */}
+            <p className="slider-on-project-page">
+               {/* <HorizontalProjectMenu /> */}
+            </p>
          </div>
       )
    }
