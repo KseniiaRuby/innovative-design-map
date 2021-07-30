@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { Button } from "./Button";
 // import * as projectData from "../../data/projectsampleinfo.json";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { IoIosArrowForward, IoIosArrowBack} from "react-icons/io";
 import "../../styles/Styles.css";
 
 import ClassificationContext from "../../store/ClassificationContext";
@@ -34,8 +35,9 @@ const ProjectSlider = ({ slides }) => {
 
   return (
     <section className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+      <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
+      <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
+    
       {features.map((project, index) => {
         return (
           <div
