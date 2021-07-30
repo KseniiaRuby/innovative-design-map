@@ -338,10 +338,11 @@ option {
 /* Map */
 
 .map {
-   height: 25%;
-   /* size: 15em; */
+   /* height: 50vh; */
+   /* position: absolute; */
+   /* size: 15%; */
    /* background-color: none; */
-   /* padding: 2em 0em 0em 0em; */
+   padding: 1.5em 0em 1em 0em;
 }
 
 /* Mark Points on Map */

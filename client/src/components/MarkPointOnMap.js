@@ -9,8 +9,8 @@ function MarkPointOnMap() {
       latitude: 51.0447,
       longitude: -114.0719,
       width: "100vw",
-      height: "100vh",
-      zoom: 12,
+      height: "55vh",
+      zoom: 13,
    })
    const [selectProject, setSelectProject] = useState(null)
 
