@@ -3,7 +3,7 @@
     "projectName": "Riverdale Avenue Retaining Wall Replacement Project",
     "dateOfCompletion": "2019",
     "projectDescription": "The Riverdale project is a civic improvement project that replaced a 220 m long failing timber retaining wall with a bioengineered solution that meets the City of Calgary's goals of the Riparian Strategy. The Project protects a steep slope above the south bank of the Elbow River, which in turn, protects a busy reach of the Elbow River pathway, Riverdale Avenue and important underground infrastructure.",
-    "atAGlance": ["Bioengineering", "Riparian", "Flood Risk"],
+    
 
     "phoneNumber": "",
     "hours": {
@@ -104,12 +104,7 @@
     "projectName": "MacKimmie Complex",
     "dateOfCompletion": "2021",
     "projectDescription": "The design for the MacKimmie complex redevelopment enhances the overall campus identity by creating a clear and cohesive architectural complex at the heart of the University. The design recognizes that innovation in teaching and learning is about more than just technology. It is about recognizing the importance of leveraging physical space, formal and informal, to promost student success and advance teaching and learning. The design also makes visible and tactile the many innovative sustainable aspects of the project.",
-    "atAGlance": [
-      "Zero Carbon Building Standard",
-      "Canada Green Building Council",
-      "Mechanical Ventilization",
-      "Photovoltaics"
-    ],
+    
 
     "phoneNumber": "",
     "hours": {
@@ -215,7 +210,7 @@
     "projectName": "Confederation Park Lagoon Viewing Deck",
     "dateOfCompletion": "2019",
     "projectDescription": "Confederation Park is a picturesque coulee park in northwest Calgary. A focal point within the west side of the park is the central lagoon. The lagoon edge has always been a preferred spot for park visitors to stop, enjoy the view and appreciate waterfowl.",
-    "atAGlance": ["ZCoulee", "Native Species", "Geometrics"],
+    
 
     "phoneNumber": "",
     "hours": {
@@ -321,11 +316,7 @@
     "projectName": "West Eau Claire Park",
     "dateOfCompletion": "2018",
     "projectDescription": "West Eau Claire Park and Public Realm defines a new vision for a highly valued public space along the Bow River in Calgary. It has created new public amenities while weaving flood mitigation measures into the fabric of the parl. The cohesive integration of urban design and flood attenuation requirements will have a lasting, positive impact on the daily lives of citizens while strengthening the city's resiliency to a changing climate.",
-    "atAGlance": [
-      "Riparian",
-      "Calgary Flood Resiliency Strategy",
-      "Flood Wall"
-    ],
+   
 
     "phoneNumber": "",
     "hours": {
@@ -432,11 +423,7 @@
     "projectName": "Dale Hodges Park",
     "dateOfCompletion": "2010",
     "projectDescription": "Dale Hodges Park is the site of the former Klippert gravel pit. The City purchased the land to restore the environmental health of the area, and realized an opportunity to address the stormwater pipes carrying untreated stormwater into the Bow River. This project is a unique collaboration between Parks, Water Resources and Public Art.The park is located along the northern bank of the Bow River and treats the stormwater (runoff from rain or melting snow) flowing from neighbouring communities in northwest Calgary before it enters the Bow River.",
-    "atAGlance": [
-      "Stormwater Management",
-      "Water Engineering",
-      "Landscape Filtration"
-    ],
+    
 
     "phoneNumber": "",
     "hours": {
