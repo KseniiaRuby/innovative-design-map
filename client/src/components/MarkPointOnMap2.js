@@ -14,8 +14,8 @@ function MarkPointOnMap2() {
    const mapContainer = useRef(null);
    // const [markerColor, setMarkerColor] = useState('green');
 
-
-   const features = Array.from(projectData.features)
+   const features = Array.from(classificationCtx.projects)
+   // const features = Array.from(projectData.features)
 
    useEffect(() => {
       // if (map.current) return; // initialize map only once
