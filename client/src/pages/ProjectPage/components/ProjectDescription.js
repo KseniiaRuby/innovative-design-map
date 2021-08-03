@@ -12,20 +12,19 @@ const ProjectDescription = ({
   projectClient, // projectDescription,
 }) => {
   return (
-    <div className="border project-description">
-      <p>
-        The <u>{projectName}</u> is a <u>{projectTypology}</u> located in the{" "}
-        <u>{projectNeighbourhood}</u> neighbourhood in{" "}
-        <u>
-          {projectCity}, <u></u>
-          {projectProvince}
-        </u>
-        .
-        <br />
-        <br />
-        The project was designed by <u>{projectFirm}</u> and completed in{" "}
-        <u>{projectYear}</u> for the <u>{projectClient}</u>.
-      </p>
+    <div className="border project-description project-padding">
+      {/* <p> */}
+      The <u>{projectName}</u> is a <u>{projectTypology}</u> located in the{" "}
+      <u>{projectNeighbourhood}</u> neighbourhood in{" "}
+      <u>
+        {projectCity}, <u></u>
+        {projectProvince}
+      </u>
+      .
+      <br />
+      <br />
+      The project was designed by <u>{projectFirm}</u> and completed in{" "}
+      <u>{projectYear}</u> for the <u>{projectClient}</u>.{/* </p> */}
       {/* <p>{projectDescription}</p>
          <p>
             The <u>Calgary Central Library</u>,

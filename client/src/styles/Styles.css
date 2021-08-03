@@ -1,104 +1,108 @@
 * {
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: left;
-   font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 1em;
 }
 
 body {
-   color: white;
-   background-color: black;
+  color: white;
+  background-color: black;
 }
 
 option {
-   /* color: black; */
+  /* color: black; */
 }
 
-:root {}
+:root {
+}
 
-.project-dual-grid-container {}
+.project-dual-grid-container {
+}
 
-.project-main-photo {}
+.project-main-photo {
+}
 
-.directory-dual-grid-container {}
+.directory-dual-grid-container {
+}
 
 /* "What makes ..." title on Landing(Gateway) Page*/
 
 .choose-gateway-word-title {
-   /* background-position: center; */
-   background-repeat: no-repeat;
-   background-size: cover;
-   font-size: 3.5em;
-   padding-left: 0.5em;
-   -webkit-text-fill-color: black;
-   /* Will override color (regardless of order) */
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;
-   padding-top: 3em;
-   background-image: url("../images/Calgary_DT.jpg");
-   /* background-size: 100%; */
-   padding-bottom: 75%;
-   margin: auto;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 3.5em;
+  padding-left: 0.5em;
+  -webkit-text-fill-color: black;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  padding-top: 3em;
+  background-image: url("../images/Calgary_DT.jpg");
+  /* background-size: 100%; */
+  padding-bottom: 75%;
+  margin: auto;
 }
 
 /*Dropdown list on Landing(Gateway) Page*/
 
 .list-spacer {
-   text-align: left;
-   background-color: transparent !important;
+  text-align: left;
+  background-color: transparent !important;
 }
 
 .list-style {
-   color: rgb(0, 0, 0);
-   font-size: 0.65em;
-   background-color: transparent !important;
+  color: rgb(0, 0, 0);
+  font-size: 0.65em;
+  background-color: transparent !important;
 }
 
 /*Let's Go Button on Landing(Gateway) Page*/
 
 .button-spacer {
-   /* padding-left: 62%; */
-   padding-left: 235px;
+  /* padding-left: 62%; */
+  padding-left: 235px;
 }
 
 .button-styling {
-   color: white;
-   text-decoration: none;
-   text-align: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button-lets-go {
-   background-color: rgb(10, 10, 10);
-   font-size: 20px;
+  background-color: rgb(10, 10, 10);
+  font-size: 20px;
 }
 
 /* Navbar */
 
 .navbar-container {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   width: 100vw;
-   height: 6vh;
-   bottom: 0px;
-   position: fixed;
-   padding-top: 1%;
-   background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 6vh;
+  bottom: 0px;
+  position: fixed;
+  padding-top: 1%;
+  background-color: black;
 }
 
 .nav-links {
-   color: rgb(182, 174, 174);
-   font-size: 1.5rem;
-   text-decoration: none;
-   padding: 0.5rem 1rem;
+  color: rgb(182, 174, 174);
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 /*  */
 
 .category-explore {
-   text-align: center;
-   font-size: 2.5em;
-   height: 100vh;
+  text-align: center;
+  font-size: 2.5em;
+  height: 100vh;
 }
 
 /* Classification Page */
@@ -106,188 +110,197 @@ option {
 /* Project Title on Classification Page */
 
 .projects-title {
-   text-align: left;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 1.5em;
-   padding: 1.5em 0em 1em 1.35em;
-   margin: auto;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  padding: 1.5em 0em 1em 1.35em;
+  margin: auto;
 }
 
 /* Projects Slider on Classification, Map and Individual Project Page */
 
 .slider {
-   position: fixed;
+  position: fixed;
 }
 
 .slider-div {
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .project-name-align {
-   font-size: 1em;
-   font-weight: 400;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .description-align {
-   font-size: 0.5em;
-   font-weight: lighter;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 2;
-   /* number of lines to show */
-   -webkit-box-orient: vertical;
+  font-size: 0.5em;
+  font-weight: lighter;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 .right-arrow {
-   position: absolute;
-   top: 25px;
-   right: 20px;
-   font-size: 2rem;
-   /* color: white; */
-   z-index: 10;
-   /* cursor: pointer; */
-   user-select: none;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  font-size: 2rem;
+  /* color: white; */
+  z-index: 10;
+  /* cursor: pointer; */
+  user-select: none;
 }
 
 .left-arrow {
-   position: absolute;
-   top: 25px;
-   left: 20px;
-   font-size: 2rem;
-   /* color: white; */
-   z-index: 10;
-   /* cursor: pointer; */
-   user-select: none;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-size: 2rem;
+  /* color: white; */
+  z-index: 10;
+  /* cursor: pointer; */
+  user-select: none;
 }
 
 .slide {
-   opacity: 0;
+  opacity: 0;
 }
 
 .slide.active {
-   opacity: 1;
-   transition-duration: 1s;
+  opacity: 1;
+  transition-duration: 1s;
 }
 
 /* Project Slider Buttons */
 
 .btn-large {
-   background-color: black;
-   border: 2px solid white;
-   border-radius: 5px;
-   padding: 5px 20px 10px 20px;
-   margin: 0px 70px 0px 70px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 20px 10px 20px;
+  margin: 0px 70px 0px 70px;
 }
 
 .btn-text {
-   color: white;
-   font-size: 18px;
-   text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 /* Project Page */
 
 .container-grid {
-   display: grid;
-   padding-bottom: 15%;
+  display: grid;
+  padding-bottom: 15%;
 }
 
 .border-top {
-   border-top: 2px solid gray;
+  border-top: 2px solid gray;
 }
 
 .border-bottom {
-   border-bottom: 2px solid gray;
+  border-bottom: 2px solid gray;
 }
 
 .border-right {
-   border-right: 2px solid gray;
+  border-right: 2px solid gray;
 }
 
 .container-grid-two-in-the-row {
-   display: grid;
-   grid-template-columns: repeat(2, auto);
+  display: grid;
+  grid-template-columns: repeat(2, auto);
 }
 
 .project-header {
-   /* background-position: left; */
-   /* background-repeat: no-repeat; */
-   /* background-attachment: fixed; */
-   /* background-size: 75%; */
-   /* text-align: right; */
-   font-size: 2em;
-   padding: 1em 0em 0em 0em;
-   /* border: 1px solid; */
-   width: 20opx;
-   /* height: 20vh; */
-   overflow: hidden;
-   display: flex;
+  /* background-position: left; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-size: 75%; */
+  /* text-align: right; */
+  font-size: 2em;
+  padding: 1em 0em 0em 0em;
+  /* border: 1px solid; */
+  width: 20opx;
+  /* height: 20vh; */
+  overflow: hidden;
+  display: flex;
 }
 
 .navbar-project-page {
-   /* overflow: visible; */
-   position: unset;
+  /* overflow: visible; */
+  position: unset;
 }
 
 .project-container {
-   /* padding-bottom: 1em; */
-   /* position: relative;
+  /* padding-bottom: 1em; */
+  /* position: relative;
    display: flex;
    text-align: right; */
 }
 
+.project-padding {
+  padding: 1em 1em 1em 1em;
+}
+
+.project-margins {
+  margin: 1em 1em 1em 1em;
+}
+
 .project-title {
-   padding: 5% 2em 0% 0%;
-   position: absolute;
-   font-size: 1.25em;
+  padding: 5% 2em 0% 0%;
+  position: absolute;
+  font-size: 1.25em;
 }
 
 .project-centered {
-   /* font-size:1em; */
-   /* position: absolute;
+  /* font-size:1em; */
+  /* position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%); */
 }
 
 .projectpageleftsideshortcuts {
-   padding: 1em 1em 1em 1em;
-   /* min-width: min(50%, 100vh); */
+  /* padding: 1em 1em 1em 1em; */
+  /* min-width: min(50%, 100vh); */
 }
 
 .project-description {
-   padding: 1em 1em 0em 1em;
-   font-size: 1.1em;
+  /* padding: 1em 1em 0em 1em; */
+  font-size: 1.1em;
 }
 
 .projectclassification {
-   padding: 1em 0.5em 0em 0.5em;
+  /* padding: 1em 0.5em 0em 0.5em; */
 }
 
 .classificationTitle {
-   /* font-size: 12px; */
+  /* font-size: 12px; */
 }
 
 .classificationName {
-   /* font-size: 1.1em; */
+  /* font-size: 1.1em; */
 }
 
 /* Project Buttons under Header */
 
 .project-buttons {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 6vh;
-   bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  bottom: 0px;
 }
 
-.project-at-glance {}
+.project-at-glance {
+}
 
 .slider-on-project-page {
-   /* position: unset; */
-   /* display: flex; */
+  /* position: unset; */
+  /* display: flex; */
 }
 
 /* Classification Page */
@@ -295,58 +308,58 @@ option {
 /* Header "What makes..." on Classification Page and Map Page */
 
 .header-container {
-   background-color: black;
-   position: fixed;
-   text-align: left;
-   font-size: 5em;
-   top: 0;
-   width: 100%;
-   height: 120px;
+  background-color: black;
+  position: fixed;
+  text-align: left;
+  font-size: 5em;
+  top: 0;
+  width: 100%;
+  height: 120px;
 }
 
 /* Classification Title Text on Classification Page */
 
 .title-text {
-   color: white;
-   font-size: 1.75rem;
-   /*  */
-   -webkit-text-fill-color: black;
-   /* Will override color (regardless of order) */
-   -webkit-text-stroke-width: 0.75px;
-   -webkit-text-stroke-color: white;
-   /*  */
-   text-decoration: none;
-   padding: 1.5rem 1rem 1rem 2rem;
+  color: white;
+  font-size: 1.75rem;
+  /*  */
+  -webkit-text-fill-color: black;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: white;
+  /*  */
+  text-decoration: none;
+  padding: 1.5rem 1rem 1rem 2rem;
 }
 
 /* Classification Container on Classification Page */
 
 .classification-container {
-   background-color: black;
-   text-align: left;
-   top: 120px;
-   width: 100%;
-   padding-top: 120px;
-   height: 105px;
+  background-color: black;
+  text-align: left;
+  top: 120px;
+  width: 100%;
+  padding-top: 120px;
+  height: 105px;
 }
 
 /* Classification Container Description Text on Classification Page */
 
 .description-text {
-   color: white;
-   font-size: 1 rem;
-   text-decoration: none;
-   padding: 0rem 1rem 1rem 2rem;
+  color: white;
+  font-size: 1 rem;
+  text-decoration: none;
+  padding: 0rem 1rem 1rem 2rem;
 }
 
 /* Map */
 
 .map {
-   /* height: 50vh; */
-   /* position: absolute; */
-   /* size: 15%; */
-   /* background-color: none; */
-   padding: 1.5em 0em 1em 0em;
+  /* height: 50vh; */
+  /* position: absolute; */
+  /* size: 15%; */
+  /* background-color: none; */
+  padding: 1.5em 0em 1em 0em;
 }
 
 /* Mark Points on Map */
@@ -360,58 +373,58 @@ option {
 } */
 
 .sidebarStyle {
-   display: inline-block;
-   position: absolute;
-   top: 0;
-   left: 0;
-   margin: 12px;
-   background-color: #404040;
-   color: #ffffff;
-   z-index: 1 !important;
-   padding: 6px;
-   font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
 }
 
 /*  */
 
 .marker-btn {
-   background: none;
-   border: none;
-   cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 /*  */
 
 .marker-btn img {
-   width: 30px;
-   height: 30px;
-   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 /*  */
 
 .img-description-on-map {
-   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-   width: 50px;
-   font-size: medium;
-   position: fixed;
-   object-fit: contain;
-   left: 25%;
-   top: 30%;
-   width: 50%;
-   border: 1px solid #011627;
-   border-radius: 1em;
-   box-shadow: -2px 5px 5px #242323;
-   background-color: #fdfffc;
-   display: block;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   color: #011627;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 50px;
+  font-size: medium;
+  position: fixed;
+  object-fit: contain;
+  left: 25%;
+  top: 30%;
+  width: 50%;
+  border: 1px solid #011627;
+  border-radius: 1em;
+  box-shadow: -2px 5px 5px #242323;
+  background-color: #fdfffc;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #011627;
 }
 
 /* Image on map ??? Do we use it? */
 
 .img-description-on-map img {
-   width: 150px;
+  width: 150px;
 }

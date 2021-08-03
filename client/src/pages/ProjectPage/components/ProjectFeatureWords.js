@@ -3,7 +3,7 @@ import "../../../styles/Styles.css";
 
 const FeatureWordsList = ({ featureWords }) => {
   return (
-    <div>
+    <div className="project-margins">
       <p>
         <u>Features</u>
       </p>
