@@ -242,6 +242,14 @@ option {
    text-align: right; */
 }
 
+.project-padding {
+  padding: 1em 1em 1em 1em;
+}
+
+.project-margins {
+  margin: 1em 1em 1em 1em;
+}
+
 .project-title {
   padding: 5% 2em 0% 0%;
   position: absolute;
@@ -257,17 +265,17 @@ option {
 }
 
 .projectpageleftsideshortcuts {
-  padding: 1em 1em 1em 1em;
+  /* padding: 1em 1em 1em 1em; */
   /* min-width: min(50%, 100vh); */
 }
 
 .project-description {
-  padding: 1em 1em 0em 1em;
+  /* padding: 1em 1em 0em 1em; */
   font-size: 1.1em;
 }
 
 .projectclassification {
-  padding: 1em 0.5em 0em 0.5em;
+  /* padding: 1em 0.5em 0em 0.5em; */
 }
 
 .classificationTitle {
