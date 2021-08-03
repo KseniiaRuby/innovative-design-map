@@ -47,43 +47,43 @@ function MarkPointOnMap2() {
          })
       );
 
-      switch (currentClassification.classificationName) {
-         case "Climate and Environment":
-            renderMarkerColor = "green"
-            console.log("Current gatewayWord", userGatewayWordChoice)
-            console.log("Current Classification", currentClassification.classificationName)
-            break;
-         case "Energy and Resources":
-            renderMarkerColor = "red"
-            // setMarkerColor(markerColor)
-            console.log("Energy And Resources", currentClassification);
-            break;
-         case "Culture, Heritage and Society":
-            renderMarkerColor = 'yellow'
-            console.log("Culture, Heritage and Society");
-            break;
-         case "Equity and Social Justice":
-            renderMarkerColor = "blue"
-            console.log("Equity And Social justice");
-            break;
-         case "Health and Wellness":
-            renderMarkerColor = "indigo"
-            console.log("Health and Wellness");
-            break;
-         case "Technology":
-            renderMarkerColor = "Orange"
-            console.log("Technology");
-            break;
-         case "Transportation and Infrastructure":
-            renderMarkerColor = "violet"
-            console.log("Transportation and Infrastructure");
-            break;
-         default:
-            console.log('This Selection Is Incorrect');
-      }
+      // switch (currentClassification.classificationName) {
+      //    case "Climate and Environment":
+      //       renderMarkerColor = "green"
+      //       console.log("Current gatewayWord", userGatewayWordChoice)
+      //       console.log("Current Classification", currentClassification.classificationName)
+      //       break;
+      //    case "Energy and Resources":
+      //       renderMarkerColor = "red"
+      //       // setMarkerColor(markerColor)
+      //       console.log("Energy And Resources", currentClassification);
+      //       break;
+      //    case "Culture, Heritage and Society":
+      //       renderMarkerColor = 'yellow'
+      //       console.log("Culture, Heritage and Society");
+      //       break;
+      //    case "Equity and Social Justice":
+      //       renderMarkerColor = "blue"
+      //       console.log("Equity And Social justice");
+      //       break;
+      //    case "Health and Wellness":
+      //       renderMarkerColor = "indigo"
+      //       console.log("Health and Wellness");
+      //       break;
+      //    case "Technology":
+      //       renderMarkerColor = "Orange"
+      //       console.log("Technology");
+      //       break;
+      //    case "Transportation and Infrastructure":
+      //       renderMarkerColor = "violet"
+      //       console.log("Transportation and Infrastructure");
+      //       break;
+      //    default:
+      //       console.log('This Selection Is Incorrect');
+      // }
       features.forEach(
          (features) => new mapboxgl.Marker({
-            color: renderMarkerColor,
+            color: "white",
             scale: "1"
          })
             .setLngLat(features.geometry.coordinates)
