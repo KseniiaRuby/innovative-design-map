@@ -113,8 +113,13 @@ option {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  padding: 1.5em 0em 1em 1.35em;
+  padding: 1em 0em 1em 1.35em;
   margin: auto;
+}
+
+.project-title-spacer {
+  padding-bottom: 5em;
+  /* margin: auto; */
 }
 
 /* Projects Slider on Classification, Map and Individual Project Page */
@@ -252,7 +257,8 @@ option {
 }
 
 .project-title {
-  padding: 5% 2em 0% 0%;
+  /* padding: 5% 2em 0% 0%; */
+  padding: 0.5em 2em 0em 0em;
   position: absolute;
   font-size: 1.25em;
 }
@@ -316,7 +322,7 @@ option {
   font-size: 5em;
   top: 0;
   width: 100%;
-  height: 120px;
+  height: 110px;
 }
 
 /* Classification Title Text on Classification Page */
@@ -341,7 +347,7 @@ option {
   text-align: left;
   top: 120px;
   width: 100%;
-  padding-top: 120px;
+  padding-top: 110px;
   height: 105px;
 }
 

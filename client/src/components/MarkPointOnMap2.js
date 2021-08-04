@@ -88,7 +88,12 @@ function MarkPointOnMap2() {
     );
   });
 
-  return <div className="map-container" ref={mapContainer} />;
+  return (
+    // <div className="map-spacer-top">
+    <div className="map-container" ref={mapContainer} />
+    // <div className="map-spacer-bottom"></div>
+    // </div>
+  );
 }
 
 export default MarkPointOnMap2;
