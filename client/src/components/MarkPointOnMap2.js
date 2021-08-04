@@ -1,5 +1,5 @@
 import mapboxgl from "mapbox-gl";
-import React, { useRef, useState, useEffect, useContext } from "react";
+import React, { useRef, useEffect, useContext } from "react";
 import ClassificationContext from "../store/ClassificationContext";
 import "../styles/Styles.css";
 // import ReactMapGL, { Marker, Popup } from "react-map-gl"
@@ -89,10 +89,10 @@ function MarkPointOnMap2() {
   });
 
   return (
-    // <div className="map-spacer-top">
-    <div className="map-container" ref={mapContainer} />
-    // <div className="map-spacer-bottom"></div>
-    // </div>
+    <div className="map-spacer-top">
+      <div className="map-container" ref={mapContainer} />
+      <div className="map-spacer-bottom"></div>
+    </div>
   );
 }
 
