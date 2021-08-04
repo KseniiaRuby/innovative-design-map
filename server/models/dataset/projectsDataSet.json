@@ -1,4 +1,3 @@
-[
   {
     "projectName": "Riverdale Avenue Retaining Wall Replacement Project",
     "dateOfCompletion": "2019",
@@ -38,39 +37,40 @@
     },
     "innovationDescriptions": {
       "featureWords": [
-        "Sustainability",
-        "Biodiversity",
-        "Restorative",
-        "Ecosystems",
-        "Risk Management",
-        "Mitigation"
+         "Sustainability", 
+         "Biodiversity", 
+         "Restorative", 
+         "Ecosystems", 
+         "Risk Management", 
+         "Mitigation"
+        
       ],
 
       "primaryTypeOfInnovation": {
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
-        "projectDescription": "The Riverdale project directly contributes to the city's urban design initiatives to protect riparian health, connect the public to the river, and recognize the value of riparian areas in flood risk management and future costs by implementing innovative bioengineering designs that suit the project site. Since the completion of construction, the area has seen the native vegetation become established and provide assistance to the engineered structures through increased erosion protection and root growth. ",
+        "projectDescription": "The Riverdale project directly contributes to the city's urban design initiatives to protect riparian health, connect the public to the river, and recognize the value of riparian areas in flood risk management and future costs by implementing innovative bioengineering designs that suit the project site. Since the completion of construction, the area has seen the native vegetation become established and provide assistance to the engineered structures through increased erosion protection and root growth.",
         "gatewayWord": "Resilient"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Technology",
         "classificationId": "60f7567f5a51197896a14919",
-        "projectDescription": "The project was broken into three phases, wattle fence test section, live grating, vegetated H pile wal. Each phase consisted on unique and innovative bioengineering techniques that combined existing natural and engineered materials and used them in ways that enhance the environment, creates human wildlife and fish habitat and meet the engineering goals. Live grating was identified as the highest performing bioengineering project in the city according to the riparian monitoring program. ",
+        "projectDescription": "The project was broken into three phases, wattle fence test section, live grating, vegetated H pile wal. Each phase consisted on unique and innovative bioengineering techniques that combined existing natural and engineered materials and used them in ways that enhnace the environment, creates human wildlife and fish habitat and meet the engineering goals. Live grating was identified as the highest performing bioengineering project in the city according to the riparian monitoring program.",
         "gatewayWord": ""
       },
       "tertiaryTypeOfInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
-        "projectDescription": "The fast establishment of the vegetation assist with stabilization of the river bank and improves the riparian health when compared to the failing timber wall, provides an education opportunity for the public to see the value fo re-establishing damaged riparian areas, and drastically reduces the future costs of maintenance or flood risk damages. The significant growth over the past three years is a testament to the care, consideration and innovation that went into the design and construction of the project. ",
+        "projectDescription": "The fast establishment of the vegetation assits with stabilization of the river bank and improves the riparian health when compared to the failing timber wall, provides an education opportunity for the public to see the value fo re-establishing damaged riparian areas, and drastically reduces the future costs of maintenance or flood risk damages. The significant growth over the past three years is a testament to the care, consideration and innovation that went into the design and construction of the project.",
         "gatewayWord": ""
       },
       "generalProfile": "",
       "keyFacts": [""],
       "relatedProjects": [
-        "MacKimmie Complex",
-        "Confederation Park Lagoon Viewing Deck",
-        "West Eau Claire Park",
-        "Dale Hodges Park"
+       "MacKimmie Complex", 
+       "Confederation Park Lagoon Viewing Deck", 
+       "West Eau Claire Park", 
+       "Dale Hodges Park"
       ]
     },
     "location": {
@@ -100,7 +100,8 @@
       "image5": { "image": "", "alt": "" }
     }
   },
-  {
+
+ {
     "projectName": "MacKimmie Complex",
     "dateOfCompletion": "2021",
     "projectDescription": "The design for the MacKimmie complex redevelopment enhances the overall campus identity by creating a clear and cohesive architectural complex at the heart of the University. The design recognizes that innovation in teaching and learning is about more than just technology. It is about recognizing the importance of leveraging physical space, formal and informal, to promost student success and advance teaching and learning. The design also makes visible and tactile the many innovative sustainable aspects of the project.",
@@ -139,49 +140,50 @@
     },
     "innovationDescriptions": {
       "featureWords": [
-        "Sustainability",
-        "Eco Friendly",
-        "Carbon Foot Print",
-        "Clean Energy",
-        "Natural Resources"
+        "Sustainability", 
+        "Eco Friendly", 
+        "Carbon Foot Print", 
+        "Clean Energy", 
+        "Natural Resources", 
+        "Net-Zero"
       ],
 
-      "primaryTypeofInnovation": {
+      "primaryTypeOfInnovation": {
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
-        "projectDescription": "The MacKimmie Complex is one of several pilot projects, and the first one in Alberta, striving for certification with the Canada Green Building Council's new Zero Carbon Building Standard. This program seeks to establish a framework that targets the reduction and eventual elimination of carbon emissions as the key metric for building performance. This buildings uses a dynamic double skin facade with automated windows and shades to optimize views, daylighting and minimize glare. The ventilated double facade harvests solar energy and provides preheated outdoor air to the building spaces through automated window vents.",
-        "gatewayWord": "Green"
+        "projectDescription": "The MacKimmie Complex is one of several pilot projects, and the first one in Alberta, striving for certification with the Canada Green Building Council's new Zero Carbon Building Standard. This program seeks to establish a framework that targets the reduction and evential elimination of carbon emissions as the key metric for building performance. This buildings uses a dynamic double skin facade with automated windows and shades to optimize views, daylighting and minimize glare. The ventilated double facade harvests solar energy and provides preheated outdoor air to the building spaces through automated window vents.",
+        "gatewayWord": "Resilient"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Energy and Resources",
         "classificationId": "60f756165a51197896a14911",
-        "projectDescription": "The integrated design approach for the building and systems is to minimize energy use using passive climate techniques such as natural ventilation, thermal mass, heat recovery and use solar exposure. The project demonstrates that a deep retrofit of an existing 50+ year old structure can result in a building that exceeds the environmental performance of new construction. A mechanical ventilization system supplements the spaces from a raised floor system when the facade levels are insufficient. ",
+        "projectDescription": "The integrated design approach for the building and systems is to minimize energy use using passive climate techniques such as natural ventilation, thermal mass, heat recovery and use solar exposure. The project demonstrates that a deep retrofit of an existing 50+ year old structure can result in a building that exceeds the environmental performance of new construction. A mechanical ventilization system supplements the spaces from a raised floor system when the facade levels are insufficient.",
         "gatewayWord": ""
       },
-      "tertiaryTypeofInnovation": {
+      "tertiaryTypeOfInnovation": {
         "classificationName": "Technology",
         "classificationId": "60f7567f5a51197896a14919",
-        "projectDescription": "The tower is heated and cooled using radiant panels and augmented with an afterhours night flush system; pre-charging the exposed thermal mass of the tower with cool night air using central flushing fans and the perimeter façade windows. Reusing the structure allowed the project to sequester 8069 tons of embodied carbon with the existing concrete and to use the frame as a heat sinks. Finally the roof plane of the complex and portions of the facade incorporate photovoltaics to leverage an abundance of solar access. ",
+        "projectDescription": "The tower is heated and cooled using radiant panels and augmented with an afterhours night flush system; pre-charging the exposed thermal mass of the tower with cool night air using central flushing fans and the perimeter façade windows. Reusing the structure allowed the project to sequester 8069 tons of embodied carbon with the existing concrete and to use the frame as a heat sinks. Finally the roof plane of the complex and portions of the facade incorporate photovoltaics to leverage an abundance of solar access.",
         "gatewayWord": ""
       },
       "generalProfile": "",
       "keyFacts": [""],
       "relatedProjects": [
-        "Riverdale Avenue Retaining Wall Replacement Project",
-        "Confederation Park Lagoon Viewing Deck",
-        "West Eau Claire Park",
-        "Dale Hodges Park"
+       "Riverdale Avenue Retaining Wall Replacement Project", 
+       "Confederation Park Lagoon Viewing Deck", 
+       "West Eau Claire Park", 
+       "Dale Hodges Park"
       ]
     },
     "location": {
-      "type": "Point",
+      "type": "",
       "coordinates": [-114.1288190568724, 51.0777657885169],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
-    "imageUrls": {
+     "imageUrls": {
       "image1": {
         "image": "https://i.ibb.co/QfmCBv9/Mac-Kimmie-Complex-1.jpg",
         "alt": "Mac-Kimmie-Complex-1 border=0>"
@@ -206,7 +208,8 @@
       }
     }
   },
-  {
+
+ {
     "projectName": "Confederation Park Lagoon Viewing Deck",
     "dateOfCompletion": "2019",
     "projectDescription": "Confederation Park is a picturesque coulee park in northwest Calgary. A focal point within the west side of the park is the central lagoon. The lagoon edge has always been a preferred spot for park visitors to stop, enjoy the view and appreciate waterfowl.",
@@ -233,7 +236,7 @@
     "Neighbourhood": "Confederation Park",
     "projectOwnersAndClients": [""],
     "projectDesigners": "Community Initiative",
-    "projectCollaborations": ["Lion's Club", "Rick Hansen Foundation"],
+    "projectCollaborations": ["Lion's Club and Rick Hansen Foundation"],
     "projectTypology": "Viewing Deck",
     "projectProfile": "",
     "keyFactsAboutTheProject": "",
@@ -245,44 +248,44 @@
     },
     "innovationDescriptions": {
       "featureWords": [
-        "Sustainability",
-        "Biodiversity",
-        "Restorative",
-        "Ecosystems",
-        "Risk Management",
-        "Mitigation",
+        "Sustainability", 
+        "Biodiversity", 
+        "Restorative", 
+        "Ecosystems", 
+        "Risk Management", 
+        "Mitigation", 
         "Habitat Restoration"
       ],
 
       "primaryTypeOfInnovation": {
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
-        "projectDescription": "As it is a favored location, the shoreline where users congregate had become eroded, denuded of vegetation, degraded and unsightly. Futhermore the slope into the water presented some concerns regarding public safety. Surrounding disturbed areas were restored with native plants. An interpretive sign describes the waterfowl and bird life and gently discourages indiscriminate feeding. The lagoon deck is intentionally subordinate to the overall Confederation Park design. ",
-        "gatewayWord": "Resilient"
+        "projectDescription": "As it is a favored location, the shoreline where users congregate had become eroded, denuded of vegetation, degraded and unsightly. Futuremore the slope into the water presented some concerns regarding public safety. Surrounding disturbed areas were restored with native plants. An interpretive sign describes the waterfowl and bird life and gently discourages indiscriminate feeding. The lagoon deck is intentionally subordinate to the overall Confederation Park deisgn.",
+            "gatewayWord": "Resilient"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
-        "projectDescription": "The surrounding communities take great pride in this historic park and played a significant role in the public engagement strategy and volunteer efforts that aided in the project's overall success. In honour of their own centennial, thirteen local Lion's Club chapters also contributed by organizing volunteers for planing and raising donations for the deck and native plant installations. In all, this project greatly benefited from this wide ranging community involvement. ",
+        "projectDescription": "The surrounding communities take great pride in this historic park and played a significant role in the public engagement strategy and volunteer efforts that aided in the projects's overall success. In honour of their own centennial, thirteen local Lion's Club chapters also contributed by organizing volunteers for planing and raising donations for the deck and native plant installations. In all, this project greatly benefited from this wide ranging community involvement.",
         "gatewayWord": ""
       },
       "tertiaryTypeOfInnovation": {
         "classificationName": "Equity and Social Justice",
-        "classificationId": "60f756465a51197896a14915",
-        "projectDescription": "The built design allows users to have a direct wetland experience without implicating the shoreline. The scale is suitable for individual casual use and also for small groups. The deck can be accessed from the Regional Path by a gentle paved ramp or from a small staircase. The material palette is concise and uses natural materials in simple geometrics. The project aims to provide convenient and fully integrated accessible routes to the water edge while protecting and restoring the landscape area.",
+         "classificationId": "60f756465a51197896a14915",
+        "projectDescription": "The built design allows users to have a direct wetland experience without implicating the shoreline. The scale is suitable for individual casual use and also for small groups. The deck can be accessed from the Regional Path by a gentle paved ramp or from a small staircase. The material palette is concise and uses natural materials in simple geometrics. The project aims to provide convenient and fully integrated accessible routes to the water edge while protecting and restoring the landsape area.",
         "gatewayWord": ""
       },
       "generalProfile": "",
       "keyFacts": [""],
       "relatedProjects": [
-        "Riverdale Avenue Retaining Wall Replacement Project",
-        "MacKimmie Complex",
-        "Viewing Deck",
-        "West Eau Claire Park",
-        "Dale Hodges Park"
+       "Riverdale Avenue Retaining Wall Replacement Project", 
+       "MacKimmie Complex", 
+       "Viewing Deck", 
+       "West Eau Claire Park", 
+       "Dale Hodges Park"
       ]
     },
-    "location": {
+     "location": {
       "type": "Point",
       "coordinates": [-114.07934579852986, 51.080350349690654],
       "address": "",
@@ -312,11 +315,12 @@
       "image5": { "image": "", "alt": "" }
     }
   },
-  {
+
+ {
     "projectName": "West Eau Claire Park",
     "dateOfCompletion": "2018",
-    "projectDescription": "West Eau Claire Park and Public Realm defines a new vision for a highly valued public space along the Bow River in Calgary. It has created new public amenities while weaving flood mitigation measures into the fabric of the parl. The cohesive integration of urban design and flood attenuation requirements will have a lasting, positive impact on the daily lives of citizens while strengthening the city's resiliency to a changing climate.",
-   
+    "projectDescription": "West Eau Claire Park and Public Realm defines a new vision for a highly valued public space along the Bow River in Calgary. It has created new public amenities while weaving flood mitigation measures into the fabric of the parl. The cohesive integration of urban design and flood sttenuation requirements will have a lasting, positive impact on the daily lives of citizens while strengthening the city's resiliency to a changing climate.",
+    
 
     "phoneNumber": "",
     "hours": {
@@ -351,27 +355,27 @@
     },
     "innovationDescriptions": {
       "featureWords": [
-        "Sustainability",
-        "Restorative",
-        "Risk Management",
-        "Mitigation",
-        "Environmental Management",
+        "Sustainability", 
+        "Restorative", 
+        "Risk Management", 
+        "Mitigation", 
+        "Environmental Management", 
         "Green Network"
       ],
 
-      "primaryTypeofInnovation": {
+      "primaryTypeOfInnovation": {
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
-        "projectDescription": "The park's public realm improvements were undertaken as part of the West Eau Claire Public Realm Plan. Importantly, the improvements were completed in concert with the first phase of the downtown flood barrier. To minimize the impact of the barrier on the park and public spaces, as well as capitalize on the opportunities created by the barrier, a series of design strategies were developed. These strategies ensured that the public realm improvements met the needs of park users while seamlessly incorporating the flood barrier.",
+        "projectDescription": "The park's public realm improvements were undertaken as part of the West Eau Claire Public Realm Plan. Importantly, the improvements were completed in concert with the first phase of the downtown flood barrier. To minimize the impact of the barrier on the park and public spaces, as well as capatilize on the opportunities created by the barrier, a series of design strategies were developed. These strategies ensured that the public realm improvements met the needs of park users while seamlessly incorporating the flood barrier.",
         "gatewayWord": "Resilient"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
-        "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation patterns. It contains a new public art installation by local artist that was developed through a collaborative process and community engagement.",
+        "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation pattersn. It contains a new puclic art installation by local artitist that was developed through a collaborative process and community enagagement.",
         "gatewayWord": ""
       },
-      "tertiaryTypeofInnovation": {
+      "tertiaryTypeOfInnovation": {
         "classificationName": "Health and Wellness",
         "classificationId": "60f756625a51197896a14917",
         "projectDescription": "The plan created separate routes for cyclists and pedestrians including a six-metre wide riverside pedestrian promenade and a lagoon boardwalk. New passive and active spaces enhance the natural and cultural heritage of the park. These include multiple river vista and access points, a great lawn and sculpture garden, and a new public space at the south end of the Peace Bridge. The Cove and The Mound are terraces that step up and down to the river to create gathering spaces with picture perfect views to the Peace Bridge.",
@@ -380,10 +384,10 @@
       "generalProfile": "",
       "keyFacts": [""],
       "relatedProjects": [
-        "Riverdale Avenue Retaining Wall Replacement Project",
-        "MacKimmie Complex",
-        "Viewing Deck",
-        "Dale Hodges Park"
+       "Riverdale Avenue Retaining Wall Replacement Project", 
+       "Confederation Park Lagoon Viewing Deck", 
+       "MacKimmie Complex", 
+       "Dale Hodges Park"
       ]
     },
     "location": {
@@ -464,7 +468,6 @@
       "featureWords": [
         "Sustainability",
         "Biodiversity",
-        "Biodiversity",
         "Risk Management",
         "Mitigation",
         "Ecosystems",
@@ -476,7 +479,7 @@
         "classificationName": "Climate and Environment",
         "classificationId": "60f755985a51197896a1490f",
         "projectDescription": "The forms of the water structures and landforms are inspired by natural river morphology as well as hydrologic and sedimentation processes. O2 and S2S sculpted polishing marshes and wet meadows, their forms inspired by anabranches or river scrolls. The scrolling forms in the landscape enhance filtration, create diverse habitats, and provide more depth to store water when necessary. The network of pathways and boardwalks mimic and contrast these forms: visitors can read the river’s story over time. The final outflow stream discharges to an important trout habitat area, designed to serve as refuge during river flood conditions.",
-        "gatewayWord": "Green"
+        "gatewayWord": "Resilient"
       },
       "secondaryTypeOfInnovation": {
         "classificationName": "Energy and Resources",
@@ -492,7 +495,12 @@
       },
       "generalProfile": "",
       "keyFacts": [""],
-      "relatedProjects": [""]
+      "relatedProjects": [
+         "Riverdale Avenue Retaining Wall Replacement Project", 
+         "Confederation Park Lagoon Viewing Deck", 
+         "West Eau Claire Park", 
+         "MacKimmie Complex"
+   ]
     },
     "location": {
       "type": "Point",
@@ -526,5 +534,2768 @@
         "alt": "Dale-Hodges-Park-5 border=0>"
       }
     }
+  },
+
+ {
+    "projectName": "5th Street Underpass Enhancement Project",
+    "dateOfCompletion": "2021",
+    "projectDescription": "5th Street SW provides an unterrupted connection from the Bow River through to the Elbow River. Being in an extraordinary position between the two rivers and two very differing communities, there is a need for the 5th Street SW Underpass to support and reinforce the vision of the City Centre Plan, to be liveable, thriving and caring place. It is vital to create a safer and more comfortable space for pedestrians and cyclists moving between the Beltline and the downtown core, without compromising vehicle and transit usability.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "DIALOG",
+    "projectCollaborations": ["Jill Anholt Studio"],
+    "projectTypology": "Underpass",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Inter-Connected", 
+        "Connectivity", 
+        "Network", 
+        "Public Space", 
+        "Place Making", 
+        "Biodiversity", 
+        "Habitat Restoration"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Transportation and Infrastructure",
+        "classificationId": "60f7568f5a51197896a1491b",
+        "projectDescription": "Built in the 1970s, the 5th Street Underpass serves as a main gateway and key corridor for north-south movement between the communities of Beltline and Downtown Calgary. It includes the only cycle track of all the underpasses connecting Calgarians. With more than three million communters using the underpass each year, the 5th Street Underpass is one of the busiest multi-model corridors in Calgary.",
+        "gatewayWord": "Connected"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "Planting areas have been carved out to soften the experience for users by reducing the amount of hard surfaces in the underpass. Trees and native grass species have been selected that are appropriate to this urban environment are both drought and salt tolerant with lower maintenance requirements. These planted areas help with perceived levels of safety, as they provide a protective edge for pedestrians, while mainting clear sightlines throughout.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "Urban Systems Calgary Office",
+    "dateOfCompletion": "",
+    "projectDescription": "Urban Systems is a multidisciplinary strategic planning, engineering, environmental science, urban design and landscape conculting firm with a staff of approximately 120 people in their Calgary office. It was also important to create an office space where the Calgary staff could easily interact and connect. The office was designed to have an open floor plan that features social spaces and different kinds of work environments that the staff can take advantage of when they need a break from their desk.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Nyhoff Architecture",
+    "projectCollaborations": [""],
+    "projectTypology": "Office",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Educational", 
+        "Creativity", 
+        "Heritage", 
+        "Historical", 
+        "Narrative", 
+        "Preservation"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "When you walk into the building, you feel its permanence. You feel the weight. You feel the texture and the character. And we worked really closely with the City of Calgary and provincial heritage authorities to find a way to engage the building that was respectful and honest about how we would engage that heritage character. We were really drawn by that feeling of authenticity. So … every material we picked was really intended to build upon that,” says Nyhoff Architecture principal Kevin Nyhoff.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "The Livery",
+    "dateOfCompletion": "2019",
+    "projectDescription": "In a city known more for gentrification and newness, the community of Inglewood- Calgary's oldest neighbourhood established in 1975- exists as an anomaly in the urban fabric. Caught in a time capsule, the community is comprised predominately of industrial typologies that have long sat dormant, obsolescing to the modernization of production, fabrication and manufacturing. Howerer in recent years Inglewood has witnessed rapid transformation as young start up companies, breweries, galleries and restaurants are moving in and creatively reanimating the outdated building stock.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Inglewood",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Modern Office of Design + Architecture (MoDA)",
+    "projectCollaborations": [""],
+    "projectTypology": "Commercial",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Dynamic", 
+        "Transformative", 
+        "Development", 
+        "Historical", 
+        "Culture", 
+        "Place Making", 
+        "Neighbourly", 
+        "Preservation"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "Our point of departure for this project involved taking an inventory of the various local industrial typologies to produce a taxonomy of possible formal strategies. From this taxonomy, we began to explore an arrray of the shed roof typology that, while being contextually sensitive, provided a contemporary response through the distortion of scale, juxtaposition of materials and the playful reinterpretation of traditional tectonics.",
+        "gatewayWord": "Dynamic"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The building is wrapped in the east-west direction with standing seam metal, forming a container or wrapper within with the material palette transitions to brick, bookending the north and south facades. The tension created from this material shift pays homage to the beauty and craft of Inglewood's industrial character without succumbing to kitsch or historic pastiche. And introduction of spectacle transforms the building into an inclusive, community orientated building that celebrates the diversity of eclectic nature of Inglewood.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "Kensington Legion no.264",
+    "dateOfCompletion": "2017",
+    "projectDescription": "The new Legion 264 building is conceived as three unique and complementary intersecting building forms that symbolize the three distinct branches of the Canadian Military. As with the military, the whole is greater than the sum of its parts. The building is playfull and contemporary in feel, while maintaining the honor and decorum of the Legion's military heritage. Planned and built on the foundations of the 'Main Streets' initiative, to revitalize the home of an aged, fiscally unsustainable social organization, and create a vibrant mixed use hub on an underdeveloped inner-city site.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Upper Hillhurst",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Civicworks",
+    "projectCollaborations": ["S2 Architecture"],
+    "projectTypology": "Cultural Centre",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Historical", 
+        "Culture", 
+        "Narrative", 
+        "Community Engagement", 
+        "Connectivity", 
+        "Public Space", 
+        "Educational"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The Kensington Legion's new home hosts a mix of social, recreation and cultural activities. Today, the Kensington Legion has realized a crucial part of the vision for a true community hub- a place for area residents, Legion memebers and their families to gather, socialize and reinforce a spirit of comradery and mutual suppport. Moreover, the building now acts a a crucial physical hub for the Legion's ongoing outreach. education and promotion of remembrance and duty to Canada.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Transportation and Infrastructure",
+        "classificationId": "60f7568f5a51197896a1491b",
+        "projectDescription": "The new Kensington Legion's high-quality streetscape has created a strong foundation for an emerging vibrant at-grade public realm along the Kensington Road 'Main Street'. The second phase of the urban deisgn vision will continue this legacy and set the standard for future development along this vital corridor. Along with a new streetscape, the comprehensive urban design vision incorporates traffic calming and pedestrian safety enhancements along 18 Street NW that will introduce sidewalk extenstions and pedestrian crossing enhancements at three key intersections.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Park Point",
+    "dateOfCompletion": "2018",
+    "projectDescription": "Park Point has a strong and unique vertical element to the architecture which resembles an exclamation point with the podium at its base as the dot. Th floorplate also creates a stepped effect with colour enhancing patterns. Reaching 34-storeys, Park Point, located on the park side of the block, is the first of two-tower mixed use residential development project. The tallest building the the immediate neighbourhood, Park Point has defined the skyline of the Beltline Community. From street level, an elegant double height lobby with a distinctive canopy further adds to the perstigious nature of this address.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "IBI Group",
+    "projectCollaborations": ["HB Architects"],
+    "projectTypology": "Residential",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Lifestyle", 
+        "Public Space", 
+        "Place Making", 
+        "Narrative", 
+        "Experience"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "In consideration of the tower's central location overlooking Central Memorial Park and the limited number of surrounding buildings, special attention was given to the exterior building design. Park Point features a sophisticated sculptural expression that contributes aesthetically pleasing, timeless and striking architecture befitting this historical green space in the heart of the established Beltline community. An elegant double-height lobby and distinctive canopy create a bold, yet gracious sense of arrival. Strong vertical architecture is created through select floor plates that grow in size as they ascend the building, inspiring a colour-enhanced and stepped effect. The soaring height of the 34-storey building indulges views of Calgary's skyline and the mountains beyond.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "The 4th Street SW Underpass Enhancement Project",
+    "dateOfCompletion": "2019",
+    "projectDescription": "The 4th Street SW Underpass remains a main gateway and key corridor for pedestrian and vehicle movement between the Beltline and Downtown communities. In response the underpass is founded on the notion of reclaiming this 'space of removal' for conversation. The introduction of animated light and colour, responding to the flow of people through the space, ensures the underpass experience becomes evocative, varied and timeless. By augmenting spatial experiences lalent in the existing site's geometry, both the urban design and public art are understood as part of the Calgarian's everyday experience.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "the marc boutin architectural collaborative inc.",
+    "projectCollaborations": [""],
+    "projectTypology": "Underpass",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Inter-Connected", 
+        "Mixed Modal Access", 
+        "Network", 
+        "Integration", 
+        "Place Making", 
+        "Experience", 
+        "Social Interaction"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Transportation and Infrastructure",
+        "classificationId": "60f7568f5a51197896a1491b",
+        "projectDescription": "The physical state of disrepair of the underpass is in contradiction to its critical mobility and gateway function, with its inactive edges, limited accessibility, poor lighting levels and overall deterioration of materials requiring immediate attention. A result of safety and comfort concerns, movement through the space was observed to be highly mechanical, singular in focus, isolated in feeling, and driven by a desire to exit: a collective recognition of the 4th Street SW underpass as both a physical and perceptual space of removal.",
+        "gatewayWord": "Connected"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The responsive public art uses sensors to trace pedestrian movement in the underpass space and projects an 'avatar' of the movement on the opposite side of the underpass. Through this avatar, the user becomes an active participant in the public narrative. When new users are introduced, there is a layered experience creating moments of interaction between avatars and therefor users of the space. Taken as a whole, the public art provokes a consciousness of the body with the social space of the city, a space of conversation where none existed before.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "Delta Garden + The City Unseen",
+    "dateOfCompletion": "2018",
+    "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation pattersn. It contains a new puclic art installation by local artitist that was developed through a collaborative process and community enagagement. The Delta Garden + The City Unseen re-appropriates survey monuments to explore the dissonance between manmade methods of mapping the land, the land's natural divisions and the power of our perceptions to transform any given place.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "O2 Planning + Design",
+    "projectCollaborations": [""],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "User-Oriented", 
+        "Innovation", 
+        "Transformative", 
+        "Public Art", 
+        "Place Making", 
+        "Narrative", 
+        "Culture"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "Designed specifically for the Bow River pathway, Delta Garden + The City Unseen uses 12,000 brass survey monuments to create a shimmering river of sediment, curling through the delta-shaped garden. Traditionally, survey movmeents are permanent markers used to pin-point coordinated, establish property lines, and assit surveyors in mapping the landscape. But what happens when the landscape itself is not solid. Given enough time, mountain ranges shift, wildfires reshape forests, and rivers snake through the landscape in a serpentine ever chaning way.",
+        "gatewayWord": "Dynamic"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Words and phrases from the surveys are engraved into the brass monuments, mapping the 'social coodinates' of the city and creating a fragmented narrative in concrete. Over time, the text will wear and the monuments will tarnish. The most popular routes through the Delta Garden will be polished underfoot. Intended to trace 'desire lines' through (and beyond) our city, the artwork speaks to myths + maps + rivers + boundaries, nature + culture, in an effort to illuminate the cities beneath our everyday experience.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Beltline Urban Murals Project",
+    "dateOfCompletion": "",
+    "projectDescription": "The Beltline Urban Murals Project (BUMP) is a community driven initiative that reimages and beautifies our forgotten spaces. It transforms the city into an open air gallery and builds a better appreciation of the urban environment. BUMP was launched in 2017 as a way to galvanize public art in the Beltline community. Now completing its third year, BUMP has curated a diverse portfolio of local, national and internation artists who have created an improved pedestrian experience, attracted customers to local businesses, and helped foster a culture of arts promotion and celebration in Calgary.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Beltline",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Peter Schryvers and Peter Oliver",
+    "projectCollaborations": ["Local Artists"],
+    "projectTypology": "Murals",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Public Art", 
+        "Community Engagement", 
+        "Public Space", 
+        "Social Interaction", 
+        "Narrative", 
+        "Place Making"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The Beltline Urban Murals Project funds and organizes the installation of murals throughout the Beltline community and includes a week long festival to celebrate art, community and culture in Calgary with several events. The project engages local and non-local artists to create artworks on existing buildings in the Beltline to transform facades that are generally blank or otherwise unappealing, into valuable assest for the community. The result: beautiful and captivating places that challenge our ideas, provoke discussion and add beauty to everyday.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "The Bounce",
+    "dateOfCompletion": "2019",
+    "projectDescription": "The Bounce, a colourful and bold urban games park, opened June 5, 2019, on an underutilized but busy corner of Calgary's East Village neighborhood. The project team sought to enhance community vitality and safety through placemaking that inspired active living and community building The strategy for the site was informed by both an audit of existing public amenities in the downtown area and a review of global trends in urban space design. Through the findings, the team concluded that a visually striking basketball sports court would be an exemplar approach to deliver on the objectives of the program.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "East Village",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Art Mural by artist duo MAUD",
+    "projectCollaborations": [""],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Community Engagement", 
+        "Public Space", 
+        "Social Interaction", 
+        "Place Making", 
+        "Experience", 
+        "Neighbourly", 
+        "Inclusion", 
+        "Equality"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "To promote vitality and attract diverse audiences to The Bounce, a variety of amenities were included in its design. While the basketball court was a central focus, the park also offers ping-pong, four-square, snakes and ladders, hopscotch, mirror me and twister, all painted in bright, eye-catching colours. To enhance the visual interest of the park, local artist duo MAUD was commissioned for a two-piece mural on the backboard of the court and an adjacent building.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Equity and Social Justice",
+        "classificationId": "60f756465a51197896a14915",
+        "projectDescription": "The programming stategy focused on mainting The Bounce as a publicly accessible amenity. During the operating hours, 30 or more people can be found playing at an given time. The steady flow of visitors brings vitality to the park and promotes community interaction resulting in many pick up games between strangers. It has succeeded in becoming a place where people from all walks of society meet and build community.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "17th Avenue SW Pocket Square",
+    "dateOfCompletion": "2019",
+    "projectDescription": "Four community members living nearby saw the site's tremendous opportunity. Their goal was not only to improve the space and provide much-needed park space in an under-served community, but also to explore innovative models of partnership that could produce a quality space from a community-level initiative. They org anized and set out on a multi-year process to convene supporters around their vision. Through community workshops, events with students at the nearby high school, and stakeholder engagement, the group tapped into a wellspring of support. They attracted partners, collaborators, and funders that included the Cliff Bungalow-Mission Community Association, the City of Calgary, the Calgary Board of Education, Parks Foundation Calgary.and the 17th Avenue BRZ.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Lower Mount Royal",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "The Bench Project",
+    "projectCollaborations": ["Ground Cubed"],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Community Engagement", 
+        "Public Space", 
+        "Social Interaction", 
+        "Place Making", 
+        "Experience"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The challenge with 'leftover' spaces is often complicated ownership boundaries. In this case, the group collaborated with the Calgary Board of Education and the City of Calgary to build park space without a need to purchase the land underneath, greatly reducing the cost to the city. The community group also designed a special modular outdoor seating system for the space. The seats are made from recyclable polyethylene and bring an inexpensive, vibrant, and resilient presence to the street The moclules are manufactured in Alberta and can be produced in small runs of any colour.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+ {
+    "projectName": "New Calgary Library",
+    "dateOfCompletion": "2018",
+    "projectDescription": "The design of the Library is driven in large part by its integration with the public realm The project reconnects downtown to the East Village. 8th Ave is re-established via a grand public gateway and a series of pedestrian oriented public spaces.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Snöhetta",
+    "projectCollaborations": ["DIALOG"],
+    "projectTypology": "Library",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Creativity", 
+        "Public Space", 
+        "Social Interaction", 
+        "Narrative", 
+        "High Tech", 
+        "Network", 
+        "Connectivity", 
+        "User-Oriented", 
+        "Futuristic"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The Chinook Arch and the weather patterns of the prairies was a significant element in defining the building shape and form specifically around the arched entry element that is the primary entrance the building and the gateway that connects the East Village with Calgary's central downtown cultural district. Framed by low seat walls and slightly raised planting areas, moveable outdoor seating is set amongst the dappled shade of Elm trees, providing a space that allows the community to come together outside the context of a traditional library. Bistro seating spills out from the small indoor cafe, set on a slightly raised platform that provides clearviews.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Transportation and Infrastructure",
+        "classificationId": "60f7568f5a51197896a1491b",
+        "projectDescription": "The building is designed to create interesting and accessible outdoor public spaces for use of all Calgarians, not just those seeking to use the library itself A public gathering space at the southeast comer of 3rd Street and 7th Avenue, the North Garden is set back slightly from the street intersection, the LRT crossing, and the pedestrian movement along 3rd Street.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "The encapsulation of the LRT was a defining aspect for the project and innovative in solving the design problem. The need to raise the building 17 feet over top of the existing LRT right-of-way was designed in a sensitive way to not only cover the tracks but to create a gateway to the east village and frame the entry to the building while solving the functional requirement of safely enclosing the track system.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "The City of Calgary Centennial Planetarium",
+    "dateOfCompletion": "2019",
+    "projectDescription": "The City of Calgary Centennial Planetarium is an adaptive reuse project that began with the vision of what a vacant space could be and finished with the successful occupation of a functional centre of contemporary art in Calgary. The transformation of the Planetarium building has left a lasting impression on Calgarians and reinvigorates a building that has stood as a cornerstone of the community for decades.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown West End",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "MCMillian Long and Associates",
+    "projectCollaborations": [""],
+    "projectTypology": "Planetarium",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Education", 
+        "Creativity", 
+        "Social Interaction", 
+        "Historical", 
+        "Narrative", 
+        "Experience"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "After a detailed study of the space identifying siting needs, code updates and life cycle of the facility, a recommendation was put forward that the building be readapted to fill the need of an arts facility in the City of Calgary. The design team's challenge was to respect the original building's architecture while ensuring that the renovation was accessible and complied with modern codes and standards. The design met and exceeded these expectations, delivering a final space that maintained and reinstated the character defining features of the original building while providing the modern necessities needed in such a space.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Hawthorn Room",
+    "dateOfCompletion": "2019",
+    "projectDescription": "The refresh of the food and beverage offerings at Fairmont Palliser Calgary's historic landmark hotel has restored the Palliser Lobby Barto its status as a destination spot within Calgary's dining scene. Working alongside the Fairmont team and ownership group, our team was engaged to design a cohesive brasserie and cocktail lounge concept to activate the existing lobby area and create a boutique dining experience. An adjacent event space was created to serve a variety of uses for private events, weddings, and corporate gatherings. The project included careful consideration of operational and functional goals to create a fresh boutique dining experience while honouring the hotel's nostalgic old-world charm.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Frank Architecture",
+    "projectCollaborations": [""],
+    "projectTypology": "Restaurant",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Lifestyle", 
+        "Heritage", 
+        "Historical", 
+        "Narrative", 
+        "Experience", 
+        "Preservation", 
+        "Culture"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The design preserves and incorporates many of the historic features of the space, highlighting the hotel's unique railroad history while balancing these details with fresh and innovative touches. The result is an eclectic atmosphere suited to faithful Fairmont visitors while appealing to a new generation of guests and locals. Through the open lobby to the more private pockets of intimate seating, the palette is rich and layered; featuring a mix of natural materials such as wood and stone with luxurious velvets and antique brass. Classic details such as tufted leather and herringbone piping balance playful, bespoke tile patterns and plaids to create an approachable but elevated experience.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "", 
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "East Village Dog Park",
+    "dateOfCompletion": "2018",
+    "projectDescription": "Calgary and its communities are defined by the experiences they create, not only for its people but also for its four-legged friends. The East Village Dog Park, (or as the project team affectionately refers to it \"dog bark\") is the perfect example of facilitating the organic collaboration between nature and design Bringing Calgarians into the world and sharing those experiences with our closest animal allies, our dogs. Using a small, vacant, underutilized lot within the Crossroads, The East Village Dog Park created linkages to the recentlyrevampedEastVillage,includingthewaterfrontpathways,communitygardensandfamilyplayground projects. The attentively designed landscape elements and mindfully chosen materials successfully blend urban redevelopment with national historic site elements and the surrounding urban areas of East Village.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "East Village",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Stantec Architecture Ltd.",
+    "projectCollaborations": [""],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Social Interaction", 
+        "Public Space", 
+        "Recreation", 
+        "Fitness", 
+        "Inclusion", 
+        "Equality"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Creating a space where humans and canines meet and designing for a specific user group, dogs, was a highlight for our design team. Unique to the site was developing play elements for canines and providing gathering space to stimulate social interaction between human and canine users. Despite being a relatively small area, vast research went into selecting the right materials for the park. The design had to account for the unique challenges that are presented to canines while still addressing site accessibility for human users. The primary surface material must not be too slippery, be extremely durable yet gentle on dogs'paws, limit the risk of overheating, and be easy to clean.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Health and Wellness",
+        "classificationId": "60f756625a51197896a14917",
+        "projectDescription": "The East Village Dog Park has re-invigorated a forgotten parcel of land and serves asan important transition to the adjacent communitygarden and playground while enhancing the East Village's connection to downtown with its growing number of dog-owners living in high-rises. Creating more amenities for dogs also increases the livability of communities; studies show that dog parks increase the sociability of communities, leading to dog owners being 40 per cent more likely to start new friendships. Owning a dog is also linkecl to numerous health benefits, including lower blood pressure, reduced cholesterol and better overall cardiovascular health and fewer heart attacks.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Equity and Social Justice",
+        "classificationId": "60f756465a51197896a14915",
+        "projectDescription": "As one of the fastest growing municipalities in the world, Calgary's dog population is estimated to cross over 100,000 within the next year. Known colloquially as 'the dog capital of the world'. Calgary's off leash areas account for 17 per cent of total parks space within The City of Calgary . The precedence that the East Village Dog Park has set in creating urban spaces that celebrate nature by letting animals socialize in our downtown core, supports The City of Calgary's goal of building up and not out. It also helps urban Calgarians realize the benefits of pet ownership, something that was once reserved only for suburban dwellers, and creating a roadmap for future developments to follow.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Cube",
+    "dateOfCompletion": "2019",
+    "projectDescription": "Seven storey, 65,000 sq. ft. office/residential/retail mixed-use building. The Cube was an undesirable, vacant office building that was reimagined with creative innovation by transforming the building from an office use to a mixed-use residential building within the Beltline community. Conversions are rare in Calgary due to the inherent major challenges that arise when converting the primary use of a building. During the initial review, this conversion didn't look viable but with pioneering design strategies and an enhancement of square footage the challenges were solved.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Ziedler Architects",
+    "projectCollaborations": ["Vera Architects"],
+    "projectTypology": "Residential",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Transformative", 
+        "Growth", 
+        "Neighbourly", 
+        "Energy Efficiency"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "The office floor plate configuration was not ideal therefore unique residential suite layouts were designed to overcome the efficiency issue. The post tension structure provided additional layout and construction constraints resulting in layout changes that were made throughout construction. The existing building corner cut made the 1st & 2nd level nonfunctional in a residential application. This constraint was handled by an addition, filling in the 2 storey existing corner cut. The lobby was relocated to the east creating more exposure to the retail and enhancing the lobby experience. Our custom designed suite criteria included kitchen islands, walk through orwalk-in closets, pass throughs from the bedroom to the common bathroom and a view of glazing from the front entry. After a couple months of design work the criteria was met and construction started. The most popular reason for tenants choosing to lease at Cube are the creative large suite designs.",
+        "gatewayWord": "Dynamic"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Cube's transformation has created vibrancy within the urban fabric with residential tenants supporting local businesses and with the retail fully leased Cube has added services for the community Cube's vitality has re-activated this Beltline corner and hopefully will stimulate future redevelopment of older office and retail buildings within Calgary. The public realm has been improved with a new sidewalk, the addition of a barrier free ramp for building access and the use of unique building materials that enhance the human experience.Cube also has lower rents than new build properties which has created more affordabe spaces.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Energy and Resources",
+        "classificationId": "60f756165a51197896a14911",
+        "projectDescription": "High efficiency building systems were installed and with an envelope upgrade the building now achieves Built Green Silver status. By repurposing the existing building nearly 5,000 tons of waste was saved from going to the landfill.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+ {
+    "projectName": "Studio Bell/ National Music Centre",
+    "dateOfCompletion": "2016",
+    "projectDescription": "At once a museum, performance hall, live music venue, recording facility, and broadcast studio, the NMC is a major state-of-the-art cultural institution that marks AWA’s most ambitious project to-date. The 160,000 square-foot cultural centre takes inspiration from the curvilinear shapes of musical instruments, and from the surrounding, indigenous landscape of Calgary, Alberta.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Allied Works Architecture",
+    "projectCollaborations": ["Kasian Architecture"],
+    "projectTypology": "Music Centre",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Educational", 
+        "Social Interaction", 
+        "Place Making", 
+        "Narrative", 
+        "Experiencem Development", 
+        "Innovation", 
+        "Intelligent"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Inspired by the light, landscape and geography of the northern prairie, Studio Bell was created to amplify the rich history and future possibilities of Canadian music. The building aspires to create a sense of wonder and mystery, inspiring the visitor to explore. The building is alive with the life of music throughout its exhibition, recording, editing, performance and education spaces. The distinct vessels of music are bound together by the space between them, moments of silence filled with light and views out into the city and beyond. The interwoven structure of the building envelops the visitor, with surfaces of metallic and earthen tile crafting an architectural instrument of light, space and music.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "The selection of the building’s façade material was based both on it’s need to negotiate the complex wall geometries in a smooth fashion and the goal that it have a visually rich quality to magnify the varied natural light conditions of Calgary.  The small module and concealed clip system of the Moeding terracotta tile rainscreen successfully achieve the desired smooth surface appearance and the custom glazes developed by Tichelaar Makkum impart a varied richness that gives the building a dignified presence within its urban landscape.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+ {
+    "projectName": "Thomson Family Park",
+    "dateOfCompletion": "2016",
+    "projectDescription": "Thomson Family Park fosters community connection through bold design interventions grounded in a context sensitive approach to design and meaningful public engagement. Distinctive overhead lighting, a 75-meter-long fountain, a graffiti wall, a playground, a park pavilion with a 5-meter-long cantilevered roof deck, illuminated fin walls and two sunken greens bookending the site provide users with a variety of experiences. Thomson Family Park has proven to be a popular amenity and recreation space for the community of West Connaught in Calgary's beltline.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Lower Mount Royal",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Ground Cubed",
+    "projectCollaborations": [""],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Community Engagement", 
+        "Public Space", 
+        "Social Interaction", 
+        "Recreation"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The way the community engagement process was carried out became a major success of the project Maintaining community member's excitement and active engagement with the project was paramount to its success. An ongoing conversation between designers and residents was undertaken to develop the final design. Sharing in dialog with the community beyond the 'engagement' phase of the project motivated individuals to stay involved and provided participants with a sense of ownership over their new park Managing community expectations, meeting stakeholder's needs and incorporating flexibility to respond to changing demographics is necessary for a successful project.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "9th Avenue Parkade",
+    "dateOfCompletion": "2021",
+    "projectDescription": "The mixed-use building combines seven storeys of parking for visitors to East Village and surrounding communities, and 50,000 square feet of innovation space that will be home to Platform Calgary and 50+ partners in late-2021 following their fit and finish program.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "East Village",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Kasian Architecture Interior Design and Planning LTD.",
+    "projectCollaborations": ["5468796 Architecture"],
+    "projectTypology": "Parkade",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Investment", 
+        "Development", 
+        "Innovation", 
+        "Futuristic", 
+        "Connectivity", 
+        "Social Interaction"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "Integrated within the first two floors of the building, the Platform Innovation Centre showcases the uniqueness of this project and the community’s dedication to a rapidly growing tech community. In this space, innovators across Alberta will have access to programming and mentors to support their ideas through immersion in a community of like-minded entrepreneurs, investors, and startups.",
+        "gatewayWord": "Dynamic"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Transportation and Infrastructure",
+        "classificationId": "60f7568f5a51197896a1491b",
+        "projectDescription": "Designed by Kasian and 5468796 Architecture, the building design allows for conversion of the space into commercial and/or residential uses through considerations that make it unique among parking structures—notably, increasing floor-to-ceiling heights by one and half times that of traditional parkades and the addition of a central atrium that invites natural light through the full height of the building.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "In addition to parking, Platform Parkade offers a publicly accessible sport court on its main level and outdoor event rental space on the upper, seventh level, giving a panoramic backdrop to corporate events, community gatherings and more. Platform Calgary, alongside partners in the Calgary Innovation Coalition, are driven to make Calgary a global hub for startups and innovation by increasing the number of technology startups in Calgary by ten times to 3,000 core tech startups by 2031, in turn, creating tens of thousands of jobs, and adding $10B to Calgary’s GDP.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "The Bow",
+    "dateOfCompletion": "2011",
+    "projectDescription": "The Bow is a 158,000-square-metre office building in downtown Calgary, Alberta, Canada. The 236 metre building is currently the second tallest office tower in Calgary, since construction of Cenovus' Brookfield Place; and the third tallest in Canada outside Toronto.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Foster + Partners",
+    "projectCollaborations": ["Zeidler Architects, Sturgess Architecture, Gustafson Guthrie Nichol"],
+    "projectTypology": "Skyscraper",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Adaptive", 
+        "Conservation"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "The building's bow shaped features were meticulously designed to take full advantage of the varying Calgary weather; maximizing heat absorption in the winter and reflecting excess heat in the summer. The glazed façade streches upward and creates a sophisticated series of atria that run the full height of the tower. These unique spaces were designed to help create climatic buffer zones and aid in the efficient heating and cooling of the building.",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "Brookfield Place",
+    "dateOfCompletion": "2018",
+    "projectDescription": "Brookfield Place is a skyscraper located in downtown Calgary, Alberta, Canada. The complex is home to Brookfield Place East, a 56-storey 247 m office tower, which upon its completion in 2017, became the tallest building in Calgary, exceeding The Bow.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Arney Fender Katsalidis (AFK)",
+    "projectCollaborations": ["DIALOG"],
+    "projectTypology": "Skyscraper",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Place Making", 
+        "Experience", 
+        "Sustainability", 
+        "Energy Efficiency"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Brookfield Place Calgary is a full-block commercial development located between 1st & 2nd Streets and 6th & 7th Avenues SW in downtown Calgary. This block represents one of the best remaining undeveloped sites in the city and affords Brookfield the opportunity to create another landmark development that significantly contributes to the public realm.A half-acre lit public plaza will traverse the site and will feature restaurants and cafés, public art displays, cultural activities and programmed activity provided by Brookfield’s award-winning Arts & Events program.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "The development is to a high standard of sustainability and is expected to achieve the LEED Gold standard for Core & Shell development. Commuters will have direct access to the plus-15 skywalk system and the Calgary LRT on 7th Ave. The property will house an innovative bicycle parking facility accessible by dedicated bike ramps separate from vehicular traffic and electric car plug-in recharge stations.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Energy and Resources",
+        "classificationId": "60f756165a51197896a14911",
+        "projectDescription": "The building is wrapped in a smooth, frameless, high efficiency curtain wall with a high proportion of vision panel glazing permitting ample natural light, maximizing views and creating a clean architectural expression. The glazing helps reduce the environmental and economic impacts associated with excessive energy use.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "The Core",
+    "dateOfCompletion": "2012",
+    "projectDescription": "Located in the heart of Calgary’s central business district, the CORE is a prime example of an ambitious urban renewal project consisting of the redevelopment of three previously disjointed properties into a single integrated multi-use complex. It amalgamates the three buildings into one branded retail complex with a cohesive identity. Under a canopy of a point-supported glass roof, the largest of its kind in North America, visitors relish a vibrant streetscape experience awash in natural light.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "MMC International Architects",
+    "projectCollaborations": [""],
+    "projectTypology": "Shopping Centre",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Lifestyle", 
+        "Public Space", 
+        "Social Interaction", 
+        "Place Making", 
+        "Experience"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "On an architectural level, a seamless connection was created between the urban exterior and the high-street interior. Under a canopy of a structural glass roof, visitors relish the dramatic view from the shopping concourse of the skyscrapers beyond its limits. The expansive glass roof emulates outdoor promenades distinguishing itself with high street retail energy. At 700 feet long, this is the largest point-supported structural glass skylight in North America.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+ {
+    "projectName": "Peace Bridge",
+    "dateOfCompletion": "2012",
+    "projectDescription": "The bridge structure is embedded as a sculptural, yet mathematically derived element into a naturally landscaped surrounding. The sculptural appearance of the bridge generates a striking contrast with the surrounding landscape. The structured shape is defined by a helix developed over an oval cross section with two clearly defined tangential radii creating an architectural space within. The upper openings are filled with glazed leaves bent to the same shape as the exterior of the helical form, offering protection to the users from the rain and winter weather conditions.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Santiago Calatrava",
+    "projectCollaborations": ["Stantec Architecture Ltd."],
+    "projectTypology": "Bridge",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Transformative", 
+        "User-Oriented", 
+        "Connectivity", 
+        "Network", 
+        "Public Space", 
+        "Social Interaction", 
+        "Place Making"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "The stiff, helical frame serves as the truss web that transfers loads between the truss chords—linear steel members along the bridge’s top and bottom. Transverse strength is provided by two edge beams and the bridge deck—an approximately 110-millimeter-thick concrete deck cast in place on top of a steel deck, which contains a diagrid of 150- to 200-millimeter-tall stiffeners. Each box is made from plates of different thicknesses based on the particular stresses experienced at its location. Even with the material optimization, the steel helixes and deck still weigh about 700 tons.",
+        "gatewayWord": "Dynamic"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Transportation and Infrastructure",
+        "classificationId": "60f7568f5a51197896a1491b",
+        "projectDescription": "Bicycle lanes are positioned in the centre flanked by pedestrian lanes on either side separated by a curb. The bridge space is lit with linear lighting integrated into the structure of the bridge, and the handrail is supported by linear wayfinding illumination at floor level. Light elements below the deck enhance and highlight the sculptural appearance of the underside of the bridge at night, creating graceful reflections of the bridge in the water below.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Following its opening in March 2012, the Peace Bridge has quickly become a recognizable landmark in Calgary and has won several awards. It was named one of the world’s top 10 public spaces in 2012 by designboom, and it won the Canadian Institute of Steel Construction 2013 Engineering Award and 2013 Steel Edge Award. Most importantly, however, the Peace Bridge is making getting to work and back easier and more sustainable for more than 6,000 Calgarians every day.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+ {
+    "projectName": "East Village River Walk",
+    "dateOfCompletion": "2011",
+    "projectDescription": "The vision will builds on current plans for RiverWalk that enhances the banks of East Village Masterplan and Elbow Rivers, proposing a new multi-use park on an island in East Village Masterplan River. This extends the proposed diagonal link via footbridges and tree-lined walks to connect East Village with the transport facilities and a substantial residential development being built on the north side of Bow River.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "East Village",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Stantec Architecture Ltd.",
+    "projectCollaborations": [""],
+    "projectTypology": "Pathway",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Tourism", 
+        "Lifestyle", 
+        "Public Space", 
+        "Social Interaction", 
+        "Place Making"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The scheme enhances the existing city grid, providing high quality public realm by working with CMLC’s innovative streetscape designs and future urban green spaces within a mixed use matrix of built urban form. A diagonal pedestrian walkway is proposed to dissect the street grid to link the city to the river to create a new urban promenade lined with active building frontages, punctuated by attractive spaces accommodating street life, events and activities.",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "George C. King Bridge",
+    "dateOfCompletion": "2014",
+    "projectDescription": "The George C. King Bridge is a pedestrian bridge that spans the Bow River just northeast of Downtown Calgary, Alberta, Canada. The bridge connects the neighbourhoods of East Village to the south and Bridgeland to the north, with access from the bridge to St. Patrick's Island Park in the middle of the river.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "East Village",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "RFR",
+    "projectCollaborations": ["Halsall Associates"],
+    "projectTypology": "Bridge",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Sustainability", 
+        "Risk Management", 
+        "Mitigation", 
+        "Adaption", 
+        "Public Space", 
+        "Social Interaction", 
+        "Place Making", 
+        "Narrative"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "The client recognized early on the risks posed by Bow River’s changing water flow, setting specific seismic, hydraulic, geotechnical, and geometric criteria. These robust criteria were put forth to make sure the bridge would resist a fast moving river and ice build-up of up to three meters thick. St. Patrick’s Island being below the flood elevation chosen by the client, the bridge deck could not touch down on the ground. To palliate this issue, the team designed a secondary ramp linking the island span to the ground surface.",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "The design was able to harmoniously bridge two very distinct qualities of the site: a vibrant urban environment with a majestic natural setting. The intention was to make the George C. King Bridge a destination in itself to observe the Bow River beneath and contemplate the cityscape. The three-span 182-metre long bridge evokes stones skipping along the surface of water.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+
+   {
+    "projectName": "St. Patrick's Island Park",
+    "dateOfCompletion": "2015",
+    "projectDescription": "St. Patrick's Island Park is a 31-acre public park on an island at the confluence of the Bow and Elbow rivers just northeast of Downtown Calgary. St. Patrick's Island is one of Calgary's oldest parks.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "East Village",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Civitas",
+    "projectCollaborations": ["W Architecture"],
+    "projectTypology": "Public Park",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Sustainability", 
+        "Biodiversity", 
+        "Conservation", 
+        "Ecosystems", 
+        "Mitigation", 
+        "Risk Management", 
+        "Habitat Restoration", 
+        "Biophilla", 
+        "Placemaking", 
+        "Public Space"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "The Park design is based on the principles of Biophilia, translated from Latin as a “love of living systems.” An approach that honours and nurtures the instinctive bond between people and nature, the centre of the island has been restored as a bio-diverse and tranquil area of natural habitat. The ‘Living Island’ is envisioned as natural landscape infrastructure with restored ecological vitality, unique place-making amenities, and sustainable resilience to the inevitable flooding of the Bow River. The variety of features, encounters and experiences integrated within the Park engage visitors in the landscape, enabling them to see and understand the significance of the land and the water, the processes, natural systems, and how the Island lives.",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "Social experiences are linked along a shared pedestrian and bike pathway and include event pavilions, a sun deck, picnic areas, an elevated transect walkway, and boat launch. Additionally, material that had been removed to help construct the historic wetlands channels were re-purposed to create the ‘Rise’, a feature that offers dramatic views of the Calgary skyline and an inviting slope for winter sledding. Few major cities enjoy a river that is as healthy as Calgary’s Bow River, and with the redesigned St. Patrick’s Island Park, the whole city now has access to a vibrant, urban space.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Calgary Telus Convention Centre",
+    "dateOfCompletion": "2000",
+    "projectDescription": "The Calgary TELUS Convention Centre fills the need for a world-class conference and convention facility in the core of Calgary. The renovation of the Convention Centre increased the diversity of services offered to clients through the addition of meeting spaces, client service areas and administration areas.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "GEC Architecture",
+    "projectCollaborations": [""],
+    "projectTypology": "Convention Centre",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Transformative", 
+        "Growth", 
+        "Opportunistic", 
+        "Collaboration", 
+        "Futuristic", 
+        "Integrative"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Technology",
+        "classificationId": "60f7567f5a51197896a14919",
+        "projectDescription": "Designed six large new meeting rooms to be flexible enough to serve as small banquet halls, lecture theatres or display spaces—flexible spaces increase opportunities for use increasing revenue potential. The renovations provide such technological advancements as CAT 6 and fibre optic communication systems in a facility with both character and flexibility.",
+        "gatewayWord": "Dynamic"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Olympic Plaza",
+    "dateOfCompletion": "1988",
+    "projectDescription": "The Olympic Plaza is an urban park and gathering place in downtown Calgary, Alberta, Canada. Located around Macleod Trail and 7th Avenue S., it was created as the venue for the medal ceremonies at the 1988 Winter Olympics.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Gibbs Gage Architects",
+    "projectCollaborations": [""],
+    "projectTypology": "Plaza",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Public Space", 
+        "Social Interaction", 
+        "Culture", 
+        "Historical", 
+        "Place Making", 
+        "Experience", 
+        "Narrative"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Culture, Heritage and Society",
+        "classificationId": "60f756335a51197896a14913",
+        "projectDescription": "This project represents the heart of the City of Calgary and served as a focal point for the 1988 Olympics. The area is a flexible urban park which is fully accessible and completely safe for the public. It encompasses an entire city block and was designed to accommodate crowds of up to 60,000 people. The public continues to enjoy the amenities Olympic Plaza has to offer, including ice skating, wading ponds, fountains, a small amphitheatre, sitting areas, gardens and a major stage.",
+        "gatewayWord": "Vibrant"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
+  },
+ {
+    "projectName": "Calgary Courts Centre",
+    "dateOfCompletion": "2007",
+    "projectDescription": "Calgary Courts Centre is the largest court facility in Canada, and is located in Calgary, Alberta. It was constructed by the Government of Alberta and provides over 1 million square feet of court and office space.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "Kasian Architecture Interior Design and Planning LTD.",
+    "projectCollaborations": ["NORR and Aecom"],
+    "projectTypology": "Courthouse",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Energy Efficiency", 
+        "Sustainability", 
+        "Water Management", 
+        "Inclusion", 
+        "Representation", 
+        "Equality"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Energy and Resources",
+        "classificationId": "60f756165a51197896a14911",
+        "projectDescription": "The Calgary Courts Centre has been recognized across Canada as a benchmark facility for its innovation and contemporary design. Contemporary sustainability principles were woven throughout the architecture, and the project ultimately achieved LEED Silver certification — Canada's largest building to achieve this status at the time. Finally, to address the river flowing underneath the building, our team acted quickly to divert the water by pouring a 12 foot-thick raft slab, ensuring the building’s structural integrity.",
+        "gatewayWord": "Efficent"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "Equity and Social Justice",
+        "classificationId": "60f756465a51197896a14915",
+        "projectDescription": "Occupying two city blocks, our design was thematically based on the ‘scales of justice’. The architecture features two towers, at 20 and 24 storeys, joined together by a mesmerizing 26-storey atrium. All components are connected by glass elevators and walkways that intersect lobbies and gathering spaces. Warm colours, white space, and an abundance of glass define the interior. There are even windows in some courtrooms, a feature rarely seen in courthouses of the past. We also engaged members of Alberta’s Indigenous community to create a flexible Indigenous courtroom, modeled after a ceremonial tepee, to accommodate Indigenous justice and principles.",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "This expression of openness and transparency provides natural light and views to the surrounding city and distant Rocky Mountains. Air movement within the soaring 400-foot (122-meter) double-glazed atrium is closely monitored to ensure that winter condensation does not develop and temperature remains constant from top to bottom. Glass elevator cabs transport visitors up the atrium to bridge lobbies that connect the court buildings. One of the most advanced electronic docketing systems in North America assists visitors in finding their way to court. As stipulated by the client, NORR designed the judicial building to US General Services Administration Guidelines. The result is a landmark in Calgary’s downtown core.",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "",
+      "coordinates": [],
+      "address": "",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": ""
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "",
+        "alt": ""
+      },
+      "image2": {
+        "image": "",
+        "alt": ""
+      },
+      "image3": {
+        "image": "",
+        "alt": ""
+      },
+      "image4": { "image": "", "alt": "" },
+      "image5": { "image": "", "alt": "" }
+    }
   }
+
 ]
