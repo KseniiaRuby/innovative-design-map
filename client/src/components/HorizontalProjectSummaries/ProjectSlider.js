@@ -68,18 +68,18 @@ const ProjectSlider = ({
                       }}
                     />
                   </h2>
-                  <p className="description-align">
+                  <div className="description-align">
                     {" "}
                     {project.innovationDescriptions.featureWords.map(
                       (featureWord) => {
                         return (
-                          <ul>
+                          <ul key={featureWord}>
                             <li>{featureWord}</li>
                           </ul>
                         );
                       }
                     )}
-                  </p>
+                  </div>
                 </div>
               </Button>
             )}

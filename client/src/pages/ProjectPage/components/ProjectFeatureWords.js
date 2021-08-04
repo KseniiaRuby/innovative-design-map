@@ -10,7 +10,7 @@ const FeatureWordsList = ({ featureWords }) => {
       <div>
         {featureWords.map((featureWord) => {
           return (
-            <ul>
+            <ul key={featureWord}>
               <li>{featureWord}</li>
             </ul>
           );
