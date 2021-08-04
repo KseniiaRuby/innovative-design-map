@@ -1,4 +1,5 @@
-  {
+  [
+     {
     "projectName": "Riverdale Avenue Retaining Wall Replacement Project",
     "dateOfCompletion": "2019",
     "projectDescription": "The Riverdale project is a civic improvement project that replaced a 220 m long failing timber retaining wall with a bioengineered solution that meets the City of Calgary's goals of the Riparian Strategy. The Project protects a steep slope above the south bank of the Elbow River, which in turn, protects a busy reach of the Elbow River pathway, Riverdale Avenue and important underground infrastructure.",
@@ -3297,5 +3298,4 @@
       "image5": { "image": "", "alt": "" }
     }
   }
-
 ]
