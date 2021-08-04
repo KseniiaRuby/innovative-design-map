@@ -65,8 +65,8 @@ const ProjectSlider = ({
                         width: "100%",
                         height: "100%",
                         padding: "0em 0em 0em 0em",
-                        opacity: "100%",
-                        // opacity: "50%",
+                        // opacity: "100%",
+                        opacity: "50%",
                         overflow: "hidden",
                       }}
                     />
