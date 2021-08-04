@@ -33,15 +33,13 @@ export function Gateway() {
           <div className="button-spacer">
             {/*  */}
             {gateway !== undefined ? (
-              <reactfragment>
-                {/*  */}
+              <div>
                 <button className="button-lets-go">
                   <Link className="button-styling" to="/Category">
                     LET'S GO
                   </Link>
                 </button>
-                {/*  */}
-              </reactfragment>
+              </div>
             ) : null}
             {/*  */}
           </div>

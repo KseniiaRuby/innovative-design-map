@@ -222,7 +222,8 @@ option {
   /* background-size: 75%; */
   /* text-align: right; */
   font-size: 2em;
-  padding: 1em 0em 0em 0em;
+  margin: 1em 0em 0em 1em;
+  /* padding: 1em 0em 0em 0em; */
   /* border: 1px solid; */
   width: 20opx;
   /* height: 20vh; */
