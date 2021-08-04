@@ -25,37 +25,35 @@ const ProjectPage = () => {
         },
       };
 
-      if (!project) {
-        console.log("Looking up project by ID: ", chosenID);
-        try {
-          let response = await fetch(
-            "/api/project/" + chosenID,
-            requestOptions
-          );
-          if (response.status !== 200) {
-            throw new Error("Fetch for project ID failed");
-          }
-          let data = await response.json();
-          // data.location.city = ""
-          // data.location.province = ""
-
-          setProject(data);
-          console.log("Project: " + JSON.stringify(data));
-          console.log("Project ID: " + JSON.stringify(data._id));
-          console.log(
-            "Project Name: " +
-              JSON.stringify(
-                data.innovationDescriptions.secondaryTypeOfInnovation
-                  .classificationName
-              )
-          );
-        } catch (err) {
-          console.log("Error on client-side.", err);
+      console.log("Looking up project by ID: ", chosenID);
+      try {
+        let response = await fetch(
+          "/api/project/" + chosenID,
+          requestOptions
+        );
+        if (response.status !== 200) {
+          throw new Error("Fetch for project ID failed");
         }
+        let data = await response.json();
+        // data.location.city = ""
+        // data.location.province = ""
+
+        setProject(data);
+        console.log("Project: " + JSON.stringify(data));
+        console.log("Project ID: " + JSON.stringify(data._id));
+        console.log(
+          "Project Name: " +
+            JSON.stringify(
+              data.innovationDescriptions.secondaryTypeOfInnovation
+                .classificationName
+            )
+        );
+      } catch (err) {
+        console.log("Error on client-side.", err);
       }
-    };
+    }
     getProject();
-  }, [project]);
+  }, [chosenID]);
 
   if (project !== undefined) {
     return (

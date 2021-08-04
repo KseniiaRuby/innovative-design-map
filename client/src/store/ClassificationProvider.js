@@ -43,7 +43,7 @@ export default function ClassificationProvider({ children }) {
       console.log("Found Classification object: ", foundClassification);
       setClassification(foundClassification);
     }
-  }, [gatewayWord]);
+  }, [gatewayWord, allClassifications]);
 
   useEffect(() => {
     const getProjects = async () => {
