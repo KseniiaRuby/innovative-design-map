@@ -5,6 +5,7 @@ import * as projectsInformation from "../data/projectsampleinfo.json"
 import "../styles/Styles.css"
 
 function MarkPointOnMap() {
+   
    const [viewport, setViewport] = useState({
       latitude: 51.0447,
       longitude: -114.0719,
