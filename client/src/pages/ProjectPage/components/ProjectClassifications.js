@@ -12,7 +12,11 @@ const ProjectClassifications = ({
 }) => {
   return (
     <div className="border-bottom border-top project-padding">
-      {/* <p>{projectDescription}</p> */}
+      <div className="classificationTitle">
+        <u>Project Description</u>
+      </div>
+      <p>{projectDescription}</p>
+      <br />
       <div className="classificationTitle">
         <u>Related Classifications</u>
       </div>

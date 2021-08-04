@@ -54,8 +54,10 @@ const ProjectSlider = ({
               // <Button>
               <Button linkProperty={`/ProjectPage/` + project._id}>
                 <div className="slider-div">
-                  <h2 className="project-name-align">
+                  <div className="project-name-align">
                     {project.projectName}{" "}
+                  </div>
+                  <div style={{ padding: "7px 0px 0px 0px" }}>
                     <img
                       src={project.imageUrls.image1.image}
                       alt={project.imageUrls.image1.alt}
@@ -63,14 +65,24 @@ const ProjectSlider = ({
                         width: "100%",
                         height: "100%",
                         padding: "0em 0em 0em 0em",
+                        // opacity: "100%",
                         opacity: "50%",
                         overflow: "hidden",
                       }}
                     />
-                  </h2>
+                  </div>
                   <div className="description-align">
                     {" "}
-                    {project.innovationDescriptions.featureWords.map(
+                    {JSON.stringify(project.innovationDescriptions.featureWords)
+                      .replace('["', " ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('"]', " ")}
+                    {/* {project.innovationDescriptions.featureWords.map(
                       (featureWord) => {
                         return (
                           <ul key={featureWord}>
@@ -78,7 +90,7 @@ const ProjectSlider = ({
                           </ul>
                         );
                       }
-                    )}
+                    )} */}
                   </div>
                 </div>
               </Button>
