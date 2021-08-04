@@ -140,7 +140,8 @@ option {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   /* number of lines to show */
-  -webkit-box-orient: vertical;
+  /* -webkit-box-orient: vertical; */
+  display: inline;
 }
 
 .right-arrow {
