@@ -56,6 +56,8 @@ const ProjectSlider = ({
                 <div className="slider-div">
                   <div className="project-name-align">
                     {project.projectName}{" "}
+                  </div>
+                  <div style={{ padding: "7px 0px 0px 0px" }}>
                     <img
                       src={project.imageUrls.image1.image}
                       alt={project.imageUrls.image1.alt}
@@ -63,7 +65,8 @@ const ProjectSlider = ({
                         width: "100%",
                         height: "100%",
                         padding: "0em 0em 0em 0em",
-                        opacity: "50%",
+                        opacity: "100%",
+                        // opacity: "50%",
                         overflow: "hidden",
                       }}
                     />
