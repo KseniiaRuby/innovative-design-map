@@ -1,7 +1,8 @@
 import mapboxgl from "mapbox-gl"
 import React, { useRef, useState, useEffect, useContext } from "react"
+import { Link } from "react-router-dom"
 import ClassificationContext from "../store/ClassificationContext"
-import "../styles/Styles.css"
+// import "../styles/Styles.css"
 // import ReactMapGL, { Marker, Popup } from "react-map-gl"
 import projectData from '../data/projectsampleinfo.json'
 import '../styles/MarkPointOnMap2.css'
@@ -10,12 +11,20 @@ mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN
 
 function MarkPointOnMap2() {
    const classificationCtx = useContext(ClassificationContext)
-
+  
    const mapContainer = useRef(null);
    // const [markerColor, setMarkerColor] = useState('green');
+   const [selectProject, setSelectProject] = useState(null)
 
-   const features = Array.from(classificationCtx.projects)
-   // const features = Array.from(projectData.features)
+   // const features = Array.from(classificationCtx.projects)
+   const features = Array.from(projectData.features)
+
+   document.createElement("div").addEventListener('click', () => 
+   { 
+      alert("Marker Clicked.");
+   }
+   ); 
+
 
    useEffect(() => {
       // if (map.current) return; // initialize map only once
@@ -28,7 +37,7 @@ function MarkPointOnMap2() {
          container: mapContainer.current,
          style: 'mapbox://styles/mapbox/dark-v10',
          center: [-114.066666, 51.049999],
-         zoom: 14
+         zoom: 14,
       });
 
       // Add zoom and rotation controls to the map.
@@ -81,14 +90,30 @@ function MarkPointOnMap2() {
       //    default:
       //       console.log('This Selection Is Incorrect');
       // }
+      const popup = new mapboxgl.Popup({offset: 25})
+      .setText("Construction on the Washington Monument began in 1848.");
+
       features.forEach(
          (features) => new mapboxgl.Marker({
             color: "white",
-            scale: "1"
+            scale: ".5",
+            interactive: true,
          })
             .setLngLat(features.geometry.coordinates)
             .addTo(map)
+            .setPopup(popup)
       )
+      // mapboxgl.Marker.getElement().addEventListener('click', function (e) { console.log("marker clicked"); });
+      map.on('click', function(e) {
+
+         console.log("Clicking the marker now", e);
+     
+         //   map.featuresAt(e.point, {radius: 100, layer: 'YOUR MARKER LAYER ID'}, function(err, features) {
+         //         console.log(features[0]);
+     
+         //   });
+     
+         });
 
    });
 
