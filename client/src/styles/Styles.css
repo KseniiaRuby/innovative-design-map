@@ -135,6 +135,7 @@ option {
 .project-name-align {
   font-size: 1em;
   font-weight: 400;
+  padding-top: 0.5em;
 }
 
 .description-align {

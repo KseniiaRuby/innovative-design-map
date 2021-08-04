@@ -54,7 +54,7 @@ const ProjectSlider = ({
               // <Button>
               <Button linkProperty={`/ProjectPage/` + project._id}>
                 <div className="slider-div">
-                  <h2 className="project-name-align">
+                  <div className="project-name-align">
                     {project.projectName}{" "}
                     <img
                       src={project.imageUrls.image1.image}
@@ -67,10 +67,19 @@ const ProjectSlider = ({
                         overflow: "hidden",
                       }}
                     />
-                  </h2>
+                  </div>
                   <div className="description-align">
                     {" "}
-                    {project.innovationDescriptions.featureWords.map(
+                    {JSON.stringify(project.innovationDescriptions.featureWords)
+                      .replace('["', " ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('","', ", ")
+                      .replace('"]', " ")}
+                    {/* {project.innovationDescriptions.featureWords.map(
                       (featureWord) => {
                         return (
                           <ul key={featureWord}>
@@ -78,7 +87,7 @@ const ProjectSlider = ({
                           </ul>
                         );
                       }
-                    )}
+                    )} */}
                   </div>
                 </div>
               </Button>
