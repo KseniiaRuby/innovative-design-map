@@ -62,12 +62,14 @@ const ProjectSlider = ({
                       src={project.imageUrls.image1.image}
                       alt={project.imageUrls.image1.alt}
                       style={{
-                        width: "100%",
-                        height: "100%",
+                        // width: "100%",
+                        height: "75px",
                         padding: "0em 0em 0em 0em",
-                        // opacity: "100%",
-                        opacity: "50%",
+                        opacity: "100%",
+                        // opacity: "50%",
                         overflow: "hidden",
+                        // margin: "-2em 0em 0em 0em",
+                        // position: "absolute",
                       }}
                     />
                   </div>
