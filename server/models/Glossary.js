@@ -4,16 +4,16 @@ const Schema = mongoose.Schema
 
 
 //We need Schema for Glossary here
-const glossarySchema = new Schema({
+// const glossarySchema = new Schema({
    // classificationName: String,
    // gatewayWords: [String],
    // featureWords: [String],
    // longDescription: String,
    // shortDescription: String,
-})
+// })
 
-module.exports = mongoose.model(
+// module.exports = mongoose.model(
    // "Classifications",
-   // classificationSchema,
+   // glossarySchema
    // "Classifications"
-)
+// )
