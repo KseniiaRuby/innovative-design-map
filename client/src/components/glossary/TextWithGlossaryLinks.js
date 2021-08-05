@@ -8,7 +8,6 @@ const indexOfTerm = (term, text, startingAt) => {
 }
 
 const splitSpanWithTerm = (term, spanDetail) => {
-    console.log('splitting span with term ', term, spanDetail)
     let resultSpans = []
     let startIndex = 0
     let upperCaseTerm = term.toUpperCase()
@@ -43,7 +42,6 @@ const TextWithGlossaryLinks = ({text}) => {
     // get the terms and sort them by length so the longest terms are matched first
     let terms = [...glossaryContext.allTerms]
     terms.sort((a, b) => b.length - a.length)
-    console.log('sorted terms are', terms)
 
     // initialize span details with a single large span
     let spanDetails = [ { text: text } ]
@@ -61,7 +59,6 @@ const TextWithGlossaryLinks = ({text}) => {
         })
         spanDetails = newSpanDetails
     })
-    console.log('split up text spans', spanDetails)
     setTextSpanDetails(spanDetails)
 
   }, [text, glossaryContext])
@@ -69,7 +66,7 @@ const TextWithGlossaryLinks = ({text}) => {
   return (
     <>
       { 
-        textSpanDetails.map((textSpan) => TextSpan(textSpan))
+        textSpanDetails.map((textSpan, index) => <TextSpan key={index} text={textSpan.text} term={textSpan.term}/>)
       }
     </>
   )

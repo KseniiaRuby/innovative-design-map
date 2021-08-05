@@ -59,94 +59,93 @@ const ProjectPage = () => {
 
   if (project !== undefined) {
     return (
-      <GlossaryContainer>
-        <div className="container-grid">
+      <div className="container-grid">
+        <div>
           <div>
-            <div>
-              <ProjectHeader
-                projectName={project.projectName}
-                projectImageBackground={project.imageUrls.image1.image}
-                projectImageAlt={project.imageUrls.image1.alt}
-              />
-            </div>
-            <div className="container-grid-two-in-the-row">
-              {(project.location.address ||
-                project.location.city ||
-                project.location.province ||
-                project.location.postalCode) && (
-                <ProjectPageLeftSideShortcuts
-                  projectAddress={project.location.address}
-                  projectCity={project.location.city}
-                  projectProvince={project.location.province}
-                  projectPostalCode={project.location.postalCode}
-                />
-              )}
-              <ProjectDescription
-                //  projectDescription={project.projectDescription}
-                projectName={project.projectName}
-                projectTypology={project.projectTypology}
-                projectNeighbourhood={project.Neighbourhood}
+            <ProjectHeader
+              projectName={project.projectName}
+              projectImageBackground={project.imageUrls.image1.image}
+              projectImageAlt={project.imageUrls.image1.alt}
+            />
+          </div>
+          <div className="container-grid-two-in-the-row">
+            {(project.location.address ||
+              project.location.city ||
+              project.location.province ||
+              project.location.postalCode) && (
+              <ProjectPageLeftSideShortcuts
+                projectAddress={project.location.address}
                 projectCity={project.location.city}
                 projectProvince={project.location.province}
-                projectFirm={project.companyName}
-                projectYear={project.dateOfCompletion}
-                projectClient={project.projectOwnersAndClients}
+                projectPostalCode={project.location.postalCode}
               />
-            </div>
-            <ProjectRelatedClassifications
-              projectPrimaryName={
-                project.innovationDescriptions.primaryTypeOfInnovation
-                  .classificationName
-              }
-              projectSecondaryName={
-                project.innovationDescriptions.secondaryTypeOfInnovation
-                  .classificationName
-              }
-              projectTertiaryName={
-                project.innovationDescriptions.tertiaryTypeOfInnovation
-                  .classificationName
-              }
-            />
-            <FeatureWordsList
-              featureWords={project.innovationDescriptions.featureWords}
-            />
-            <ProjectClassifications
-              projectDescription={project.projectDescription}
-              projectPrimaryName={
-                project.innovationDescriptions.primaryTypeOfInnovation
-                  .classificationName
-              }
-              projectPrimaryDescription={
-                project.innovationDescriptions.primaryTypeOfInnovation
-                  .projectDescription
-              }
-              projectSecondaryName={
-                project.innovationDescriptions.secondaryTypeOfInnovation
-                  .classificationName
-              }
-              projectSecondaryDescription={
-                project.innovationDescriptions.secondaryTypeOfInnovation
-                  .projectDescription
-              }
-              projectTertiaryName={
-                project.innovationDescriptions.tertiaryTypeOfInnovation
-                  .classificationName
-              }
-              projectTertiaryDescription={
-                project.innovationDescriptions.tertiaryTypeOfInnovation
-                  .projectDescription
-              }
+            )}
+            <ProjectDescription
+              //  projectDescription={project.projectDescription}
+              projectName={project.projectName}
+              projectTypology={project.projectTypology}
+              projectNeighbourhood={project.Neighbourhood}
+              projectCity={project.location.city}
+              projectProvince={project.location.province}
+              projectFirm={project.companyName}
+              projectYear={project.dateOfCompletion}
+              projectClient={project.projectOwnersAndClients}
             />
           </div>
-          <div className="navbar-project-page">
-            <Navbar />
-          </div>
-          {/* <ProjectGallery /> */}
-          <p className="slider-on-project-page">
-            {/* <HorizontalProjectMenu /> */}
-          </p>
+          <ProjectRelatedClassifications
+            projectPrimaryName={
+              project.innovationDescriptions.primaryTypeOfInnovation
+                .classificationName
+            }
+            projectSecondaryName={
+              project.innovationDescriptions.secondaryTypeOfInnovation
+                .classificationName
+            }
+            projectTertiaryName={
+              project.innovationDescriptions.tertiaryTypeOfInnovation
+                .classificationName
+            }
+          />
+          <FeatureWordsList
+            featureWords={project.innovationDescriptions.featureWords}
+          />
+          <ProjectClassifications
+            projectDescription={project.projectDescription}
+            projectPrimaryName={
+              project.innovationDescriptions.primaryTypeOfInnovation
+                .classificationName
+            }
+            projectPrimaryDescription={
+              project.innovationDescriptions.primaryTypeOfInnovation
+                .projectDescription
+            }
+            projectSecondaryName={
+              project.innovationDescriptions.secondaryTypeOfInnovation
+                .classificationName
+            }
+            projectSecondaryDescription={
+              project.innovationDescriptions.secondaryTypeOfInnovation
+                .projectDescription
+            }
+            projectTertiaryName={
+              project.innovationDescriptions.tertiaryTypeOfInnovation
+                .classificationName
+            }
+            projectTertiaryDescription={
+              project.innovationDescriptions.tertiaryTypeOfInnovation
+                .projectDescription
+            }
+          />
         </div>
-      </GlossaryContainer>
+        <div className="navbar-project-page">
+          <Navbar />
+        </div>
+        {/* <ProjectGallery /> */}
+        <p className="slider-on-project-page">
+          {/* <HorizontalProjectMenu /> */}
+        </p>
+        <GlossaryContainer />
+      </div>
     );
   }
   return null;

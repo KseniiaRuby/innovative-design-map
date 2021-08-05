@@ -1,11 +1,29 @@
 import {useState, useEffect, useContext} from 'react';
+import ReactModal from 'react-modal'
 import GlossaryContext from "../../store/GlossaryContext";
+
+import './glossary.css'
+
+// I couldn't figure out how to do this with css
+const modalStyles = {
+  overlay: {
+    backgroundColor: '#00000080',
+  },
+  content: {
+    top: '20px',
+    left: '20px',
+    bottom: '20px',
+    right: '20px',
+    backgroundColor: 'black',
+    color: 'white'
+  }
+}
 
 const Glossary = ({ hideGlossary }) => {
     let glossaryContext = useContext(GlossaryContext)
     let selectedDefinition = glossaryContext.selectedDefinition
   
-    return selectedDefinition && (
+    return selectedDefinition ? (
       <div className='glossary-fullscreen'>
         <div className='glossary-header'>
           <div className='glossary-button-container'>
@@ -22,18 +40,14 @@ const Glossary = ({ hideGlossary }) => {
           </div>
         </div>
       </div>
-    )
+    ) : null
   }
   
-  const GlossaryContainer = ({ children }) => {
+  const GlossaryContainer = () => {
     let glossaryContext = useContext(GlossaryContext)
     let [showGlossary, setShowGlossary] = useState(false)
-  
-    console.log('Rendering the glossary container')
-    console.log('glossaryContext.selectedDefintion', glossaryContext.selectedDefinition )
-  
+    
     useEffect(() => {
-      console.log('Glossary selection has changed... time to show it!')
       if (glossaryContext.selectedDefinition) {
         setShowGlossary(true)
       }
@@ -43,8 +57,12 @@ const Glossary = ({ hideGlossary }) => {
       glossaryContext.setSelectedTerm(null)
       setShowGlossary(false)
     }
-  
-    return showGlossary ? <Glossary hideGlossary={hideGlossary} /> : children
+
+    return (
+      <ReactModal isOpen={showGlossary} style={modalStyles}>
+        <Glossary hideGlossary={hideGlossary} />
+      </ReactModal>
+    )
   }
 
   export default GlossaryContainer
