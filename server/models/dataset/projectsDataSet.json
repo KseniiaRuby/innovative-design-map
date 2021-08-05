@@ -540,7 +540,7 @@
  {
     "projectName": "5th Street Underpass Enhancement Project",
     "dateOfCompletion": "2021",
-    "projectDescription": "5th Street SW provides an unterrupted connection from the Bow River through to the Elbow River. Being in an extraordinary position between the two rivers and two very differing communities, there is a need for the 5th Street SW Underpass to support and reinforce the vision of the City Centre Plan, to be liveable, thriving and caring place. It is vital to create a safer and more comfortable space for pedestrians and cyclists moving between the Beltline and the downtown core, without compromising vehicle and transit usability.",
+    "projectDescription": "5th Street SW provides an uninterrupted connection from the Bow River through to the Elbow River. Being in an extraordinary position between the two rivers and two very differing communities, there is a need for the 5th Street SW Underpass to support and reinforce the vision of the City Centre Plan, to be liveable, thriving and caring place. It is vital to create a safer and more comfortable space for pedestrians and cyclists moving between the Beltline and the downtown core, without compromising vehicle and transit usability.",
     
 
     "phoneNumber": "",
@@ -588,7 +588,7 @@
       "primaryTypeOfInnovation": {
         "classificationName": "Transportation and Infrastructure",
         "classificationId": "60f7568f5a51197896a1491b",
-        "projectDescription": "Built in the 1970s, the 5th Street Underpass serves as a main gateway and key corridor for north-south movement between the communities of Beltline and Downtown Calgary. It includes the only cycle track of all the underpasses connecting Calgarians. With more than three million communters using the underpass each year, the 5th Street Underpass is one of the busiest multi-model corridors in Calgary.",
+        "projectDescription": "Built in the 1970s, the 5th Street Underpass serves as a main gateway and key corridor for north-south movement between the communities of Beltline and Downtown Calgary. It includes the only cycle track of all the underpasses connecting Calgarians. With more than three million commuters using the underpass each year, the 5th Street Underpass is one of the busiest multi-model corridors in Calgary.",
         "gatewayWord": "Connected"
       },
       "secondaryTypeOfInnovation": {
@@ -610,8 +610,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.07389230432969, 51.044405199307114 ],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -619,20 +619,21 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/FzcR2VR/5th-Street-Underpass-Enhancement-Project-1.jpg",
+        "alt": "5th-Street-Underpass-Enhancement-Project-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/3rgNZ4R/5th-Street-Underpass-Enhancement-Project-2.jpg",
+        "alt": "5th-Street-Underpass-Enhancement-Project-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/82MWnNM/5th-Street-Underpass-Enhancement-Project-3.jpg",
+        "alt": "5th-Street-Underpass-Enhancement-Project-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
+      "image4": { "image": "https://i.ibb.co/yW7tPMd/5th-Street-Underpass-Enhancement-Project-5.jpg",
+         "alt": "5th-Street-Underpass-Enhancement-Project-5 border=0" },
       "image5": { "image": "", "alt": "" }
     }
   },
@@ -640,7 +641,7 @@
    {
     "projectName": "Urban Systems Calgary Office",
     "dateOfCompletion": "",
-    "projectDescription": "Urban Systems is a multidisciplinary strategic planning, engineering, environmental science, urban design and landscape conculting firm with a staff of approximately 120 people in their Calgary office. It was also important to create an office space where the Calgary staff could easily interact and connect. The office was designed to have an open floor plan that features social spaces and different kinds of work environments that the staff can take advantage of when they need a break from their desk.",
+    "projectDescription": "Urban Systems is a multidisciplinary strategic planning, engineering, environmental science, urban design and landscape consulting firm with a staff of approximately 120 people in their Calgary office. It was also important to create an office space where the Calgary staff could easily interact and connect. The office was designed to have an open floor plan that features social spaces and different kinds of work environments that the staff can take advantage of when they need a break from their desk.",
     
 
     "phoneNumber": "",
@@ -709,8 +710,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.06089986801149, 51.0433159498885],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -718,21 +719,23 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/RSsTLsH/Urban-Systems-Calgary-Office-1.jpg",
+        "alt": "Urban-Systems-Calgary-Office-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/F8KQgmK/Urban-Systems-Calgary-Office-2.jpg",
+        "alt": "Urban-Systems-Calgary-Office-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/rvnCWYM/Urban-Systems-Calgary-Office-3.jpg",
+        "alt": "Urban-Systems-Calgary-Office-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/k0x7yhs/Urban-Systems-Calgary-Office-4.jpg", 
+        "alt": "Urban-Systems-Calgary-Office-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/GJpYqFd/Urban-Systems-Calgary-Office-5.jpg",
+         "alt": "Urban-Systems-Calgary-Office-5 border=0" }
     }
   },
 
@@ -810,8 +813,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.03765323657137,51.0414504842796],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -819,21 +822,23 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/Chd2zfL/The-Livery-1.jpg",
+        "alt": "The-Livery-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/jkybwPX/The-Livery-2.jpg",
+        "alt": "The-Livery-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/zSZKdL0/The-Livery-3.jpg",
+        "alt": "The-Livery-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/ZdBS9wt/The-Livery-4.jpg", 
+        "alt": "The-Livery-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/p0dnPvN/The-Livery-5.jpg", 
+        "alt": "The-Livery-5 border=0" }
     }
   },
 
@@ -888,7 +893,7 @@
       "primaryTypeOfInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
-        "projectDescription": "The Kensington Legion's new home hosts a mix of social, recreation and cultural activities. Today, the Kensington Legion has realized a crucial part of the vision for a true community hub- a place for area residents, Legion memebers and their families to gather, socialize and reinforce a spirit of comradery and mutual suppport. Moreover, the building now acts a a crucial physical hub for the Legion's ongoing outreach. education and promotion of remembrance and duty to Canada.",
+        "projectDescription": "The Kensington Legion's new home hosts a mix of social, recreation and cultural activities. Today, the Kensington Legion has realized a crucial part of the vision for a true community hub- a place for area residents, Legion members and their families to gather, socialize and reinforce a spirit of comradery and mutual support. Moreover, the building now acts a a crucial physical hub for the Legion's ongoing outreach. education and promotion of remembrance and duty to Canada.",
         "gatewayWord": "Vibrant"
       },
       "secondaryTypeOfInnovation": {
@@ -910,8 +915,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.10443940549958, 51.05291747458486 ],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -919,27 +924,29 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/5nKQcQd/Kensington-Legion-no-264-1.jpg",
+        "alt": "Kensington-Legion-no-264-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/VS0fpF9/Kensington-Legion-no-264-2.jpg",
+        "alt": "Kensington-Legion-no-264-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/KGM7khY/Kensington-Legion-no-264-3.jpg",
+        "alt": "Kensington-Legion-no-264-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/yPvQ85N/Kensington-Legion-no-264-4.jpg",
+         "alt": "Kensington-Legion-no-264-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/yNRLZpn/Kensington-Legion-no-264-5.jpg", 
+        "alt": "Kensington-Legion-no-264-5 border=0" }
     }
   },
  {
     "projectName": "Park Point",
     "dateOfCompletion": "2018",
-    "projectDescription": "Park Point has a strong and unique vertical element to the architecture which resembles an exclamation point with the podium at its base as the dot. Th floorplate also creates a stepped effect with colour enhancing patterns. Reaching 34-storeys, Park Point, located on the park side of the block, is the first of two-tower mixed use residential development project. The tallest building the the immediate neighbourhood, Park Point has defined the skyline of the Beltline Community. From street level, an elegant double height lobby with a distinctive canopy further adds to the perstigious nature of this address.",
+    "projectDescription": "Park Point has a strong and unique vertical element to the architecture which resembles an exclamation point with the podium at its base as the dot. Th floorplate also creates a stepped effect with colour enhancing patterns. Reaching 34-storeys, Park Point, located on the park side of the block, is the first of two-tower mixed use residential development project. The tallest building the the immediate neighbourhood, Park Point has defined the skyline of the Beltline Community. From street level, an elegant double height lobby with a distinctive canopy further adds to the prestigious nature of this address.",
     
 
     "phoneNumber": "",
@@ -1007,8 +1014,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.06879294166858, 51.0418643741461 ],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -1016,21 +1023,23 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/1KXStJV/Park-Point-1.jpg",
+        "alt": "Park-Point-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/CnhkDTQ/Park-Point-2.jpg",
+        "alt": "Park-Point-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/YcQ9MMd/Park-Point-3.jpg",
+        "alt": "Park-Point-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/8DcSKsf/Park-Point-4.jpg",
+         "alt": "Park-Point-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/3yDsYvC/Park-Point-5.jpg",
+         "alt": "Park-Point-5 border=0" }
     }
   },
  {
@@ -1106,8 +1115,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [ -114.07148899867599, 51.04434693400402],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -1115,28 +1124,30 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/PxbLT09/The-4th-Street-SW-Underpass-Enhancement-Project-1.jpg",
+        "alt": "The-4th-Street-SW-Underpass-Enhancement-Project-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/vP033BS/The-4th-Street-SW-Underpass-Enhancement-Project-2.jpg",
+        "alt": "The-4th-Street-SW-Underpass-Enhancement-Project-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/TcD0PBs/The-4th-Street-SW-Underpass-Enhancement-Project-3.jpg",
+        "alt": "The-4th-Street-SW-Underpass-Enhancement-Project-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/CvpmmzP/The-4th-Street-SW-Underpass-Enhancement-Project-4.jpg",
+         "alt": "The-4th-Street-SW-Underpass-Enhancement-Project-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/h1D89DZ/The-4th-Street-SW-Underpass-Enhancement-Project-5.jpg", 
+        "alt": "The-4th-Street-SW-Underpass-Enhancement-Project-5 border=0" }
     }
   },
 
    {
     "projectName": "Delta Garden + The City Unseen",
     "dateOfCompletion": "2018",
-    "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation pattersn. It contains a new puclic art installation by local artitist that was developed through a collaborative process and community enagagement. The Delta Garden + The City Unseen re-appropriates survey monuments to explore the dissonance between manmade methods of mapping the land, the land's natural divisions and the power of our perceptions to transform any given place.",
+    "projectDescription": "The Delta Garden is a new gathering space at the south end of the Peace Bridge. Drawing inspiration from the flow of people from the bridge and river delta, the space is composed of raised planters with lush perennial planting that create seating areas and define circulation pattern. It contains a new public art installation by local artist that was developed through a collaborative process and community engagement. The Delta Garden + The City Unseen re-appropriates survey monuments to explore the dissonance between manmade methods of mapping the land, the land's natural divisions and the power of our perceptions to transform any given place.",
     
 
     "phoneNumber": "",
@@ -1190,7 +1201,7 @@
       "secondaryTypeOfInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
-        "projectDescription": "Words and phrases from the surveys are engraved into the brass monuments, mapping the 'social coodinates' of the city and creating a fragmented narrative in concrete. Over time, the text will wear and the monuments will tarnish. The most popular routes through the Delta Garden will be polished underfoot. Intended to trace 'desire lines' through (and beyond) our city, the artwork speaks to myths + maps + rivers + boundaries, nature + culture, in an effort to illuminate the cities beneath our everyday experience.",
+        "projectDescription": "Words and phrases from the surveys are engraved into the brass monuments, mapping the 'social coordinates' of the city and creating a fragmented narrative in concrete. Over time, the text will wear and the monuments will tarnish. The most popular routes through the Delta Garden will be polished underfoot. Intended to trace 'desire lines' through (and beyond) our city, the artwork speaks to myths + maps + rivers + boundaries, nature + culture, in an effort to illuminate the cities beneath our everyday experience.",
         "gatewayWord": ""
       },
       "tertiaryTypeOfInnovation": {
@@ -1206,8 +1217,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.07859223853289, 51.05421110742341 ],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -1215,27 +1226,29 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/0stC8qC/Delta-Garden-The-City-Unseen-1.jpg",
+        "alt": "Delta-Garden-The-City-Unseen-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/2sN9nRg/Delta-Garden-The-City-Unseen-2.jpg",
+        "alt": "Delta-Garden-The-City-Unseen-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/S6mytC0/Delta-Garden-The-City-Unseen-3.jpg",
+        "alt": "Delta-Garden-The-City-Unseen-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/wWjj8wc/Delta-Garden-The-City-Unseen-4.jpg", 
+        "alt": "Delta-Garden-The-City-Unseen-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/WHWb3gx/Delta-Garden-The-City-Unseen-5.jpg", 
+        "alt": "Delta-Garden-The-City-Unseen-5 border=0" }
     }
   },
  {
     "projectName": "Beltline Urban Murals Project",
     "dateOfCompletion": "",
-    "projectDescription": "The Beltline Urban Murals Project (BUMP) is a community driven initiative that reimages and beautifies our forgotten spaces. It transforms the city into an open air gallery and builds a better appreciation of the urban environment. BUMP was launched in 2017 as a way to galvanize public art in the Beltline community. Now completing its third year, BUMP has curated a diverse portfolio of local, national and internation artists who have created an improved pedestrian experience, attracted customers to local businesses, and helped foster a culture of arts promotion and celebration in Calgary.",
+    "projectDescription": "The Beltline Urban Murals Project (BUMP) is a community driven initiative that reimagines and beautifies our forgotten spaces. It transforms the city into an open air gallery and builds a better appreciation of the urban environment. BUMP was launched in 2017 as a way to galvanize public art in the Beltline community. Now completing its third year, BUMP has curated a diverse portfolio of local, national and international artists who have created an improved pedestrian experience, attracted customers to local businesses, and helped foster a culture of arts promotion and celebration in Calgary.",
     
 
     "phoneNumber": "",
@@ -1304,36 +1317,38 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.09366217484607, 51.0410316242831 ],
+      "address": "1333 13 Ave SW",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/h2pRXKq/Beltline-Urban-Murals-Project-1.jpg",
+        "alt": "Beltline-Urban-Murals-Project-1"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/1zmLNry/Beltline-Urban-Murals-Project-2.jpg",
+        "alt": "Beltline-Urban-Murals-Project-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/VHv3q68/Beltline-Urban-Murals-Project-3.jpg",
+        "alt": "Beltline-Urban-Murals-Project-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/vY8MP28/Beltline-Urban-Murals-Project-4.jpg",
+         "alt": "Beltline-Urban-Murals-Project-4 border=0" },
+      "image5": { "image": "https://i.ibb.co/NWTYDky/Beltline-Urban-Murals-Project-5.jpg",
+         "alt": "Beltline-Urban-Murals-Project-5 border=0" }
     }
   },
  {
     "projectName": "The Bounce",
     "dateOfCompletion": "2019",
-    "projectDescription": "The Bounce, a colourful and bold urban games park, opened June 5, 2019, on an underutilized but busy corner of Calgary's East Village neighborhood. The project team sought to enhance community vitality and safety through placemaking that inspired active living and community building The strategy for the site was informed by both an audit of existing public amenities in the downtown area and a review of global trends in urban space design. Through the findings, the team concluded that a visually striking basketball sports court would be an exemplar approach to deliver on the objectives of the program.",
+    "projectDescription": "The Bounce, a colorful and bold urban games park, opened June 5, 2019, on an underutilized but busy corner of Calgary's East Village neighborhood. The project team sought to enhance community vitality and safety through placemaking that inspired active living and community building The strategy for the site was informed by both an audit of existing public amenities in the downtown area and a review of global trends in urban space design. Through the findings, the team concluded that a visually striking basketball sports court would be an exemplar approach to deliver on the objectives of the program.",
     
 
     "phoneNumber": "",
@@ -1374,7 +1389,7 @@
         "Social Interaction", 
         "Place Making", 
         "Experience", 
-        "Neighbourly", 
+        "Neighborly", 
         "Inclusion", 
         "Equality"
       ],
@@ -1388,7 +1403,7 @@
       "secondaryTypeOfInnovation": {
         "classificationName": "Equity and Social Justice",
         "classificationId": "60f756465a51197896a14915",
-        "projectDescription": "The programming stategy focused on mainting The Bounce as a publicly accessible amenity. During the operating hours, 30 or more people can be found playing at an given time. The steady flow of visitors brings vitality to the park and promotes community interaction resulting in many pick up games between strangers. It has succeeded in becoming a place where people from all walks of society meet and build community.",
+        "projectDescription": "The programming strategy focused on maintaining The Bounce as a publicly accessible amenity. During the operating hours, 30 or more people can be found playing at an given time. The steady flow of visitors brings vitality to the park and promotes community interaction resulting in many pick up games between strangers. It has succeeded in becoming a place where people from all walks of society meet and build community.",
         "gatewayWord": ""
       },
       "tertiaryTypeOfInnovation": {
@@ -1404,8 +1419,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.05346359242672, 51.04533244644158],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -1413,27 +1428,29 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/cFxJywp/The-Bounce-1.jpg",
+        "alt": "The-Bounce-1 border=0"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/Cv18cXL/The-Bounce-2.jpg",
+        "alt": "The-Bounce-2 border=0"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/3FsxwmT/The-Bounce-3.jpg",
+        "alt": "The-Bounce-3 border=0"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/QQZrk80/The-Bounce-4.jpg",
+         "alt": "The-Bounce-4 border=0"},
+      "image5": { "image": "https://i.ibb.co/4KpXxML/The-Bounce-5.jpg",
+         "alt": "The-Bounce-5 border=0" }
     }
   },
  {
     "projectName": "17th Avenue SW Pocket Square",
     "dateOfCompletion": "2019",
-    "projectDescription": "Four community members living nearby saw the site's tremendous opportunity. Their goal was not only to improve the space and provide much-needed park space in an under-served community, but also to explore innovative models of partnership that could produce a quality space from a community-level initiative. They org anized and set out on a multi-year process to convene supporters around their vision. Through community workshops, events with students at the nearby high school, and stakeholder engagement, the group tapped into a wellspring of support. They attracted partners, collaborators, and funders that included the Cliff Bungalow-Mission Community Association, the City of Calgary, the Calgary Board of Education, Parks Foundation Calgary.and the 17th Avenue BRZ.",
+    "projectDescription": "Four community members living nearby saw the site's tremendous opportunity. Their goal was not only to improve the space and provide much-needed park space in an under-served community, but also to explore innovative models of partnership that could produce a quality space from a community-level initiative. They organized and set out on a multi-year process to convene supporters around their vision. Through community workshops, events with students at the nearby high school, and stakeholder engagement, the group tapped into a wellspring of support. They attracted partners, collaborators, and funders that included the Cliff Bungalow-Mission Community Association, the City of Calgary, the Calgary Board of Education, Parks Foundation Calgary.and the 17th Avenue BRZ.",
     
 
     "phoneNumber": "",
@@ -1479,7 +1496,7 @@
       "primaryTypeOfInnovation": {
         "classificationName": "Culture, Heritage and Society",
         "classificationId": "60f756335a51197896a14913",
-        "projectDescription": "The challenge with 'leftover' spaces is often complicated ownership boundaries. In this case, the group collaborated with the Calgary Board of Education and the City of Calgary to build park space without a need to purchase the land underneath, greatly reducing the cost to the city. The community group also designed a special modular outdoor seating system for the space. The seats are made from recyclable polyethylene and bring an inexpensive, vibrant, and resilient presence to the street The moclules are manufactured in Alberta and can be produced in small runs of any colour.",
+        "projectDescription": "The challenge with 'leftover' spaces is often complicated ownership boundaries. In this case, the group collaborated with the Calgary Board of Education and the City of Calgary to build park space without a need to purchase the land underneath, greatly reducing the cost to the city. The community group also designed a special modular outdoor seating system for the space. The seats are made from recyclable polyethylene and bring an inexpensive, vibrant, and resilient presence to the street The molecules are manufactured in Alberta and can be produced in small runs of any colour.",
         "gatewayWord": "Vibrant"
       },
       "secondaryTypeOfInnovation": {
@@ -1501,8 +1518,8 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.0757579, 51.0377698],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -1510,18 +1527,18 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/fDSQj8G/17th-Avenue-SW-Pocket-Square-1.jpg",
+        "alt": "17th-Avenue-SW-Pocket-Square-1"
       },
-
+    
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/b70Fd2d/17th-Avenue-SW-Pocket-Square-2.jpg",
+        "alt": "17th-Avenue-SW-Pocket-Square-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/fqpTCzY/17th-Avenue-SW-Pocket-Square-3.jpg",
+        "alt": "17th-Avenue-SW-Pocket-Square-3"
       },
       "image4": { "image": "", "alt": "" },
       "image5": { "image": "", "alt": "" }
@@ -1603,30 +1620,31 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [ -114.05495240200942, 51.04533698747067],
+      "address": "800 3 St SE",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2G 2E7"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/1JCCX5w/New-Calgary-Library-1.jpg",
+        "alt": "New-Calgary-Library-1"
       },
-
+  
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/8891g4y/New-Calgary-Library-2.jpg",
+        "alt": "New-Calgary-Library-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/gMsb4BF/New-Calgary-Library-3.jpg",
+        "alt": "New-Calgary-Library-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/f9SNMfz/New-Calgary-Library-4.jpg", "alt": "New-Calgary-Library-4" },
+
+      "image5": { "image": "https://i.ibb.co/sR5xkJx/New-Calgary-Library-5.jpg", "alt": "New-Calgary-Library-5" }
     }
   },
  {
@@ -1701,30 +1719,33 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.08927533232003, 51.047514848995704],
+      "address": "701 11 St SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2P 2C4"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/mz4fftL/The-City-of-Calgary-Centennial-Planetarium-1.jpg",
+        "alt": "The-City-of-Calgary-Centennial-Planetarium-1"
       },
-
+      
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/xDXTHr8/The-City-of-Calgary-Centennial-Planetarium-2.jpg",
+        "alt": "The-City-of-Calgary-Centennial-Planetarium-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/DL01RLf/The-City-of-Calgary-Centennial-Planetarium-3.png",
+        "alt": "The-City-of-Calgary-Centennial-Planetarium-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/cbcJFtT/The-City-of-Calgary-Centennial-Planetarium-4.jpg", 
+        "alt": "The-City-of-Calgary-Centennial-Planetarium-4" },
+
+      "image5": { "image": "https://i.ibb.co/MnY4Npx/The-City-of-Calgary-Centennial-Planetarium-5.jpg", 
+        "alt": "The-City-of-Calgary-Centennial-Planetarium-5" }
     }
   },
  {
@@ -1800,36 +1821,37 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.0649795349542, 51.04442040377784],
+      "address": "133 9 Ave SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2P 2M3"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/DMD9kP6/Hawthorn-Room-1.jpg",
+        "alt": "Hawthorn-Room-1"
       },
-
+     
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/7VF8Dbq/Hawthorn-Room-2.jpg",
+        "alt": "Hawthorn-Room-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/1mjF5pp/Hawthorn-Room-3.jpg",
+        "alt": "Hawthorn-Room-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/GMDQKr7/Hawthorn-Room-4.jpg", "alt": "Hawthorn-Room-4" },
+
+      "image5": { "image": "https://i.ibb.co/0jHfqZw/Hawthorn-Room-5.jpg", "alt": "Hawthorn-Room-5" }
     }
   },
  {
     "projectName": "East Village Dog Park",
     "dateOfCompletion": "2018",
-    "projectDescription": "Calgary and its communities are defined by the experiences they create, not only for its people but also for its four-legged friends. The East Village Dog Park, (or as the project team affectionately refers to it \"dog bark\") is the perfect example of facilitating the organic collaboration between nature and design Bringing Calgarians into the world and sharing those experiences with our closest animal allies, our dogs. Using a small, vacant, underutilized lot within the Crossroads, The East Village Dog Park created linkages to the recentlyrevampedEastVillage,includingthewaterfrontpathways,communitygardensandfamilyplayground projects. The attentively designed landscape elements and mindfully chosen materials successfully blend urban redevelopment with national historic site elements and the surrounding urban areas of East Village.",
+    "projectDescription": "Calgary and its communities are defined by the experiences they create, not only for its people but also for its four-legged friends. The East Village Dog Park, (or as the project team affectionately refers to it \"dog bark\") is the perfect example of facilitating the organic collaboration between nature and design Bringing Calgarians into the world and sharing those experiences with our closest animal allies, our dogs. Using a small, vacant, underutilized lot within the Crossroads, The East Village Dog Park created linkages to the recently revamped EastVillage,including the waterfront pathways,community gardens and family playground projects. The attentively designed landscape elements and mindfully chosen materials successfully blend urban redevelopment with national historic site elements and the surrounding urban areas of East Village.",
     
 
     "phoneNumber": "",
@@ -1882,7 +1904,7 @@
       "secondaryTypeOfInnovation": {
         "classificationName": "Health and Wellness",
         "classificationId": "60f756625a51197896a14917",
-        "projectDescription": "The East Village Dog Park has re-invigorated a forgotten parcel of land and serves asan important transition to the adjacent communitygarden and playground while enhancing the East Village's connection to downtown with its growing number of dog-owners living in high-rises. Creating more amenities for dogs also increases the livability of communities; studies show that dog parks increase the sociability of communities, leading to dog owners being 40 per cent more likely to start new friendships. Owning a dog is also linkecl to numerous health benefits, including lower blood pressure, reduced cholesterol and better overall cardiovascular health and fewer heart attacks.",
+        "projectDescription": "The East Village Dog Park has re-invigorated a forgotten parcel of land and serves as an important transition to the adjacent community garden and playground while enhancing the East Village's connection to downtown with its growing number of dog-owners living in high-rises. Creating more amenities for dogs also increases the livability of communities; studies show that dog parks increase the sociability of communities, leading to dog owners being 40 per cent more likely to start new friendships. Owning a dog is also linked to numerous health benefits, including lower blood pressure, reduced cholesterol and better overall cardiovascular health and fewer heart attacks.",
         "gatewayWord": ""
       },
       "tertiaryTypeOfInnovation": {
@@ -1898,30 +1920,31 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
+      "type": "Point",
+      "coordinates": [-114.04755146208785, 51.04692893564205],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2G 0G1"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/TLt16Mx/East-Village-Dog-Park-1.jpg",
+        "alt": "East-Village-Dog-Park-1"
       },
-
+     
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/B3bgk5w/East-Village-Dog-Park-2.jpg",
+        "alt": "East-Village-Dog-Park-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/5r0zKm2/East-Village-Dog-Park-3.jpg",
+        "alt": "East-Village-Dog-Park-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/YTQC53H/East-Village-Dog-Park-4.jpg", "alt": "East-Village-Dog-Park-4" },
+
+      "image5": { "image": "https://i.ibb.co/zV2kxrD/East-Village-Dog-Park-5.jpg", "alt": "East-Village-Dog-Park-5" }
     }
   },
  {
@@ -1994,30 +2017,31 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.08847495577237, 51.043143650014805],
+      "address": "1177 11 Ave SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2R 1K9"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/KKPNy9y/cube-1.jpg",
+        "alt": "Calgary-Apartment-Beltline-1-Bedroom-424797"
       },
-
+    
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/K5CV62k/Cube-2.png",
+        "alt": "Cube-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/6sgKLsJ/Cube-3.jpg",
+        "alt": "Cube-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/fQwf0DH/Cube-4.jpg", "alt": "Cube-4" },
+
+      "image5": { "image": "https://i.ibb.co/g3YJCsP/Cube-5.jpg", "alt": "Cube-5" }
     }
   },
 
@@ -2094,30 +2118,31 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.0529835323675, 51.04471920054829],
+      "address": "850 4 St SE",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2G 0L8"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/Rhqy3s3/Studio-Bell-National-Music-Centre-1.jpg",
+        "alt": "Studio-Bell-National-Music-Centre-1"
       },
-
+  
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/Jz6Y7Rm/Studio-Bell-National-Music-Centre-2.jpg",
+        "alt": "Studio-Bell-National-Music-Centre-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/VS9TFsf/Studio-Bell-National-Music-Centre-3.jpg",
+        "alt": "Studio-Bell-National-Music-Centre-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/B20vzjg/Studio-Bell-National-Music-Centre-4.jpg", "alt": "Studio-Bell-National-Music-Centre-4" },
+
+      "image5": { "image": "https://i.ibb.co/sJjFJgh/Studio-Bell-National-Music-Centre5.jpg", "alt": "Studio-Bell-National-Music-Centre5" }
     }
   },
 
@@ -2191,29 +2216,30 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.09057456612324, 51.03885142400162],
+      "address": "1236 16 Ave SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T3C 0Z4"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/WgFrvS0/Thomson-Family-Park-1.png",
+        "alt": "Thomson-Family-Park-1"
       },
-
+     
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/d62dktL/Thomson-Family-Park-2.jpg",
+        "alt": "Thomson-Family-Park-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/SvFJppz/Thomson-Family-Park-3.jpg",
+        "alt": "Thomson-Family-Park-3"
       },
-      "image4": { "image": "", "alt": "" },
+      "image4": { "image": "https://i.ibb.co/jwGH8mF/Thomson-Family-Park-4.jpg",
+         "alt": "Thomson-Family-Park-4" },
       "image5": { "image": "", "alt": "" }
     }
   },
@@ -2289,30 +2315,31 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.05498784620508, 51.0443939972903],
+      "address": "Along 9th Avenue SE at 3rd Street SE",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/Kz5k9nF/9th-Avenue-Parkade-1.jpg",
+        "alt": "9th-Avenue-Parkade-1"
       },
-
+  
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/9VQV47k/9th-Avenue-Parkade-2.jpg",
+        "alt": "9th-Avenue-Parkade-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/XyNvt7m/9th-Avenue-Parkade-3.jpg",
+        "alt": "9th-Avenue-Parkade-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/RQ08rmB/9th-Avenue-Parkade-4.jpg", "alt": "9th-Avenue-Parkade-4" },
+
+      "image5": { "image": "https://i.ibb.co/5nP0Dxf/9th-Avenue-Parkade-5.png", "alt": "9th-Avenue-Parkade-5" }
     }
   },
 
@@ -2384,30 +2411,32 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.06217753767939, 51.04802096408604],
+      "address": "500 Centre St S",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2G 0E3"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/KLLZ4jD/The-Bow-1.jpg",
+        "alt": "The-Bow-1"
       },
 
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/zZWzJss/The-Bow-2.jpg",
+        "alt": "The-Bow-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/ZT5C8KP/The-Bow-3.jpg",
+        "alt": "The-Bow-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/L5fw5Sh/The-Bow-4.jpg",
+         "alt": "The-Bow-4" },
+      "image5": { "image": "https://i.ibb.co/dBc9VGP/The-Bow-5.jpg",
+         "alt": "The-Bow-5" }
     }
   },
 
@@ -2481,30 +2510,31 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.06595286500253, 51.047585259095236],
+      "address": "225 6 Ave SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2P 3S9"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/8DrRMyp/Brookfield-Place-1.jpg",
+        "alt": "Brookfield-Place-1"
       },
-
+    
+     
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/SPy6LN9/Brookfield-Place-2.jpg",
+        "alt": "Brookfield-Place-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/1M4M4mD/Brookfield-Place-3.jpg",
+        "alt": "Brookfield-Place-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/HC8xYS0/Brookfield-Place-4.jpg", "alt": "Brookfield-Place-4" },
+      "image5": { "image": "https://i.ibb.co/TT81SWV/Brookfield-Place-5.jpg", "alt": "Brookfield-Place-5" }
     }
   },
  {
@@ -2578,30 +2608,32 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.06913959198084, 51.04604879089394],
+      "address": "324 8 Ave SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2P 2Z2"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/f06D1BF/The-Core-1.jpg",
+        "alt": "The-Core-1"
       },
-
+    
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/h7NVyV9/The-Core-2.jpg",
+        "alt": "The-Core-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/RvMPJVj/The-Core-3.jpg",
+        "alt": "The-Core-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/2tNmTQR/The-Core-4.jpg", 
+        "alt": "The-Core-4" },
+      "image5": { "image": "https://i.ibb.co/vd1PFGD/The-Core-5.jpg", 
+        "alt": "The-Core-5" }
     }
   },
 
@@ -2678,30 +2710,30 @@
       ]
     },
     "location": {
-      "type": "",
-      "coordinates": [],
-      "address": "",
+      "type": "Point",
+      "coordinates": [-114.07893003495268, 51.0540975713594],
+      "address": "Peace Bridge",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/M90mwyf/Peace-Bridge-1.jpg",
+        "alt": "Peace-Bridge-1"
       },
-
+    
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/RYS7VJq/Peace-Bridge-2.jpg",
+        "alt": "Peace-Bridge-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/rmqTKBR/Peace-Bridge-3.jpg",
+        "alt": "Peace-Bridge-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/3SJTS6m/Peace-Bridge-4.jpg", "alt": "Peace-Bridge-4" },
+      "image5": { "image": "https://i.ibb.co/bbyCJZT/Peace-Bridge-5.jpg", "alt": "Peace-Bridge-5" }
     }
   },
 
@@ -2776,7 +2808,7 @@
       ]
     },
     "location": {
-      "type": "",
+      "type": "Point",
       "coordinates": [],
       "address": "",
       "city": "Calgary",
@@ -2876,7 +2908,7 @@
       ]
     },
     "location": {
-      "type": "",
+      "type": "Point",
       "coordinates": [],
       "address": "",
       "city": "Calgary",
@@ -2979,7 +3011,7 @@
       ]
     },
     "location": {
-      "type": "",
+      "type": "Point",
       "coordinates": [],
       "address": "",
       "city": "Calgary",
@@ -3077,7 +3109,7 @@
       ]
     },
     "location": {
-      "type": "",
+      "type": "Point",
       "coordinates": [],
       "address": "",
       "city": "Calgary",
@@ -3176,7 +3208,7 @@
       ]
     },
     "location": {
-      "type": "",
+      "type": "Point",
       "coordinates": [],
       "address": "",
       "city": "Calgary",
@@ -3274,7 +3306,7 @@
       ]
     },
     "location": {
-      "type": "",
+      "type": "Point",
       "coordinates": [],
       "address": "",
       "city": "Calgary",
