@@ -2809,7 +2809,7 @@
     },
     "location": {
       "type": "Point",
-      "coordinates": [],
+      "coordinates": [-114.05007545822964, 51.0485364430366],
       "address": "",
       "city": "Calgary",
       "province": "Alberta",
@@ -2817,21 +2817,21 @@
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/xfVCstk/East-Village-River-Walk-1.jpg",
+        "alt": "East-Village-River-Walk-1"
       },
-
+     
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/W2Y8KmS/East-Village-River-Walk-2.jpg",
+        "alt": "East-Village-River-Walk-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "ttps://i.ibb.co/M2SZMWx/East-Village-River-Walk-3.jpg",
+        "alt": "East-Village-River-Walk-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/kyRXmF1/East-Village-River-Walk-4.jpg", "alt": "East-Village-River-Walk-4" },
+      "image5": { "image": "https://i.ibb.co/30JHLxv/East-Village-River-Walk-5.jpg", "alt": "East-Village-River-Walk-5" }
     }
   },
  {
@@ -2909,29 +2909,29 @@
     },
     "location": {
       "type": "Point",
-      "coordinates": [],
-      "address": "",
+      "coordinates": [-114.04693116705725, 51.048439157284264],
+      "address": "234, Bow River Pathway",
       "city": "Calgary",
       "province": "Alberta",
       "postalCode": ""
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/LgPxk2z/George-C-King-Bridge-1.jpg",
+        "alt": "George-C-King-Bridge-1"
       },
-
+      
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/YdJ1ThW/George-C-King-Bridge-2.jpg",
+        "alt": "George-C-King-Bridge-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/4sg1HMn/George-C-King-Bridge-3.jpg",
+        "alt": "George-C-King-Bridge-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/ZWrk9Px/George-C-King-Bridge-4.jpg", "alt": "George-C-King-Bridge-4" },
+      "image5": { "image": "https://i.ibb.co/kSCNvMg/George-C-King-Bridge-5.jpg", "alt": "George-C-King-Bridge-5" }
     }
   },
 
@@ -3012,29 +3012,29 @@
     },
     "location": {
       "type": "Point",
-      "coordinates": [],
-      "address": "",
+      "coordinates": [-114.04131764698005, 51.047521856310645],
+      "address": "1300 Zoo Rd NE",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2E 7V6"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/ng3XPxC/St-Patrick-s-Island-Park-1.jpg",
+        "alt": "St-Patrick-s-Island-Park-1"
       },
-
+    
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/nb3YbWh/St-Patrick-s-Island-Park-2.jpg",
+        "alt": "St-Patrick-s-Island-Park-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/2ygKqgs/St-Patrick-s-Island-Park-3.jpg",
+        "alt": "St-Patrick-s-Island-Park-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/9n1xN26/St-Patrick-s-Island-Park-4.jpg", "alt": "St-Patrick-s-Island-Park-4" },
+      "image5": { "image": "https://i.ibb.co/XkhVGws/St-Patrick-s-Island-Park-5.jpg", "alt": "St-Patrick-s-Island-Park-5" }
     }
   },
  {
@@ -3110,29 +3110,29 @@
     },
     "location": {
       "type": "Point",
-      "coordinates": [],
-      "address": "",
+      "coordinates": [-114.06106702037043, 51.04584848061651],
+      "address": "136 8 Ave SE",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2G 0K6"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/W6HmLkV/Calgary-Telus-Convention-Centre-1.jpg",
+        "alt": "Calgary-Telus-Convention-Centre-1"
       },
-
+    
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/dGH7Q20/Calgary-Telus-Convention-Centre-2.jpg",
+        "alt": "Calgary-Telus-Convention-Centre-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/FmCrk0j/Calgary-Telus-Convention-Centre-3.jpg",
+        "alt": "Calgary-Telus-Convention-Centre-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/LZWjRfB/Calgary-Telus-Convention-Centre-4.jpg", "alt": "Calgary-Telus-Convention-Centre-4" },
+      "image5": { "image": "https://i.ibb.co/g6tLcYh/Calgary-Telus-Convention-Centre-5.jpg", "alt": "Calgary-Telus-Convention-Centre-5" }
     }
   },
  {
@@ -3209,29 +3209,29 @@
     },
     "location": {
       "type": "Point",
-      "coordinates": [],
-      "address": "",
+      "coordinates": [-114.05868780769109, 51.046186022100876],
+      "address": "228 8 Ave SE",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2P 2M5"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/pwBb8pz/Olympic-Plaza-1.jpg",
+        "alt": "Olympic-Plaza-1"
       },
-
+     
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/PD3nhLR/Olympic-Plaza-2.jpg",
+        "alt": "Olympic-Plaza-2"
       },
 
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/tpFbs3Z/Olympic-Plaza-3.jpg",
+        "alt": "Olympic-Plaza-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/k9ytQRy/Olympic-Plaza-4.jpg", "alt": "Olympic-Plaza-4" },
+      "image5": { "image": "https://i.ibb.co/5nCwSsp/Olympic-Plaza-5.jpg", "alt": "Olympic-Plaza-5" }
     }
   },
  {
@@ -3307,27 +3307,122 @@
     },
     "location": {
       "type": "Point",
-      "coordinates": [],
-      "address": "",
+      "coordinates": [-114.07405644457883, 51.0476271116302],
+      "address": "601 5 St SW",
       "city": "Calgary",
       "province": "Alberta",
-      "postalCode": ""
+      "postalCode": "T2P 5P7"
     },
     "imageUrls": {
       "image1": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/YWj5YG8/Calgary-Courts-Centre-1.jpg",
+        "alt": "Calgary-Courts-Centre-1"
       },
+      
       "image2": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/PM5CVkk/Calgary-Courts-Centre-2.jpg",
+        "alt": "Calgary-Courts-Centre-2"
       },
       "image3": {
-        "image": "",
-        "alt": ""
+        "image": "https://i.ibb.co/yhybx87/Calgary-Courts-Centre-3.jpg",
+        "alt": "Calgary-Courts-Centre-3"
       },
-      "image4": { "image": "", "alt": "" },
-      "image5": { "image": "", "alt": "" }
+      "image4": { "image": "https://i.ibb.co/KqdxxH1/Calgary-Courts-Centre-4.jpg", "alt": "Calgary-Courts-Centre-4" },
+      "image5": { "image": "https://i.ibb.co/ZgJqBCf/Calgary-Courts-Centre-5.jpg", "alt": "Calgary-Courts-Centre-5" }
+    }
+  },
+  {
+    "projectName": "Devonian Gardens",
+    "dateOfCompletion": "1977",
+    "projectDescription": "Devonian Gardens is an urban oasis in the heart of Calgary that offers one hectare of botanical gardens including over 500 trees, 50 varieties of plants, a 900 sq. ft. living wall, fountains, fish ponds and a playground to climb and explor​​e.​​ In 2012 Devonian Gardens underwent a major renovation. Many of the garden materials were aging and council committed $37 million for improvements and upgrades. The four-year project oversaw the installation of a living wall (a natural biofilter), and many new plants and trees, some from tropical locales. New water features, a space for corporate events, and a playground round out the features.",
+    
+
+    "phoneNumber": "",
+    "hours": {
+      "sunday": "",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      " friday": "",
+      "saturday": ""
+    },
+    "contactInformation": {
+      "companyName": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "projectWebsite": ""
+    },
+    "Neighbourhood": "Downtown",
+    "projectOwnersAndClients": [""],
+    "projectDesigners": "J.H. Cook Architects and Engineers",
+    "projectCollaborations": ["Janet Rosenberg & Studio and McKinley Burkart Architecture and DEW Inc."],
+    "projectTypology": "Public Gardens",
+    "projectProfile": "",
+    "keyFactsAboutTheProject": "",
+
+    "visitorsInformation": {
+      "openToPublic": "",
+      "reception": "",
+      "otherComments": ""
+    },
+    "innovationDescriptions": {
+      "featureWords": [
+        "Water Management", "Biodiersity", "Ecosystems", "Biophilla", "Ecological", "Green Network"
+      ],
+
+      "primaryTypeOfInnovation": {
+        "classificationName": "Climate and Environment",
+        "classificationId": "60f755985a51197896a1490f",
+        "projectDescription": "​Explore 2.5 acres of foliage at any time of the year. Over 550 trees and 50 types of plants provide a bright, peaceful escape from the corporate office. This climate-controlled environment creates a relaxing atmosphere to enjoy your lunch, take a stroll or stop and smell the flowers.​ Science meets nature with plants spread over 900 vertical square feet. On top of being a popular selfie spot, this botanical wonder acts as a natural biofilter to clean the air and remove odors.​​​ Two fish ponds have animated water features that are guaranteed to entertain. Grab a spot among the flexible seating to watch the koi fish and take in the soothing water features.",
+        "gatewayWord": "Resilient"
+      },
+      "secondaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "tertiaryTypeOfInnovation": {
+        "classificationName": "",
+        "classificationId": "",
+        "projectDescription": "",
+        "gatewayWord": ""
+      },
+      "generalProfile": "",
+      "keyFacts": [""],
+      "relatedProjects": [
+       
+      ]
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-114.06902886089175, 51.04665068535292],
+      "address": "CORE Shopping Centre, 333 7 Ave SW 4th floor",
+      "city": "Calgary",
+      "province": "Alberta",
+      "postalCode": "T2P 1B5"
+    },
+    "imageUrls": {
+      "image1": {
+        "image": "https://i.ibb.co/myzkwzx/Devonian-Gardens-1.png",
+        "alt": "Devonian-Gardens-1"
+      },
+     
+      "image2": {
+        "image": "https://i.ibb.co/CsJw3wj/Devonian-Gardens-2.jpg",
+        "alt": "Devonian-Gardens-2"
+      },
+      
+      "image3": {
+        "image": "https://i.ibb.co/WBYq6RC/Devonian-Gardens-3.jpg",
+        "alt": "Devonian-Gardens-3"
+      },
+      "image4": { "image": "https://i.ibb.co/Z1mkVJq/Devonian-Gardens-4.jpg", "alt": "Devonian-Gardens-4" },
+      "image5": { "image": "https://i.ibb.co/f420wxC/Devonian-Gardens-5.jpg", "alt": "Devonian-Gardens-5" }
     }
   }
 ]
+
