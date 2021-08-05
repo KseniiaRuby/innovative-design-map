@@ -8,6 +8,8 @@ import FeatureWordsList from "./components/ProjectFeatureWords";
 import ProjectClassifications from "./components/ProjectClassifications";
 import ProjectGallery from "./components/ProjectGallery";
 import Navbar from "../../components/Navbar";
+import GlossaryContainer from "../../components/glossary/GlossaryContainer";
+
 // import HorizontalProjectMenu from "../../components/HorizontalProjectSummaries/HorizontalProjectMenu"
 import "../../styles/Styles.css";
 
@@ -57,92 +59,94 @@ const ProjectPage = () => {
 
   if (project !== undefined) {
     return (
-      <div className="container-grid">
-        <div>
+      <GlossaryContainer>
+        <div className="container-grid">
           <div>
-            <ProjectHeader
-              projectName={project.projectName}
-              projectImageBackground={project.imageUrls.image1.image}
-              projectImageAlt={project.imageUrls.image1.alt}
-            />
-          </div>
-          <div className="container-grid-two-in-the-row">
-            {(project.location.address ||
-              project.location.city ||
-              project.location.province ||
-              project.location.postalCode) && (
-              <ProjectPageLeftSideShortcuts
-                projectAddress={project.location.address}
+            <div>
+              <ProjectHeader
+                projectName={project.projectName}
+                projectImageBackground={project.imageUrls.image1.image}
+                projectImageAlt={project.imageUrls.image1.alt}
+              />
+            </div>
+            <div className="container-grid-two-in-the-row">
+              {(project.location.address ||
+                project.location.city ||
+                project.location.province ||
+                project.location.postalCode) && (
+                <ProjectPageLeftSideShortcuts
+                  projectAddress={project.location.address}
+                  projectCity={project.location.city}
+                  projectProvince={project.location.province}
+                  projectPostalCode={project.location.postalCode}
+                />
+              )}
+              <ProjectDescription
+                //  projectDescription={project.projectDescription}
+                projectName={project.projectName}
+                projectTypology={project.projectTypology}
+                projectNeighbourhood={project.Neighbourhood}
                 projectCity={project.location.city}
                 projectProvince={project.location.province}
-                projectPostalCode={project.location.postalCode}
+                projectFirm={project.companyName}
+                projectYear={project.dateOfCompletion}
+                projectClient={project.projectOwnersAndClients}
               />
-            )}
-            <ProjectDescription
-              //  projectDescription={project.projectDescription}
-              projectName={project.projectName}
-              projectTypology={project.projectTypology}
-              projectNeighbourhood={project.Neighbourhood}
-              projectCity={project.location.city}
-              projectProvince={project.location.province}
-              projectFirm={project.companyName}
-              projectYear={project.dateOfCompletion}
-              projectClient={project.projectOwnersAndClients}
+            </div>
+            <ProjectRelatedClassifications
+              projectPrimaryName={
+                project.innovationDescriptions.primaryTypeOfInnovation
+                  .classificationName
+              }
+              projectSecondaryName={
+                project.innovationDescriptions.secondaryTypeOfInnovation
+                  .classificationName
+              }
+              projectTertiaryName={
+                project.innovationDescriptions.tertiaryTypeOfInnovation
+                  .classificationName
+              }
+            />
+            <FeatureWordsList
+              featureWords={project.innovationDescriptions.featureWords}
+            />
+            <ProjectClassifications
+              projectDescription={project.projectDescription}
+              projectPrimaryName={
+                project.innovationDescriptions.primaryTypeOfInnovation
+                  .classificationName
+              }
+              projectPrimaryDescription={
+                project.innovationDescriptions.primaryTypeOfInnovation
+                  .projectDescription
+              }
+              projectSecondaryName={
+                project.innovationDescriptions.secondaryTypeOfInnovation
+                  .classificationName
+              }
+              projectSecondaryDescription={
+                project.innovationDescriptions.secondaryTypeOfInnovation
+                  .projectDescription
+              }
+              projectTertiaryName={
+                project.innovationDescriptions.tertiaryTypeOfInnovation
+                  .classificationName
+              }
+              projectTertiaryDescription={
+                project.innovationDescriptions.tertiaryTypeOfInnovation
+                  .projectDescription
+              }
             />
           </div>
-          <ProjectRelatedClassifications
-            projectPrimaryName={
-              project.innovationDescriptions.primaryTypeOfInnovation
-                .classificationName
-            }
-            projectSecondaryName={
-              project.innovationDescriptions.secondaryTypeOfInnovation
-                .classificationName
-            }
-            projectTertiaryName={
-              project.innovationDescriptions.tertiaryTypeOfInnovation
-                .classificationName
-            }
-          />
-          <FeatureWordsList
-            featureWords={project.innovationDescriptions.featureWords}
-          />
-          <ProjectClassifications
-            projectDescription={project.projectDescription}
-            projectPrimaryName={
-              project.innovationDescriptions.primaryTypeOfInnovation
-                .classificationName
-            }
-            projectPrimaryDescription={
-              project.innovationDescriptions.primaryTypeOfInnovation
-                .projectDescription
-            }
-            projectSecondaryName={
-              project.innovationDescriptions.secondaryTypeOfInnovation
-                .classificationName
-            }
-            projectSecondaryDescription={
-              project.innovationDescriptions.secondaryTypeOfInnovation
-                .projectDescription
-            }
-            projectTertiaryName={
-              project.innovationDescriptions.tertiaryTypeOfInnovation
-                .classificationName
-            }
-            projectTertiaryDescription={
-              project.innovationDescriptions.tertiaryTypeOfInnovation
-                .projectDescription
-            }
-          />
+          <div className="navbar-project-page">
+            <Navbar />
+          </div>
+          {/* <ProjectGallery /> */}
+          <p className="slider-on-project-page">
+            {/* <HorizontalProjectMenu /> */}
+          </p>
         </div>
-        <div className="navbar-project-page">
-          <Navbar />
-        </div>
-        {/* <ProjectGallery /> */}
-        <p className="slider-on-project-page">
-          {/* <HorizontalProjectMenu /> */}
-        </p>
-      </div>
+      </GlossaryContainer>
     );
   }
   return null;

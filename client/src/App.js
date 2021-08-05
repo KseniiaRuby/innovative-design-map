@@ -7,20 +7,23 @@ import Navbar from "./components/Navbar"
 import ProjectPage from "./pages/ProjectPage/ProjectPage"
 import ClassificationProvider from "./store/ClassificationProvider"
 import ProjectProvider from "./store/ProjectProvider"
+import GlossaryProvider from "./store/GlossaryProvider"
 
 function App() {
    return (
       <ProjectProvider>
          <ClassificationProvider>
-            <Router>
-               <Switch>
-                  <Route path="/" exact component={Gateway} />
-                  <Route path="/Category" component={Category} />
-                  <Route path="/Map" component={Map} />
-                  <Route path="/ProjectPage/:id" component={ProjectPage} />
-               </Switch>
-               {/* <Navbar /> */}
-            </Router>
+            <GlossaryProvider>
+               <Router>
+                  <Switch>
+                     <Route path="/" exact component={Gateway} />
+                     <Route path="/Category" component={Category} />
+                     <Route path="/Map" component={Map} />
+                     <Route path="/ProjectPage/:id" component={ProjectPage} />
+                  </Switch>
+                  {/* <Navbar /> */}
+               </Router>
+            </GlossaryProvider>
          </ClassificationProvider>
       </ProjectProvider>
    )
