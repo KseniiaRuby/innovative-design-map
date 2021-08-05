@@ -4,8 +4,8 @@ import ClassificationContext from "../store/ClassificationContext";
 import "../styles/Styles.css";
 
 export function Gateway() {
-  const [gateway, setGateway] = useState();
   const classificationCtx = useContext(ClassificationContext);
+  const [gateway, setGateway] = useState(classificationCtx.gatewayWord);
   //   let selectedGateway = "";
 
   return (
@@ -15,7 +15,7 @@ export function Gateway() {
       <div className="list-spacer">
         <select
           className="list-style"
-          value={classificationCtx.gatewayWord}
+          value={gateway}
           onChange={(e) => {
             // selectedGateway = e.target.value;
             setGateway(e.target.value);
@@ -32,7 +32,7 @@ export function Gateway() {
         <div>
           <div className="button-spacer">
             {/*  */}
-            {gateway !== undefined ? (
+            {gateway ? (
               <div>
                 <button className="button-lets-go">
                   <Link className="button-styling" to="/Category">
