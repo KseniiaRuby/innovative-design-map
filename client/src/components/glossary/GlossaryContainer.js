@@ -19,18 +19,8 @@ const modalStyles = {
   }
 }
 
-const Glossary = ({ hideGlossary }) => {
-    let glossaryContext = useContext(GlossaryContext)
-    let selectedDefinition = glossaryContext.selectedDefinition
-  
-    return selectedDefinition ? (
-      <div className='glossary-fullscreen'>
-        <div className='glossary-header'>
-          <div className='glossary-button-container'>
-            <div className='glossary-cancel' onClick={() => hideGlossary() }>Cancel</div>
-          </div>
-          <h1>Glossary</h1> 
-        </div>
+const GlossaryEntry = ({ selectedDefinition }) => {
+      return selectedDefinition ? (
         <div className='glossary-body'>
           <div className='glossary-entry-title'>
             { selectedDefinition.term }
@@ -39,7 +29,6 @@ const Glossary = ({ hideGlossary }) => {
             { selectedDefinition.description }
           </div>
         </div>
-      </div>
     ) : null
   }
   
@@ -60,7 +49,15 @@ const Glossary = ({ hideGlossary }) => {
 
     return (
       <ReactModal isOpen={showGlossary} style={modalStyles}>
-        <Glossary hideGlossary={hideGlossary} />
+      <div className='glossary-fullscreen'>
+        <div className='glossary-header'>
+          <div className='glossary-button-container'>
+            <div className='glossary-cancel' onClick={() => hideGlossary() }>Cancel</div>
+          </div>
+          <h1>Glossary</h1> 
+        </div>
+        <GlossaryEntry selectedDefinition={glossaryContext.selectedDefinition} />
+      </div>
       </ReactModal>
     )
   }

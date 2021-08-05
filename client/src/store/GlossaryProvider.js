@@ -9,7 +9,7 @@ export default function GlossaryProvider({ children }) {
   useEffect(() => {
     const getAllDefinitions = async () => {
       setAllDefinitions([
-        { term: 'Project', description: 'A project!'},
+        { term: 'Project', description: 'The word PROJECT is very important to this application, it represents the main unit of organization to the information and ultimately refers to a single location that was intentionally built up to acheive and urban design effect as well as serve an important city function.'},
         { term: 'Of The', description: 'a common conjunction'},
         { term: 'Apple', description: 'A delicious fruit associated with good health.'},
         { term: 'Banana', description: 'A delicious fruit associated with tropical locations.'}
