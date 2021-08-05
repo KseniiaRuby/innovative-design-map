@@ -9,6 +9,8 @@ const ClassificationContext = createContext({
   gatewayWord: undefined,
   // Initialize classification
   classification: undefined,
+  // Initialize project summaries
+  projects: [],
 });
 
 export default ClassificationContext;
