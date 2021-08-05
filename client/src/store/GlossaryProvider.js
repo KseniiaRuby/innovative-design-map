@@ -35,9 +35,7 @@ export default function GlossaryProvider({ children }) {
   },[allDefintions])
 
   const setSelectedTerm = (term) => {
-    console.log('Trying to select term, ', term)
     let foundDefintion = allDefintions.find((definition) => definition.term === term)
-    console.log('selecting definition, ', foundDefintion)
     setSelectedDefinition(foundDefintion)
   }
 
