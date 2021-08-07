@@ -1,1101 +1,1103 @@
 [
    {
-      "Feature Word": "Sustainability",
-      "Definition": "Climate: the weather conditions prevailing in an area in general or over a long period. Environment: the natural world, as a whole or in a particular geographical area, especially as affected by human activity. About protecting and conserving our natural heritage, and ensuring a clean, safe and sustainable environment for present and future generations.",
-      "Sources": "Oxford, Government of Canada",
-      "Related Topics": "Resilient, Conservation, Restorative, Green Economy, Risk Management, Mitigation, Adaption, Environmental Management, Green Network, Natural Resources, Clean Energy, Green Energy",
-      "Complex": "*",
-      "Rewrite": "Sustainability refers to the capacity of human civilization and Earth's biosphere to co-exist and be maintained at a certain rate or level for future generations. Sustainability is not just environmental but also economic and social, environmental sustainability strives to avoid the the depletion of natural resources in order to maintain an ecological balance. The United Nations Environment Programme describes three major environmental threats to sustainability: climate change, biodiversity loss and pollution. Environmental, Society and Economy are the three pillars of sustainability. ",
+      "term": "Sustainability",
+      "Definition": "the weather conditions prevailing in an area in general or over a long period. Environment: the natural world, as a whole or in a particular geographical area, especially as affected by human activity. About protecting and conserving our natural heritage, and ensuring a clean, safe and sustainable environment for present and future generations.",
+      "Sources": "Oxford",
+
+      "Related Topics":"Resilient, Conservation, Restorative, Green Economy, Risk Management, Mitigation, Adaption, Environmental Management, Green Network, Natural Resources, Clean Energy, Green Energy",
+
+   
+      "description": "Sustainability refers to the capacity of human civilization and Earth's biosphere to co-exist and be maintained at a certain rate or level for future generations. Sustainability is not just environmental but also economic and social, environmental sustainability strives to avoid the the depletion of natural resources in order to maintain an ecological balance. The United Nations Environment Programme describes three major environmental threats to sustainability: climate change, biodiversity loss and pollution. Environmental, Society and Economy are the three pillars of sustainability. ",
       "Classifications": "Climate and Environment"
    },
    {
-      "Feature Word": "Biodiversity",
+      "term": "Biodiversity",
       "Definition": "The continuously rising demand for energy and resources requires us to develop energy solutions that are more sustainable and address the need for energy efficiency and conservation. With our knowledge and expertise in chemistry for oilfields, refineries, mining, water, wind and solar energy, we partner with customers and share their commitment to a healthier, more natural and more affordable future for energy and resources. Energy is the capacity to do work and is required for life processes. An energy resource is something that can produce heat, power life, move objects, or produce electricity._x000B_ Matter that stores energy is called a fuel.  Human energy consumption has grown steadily .throughout human history. Early humans had modest energy requirements, mostly food and fuel for fires to cook and keep warm. In today's society, humans consume as much as 110 times as much energy per person as early humans.   Most of the energy we use today come from fossil fuels (stored solar energy).   But fossils fuels have a disadvantage in that they are non-renewable on a human time scale, and cause other potentially harmful effects on the environment.  In any event, the exploitation of  all energy sources (with the possible exception of direct solar energy used for heating), ultimately rely on materials on planet Earth.",
       "Sources": "Tulane University, BASF",
       "Related Topics": "Sustainability, Ecosystems, Ecological, Biomimicry, Environmental Management, Eco Friendly, Biophilia, Habitat Restoration",
-      "Rewrite": "Biodiversity refers to the variety of life on Earth, including all living organisms (plants, bacteria, animals and humans). The term can be used to refer more specifically to species in a region or ecosystem also. Scientists estimate that there are about 8.7 million living species on earth, out of which only 1.2 million have been identified. Biodiversity is critical to ecosystem growth, and important to environmental sustainability. ",
+      "description": "Biodiversity refers to the variety of life on Earth, including all living organisms (plants, bacteria, animals and humans). The term can be used to refer more specifically to species in a region or ecosystem also. Scientists estimate that there are about 8.7 million living species on earth, out of which only 1.2 million have been identified. Biodiversity is critical to ecosystem growth, and important to environmental sustainability. ",
       "Classifications": "Energy and Resources"
    },
    {
-      "Feature Word": "Conservation",
+      "term": "Conservation",
       "Definition": "Cultural Heritage is an expression of the ways of living developed by a community and passed on from generation to generation, including customs, practices, places, objects, artistic expressions, and values. Cultural heritage implies a shared bond, our belonging to a community. It represents our history and our identity; our bond to the past, to our present, and the future. Moreover, cultural heritage is not only limited to material objects that we can see and touch. It also consists of immaterial elements:  traditions, oral history, performing arts, social practices, traditional craftsmanship, representations, rituals, knowledge and skills transmitted from generation to generation within a community.",
       "Sources": "Science Direct, Khan Academy",
       "Related Topics": "Water Management, Sustainability, Biodiversity, Restorative, Ecosystems, Risk Management, Mitigation, Environmental Management",
-      "Rewrite": "Conservation refers to the protection of natural resources such as air, minerals, plants, soil, water and wildlife. Conservation is often prominent in planned management of cities to prevent exploitation, destruction or neglect of resources. Conservation seeks the sustainable use of natural resources by humans, different from reservation which means protecting nature from human use. ",
+      "description": "Conservation refers to the protection of natural resources such as air, minerals, plants, soil, water and wildlife. Conservation is often prominent in planned management of cities to prevent exploitation, destruction or neglect of resources. Conservation seeks the sustainable use of natural resources by humans, different from reservation which means protecting nature from human use. ",
       "Classifications": "Culture, Heritage and Society"
    },
    {
-      "Feature Word": "Restorative",
+      "term": "Restorative",
       "Definition": "The goal of social justice is full and equal participation of all groups in a society that is mutually shaped to meet their needs. Social justice includes a vision of society in which the distribution of resources is equitable and all members are psychologically and physically safe and secure. Justice is the concept of fairness. Social justice is fairness as it manifests in society. That includes fairness in healthcare, employment, housing, and more. Discrimination and social justice are not compatible.",
       "Sources": "Brandeis University, Human Rights Careers",
       "Related Topics": "Sustainability, Conservation, Ecosystems, Habitat Restoration, Mitigation, Biomimicry",
       "Complex": "*",
-      "Rewrite": "Restorative refers to a design paradigm of environmental design, which combines sustainable design practices to benefit human health and all living organisms. ",
+      "description": "Restorative refers to a design paradigm of environmental design, which combines sustainable design practices to benefit human health and all living organisms. ",
       "Classifications": "Equity and Social Justice"
    },
    {
-      "Feature Word": "Anthropogenic",
+      "term": "Anthropogenic",
       "Definition": "Designing with wellness in mind is to design spaces with intention that enable a better lifestyle. The power of design thinking to enhance human health, infusing health, happiness, and well-being into organizational structures where people live, work, govern, and play. Wellness-focused design involves lighting, materials, air and sound quality, neutral colour palettes, biophilic design (connecting architecture and nature), greenery, and outdoor-indoor space integration—to name just a few key design areas.",
       "Sources": "Architectural Digest, Indiana Public Health",
       "Related Topics": "Carbon Foot Print, Vernacular Architecture, Historical",
-      "Rewrite": "Anthropogenic refers to the environmental change caused from the influence of human beings. Anthropo comes from Greek meaning having to do with humanity and generic refers to creation. Anthropogenic impact on the environment includes, global warming, environmental degradation, biodiversity loss, ecological crisis, and ecological collapse. ",
+      "description": "Anthropogenic refers to the environmental change caused from the influence of human beings. Anthropo comes from Greek meaning having to do with humanity and generic refers to creation. Anthropogenic impact on the environment includes, global warming, environmental degradation, biodiversity loss, ecological crisis, and ecological collapse. ",
       "Classifications": "Health and Wellness"
    },
    {
-      "Feature Word": "Ecosystems",
+      "term": "Ecosystems",
       "Definition": "Design technology, or D.T., is the study, design, development, application, implementation, support and management of computer and non-computer based technologies for the express purpose of communicating product design intent and constructability. Digital fabrication, robotics, augmented reality fabri­cation interface, 3D printing and scanning, and diverse software, are applied to optimize processes but also keeping an eye on maintaining certain craftsmanship, design elements, and aesthetics for high-quality architectural spaces, allowing the interference of architects and designers inputs throughout the whole process as well. ",
       "Sources": "ArchDaily",
       "Related Topics": "Biodiversity, Conservation, Restorative, Ecological, Biomimicry, Eco Friendly, Habitat Restoration",
-      "Rewrite": "Ecosystems refers to a area where plants, animals, living organisms, weather and landscape work together to form a bubble of life. Ecosystems contain a wide range of biodiversity including biotic or abiotic factors, the more biodiversity the ecosystem hosts the ideal the environment conditions are. Examples of a ecosystem are; forest, grassland, tundra, lake. ",
+      "description": "Ecosystems refers to a area where plants, animals, living organisms, weather and landscape work together to form a bubble of life. Ecosystems contain a wide range of biodiversity including biotic or abiotic factors, the more biodiversity the ecosystem hosts the ideal the environment conditions are. Examples of a ecosystem are; forest, grassland, tundra, lake. ",
       "Classifications": "Technology"
    },
    {
-      "Feature Word": "Green Economy",
+      "term": "Green Economy",
       "Definition": "A holistic approach to the transport and infrastructure planning, design and management. Bringing the latest technologies and a culture of innovation to meet community needs for mobility, connectivity, sustainability and resiliency.",
       "Sources": "WSP",
       "Related Topics": "Sustainability, Biodiversity, Ecosystems, Carbon Foot Print, Growth, Innovation, Generative, Opportunistic, Transformative",
       "Complex": "*",
-      "Rewrite": "Green Economy is defined as low carbon, resource efficient and socially inclusive, where growth in employment and income are driven by investment into economic activities and infrastructure. This allows for reduced carbon emissions and pollution, enhanced energy and resource efficiency and preventation of loss of biodiversity and ecosystems. ",
+      "description": "Green Economy is defined as low carbon, resource efficient and socially inclusive, where growth in employment and income are driven by investment into economic activities and infrastructure. This allows for reduced carbon emissions and pollution, enhanced energy and resource efficiency and preventation of loss of biodiversity and ecosystems. ",
       "Classifications": "Transportation and Infrastructure"
    },
    {
-      "Feature Word": "Biophilia",
+      "term": "Biophilia",
       "Definition": "A hypothetical human tendency to interact or be closely associated with other forms of life in nature : a desire or tendency to commune with nature. Biophilia is the term coined by the Harvard naturalist Dr. Edward O. Wilson to describe what he saw as humanity's \"innate tendency to focus on life and lifelike processes,\" and to be drawn toward nature, to feel an affinity for it, a love, a craving.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Ecological, Green Network, Urban Agriculture, Community Engagement, Culture, Preservation, Wholesome",
-      "Rewrite": "Biophillia refers to the hypothetical human tendency to interact or be close to nature; a desire or tendency to commune with nature. The term was coined by Dr. Edward O. Wilson to describe humanity's innate tendency to focus on life and lifelike process and to be drawn towards nature. "
+      "description": "Biophillia refers to the hypothetical human tendency to interact or be close to nature; a desire or tendency to commune with nature. The term was coined by Dr. Edward O. Wilson to describe humanity's innate tendency to focus on life and lifelike process and to be drawn towards nature. "
    },
    {
-      "Feature Word": "Risk Management",
+      "term": "Risk Management",
       "Definition": "Risk management is the identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities.",
       "Related Topics": "Sustainability, Conservation, Ecosystems, Adaptation, Environmental Management, Circular Economy ",
-      "Rewrite": "Risk Management refers to the identification and management of risks followed by coordinated and controlled measures to control the probability of unfortunate events. This is common in Landscape Architecture to mange risks associated with climate change and ecosystems. "
+      "description": "Risk Management refers to the identification and management of risks followed by coordinated and controlled measures to control the probability of unfortunate events. This is common in Landscape Architecture to mange risks associated with climate change and ecosystems. "
    },
    {
-      "Feature Word": "Air Quality",
+      "term": "Air Quality",
       "Definition": "Air quality is a measure of how clean or polluted the air is. Monitoring air quality is important because polluted air can be bad for our health—and the health of the environment.&#10;",
       "Sources": "US Government",
       "Related Topics": "Sustainability, Green Economy, Mitigation, Adaption, Environmental Management, Green Energy ",
-      "Rewrite": "Air quality refers to the measure of how clean or polluted the air is, monitoring air quality is important for sustainability and the environment. "
+      "description": "Air quality refers to the measure of how clean or polluted the air is, monitoring air quality is important for sustainability and the environment. "
    },
    {
-      "Feature Word": "Ecological",
+      "term": "Ecological",
       "Definition": "Relating to or concerned with the relation of living organisms to one another and to their physical surroundings.",
       "Sources": "Oxford",
       "Related Topics": "Biodiversity, Conservation, Restorative, Mitigation, Biomimicry, Eco Friendly, Habitat Restoration",
-      "Rewrite": "Ecological relates to the relationship of living organisms with one another and their physical surroundings. Ecology considers organisms at the individual, population, ecosystems and biosphere levels."
+      "description": "Ecological relates to the relationship of living organisms with one another and their physical surroundings. Ecology considers organisms at the individual, population, ecosystems and biosphere levels."
    },
    {
-      "Feature Word": "Mitigation",
+      "term": "Mitigation",
       "Definition": "The action of reducing the severity, seriousness, or painfulness of something.",
       "Sources": "Oxford",
       "Related Topics": "Sustainability, Conservation, Ecosystems, Green Economy, Ecological, Green Network",
       "Complex": "*",
-      "Rewrite": "Mitigation refers to the action of reducing the severity or seriousness of something. These can be measures taken to reduce harmful impacts on the environmental and to learn from and manage incidents that have already occurred. Mitigation is very important to sustainable design and the field of landscape architecture. "
+      "description": "Mitigation refers to the action of reducing the severity or seriousness of something. These can be measures taken to reduce harmful impacts on the environmental and to learn from and manage incidents that have already occurred. Mitigation is very important to sustainable design and the field of landscape architecture. "
    },
    {
-      "Feature Word": "Adaptation",
+      "term": "Adaptation",
       "Definition": "The act or process of changing to better suit a situation. A body part or feature or a behaviour that helps a living thing survive and function better in its environment.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Sustainability, Conservation, Biodiversity, Green Economy, Biomimicry, Green Network",
-      "Rewrite": "Adaption refers to the process of change to better suit a situation, helping survive and function better in the natural and built environment. "
+      "description": "Adaption refers to the process of change to better suit a situation, helping survive and function better in the natural and built environment. "
    },
    {
-      "Feature Word": "Biomimicry",
+      "term": "Biomimicry",
       "Definition": "Biomimicry is a practice that learns form and mimics the strategies found in nature to solve human design challenges and find hope along the way.",
       "Sources": "Biomimicry Institute",
       "Related Topics": "Sustainability, Biodiversity, Ecosystems, Growth, Innovation, Opportunistic, Transformative",
-      "Rewrite": "Biomimicry refers to the practice  of learning from and mimicking the strategies and elements found in nature to solve problems and challenges in the built environment. "
+      "description": "Biomimicry refers to the practice  of learning from and mimicking the strategies and elements found in nature to solve problems and challenges in the built environment. "
    },
    {
-      "Feature Word": "Waste Management",
+      "term": "Waste Management",
       "Definition": "Waste management is the activities and actions required to manage waste from its inception to its disposal. This includes the collection, transport, treatment and disposal of waste, together with monitoring and regulation of the waste management process.",
       "Sources": "Waste Management North America",
       "Related Topics": "Water Management, Environmental Management, Zero Waste, Conservation, Sustainability",
-      "Rewrite": "Waste management refers to the activities and actions in managing waste from inception to disposal. This can include collection, transport, treatment and disposal along with regulation of the management process. "
+      "description": "Waste management refers to the activities and actions in managing waste from inception to disposal. This can include collection, transport, treatment and disposal along with regulation of the management process. "
    },
    {
-      "Feature Word": "Environmental Management",
+      "term": "Environmental Management",
       "Definition": "Environmental management is a political activity because those decisions - about resources, pollution and ecosystems - are never neutral or objective; on the contrary, they are value laden and they reflect the exercise of power by particular groups over others.",
       "Sources": "SOAS UK",
       "Related Topics": "Water Management, Waste Management, Zero Waste, Conservation, Sustainability",
-      "Rewrite": "Environmental management refers to the acticitiesand actions about environmental resources, pollution and ecosystems. "
+      "description": "Environmental management refers to the acticitiesand actions about environmental resources, pollution and ecosystems. "
    },
    {
-      "Feature Word": "Eco Friendly",
+      "term": "Eco Friendly",
       "Definition": "Not harmful to the environment.",
       "Sources": "Oxford",
       "Related Topics": "Biodiversity, Restorative, Ecosystems, Habitat Restoration, Ecological ",
-      "Rewrite": "Eco-Friendly refers to the processes or goods, services or law that have minimal or no harm on ecosystems and the environment. "
+      "description": "Eco-Friendly refers to the processes or goods, services or law that have minimal or no harm on ecosystems and the environment. "
    },
    {
-      "Feature Word": "Zero Waste",
+      "term": "Zero Waste",
       "Definition": "Zero Waste is a set of principles focused on waste prevention that encourages the redesign of resource life cycles so that all products are reused. The goal is for no trash to be sent to landfills, incinerators or the ocean.",
       "Sources": "Oxford",
       "Related Topics": "Waste Management, Water Management, Environmental Management, Adaption, Conservation, Sustainability, Eco Friendly",
-      "Rewrite": "Zero Waste refers to principles that are focused on waste prevention and redesign resource life cycles, the ultimate goal of zero waste design is that no trash be sent to landfills, incinerators or the ocean. "
+      "description": "Zero Waste refers to principles that are focused on waste prevention and redesign resource life cycles, the ultimate goal of zero waste design is that no trash be sent to landfills, incinerators or the ocean. "
    },
    {
-      "Feature Word": "Organic",
+      "term": "Organic",
       "Definition": "Relating to or derived from living matter.",
       "Related Topics": "Biodiversity, Ecosystems, Green Network, Eco Friendly, Ecological",
-      "Rewrite": "Organic refers to relating to or derived from living matter. "
+      "description": "Organic refers to relating to or derived from living matter. "
    },
    {
-      "Feature Word": "Carbon Foot Print",
+      "term": "Carbon Foot Print",
       "Definition": "A carbon footprint is the total greenhouse gas emissions caused by an individual, event, organization, service, place or product, expressed as carbon dioxide equivalent.",
       "Sources": "Nature Org",
       "Related Topics": "Biodiversity, Ecosystems, Green Network, Eco Friendly, Ecological",
-      "Rewrite": "Carbon Foot Print refers to the total greenhouse gas emissions caused by an individual, event, organization, service, place, product or building which is expressed as a carbon dioxide equivalent. "
+      "description": "Carbon Foot Print refers to the total greenhouse gas emissions caused by an individual, event, organization, service, place, product or building which is expressed as a carbon dioxide equivalent. "
    },
    {
-      "Feature Word": "Green Network",
+      "term": "Green Network",
       "Definition": "A broad term which usually refers to a set of connected areas of green space and habitats such as parks, paths and woodlands within an urban or suburban region which provide a range of social, ecological and economic benefits such as increasing the quality of life within an area, and creating sustainable communities. ",
       "Sources": "Scottish Planning Policy",
       "Related Topics": "Transit, Eco Friendly, Ecological, Clean Energy, Renewable Energy, Natural Resources",
       "Complex": "*",
-      "Rewrite": "Green Network refers to the set of connected green spaces and habitats such as parks, paths and woodlands within an urban/suburban area. This network provides a range of social, ecological and economic benefits and increases the quality of life while creating sustainable communities. "
+      "description": "Green Network refers to the set of connected green spaces and habitats such as parks, paths and woodlands within an urban/suburban area. This network provides a range of social, ecological and economic benefits and increases the quality of life while creating sustainable communities. "
    },
    {
-      "Feature Word": "Habitat Restoration",
+      "term": "Habitat Restoration",
       "Definition": "Habitat restoration is the active process of improving the health and resilience of our parks and green spaces. It involves the purposeful introduction of plants that reflect our natural landscape.",
       "Sources": "City of Calgary",
       "Related Topics": "Biodiversity, Conservation, Restorative, Mitigation, Biomimicry, Eco Friendly",
-      "Rewrite": "Habitat restoration refers to the process of improving health and resilience of green spaces and restoration the functions and habitat areas for ecosystems and species. Habitat restoration also involves the introduction of plants and native species that reflect the natural landscape in order to restore ecosystems. "
+      "description": "Habitat restoration refers to the process of improving health and resilience of green spaces and restoration the functions and habitat areas for ecosystems and species. Habitat restoration also involves the introduction of plants and native species that reflect the natural landscape in order to restore ecosystems. "
    },
    {
-      "Feature Word": "Renewable Energy",
+      "term": "Renewable Energy",
       "Definition": "Energy from a source that is not depleted when used, such as wind or solar power.",
       "Sources": "Oxford",
       "Related Topics": "Green Energy, Solar Energy,&#10;Geothermal Energy, Clean, Efficient, Natural Resources, Eco friendly",
-      "Rewrite": "Renewable energy refers to energy obtained from a sources that will not depleted when used, this includes wind or solar power. "
+      "description": "Renewable energy refers to energy obtained from a sources that will not depleted when used, this includes wind or solar power. "
    },
    {
-      "Feature Word": "Solar Energy",
+      "term": "Solar Energy",
       "Definition": "Solar energy is any type of energy generated by the sun. Solar energy can be harnessed directly or indirectly for human use.",
       "Sources": "National Geographic",
       "Related Topics": "Green Energy, Renewable Energy, Clean, Efficient, Natural Resources, Eco friendly",
-      "Rewrite": "Solar energy refers to energy generated and harnessed from the sun which can be directly or indirectly used for human use. "
+      "description": "Solar energy refers to energy generated and harnessed from the sun which can be directly or indirectly used for human use. "
    },
    {
-      "Feature Word": "Geothermal Energy",
+      "term": "Geothermal Energy",
       "Definition": "Geothermal energy is the heat produced deep in the Earth's core. Geothermal energy is a clean, renewable resource that can be harnessed for use as heat and electricity.",
       "Sources": "National Geographic",
       "Related Topics": "Green Energy, Renewable Energy, Clean, Efficient, Natural Resources, Eco friendly",
-      "Rewrite": "Geothermal energy refers to the heat and energy produced from the Earth's core. Geothermal energy is a clean, and renewable energy resources that can be harnessed for health and electricity. "
+      "description": "Geothermal energy refers to the heat and energy produced from the Earth's core. Geothermal energy is a clean, and renewable energy resources that can be harnessed for health and electricity. "
    },
    {
-      "Feature Word": "Regeneration",
+      "term": "Regeneration",
       "Definition": "The action or process of regenerating or being regenerated.",
       "Sources": "Oxford",
       "Related Topics": "Biodiversity, Conservation, Restorative, Mitigation, Biomimicry, Eco Friendly, Habitat Restoration",
-      "Rewrite": "Regeneration refers to the action or processes of regenerating or being regenerated. "
+      "description": "Regeneration refers to the action or processes of regenerating or being regenerated. "
    },
    {
-      "Feature Word": "Urban Agriculture",
+      "term": "Urban Agriculture",
       "Definition": "Urban Agriculture is part of a local food system where food is produced within an urban area and marketed to consumers within that area. Urban farming can also include animal husbandry (e.g., breeding and raising livestock), beekeeping, aquaculture (e.g., fish farming), aquaponics (e.g., integrating fish farming and agriculture), and non-food products such as producing seeds, cultivating seedlings, and growing flowers. Urban farms can also contribute to the revitalization of abandoned or underutilized urban land, social and economic benefits to urban communities, and beneficial impacts on the urban landscape",
       "Sources": "US Environmental Protection Agency",
       "Related Topics": "Ecological, Green Network, Biophilia, Community Engagement, Culture, Preservation, Wholesome",
-      "Rewrite": "Urban Agriculture refers agriculture part of the local food system, where food is produced within the urban city context and marketed to consumers in the area. Urban agriculture farms can contribute to the revitalization of underutilized urban land to provide social and economic benefits to communities. "
+      "description": "Urban Agriculture refers agriculture part of the local food system, where food is produced within the urban city context and marketed to consumers in the area. Urban agriculture farms can contribute to the revitalization of underutilized urban land to provide social and economic benefits to communities. "
    },
    {
-      "Feature Word": "Clean Energy",
+      "term": "Clean Energy",
       "Definition": "Clean energy as energy derived from renewable, zero-emissions sources (renewable s), as well as energy saved through energy efficiency measures.",
       "Sources": "NC Sustainable Energy Association",
       "Related Topics": "Green Energy, Renewable Energy, Clean, Efficient, Natural Resources, Eco friendly",
-      "Rewrite": "Clean energy refers to energy that is derived from renewable and zero-emission sources, clean energy can also represent energy saved through energy efficiency measures. "
+      "description": "Clean energy refers to energy that is derived from renewable and zero-emission sources, clean energy can also represent energy saved through energy efficiency measures. "
    },
    {
-      "Feature Word": "Alternative Fuels",
+      "term": "Alternative Fuels",
       "Definition": "A fuel other than gasoline for powering motor vehicles, such as natural gas, methanol, or electricity.",
       "Sources": "Oxford",
       "Related Topics": "Clean Energy, Renewable Energy, Waste Management, Zero waste, Carbon foot print, Sustainability",
-      "Rewrite": "Alternative fuels refers to fuel other than gasoline for powering vehicles, such as natural gas, methanol or electricity. "
+      "description": "Alternative fuels refers to fuel other than gasoline for powering vehicles, such as natural gas, methanol or electricity. "
    },
    {
-      "Feature Word": "Hydropower",
+      "term": "Hydropower",
       "Definition": "Hydroelectric power, also called hydropower, electricity produced from generators driven by turbines that convert the potential energy of falling or fast-flowing water into mechanical energy. In the early 21st century, hydroelectric power was the most widely utilized form of renewable energy; in 2019 it accounted for more than 18 percent of the world’s total power generation capacity.",
       "Sources": "Britannica",
       "Related Topics": "Water management, Renewable Energy, Clean, Efficient, Natural Resources, Power",
-      "Rewrite": "Hydropower refers to electricity produced from generators driven by turbines that convert the potential energy of falling or fast flowing water into mechanical energy for use. The the 21st century, hydropower was the most utilized form of renewable energy. Canada is the third largest producer of hydropower in the world, after China and Brazil. "
+      "description": "Hydropower refers to electricity produced from generators driven by turbines that convert the potential energy of falling or fast flowing water into mechanical energy for use. The the 21st century, hydropower was the most utilized form of renewable energy. Canada is the third largest producer of hydropower in the world, after China and Brazil. "
    },
    {
-      "Feature Word": "Design for Disassembly",
+      "term": "Design for Disassembly",
       "Definition": "“Design for Disassembly,” one of the six core principles within the Built Positive movement, is a concept in which buildings and products are designed intentionally for material recovery, value retention, and meaningful next use. In other words, how can the building and all its parts and pieces be reused at the end of its first useful life?",
       "Sources": "c2cCertified",
       "Related Topics": "Circular Economy, Recycling, Waste Management, Zero waste, Carbon foot print, Sustainability",
-      "Rewrite": "Design for Disassembly refers to the design of buildings and products for the recovery of systems, components or materials for meaningful next use through recycling. Design for disassembly is one of the six core principles in the built positive movement, with the strategy that a building or product should be recycled at the end of its lifespan. "
+      "description": "Design for Disassembly refers to the design of buildings and products for the recovery of systems, components or materials for meaningful next use through recycling. Design for disassembly is one of the six core principles in the built positive movement, with the strategy that a building or product should be recycled at the end of its lifespan. "
    },
    {
-      "Feature Word": "Regenerative Design",
+      "term": "Regenerative Design",
       "Definition": "Regenerative design is a process-oriented whole systems approach to design. The term \"regenerative\" describes processes that restore, renew or revitalize their own sources of energy and materials.",
       "Related Topics": "Circular Economy, Recycling, Waste Management, Zero waste, Carbon foot print, Sustainability, Adaptive reuse",
       "Complex": "*",
-      "Rewrite": "Regenerative Design refers to a whole systems approach to design that restores, renews or revitalizes sources of energy and material while engaging the natural world as a generator for design. Regenerative design focuses on conservation and performance through a reduction on the ecological impacts of the built environment. "
+      "description": "Regenerative Design refers to a whole systems approach to design that restores, renews or revitalizes sources of energy and material while engaging the natural world as a generator for design. Regenerative design focuses on conservation and performance through a reduction on the ecological impacts of the built environment. "
    },
    {
-      "Feature Word": "Recycling",
+      "term": "Recycling",
       "Definition": "The action or process of converting waste into reusable material.",
       "Sources": "Oxford",
       "Related Topics": "Waste Management, Environmental Management, Eco friendly ,Zero waste,Organic, Carbon foot print",
-      "Rewrite": "Recycling refers to the process of converting waste into reusable material. "
+      "description": "Recycling refers to the process of converting waste into reusable material. "
    },
    {
-      "Feature Word": "Energy Efficiency",
+      "term": "Energy Efficiency",
       "Definition": "Includes technologies (including passive solar), products and services that reduce the amount of energy required for buildings processes or tasks. ",
       "Sources": "NC Sustainable Energy Association",
       "Related Topics": "Waste Management, Environmental Management, Water Management, Zero waste, Carbon foot print",
-      "Rewrite": "Energy Efficiency refers to eliminating energy waste, using any technologies, products or services to reduce the amount of energy needed to perform any task. "
+      "description": "Energy Efficiency refers to eliminating energy waste, using any technologies, products or services to reduce the amount of energy needed to perform any task. "
    },
    {
-      "Feature Word": "Net-Zero Energy",
+      "term": "Net-Zero Energy",
       "Definition": "A zero energy building produces enough renewable energy to meet its own annual energy consumption requirements, thereby reducing the use of nonrenewable energy in the building sector.",
       "Sources": "US Office of Energy Efficiency and Renewable Energy",
       "Related Topics": "Clean Energy, Renewable Energy&#10;Solar Energy, Energy Efficiency, Green Energy, Green Economy, ",
-      "Rewrite": "Net Zero Energy refers to any design that produces enough renewable energy to meets its own energy consumption and reduces the use of non renewable energy."
+      "description": "Net Zero Energy refers to any design that produces enough renewable energy to meets its own energy consumption and reduces the use of non renewable energy."
    },
    {
-      "Feature Word": "Adaptive Reuse",
+      "term": "Adaptive Reuse",
       "Definition": "The renovation and reuse of pre-existing structures (such as warehouses) for new purposes.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Circular Economy, Recycling, Waste Management, Zero waste, Carbon foot print, Sustainability, Regenerative Design",
-      "Rewrite": "Adaptive reuse refers the process of renovation and reuse of per-existing structures for a purpose other then what they were designed for. "
+      "description": "Adaptive reuse refers the process of renovation and reuse of per-existing structures for a purpose other then what they were designed for. "
    },
    {
-      "Feature Word": "Performance",
+      "term": "Performance",
       "Definition": "The action or process of carrying out or accomplishing an action, task, or function.",
       "Sources": "Oxford",
       "Related Topics": "Representation, Leadership, Demonstration, Responsible, Policy",
-      "Rewrite": "Performance refers to the action or processes of carrying out or accomplishing an action, task, or function."
+      "description": "Performance refers to the action or processes of carrying out or accomplishing an action, task, or function."
    },
    {
-      "Feature Word": "Natural Resources",
+      "term": "Natural Resources",
       "Definition": "Materials or substances such as minerals, forests, water, and fertile land that occur in nature and can be used for economic gain.",
       "Sources": "Oxford",
       "Related Topics": "Renewable Energy, Geothermal Energy, Hydropower&#10;Solar Energy, Energy Efficiency, Net-Zero Energy, Environmental Management",
-      "Rewrite": "Natural resources refers to any resources, materials, substances such as minerals, forests, water, land that occur in the natural environment without any actions of humankind. These resources are often used for economic gain. "
+      "description": "Natural resources refers to any resources, materials, substances such as minerals, forests, water, land that occur in the natural environment without any actions of humankind. These resources are often used for economic gain. "
    },
    {
-      "Feature Word": "Green Energy",
+      "term": "Green Energy",
       "Definition": "Green energy is any energy type that is generated from natural resources, such as sunlight, wind or water. In order to be deemed green energy, a resource cannot produce pollution, such as is found with fossil fuels. This means that not all sources used by the renewable energy industry are green.",
       "Sources": "Twi-Global",
       "Related Topics": "Clean Energy, Renewable Energy&#10;Solar Energy, Energy Efficiency, Net-Zero Energy, Green Economy, ",
-      "Rewrite": "Green energy refers to energy generated from natural resources, such as sun, wind or water. In order to be green energy, a resource cannot produce pollution, such as solar power or hydropower. Fossil fuels is energy generating from a natural resource, but produces pollution and hence not all souses used by renewable energy industry are green. "
+      "description": "Green energy refers to energy generated from natural resources, such as sun, wind or water. In order to be green energy, a resource cannot produce pollution, such as solar power or hydropower. Fossil fuels is energy generating from a natural resource, but produces pollution and hence not all souses used by renewable energy industry are green. "
    },
    {
-      "Feature Word": "Circular Economy",
+      "term": "Circular Economy",
       "Definition": "A circular economy aims to redefine growth, focusing on positive society-wide benefits. It entails gradually decoupling economic activity from the consumption of finite resources, and designing waste out of the system. Underpinned by a transition to renewable energy sources, the circular model builds economic, natural, and social capital.",
       "Sources": "Ellen MacArthur Foundation",
       "Related Topics": "Design for Disassembly, Recycling, Waste Management, Zero waste, Carbon foot print, Sustainability",
       "Complex": "*",
-      "Rewrite": "A circular economy aims to redefine growth, focusing on positive society-wide benefits. It entails gradually decoupling economic activity from the consumption of finite resources, and designing waste out of the system. Underpinned by a transition to renewable energy sources, the circular model builds economic, natural, and social capital."
+      "description": "A circular economy aims to redefine growth, focusing on positive society-wide benefits. It entails gradually decoupling economic activity from the consumption of finite resources, and designing waste out of the system. Underpinned by a transition to renewable energy sources, the circular model builds economic, natural, and social capital."
    },
    {
-      "Feature Word": "Technical",
+      "term": "Technical",
       "Definition": "Of, involving, or concerned with applied and industrial sciences.",
       "Sources": "Oxford",
       "Related Topics": "Performance, Efficient, Power, Industrial Science, ",
-      "Rewrite": "Technical refers to any processes, applications, materials or objects concerned with and involving the applied and industrial sciences. "
+      "description": "Technical refers to any processes, applications, materials or objects concerned with and involving the applied and industrial sciences. "
    },
    {
-      "Feature Word": "Less Toxic",
+      "term": "Less Toxic",
       "Definition": "Toxic waste poisons the groundwater or makes nearby animals sick, but nontoxic waste tends to break down without any negative consequences.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Natural resources, Carbon foot print, Waste management, Eco friendly",
-      "Rewrite": "Toxic waste poisons the groundwater or makes nearby animals sick, but nontoxic waste tends to break down without any negative consequences."
+      "description": "Toxic waste poisons the groundwater or makes nearby animals sick, but nontoxic waste tends to break down without any negative consequences."
    },
    {
-      "Feature Word": "Power",
+      "term": "Power",
       "Definition": "A source or means of supplying energy.",
       "Related Topics": "Services, Renewable Energy, Solar Energy ,Geothermal Energy, Hydropower",
-      "Rewrite": "Power refers to any source or means of supplying energy."
+      "description": "Power refers to any source or means of supplying energy."
    },
    {
-      "Feature Word": "Public Art",
+      "term": "Public Art",
       "Definition": "Public art can express community values, enhance our environment, transform a landscape, heighten our awareness, or question our assumptions. Placed in public sites, this art is there for everyone, a form of collective community expression.",
       "Sources": "Association for Public Art",
       "Related Topics": "Vibrant, Inclusive, Culture, Public Space, Experience, Creativity, Community Engagement",
-      "Rewrite": "Public Art refers to art that expresses a community value, enhances the public environment, or transforms a public landscape. Public art is placed in public areas where it is accessible to everyone and represents a form of collective community expression. "
+      "description": "Public Art refers to art that expresses a community value, enhances the public environment, or transforms a public landscape. Public art is placed in public areas where it is accessible to everyone and represents a form of collective community expression. "
    },
    {
-      "Feature Word": "Community Engagement",
+      "term": "Community Engagement",
       "Definition": "Community engagement seeks to better engage the community to achieve long-term and sustainable outcomes, processes, relationships, discourse, decision-making, or implementation. To be successful, it must encompass strategies and processes that are sensitive to the community-context in which it occurs.",
       "Sources": "Penn State College",
       "Related Topics": "Vibrant, Inclusive, Culture, Public Space, Experience, Creativity, Social Interaction",
-      "Rewrite": "Community engagement seeks to engage the community in order to achieve long term and sustainable goals for the community. These can be through processes, relationships, discourse, decision making or implementation within a community, for community engagement to be successful it must respond and be sensitive to the context in which it occurs. "
+      "description": "Community engagement seeks to engage the community in order to achieve long term and sustainable goals for the community. These can be through processes, relationships, discourse, decision making or implementation within a community, for community engagement to be successful it must respond and be sensitive to the context in which it occurs. "
    },
    {
-      "Feature Word": "Vernacular Architecture",
+      "term": "Vernacular Architecture",
       "Definition": "Vernacular architecture can be defined as a type of local or regional construction, using traditional materials and resources from the area where the building is located. Consequently, this architecture is closely related to its context and is aware of the specific geographic features and cultural aspects of its surroundings, being strongly influenced by them. ",
       "Sources": "Arch Daily",
       "Related Topics": "Carbon Foot Print, Anthropogenic, Historical",
-      "Rewrite": "Vernacular architecture refers to a type of local or regional constructure or design that uses traditional materials and resources from within the area it is located. This type of architecture is closely related to and influenced by geographic features and cultural aspects. "
+      "description": "Vernacular architecture refers to a type of local or regional constructure or design that uses traditional materials and resources from within the area it is located. This type of architecture is closely related to and influenced by geographic features and cultural aspects. "
    },
    {
-      "Feature Word": "Tourism",
+      "term": "Tourism",
       "Definition": "The commercial organization and operation of vacations and visits to places of interest.",
       "Sources": "Oxford",
       "Related Topics": "Vibrant, Lifestyle, Culture, Heritage, Experience",
-      "Rewrite": "Tourism refers to a commercial organization and operation of places of interest. "
+      "description": "Tourism refers to a commercial organization and operation of places of interest. "
    },
    {
-      "Feature Word": "Educational",
+      "term": "Educational",
       "Definition": "Relating to the provision of education. Intended or serving to educate or enlighten.",
       "Sources": "Oxford",
       "Related Topics": "Experience, Creativity, Social interaction, Community Engagement, Public Space",
-      "Rewrite": "Educational refers to the provision of education intended to serve and educate the public or individual. "
+      "description": "Educational refers to the provision of education intended to serve and educate the public or individual. "
    },
    {
-      "Feature Word": "Spiritual",
+      "term": "Spiritual",
       "Definition": "Relating to or affecting the human spirit or soul as opposed to material or physical things. Relating to religion or religious belief.",
       "Sources": "Oxford",
       "Related Topics": "Public Art, Lifestyle, Narrative, Experience, Vibrant, Faith",
-      "Rewrite": "Spritual refers to religion or religious belief associated with the human spirit or soul as opposed to material or physical things. "
+      "description": "Spritual refers to religion or religious belief associated with the human spirit or soul as opposed to material or physical things. "
    },
    {
-      "Feature Word": "Creativity",
+      "term": "Creativity",
       "Definition": "The use of the imagination or original ideas, especially in the production of an artistic work.",
       "Sources": "Oxford",
       "Related Topics": "Public Art, Spiritual, Narrative, Experience, Vibrant",
-      "Rewrite": "Creativity refers to the use of imagination or ideas in the production of artistic work. "
+      "description": "Creativity refers to the use of imagination or ideas in the production of artistic work. "
    },
    {
-      "Feature Word": "Lifestyle",
+      "term": "Lifestyle",
       "Definition": "The way in which a person or group lives.",
       "Sources": "Oxford",
       "Related Topics": "Community Engagement, Inclusive, Culture, Public Space, Experience, Creativity, Social Interaction",
-      "Rewrite": "Lifestyle refers to the way in which an individual or groups lives or works. "
+      "description": "Lifestyle refers to the way in which an individual or groups lives or works. "
    },
    {
-      "Feature Word": "Public Space",
+      "term": "Public Space",
       "Definition": "A public space refers to an area or place that is open and accessible to all peoples, regardless of gender, race, ethnicity, age or socio-economic level. These are public gathering spaces such as plazas, squares and parks. Connecting spaces, such as sidewalks and streets, are also public spaces. In the 21st century, some even consider the virtual spaces available through the internet as a new type of public space that develops interaction and social mixing.",
       "Sources": "UNESCO",
       "Related Topics": "Public Art, Social Interaction, Neighbourly, Narrative, Community Engagement",
-      "Rewrite": "A public space refers to an area or place that is open and accessible to all peoples, regardless of gender, race, ethnicity, age or socio-economic level. These are public gathering spaces such as plazas, squares and parks. Connecting spaces, such as sidewalks and streets, are also public spaces. In the 21st century, some even consider the virtual spaces available through the internet as a new type of public space that develops interaction and social mixing."
+      "description": "A public space refers to an area or place that is open and accessible to all peoples, regardless of gender, race, ethnicity, age or socio-economic level. These are public gathering spaces such as plazas, squares and parks. Connecting spaces, such as sidewalks and streets, are also public spaces. In the 21st century, some even consider the virtual spaces available through the internet as a new type of public space that develops interaction and social mixing."
    },
    {
-      "Feature Word": "Social Interaction",
+      "term": "Social Interaction",
       "Definition": "Social interaction is the process of reciprocal influence exercised by individuals over one another during social encounters. Usually it refers to face-to-face encounters in which people are physically present with one another for a specified duration. However, in contemporary society we can also think of social encounters that are technologically mediated like texting, skyping, or messaging.",
       "Sources": "Introduction to Sociology – 2nd Canadian Edition",
       "Related Topics": "Public Space, Community Engagement, ",
-      "Rewrite": "Social Interaction refers to the process of reciprocal influence by humans during social encounters. This can be face to face encounters, or in contemporary society can also be technological mediated like texting, video chat or messaging. "
+      "description": "Social Interaction refers to the process of reciprocal influence by humans during social encounters. This can be face to face encounters, or in contemporary society can also be technological mediated like texting, video chat or messaging. "
    },
    {
-      "Feature Word": "Culture",
+      "term": "Culture",
       "Definition": "The arts and other manifestations of human intellectual achievement regarded collectively. The customs, arts, social institutions, and achievements of a particular nation, people, or other social group.",
       "Sources": "Oxford",
       "Related Topics": "Heritage, Multicultural, Tourism,  Lifestyle, Preservation",
-      "Rewrite": "Culture refers to all aspects of life, the totality of meanings, ideas and beliefs shared by individuals within a group of people."
+      "description": "Culture refers to all aspects of life, the totality of meanings, ideas and beliefs shared by individuals within a group of people."
    },
    {
-      "Feature Word": "Historical",
+      "term": "Historical",
       "Definition": "Of or concerning history; concerning past events.",
       "Sources": "Oxford",
       "Related Topics": "Heritage, Culture, Tourism, Regional, Spiritual, Lifestyle, Preservation",
-      "Rewrite": "Historical refers to having a connection with studying or representing things from the past"
+      "description": "Historical refers to having a connection with studying or representing things from the past"
    },
    {
-      "Feature Word": "Heritage",
+      "term": "Heritage",
       "Definition": "Property that is or may be inherited; an inheritance.",
       "Sources": "Oxford",
       "Related Topics": "Historical, Culture, Tourism, Spiritual, Lifestyle, Preservation",
-      "Rewrite": "Heritage refers to something that is handed down from the past, as a tradition"
+      "description": "Heritage refers to something that is handed down from the past, as a tradition"
    },
    {
-      "Feature Word": "Place Making",
+      "term": "Place Making",
       "Definition": "Placemaking inspires people to collectively reimagine and reinvent public spaces as the heart of every community. Strengthening the connection between people and the places they share, placemaking refers to a collaborative process by which we can shape our public realm in order to maximize shared value.",
       "Sources": "Project for Public Spaces",
       "Related Topics": "Public Art, Social Interaction, Neighbourly, Narrative, Community Engagement, Public Space",
       "Complex": "*",
-      "Rewrite": "Placemaking inspires people to collectively reimagine and reinvent public spaces as the heart of every community. Strengthening the connection between people and the places they share, placemaking refers to a collaborative process by which we can shape our public realm in order to maximize shared value."
+      "description": "Placemaking inspires people to collectively reimagine and reinvent public spaces as the heart of every community. Strengthening the connection between people and the places they share, placemaking refers to a collaborative process by which we can shape our public realm in order to maximize shared value."
    },
    {
-      "Feature Word": "Regional",
+      "term": "Regional",
       "Definition": "Relating to or characteristic of a region.",
       "Sources": "Oxford",
       "Related Topics": "Neighbourly, Narrative, Community Engagement, Public Space",
-      "Rewrite": "Regional refers to a particular region, district, area, or part, as of a country"
+      "description": "Regional refers to a particular region, district, area, or part, as of a country"
    },
    {
-      "Feature Word": "Faith",
+      "term": "Faith",
       "Definition": "Complete trust or confidence in someone or something. Strong belief in God or in the doctrines of a religion, based on spiritual apprehension rather than proof.",
       "Sources": "Oxford",
       "Related Topics": "Lifestyle, Narrative, Experience, Vibrant, Spiritual",
-      "Rewrite": "Faith refers to an unquestioning belief that does not require proof or evidence"
+      "description": "Faith refers to an unquestioning belief that does not require proof or evidence"
    },
    {
-      "Feature Word": "Narrative",
+      "term": "Narrative",
       "Definition": "A spoken or written account of connected events; a story.",
       "Sources": "Oxford",
       "Related Topics": "Lifestyle, Experience, Vibrant, Spiritual, Faith, Connectivity",
-      "Rewrite": "Narrative refers to a spoken or written account of connected events; a story."
+      "description": "Narrative refers to a spoken or written account of connected events; a story."
    },
    {
-      "Feature Word": "Experience",
+      "term": "Experience",
       "Definition": "Practical contact with and observation of facts or events.",
       "Sources": "Oxford",
       "Related Topics": "Lifestyle, Participation, Collaboration, Spiritual, Faith, Opportunity",
-      "Rewrite": "Experience refers to knowledge, skill, or practice derived from direct observation of or participation in events or in a particular activity"
+      "description": "Experience refers to knowledge, skill, or practice derived from direct observation of or participation in events or in a particular activity"
    },
    {
-      "Feature Word": "Pride",
+      "term": "Pride",
       "Definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements, the achievements of those with whom one is closely associated, or from qualities or possessions that are widely admired.",
       "Sources": "Oxford",
       "Related Topics": "Pleasure, Supportive, ",
-      "Rewrite": "Pride refers to a feeling of pleasure and satisfaction that you get because you or people connected with you have done or got something good"
+      "description": "Pride refers to a feeling of pleasure and satisfaction that you get because you or people connected with you have done or got something good"
    },
    {
-      "Feature Word": "Preservation",
+      "term": "Preservation",
       "Definition": "The action of preserving something.",
       "Sources": "Oxford",
       "Related Topics": "Heritage, Culture, Tourism, Regional, Spiritual, Historical, Maintenance",
-      "Rewrite": "Preservation refers to the activity or process of keeping something valued alive, intact, or free from damage or decay"
+      "description": "Preservation refers to the activity or process of keeping something valued alive, intact, or free from damage or decay"
    },
    {
-      "Feature Word": "Multicultural",
+      "term": "Multicultural",
       "Definition": "Relating to or constituting several cultural or ethnic groups within a society.",
       "Sources": "Oxford",
       "Related Topics": "Culture, Heritage, Tourism,  Lifestyle, Preservation",
-      "Rewrite": "Multicultural refers to the view that cultures, races, and ethnicities, particularly those of minority groups, deserve special acknowledgement of their differences within a dominant political culture."
+      "description": "Multicultural refers to the view that cultures, races, and ethnicities, particularly those of minority groups, deserve special acknowledgement of their differences within a dominant political culture."
    },
    {
-      "Feature Word": "Neighbourly",
+      "term": "Neighbourly",
       "Definition": "Characteristic of a good neighbour, especially helpful, friendly, or kind.",
       "Sources": "Oxford",
       "Related Topics": "Affordability, Services, Public Space, Social interaction, Housing",
-      "Rewrite": "Neighbourly refers to being friendly and helpful, esp. to those living near you"
+      "description": "Neighbourly refers to being friendly and helpful, esp. to those living near you"
    },
    {
-      "Feature Word": "Housing",
+      "term": "Housing",
       "Definition": "Houses and apartments considered collectively.",
       "Sources": "Oxford",
       "Related Topics": "Affordability, Services, Public Space, Social interaction, Neighbourly",
-      "Rewrite": "Housing refers to the providing of houses for a group or community"
+      "description": "Housing refers to the providing of houses for a group or community"
    },
    {
-      "Feature Word": "Policy",
+      "term": "Policy",
       "Definition": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
       "Sources": "Oxford",
       "Related Topics": "Governance, Services, Participation, Responsible, Collaboration",
-      "Rewrite": "Policy refers to a set of ideas or a plan of what to do in particular situations that has been agreed to officially by a group of people, a business organization, a government, or a political party"
+      "description": "Policy refers to a set of ideas or a plan of what to do in particular situations that has been agreed to officially by a group of people, a business organization, a government, or a political party"
    },
    {
-      "Feature Word": "Humanitarian",
+      "term": "Humanitarian",
       "Definition": "Concerned with or seeking to promote human welfare.",
       "Sources": "Oxford",
       "Related Topics": "Equality, Policy, Universal Design, Services, Responsible",
-      "Rewrite": "Humanitarian refers to (a person who is) involved in or connected with improving people's lives and reducing suffering"
+      "description": "Humanitarian refers to (a person who is) involved in or connected with improving people's lives and reducing suffering"
    },
    {
-      "Feature Word": "Agency",
+      "term": "Agency",
       "Definition": "A business or organization established to provide a particular service, typically one that involves organizing transactions between two other parties.",
       "Sources": "Oxford",
       "Related Topics": "Governance, Services, Participation, Responsible, Collaboration",
-      "Rewrite": "Agency refers to a business or organization established to provide a particular service, typically one that involves organizing transactions between two other parties."
+      "description": "Agency refers to a business or organization established to provide a particular service, typically one that involves organizing transactions between two other parties."
    },
    {
-      "Feature Word": "Universal Design",
+      "term": "Universal Design",
       "Definition": "Universal design is the design of buildings, products or environments to make them accessible to all people, regardless of age, disability or other factors.",
       "Related Topics": "Global, Opportunistic, User-Oriented, Human-Oriented, Smart, Equality",
       "Complex": "*",
-      "Rewrite": "Universal Design refers to the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability."
+      "description": "Universal Design refers to the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability."
    },
    {
-      "Feature Word": "Security",
+      "term": "Security",
       "Definition": "The state of being free from danger or threat.",
       "Sources": "Oxford",
       "Related Topics": "Safe, Policy, Protected, Services, Responsible",
-      "Rewrite": "Security refers to the all the measures that are taken to protect a place, or to ensure that only people with permission enter it or leave it"
+      "description": "Security refers to the all the measures that are taken to protect a place, or to ensure that only people with permission enter it or leave it"
    },
    {
-      "Feature Word": "Inclusion",
+      "term": "Inclusion",
       "Definition": "The practice or policy of providing equal access to opportunities and resources for people who might otherwise be excluded or marginalized, such as those who have physical or mental disabilities and members of other minority groups.",
       "Sources": "Oxford",
       "Related Topics": "Equality, Policy, Universal Design, Services, Responsible",
-      "Rewrite": "Inclusion refers to the practice or policy of providing equal access to opportunities and resources for people who might otherwise be excluded or marginalized, such as those who have physical or mental disabilities and members of other minority groups."
+      "description": "Inclusion refers to the practice or policy of providing equal access to opportunities and resources for people who might otherwise be excluded or marginalized, such as those who have physical or mental disabilities and members of other minority groups."
    },
    {
-      "Feature Word": "Representation",
+      "term": "Representation",
       "Definition": "The description or portrayal of someone or something in a particular way or as being of a certain nature.",
       "Sources": "Oxford",
       "Related Topics": "Performance, Leadership, Demonstration, Responsible, Policy",
-      "Rewrite": "Representation refers to the way that someone or something is shown or described"
+      "description": "Representation refers to the way that someone or something is shown or described"
    },
    {
-      "Feature Word": "Leadership",
+      "term": "Leadership",
       "Definition": "The action of leading a group of people or an organization.",
       "Sources": "Oxford",
       "Related Topics": "Performance, Representation, Demonstration, Responsible, Policy, Participation",
-      "Rewrite": "Leadership refers to the art of motivating a group of people to act toward achieving a common goal. "
+      "description": "Leadership refers to the art of motivating a group of people to act toward achieving a common goal. "
    },
    {
-      "Feature Word": "Participation",
+      "term": "Participation",
       "Definition": "The action of taking part in something.",
       "Sources": "Oxford",
       "Related Topics": "Performance, Representation, Demonstration, Responsible, Collaboration",
-      "Rewrite": "Participation refers to the fact that you take part or become involved in something"
+      "description": "Participation refers to the fact that you take part or become involved in something"
    },
    {
-      "Feature Word": "Equality",
+      "term": "Equality",
       "Definition": "The state of being equal, especially in status, rights, and opportunities.",
       "Sources": "Oxford",
       "Related Topics": "Inclusion, Policy, Universal Design, Services, Restorative Justice",
-      "Rewrite": "Equality refers to the right of different groups of people to have a similar social position and receive the same treatment"
+      "description": "Equality refers to the right of different groups of people to have a similar social position and receive the same treatment"
    },
    {
-      "Feature Word": "Services",
+      "term": "Services",
       "Definition": "A system supplying a public need such as transport, communications, or utilities such as electricity and water.",
       "Sources": "Oxford",
       "Related Topics": "Governance, Participation, Responsible, Collaboration, Facilitative",
-      "Rewrite": "Services refers to a government system or private organization that is responsible for a particular type of activity, or for providing a particular thing that people need, such as transport, communications, or utilities such as electricity and water."
+      "description": "Services refers to a government system or private organization that is responsible for a particular type of activity, or for providing a particular thing that people need, such as transport, communications, or utilities such as electricity and water."
    },
    {
-      "Feature Word": "Collaboration",
+      "term": "Collaboration",
       "Definition": "The action of working with someone to produce or create something.",
       "Sources": "Oxford",
       "Related Topics": "Services, Participation, Responsible, Partnerships, Integrative",
-      "Rewrite": "Collaboration refers to the situation of two or more people working together to create or achieve the same thing"
+      "description": "Collaboration refers to the situation of two or more people working together to create or achieve the same thing"
    },
    {
-      "Feature Word": "Responsible",
+      "term": "Responsible",
       "Definition": "Having an obligation to do something, or having control over or care for someone, as part of one's job or role.",
       "Sources": "Oxford",
       "Related Topics": "Services, Participation, Collaboration, Partnerships, Integrative",
-      "Rewrite": "Responsible refers to have control and authority over something or someone and the duty of taking care of it, him, or her"
+      "description": "Responsible refers to have control and authority over something or someone and the duty of taking care of it, him, or her"
    },
    {
-      "Feature Word": "Governance",
+      "term": "Governance",
       "Definition": "The action or manner of governing.",
       "Sources": "Oxford",
       "Related Topics": "Democratic, Services, Participation, Responsible, Collaboration",
-      "Rewrite": "Governance refers to the act or process of governing or overseeing the control and direction of something (such as a country or an organization) "
+      "description": "Governance refers to the act or process of governing or overseeing the control and direction of something (such as a country or an organization) "
    },
    {
-      "Feature Word": "Demonstration",
+      "term": "Demonstration",
       "Definition": "The action or process of showing the existence or truth of something by giving proof or evidence. A practical exhibition and explanation of how something works or is performed.",
       "Sources": "Oxford",
       "Related Topics": "Performance, Leadership, Demonstration, Responsible, Policy",
-      "Rewrite": "Demonstration refers to a practical exhibition and explanation of how something works or is performed."
+      "description": "Demonstration refers to a practical exhibition and explanation of how something works or is performed."
    },
    {
-      "Feature Word": "Affordability",
+      "term": "Affordability",
       "Definition": "Ability to be afforded; inexpensiveness.",
       "Sources": "Oxford",
       "Related Topics": "Housing, Services, Public Space, Supportive, Neighbourly",
-      "Rewrite": "Affordability refers to the extent to which something is affordable, as measured by its cost relative to the amount that the purchaser is able to pay."
+      "description": "Affordability refers to the extent to which something is affordable, as measured by its cost relative to the amount that the purchaser is able to pay."
    },
    {
-      "Feature Word": "Opportunity",
+      "term": "Opportunity",
       "Definition": "a set of circumstances that makes it possible to do something.",
       "Sources": "Oxford",
       "Related Topics": "Development, Smart, Investment, Competitive, Generative",
-      "Rewrite": "Opportunity refers to a set of circumstances that makes it possible to do something."
+      "description": "Opportunity refers to a set of circumstances that makes it possible to do something."
    },
    {
-      "Feature Word": "Democratic",
+      "term": "Democratic",
       "Definition": "Democracy refers to a form of government in which the people either have the authority to choose their governing legislators, or the authority to decide on legislation.",
       "Sources": "Oxford",
       "Related Topics": "Governance, Services, Participation, Responsible, Collaboration",
-      "Rewrite": "Democracy refers to a form of government in which the people either have the authority to choose their governing legislators, or the authority to decide on legislation."
+      "description": "Democracy refers to a form of government in which the people either have the authority to choose their governing legislators, or the authority to decide on legislation."
    },
    {
-      "Feature Word": "Restorative Justice",
+      "term": "Restorative Justice",
       "Definition": "Restorative justice refers to “an approach to justice that seeks to repair harm by providing an opportunity for those harmed and those who take responsibility for the harm to communicate about and address their needs in the aftermath of a crime.",
       "Sources": "Government of Canada",
       "Related Topics": "Inclusion, Policy, Universal Design, Services, Equality",
       "Complex": "*",
-      "Rewrite": "Restorative justice refers to “an approach to justice that seeks to repair harm by providing an opportunity for those harmed and those who take responsibility for the harm to communicate about and address their needs in the aftermath of a crime."
+      "description": "Restorative justice refers to “an approach to justice that seeks to repair harm by providing an opportunity for those harmed and those who take responsibility for the harm to communicate about and address their needs in the aftermath of a crime."
    },
    {
-      "Feature Word": "Virtuous",
+      "term": "Virtuous",
       "Definition": "Having or showing high moral standards.",
       "Sources": "Oxford",
       "Related Topics": "Humanitarian, Responsible, Equality, Governance, Policy",
-      "Rewrite": "Virtuous refers to having or showing high moral standards."
+      "description": "Virtuous refers to having or showing high moral standards."
    },
    {
-      "Feature Word": "Redistributive",
+      "term": "Redistributive",
       "Definition": "To alter the distribution of : reallocate. To spread to other areas.",
       "Sources": "Oxford",
       "Related Topics": "Equality, Services, Affordability, Inclusion, Responsible, Housing",
-      "Rewrite": "Redistributive refers to alter the distribution of : reallocate. To spread to other areas."
+      "description": "Redistributive refers to alter the distribution of : reallocate. To spread to other areas."
    },
    {
-      "Feature Word": "Reparative",
+      "term": "Reparative",
       "Definition": "Of, relating to, or effecting repair",
       "Sources": "Merriam-Webster",
       "Related Topics": "Services, Participation, Responsible, Generative",
-      "Rewrite": "Reparative refers to tending to repair; repairing; mending"
+      "description": "Reparative refers to tending to repair; repairing; mending"
    },
    {
-      "Feature Word": "Facilitative",
+      "term": "Facilitative",
       "Definition": "Providing service or assistance. managerial attitudes and practices that have proven to be highly facilitative of increased worker productivity.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Aid, Entertainment, Sanitation, Supportive, Leadership, Well-being, responsible, services",
-      "Rewrite": "Facilitative refers to making something easier or less difficult; help forward (an action, a process, etc.)"
+      "description": "Facilitative refers to making something easier or less difficult; help forward (an action, a process, etc.)"
    },
    {
-      "Feature Word": "Protected",
+      "term": "Protected",
       "Definition": "Preserved from harm, especially by means of formal or legal measures. (of a threatened species or area) covered by legislation controlling hunting, collection, or development.",
       "Sources": "Oxford",
       "Related Topics": "Safe, Policy, Security, Services, Responsible",
-      "Rewrite": "Protected refers to being preserved from harm, especially by means of formal or legal measures. (of a threatened species or area) covered by legislation controlling hunting, collection, or development."
+      "description": "Protected refers to being preserved from harm, especially by means of formal or legal measures. (of a threatened species or area) covered by legislation controlling hunting, collection, or development."
    },
    {
-      "Feature Word": "Healthcare",
+      "term": "Healthcare",
       "Definition": "The organized provision of medical care to individuals or a community.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Fitness, Well-being, Walkable Neighbourhoods, Sanitation, Hygiene",
-      "Rewrite": "Healthcare refers to the efforts made to maintain or restore physical, mental, or emotional well-being especially by trained and licensed professionals"
+      "description": "Healthcare refers to the efforts made to maintain or restore physical, mental, or emotional well-being especially by trained and licensed professionals"
    },
    {
-      "Feature Word": "Hospitable",
+      "term": "Hospitable",
       "Definition": "Friendly and welcoming to strangers or guests. (of an environment) pleasant and favourable for living in.",
       "Sources": "Oxford",
       "Related Topics": "Aid, Maintenance, Supportive, Protected, Care",
-      "Rewrite": "Hospitable refers to being friendly and welcoming to visitors or guests. (of an environment) pleasant and favourable for living in."
+      "description": "Hospitable refers to being friendly and welcoming to visitors or guests. (of an environment) pleasant and favourable for living in."
    },
    {
-      "Feature Word": "Complete Communities",
+      "term": "Complete Communities",
       "Definition": "Complete communities is an urban and rural planning concept that aims to meet the basic needs of all residents in a community, regardless of income, culture, or political ideologies through integrated land use planning, transportation planning, and community design.",
       "Related Topics": "Protected, Hospitable, Wholesome, Care, Supportive, Conditioned, Thriving ",
       "Complex": "*",
-      "Rewrite": "Complete communities refers to an urban and rural planning concept that aims to meet the basic needs of all residents in a community, regardless of income, culture, or political ideologies through integrated land use planning, transportation planning, and community design. "
+      "description": "Complete communities refers to an urban and rural planning concept that aims to meet the basic needs of all residents in a community, regardless of income, culture, or political ideologies through integrated land use planning, transportation planning, and community design. "
    },
    {
-      "Feature Word": "Walkable Neighbourhoods",
+      "term": "Walkable Neighbourhoods",
       "Definition": "Neighbourhood walk-ability is a measure of how well a neighbourhood promotes active forms of transportation, such as walking. A highly walk-able neighbourhood has a variety of destinations within walking distance, well-connected streets and a mix of land uses.",
       "Sources": "Public Health Ontario",
       "Related Topics": "Healthy, Active, Fitness, Well-being, Healthcare, Sanitation, Hygiene",
-      "Rewrite": "Walkable Neighbourhoods refers to the situation when cities and neighbourhoods provide easy access to non-motorized transportation. In other words, a walkable neighbourhood is friendly to walkers, yielding its inhabitants several health, environmental, and even economic benefits."
+      "description": "Walkable Neighbourhoods refers to the situation when cities and neighbourhoods provide easy access to non-motorized transportation. In other words, a walkable neighbourhood is friendly to walkers, yielding its inhabitants several health, environmental, and even economic benefits."
    },
    {
-      "Feature Word": "Pleasure",
+      "term": "Pleasure",
       "Definition": "A feeling of happy satisfaction and enjoyment. Used or intended for entertainment rather than business.",
       "Sources": "Oxford",
       "Related Topics": "Recreation, Entertainment, Fitness, Leisure, Healthy, Rest",
-      "Rewrite": "Pleasure refers to the feeling of happy satisfaction and enjoyment. Used or intended for entertainment rather than business."
+      "description": "Pleasure refers to the feeling of happy satisfaction and enjoyment. Used or intended for entertainment rather than business."
    },
    {
-      "Feature Word": "Public Health",
+      "term": "Public Health",
       "Definition": "The health of the population as a whole, especially as the subject of government regulation and support. The branch of medicine dealing with public health, including hygiene, epidemiology, and disease prevention.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Fitness, Well-being, Walkable Neighbourhoods, Sanitation, Hygiene",
-      "Rewrite": "Public health is the science of protecting and improving the health of people and their communities"
+      "description": "Public health is the science of protecting and improving the health of people and their communities"
    },
    {
-      "Feature Word": "Sanitation",
+      "term": "Sanitation",
       "Definition": "Conditions relating to public health, especially the provision of clean drinking water and adequate sewage disposal.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Fitness, Well-being, Walkable Neighbourhoods, Hygiene, Public Health",
-      "Rewrite": "Sanitation refers to the conditions relating to public health, especially the provision of clean drinking water and adequate sewage disposal."
+      "description": "Sanitation refers to the conditions relating to public health, especially the provision of clean drinking water and adequate sewage disposal."
    },
    {
-      "Feature Word": "Hygiene",
+      "term": "Hygiene",
       "Definition": "Conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Fitness, Well-being, Walkable Neighbourhoods, Sanitation, Public Health",
-      "Rewrite": "Hygiene refers to the degree to which people keep themselves or their environment clean, especially to prevent disease"
+      "description": "Hygiene refers to the degree to which people keep themselves or their environment clean, especially to prevent disease"
    },
    {
-      "Feature Word": "Rest",
+      "term": "Rest",
       "Definition": "Cease work or movement in order to relax, refresh oneself, or recover strength.",
       "Sources": "Oxford",
       "Related Topics": "Recreation, Entertainment, Fitness, Leisure, Healthy, Pleasure",
-      "Rewrite": "Rest refers to cease work or movement in order to relax, refresh oneself, or recover strength."
+      "description": "Rest refers to cease work or movement in order to relax, refresh oneself, or recover strength."
    },
    {
-      "Feature Word": "Recreation",
+      "term": "Recreation",
       "Definition": "Activity done for enjoyment when one is not working. Recreation is an activity of leisure, leisure being discretionary time. The \"need to do something for recreation\" is an essential element of human biology and psychology. Recreational activities are often done for enjoyment, amusement, or pleasure and are considered to be \"fun\"",
       "Sources": "Oxford",
       "Related Topics": "Entertainment, Fitness, Leisure, Healthy, rest, Pleasure",
-      "Rewrite": "Recreation refers to refreshment of strength and spirits after work"
+      "description": "Recreation refers to refreshment of strength and spirits after work"
    },
    {
-      "Feature Word": "Nourished",
+      "term": "Nourished",
       "Definition": "Provide with the food or other substances necessary for growth, health, and good condition. Keep (a feeling or belief) in one's mind, typically for a long time.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Fitness, Well-being, Public Health",
-      "Rewrite": "Provide with the food or other substances necessary for growth, health, and good condition. Keep (a feeling or belief) in one's mind, typically for a long time."
+      "description": "Provide with the food or other substances necessary for growth, health, and good condition. Keep (a feeling or belief) in one's mind, typically for a long time."
    },
    {
-      "Feature Word": "Entertainment",
+      "term": "Entertainment",
       "Definition": "The action of providing or being provided with amusement or enjoyment.",
       "Sources": "Oxford",
       "Related Topics": "Recreation, Rest, Fitness, Leisure, Healthy, Pleasure",
-      "Rewrite": "Nourished refers to the action of providing or being provided with amusement or enjoyment."
+      "description": "Nourished refers to the action of providing or being provided with amusement or enjoyment."
    },
    {
-      "Feature Word": "Well-being",
+      "term": "Well-being",
       "Definition": "Well-being, also known as wellness, prudential value or quality of life, refers to what is intrinsically valuable relative to someone. So the well-being of a person is what is ultimately good for this person, what is in the self-interest of this person. Well-being can refer to both positive and negative well-being. The state of being comfortable, healthy, or happy.",
       "Related Topics": "Healthy, Active, Public Health, Fitness, Walkable Neighbourhoods",
-      "Rewrite": "Well-being refers to the experience of health, happiness, and prosperity. It includes having good mental health, high life satisfaction, a sense of meaning or purpose, and ability to manage stress."
+      "description": "Well-being refers to the experience of health, happiness, and prosperity. It includes having good mental health, high life satisfaction, a sense of meaning or purpose, and ability to manage stress."
    },
    {
-      "Feature Word": "Leisure",
+      "term": "Leisure",
       "Definition": "Leisure has often been defined as a quality of experience or as free time. Free time is time spent away from business, work, job hunting, domestic chores, and education, as well as necessary activities such as eating and sleeping.",
       "Related Topics": "Recreation, Entertainment, Fitness, Rest, Healthy, Pleasure",
-      "Rewrite": "Leisure refers to the freedom provided by the cessation of activities"
+      "description": "Leisure refers to the freedom provided by the cessation of activities"
    },
    {
-      "Feature Word": "Fitness",
+      "term": "Fitness",
       "Definition": "The condition of being physically fit and healthy. The quality of being suitable to fulfill a particular role or task. An organism's ability to survive and reproduce in a particular environment.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Public Health, Well-being, Walkable Neighbourhoods",
-      "Rewrite": "Fitness refers to one’s ability to execute daily activities with optimal performance, endurance, and strength with the management of disease, fatigue, and stress and reduced sedentary behaviour."
+      "description": "Fitness refers to one’s ability to execute daily activities with optimal performance, endurance, and strength with the management of disease, fatigue, and stress and reduced sedentary behaviour."
    },
    {
-      "Feature Word": "Wholesome",
+      "term": "Wholesome",
       "Definition": "Conducive to or suggestive of good health and physical well-being. Conducive to or promoting moral well-being.",
       "Sources": "Oxford",
       "Related Topics": "Ecological, Green Network, Urban Agriculture, Community Engagement, Culture, Preservation",
-      "Rewrite": "Wholesome refers to being conducive to or suggestive of good health and physical well-being"
+      "description": "Wholesome refers to being conducive to or suggestive of good health and physical well-being"
    },
    {
-      "Feature Word": "Care",
+      "term": "Care",
       "Definition": "The provision of what is necessary for the health, welfare, maintenance, and protection of someone or something.",
       "Sources": "Oxford",
       "Related Topics": "Aid, Maintenance, Supportive, Protected, Hospitable",
-      "Rewrite": "Care refers to the provision of what is necessary for the health, welfare, maintenance, and protection of someone or something."
+      "description": "Care refers to the provision of what is necessary for the health, welfare, maintenance, and protection of someone or something."
    },
    {
-      "Feature Word": "Maintenance",
+      "term": "Maintenance",
       "Definition": "The process of maintaining or preserving someone or something, or the state of being maintained.",
       "Sources": "Oxford",
       "Related Topics": "Aid, Care, Supportive, Protected, Hospitable",
-      "Rewrite": "Maintenance refers to the process of maintaining or preserving someone or something, or the state of being maintained."
+      "description": "Maintenance refers to the process of maintaining or preserving someone or something, or the state of being maintained."
    },
    {
-      "Feature Word": "Aid",
+      "term": "Aid",
       "Definition": "Help, typically of a practical nature. Help, assist, or support (someone or something) in the achievement of something.",
       "Sources": "Oxford",
       "Related Topics": "Care, Maintenance, Protected, Hospitable, Supportive",
-      "Rewrite": "Aid refers to help, assist, or support (someone or something) in the achievement of something."
+      "description": "Aid refers to help, assist, or support (someone or something) in the achievement of something."
    },
    {
-      "Feature Word": "Supportive",
+      "term": "Supportive",
       "Definition": "Providing encouragement or emotional help.",
       "Sources": "Oxford",
       "Related Topics": "Care, Maintenance, Protected, Hospitable, Aid",
-      "Rewrite": "Supportive refers to showing agreement and giving encouragement"
+      "description": "Supportive refers to showing agreement and giving encouragement"
    },
    {
-      "Feature Word": "Conditioned",
+      "term": "Conditioned",
       "Definition": "Have a significant influence on or determine (the manner or outcome of something). Bring (something) into the desired state for use.",
       "Sources": "Oxford",
       "Related Topics": "Protected, Public Health, Rest, Recreation, Leisure, Care, Maintenance",
-      "Rewrite": "Conditioned refers to being characterized by a predictable or consistent pattern of behaviour. or thought as a result of having been subjected to certain circumstances or conditions."
+      "description": "Conditioned refers to being characterized by a predictable or consistent pattern of behaviour. or thought as a result of having been subjected to certain circumstances or conditions."
    },
    {
-      "Feature Word": "Thriving",
+      "term": "Thriving",
       "Definition": "Grow or develop well or vigorously. Prosper; flourish.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Public Health, Well-being, Development, Flourish",
-      "Rewrite": "Grow or develop well or vigorously. Prosper; flourish."
+      "description": "Grow or develop well or vigorously. Prosper; flourish."
    },
    {
-      "Feature Word": "Flourish",
+      "term": "Flourish",
       "Definition": "Grow or develop in a healthy or vigorous way, especially as the result of a particularly favourable environment. A bold or extravagant gesture or action, made especially to attract the attention of others. An instance of suddenly performing or developing in an impressively successful way.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Public Health, Well-being, Development, Thriving",
-      "Rewrite": "Grow or develop in a healthy or vigorous way, especially as the result of a particularly favourable environment. A bold or extravagant gesture or action, made especially to attract the attention of others. An instance of suddenly performing or developing in an impressively successful way."
+      "description": "Grow or develop in a healthy or vigorous way, especially as the result of a particularly favourable environment. A bold or extravagant gesture or action, made especially to attract the attention of others. An instance of suddenly performing or developing in an impressively successful way."
    },
    {
-      "Feature Word": "Fit",
+      "term": "Fit",
       "Definition": "Of a suitable quality, standard, or type to meet the required purpose.",
       "Sources": "Oxford",
       "Related Topics": "Healthy, Active, Public Health, Well-being, Walkable Neighbourhoods",
-      "Rewrite": "Fit refers to having a suitable quality, standard, or type to meet the required purpose."
+      "description": "Fit refers to having a suitable quality, standard, or type to meet the required purpose."
    },
    {
-      "Feature Word": "Investment",
+      "term": "Investment",
       "Definition": "The action or process of investing money for profit or material result.",
       "Sources": "Oxford",
       "Related Topics": "Smart,Entrepreneurship, Local Business, Employment, Competitive",
-      "Rewrite": "Investment refers to being an asset or item acquired with the goal of generating income or appreciation."
+      "description": "Investment refers to being an asset or item acquired with the goal of generating income or appreciation."
    },
    {
-      "Feature Word": "Entrepreneurship",
+      "term": "Entrepreneurship",
       "Definition": "The activity of setting up a business or businesses, taking on financial risks in the hope of profit.",
       "Sources": "Oxford",
       "Related Topics": "Innovation,Investment, Local Business, Employment, Competitive",
-      "Rewrite": "Entrepreneurship refers to being viewed as change, generally entailing risk beyond what is normally encountered in starting a business, which may include other values than simply economic ones."
+      "description": "Entrepreneurship refers to being viewed as change, generally entailing risk beyond what is normally encountered in starting a business, which may include other values than simply economic ones."
    },
    {
-      "Feature Word": "Enterprise",
+      "term": "Enterprise",
       "Definition": "A project or undertaking, typically one that is difficult or requires effort.",
       "Sources": "Oxford",
       "Related Topics": "Local Business, Growth, Entrepreneurship, Development, Investment",
-      "Rewrite": "Enterprise refers to a project or undertaking, typically one that is difficult or requires effort."
+      "description": "Enterprise refers to a project or undertaking, typically one that is difficult or requires effort."
    },
    {
-      "Feature Word": "Transformative",
+      "term": "Transformative",
       "Definition": "Causing or able to cause an important and lasting change in someone or something",
       "Sources": "Merriam-Webster",
       "Related Topics": "New Markets, Growth, Global, Generative, Capacity Development, Futuristic",
-      "Rewrite": "Transformative refers to causing or able to cause an important and lasting change in someone or something"
+      "description": "Transformative refers to causing or able to cause an important and lasting change in someone or something"
    },
    {
-      "Feature Word": "New Markets",
+      "term": "New Markets",
       "Definition": "A new market is a market where the end product or service is new – in other words there isn’t really existing demand, but there could be.",
       "Sources": "Larry Cheng",
       "Related Topics": "Innovation, Investment, Entrepreneurship, Intelligent, Competitive, Transformative",
       "Complex": "*",
-      "Rewrite": "New market refers to a market where the end product or service is new – in other words there isn’t really existing demand, but there could be."
+      "description": "New market refers to a market where the end product or service is new – in other words there isn’t really existing demand, but there could be."
    },
    {
-      "Feature Word": "Development",
+      "term": "Development",
       "Definition": "The process of developing or being developed.",
       "Sources": "Oxford",
       "Related Topics": "Growth, Network, Global, Modular, Connectivity, ",
-      "Rewrite": "Development refers to the process in which someone or something grows or changes and becomes more advanced"
+      "description": "Development refers to the process in which someone or something grows or changes and becomes more advanced"
    },
    {
-      "Feature Word": "Global",
+      "term": "Global",
       "Definition": "Relating to the whole world; worldwide. Relating to or embracing the whole of something, or of a group of things.",
       "Sources": "Oxford",
       "Related Topics": "Development, Network, Diverse, Accessible, Connectivity",
-      "Rewrite": "Global refers to relating to, or involving the entire world"
+      "description": "Global refers to relating to, or involving the entire world"
    },
    {
-      "Feature Word": "Growth",
+      "term": "Growth",
       "Definition": "The process of increasing in physical size.",
       "Sources": "Oxford",
       "Related Topics": "Development, Network, Global, Modular, Connectivity",
-      "Rewrite": "Growth refers to a progressive development"
+      "description": "Growth refers to a progressive development"
    },
    {
-      "Feature Word": "Local Business",
+      "term": "Local Business",
       "Definition": "Any company that provides goods or services to a local population is considered a local business. Often denoted by the phrase, “brick and mortar,” a local business can be a locally owned business or a corporate business with multiple locations operating in a specific area.",
       "Sources": "Yext",
       "Related Topics": "Investment, Entrepreneurship, New Markets, Opportunistic, Capacity Development",
-      "Rewrite": "Local Business refers to a type of business that is created in a local area and provides a variety of commodities, goods, products or services and has a moderate number of customers"
+      "description": "Local Business refers to a type of business that is created in a local area and provides a variety of commodities, goods, products or services and has a moderate number of customers"
    },
    {
-      "Feature Word": "Employment",
+      "term": "Employment",
       "Definition": "The condition of having paid work. The action of giving work to someone.",
       "Sources": "Oxford",
       "Related Topics": "Innovation,Investment, Local Business, Entrepreneurship, Competitive",
-      "Rewrite": "Employment refers to the fact of someone being paid to work for a company or organization"
+      "description": "Employment refers to the fact of someone being paid to work for a company or organization"
    },
    {
-      "Feature Word": "Opportunistic",
+      "term": "Opportunistic",
       "Definition": "Taking advantage of opportunities as they arise.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Innovation,Investment, Local Business, Entrepreneurship, Competitive, Development",
-      "Rewrite": "Opportunistic refers to taking advantage of opportunities as they arise."
+      "description": "Opportunistic refers to taking advantage of opportunities as they arise."
    },
    {
-      "Feature Word": "Information Economy",
+      "term": "Information Economy",
       "Definition": "An economy in which knowledge, information, and services are more valuable than manufacturing.",
       "Sources": "Cambridge",
       "Related Topics": "Economic Diversification, Growth, Development, Innovation, Integrated ICT, Inter Connected",
       "Complex": "*",
-      "Rewrite": "Information Economy refers to an economy in which knowledge, information, and services are more valuable than manufacturing."
+      "description": "Information Economy refers to an economy in which knowledge, information, and services are more valuable than manufacturing."
    },
    {
-      "Feature Word": "Intelligent",
+      "term": "Intelligent",
       "Definition": "(of a device, machine, or building) able to vary its state or action in response to varying situations, varying requirements, and past experience.",
       "Sources": "Oxford",
       "Related Topics": "Smart, Human-Oriented, Development, Futuristic, High-tech, Innovation",
-      "Rewrite": "(Intelligent Building) refers to a building that integrates technology and process to create a facility that is safer, more comfortable and productive for its occupants, and more operationally efficient for its owners."
+      "description": "(Intelligent Building) refers to a building that integrates technology and process to create a facility that is safer, more comfortable and productive for its occupants, and more operationally efficient for its owners."
    },
    {
-      "Feature Word": "Competitive",
+      "term": "Competitive",
       "Definition": "Relating to or characterized by competition. As good as or better than others of a comparable nature.",
       "Sources": "Oxford",
       "Related Topics": "Innovation,Investment, Local Business, Entrepreneurship, Opportunistic, Development",
-      "Rewrite": "Competitive refers to having or displaying a strong desire to be more successful than others."
+      "description": "Competitive refers to having or displaying a strong desire to be more successful than others."
    },
    {
-      "Feature Word": "User-Oriented",
+      "term": "User-Oriented",
       "Definition": "(of a machine or system) designed with the user's convenience given priority.",
       "Sources": "Lexico Oxford",
       "Related Topics": "Entrepreneurship, Enterprise, Local Businesses, Growth, Investment, Intelligent, collaboration",
-      "Rewrite": "User-oriented (of a machine or system)refers to being designed with the user's convenience given priority."
+      "description": "User-oriented (of a machine or system)refers to being designed with the user's convenience given priority."
    },
    {
-      "Feature Word": "Generative",
+      "term": "Generative",
       "Definition": "Relating to or capable of production or reproduction.",
       "Sources": "Oxford",
       "Related Topics": "Transformative, Development, Innovative, Recycling, Sustainability, Digital",
-      "Rewrite": "Generative design refers to an iterative design process that involves a program that will generate a certain number of outputs that meet certain constraints, and a designer that will fine tune the feasible region by selecting specific output or changing input values, ranges and distribution."
+      "description": "Generative design refers to an iterative design process that involves a program that will generate a certain number of outputs that meet certain constraints, and a designer that will fine tune the feasible region by selecting specific output or changing input values, ranges and distribution."
    },
    {
-      "Feature Word": "Economic Diversification",
+      "term": "Economic Diversification",
       "Definition": "Economic diversification is the process of shifting an economy away from a single income source toward multiple sources from a growing range of sectors and markets. Traditionally, it has been applied as a strategy to encourage positive economic growth and development. In the context of climate change adaptation, it takes on a new relevance as a strategy to diversify away from vulnerable products, markets, and jobs toward income sources that are low-emission and more climate resilient.",
       "Sources": "United Nations Climate Change",
       "Related Topics": "Growth, Global, Investment, Development,  Information Economy, Sustainability, ",
       "Complex": "*",
-      "Rewrite": "Economic diversification refers to the process of shifting an economy away from a single income source toward multiple sources from a growing range of sectors and markets. Traditionally, it has been applied as a strategy to encourage positive economic growth and development. In the context of climate change adaptation, it takes on a new relevance as a strategy to diversify away from vulnerable products, markets, and jobs toward income sources that are low-emission and more climate resilient."
+      "description": "Economic diversification refers to the process of shifting an economy away from a single income source toward multiple sources from a growing range of sectors and markets. Traditionally, it has been applied as a strategy to encourage positive economic growth and development. In the context of climate change adaptation, it takes on a new relevance as a strategy to diversify away from vulnerable products, markets, and jobs toward income sources that are low-emission and more climate resilient."
    },
    {
-      "Feature Word": "Capacity Development",
+      "term": "Capacity Development",
       "Definition": "Capacity development is a process of change. It is often equated with additional staff, training and workshops. It should assess how the system is currently working, and what areas need support",
       "Sources": "United Nations Capacity Development",
       "Related Topics": "Transformative, Development, Enterprise, Growth, Employment",
       "Complex": "*",
-      "Rewrite": "Capacity development refers to a process of change. It is often equated with additional staff, training and workshops. It should assess how the system is currently working, and what areas need support"
+      "description": "Capacity development refers to a process of change. It is often equated with additional staff, training and workshops. It should assess how the system is currently working, and what areas need support"
    },
    {
-      "Feature Word": "Partnerships",
+      "term": "Partnerships",
       "Definition": "A partnership is an arrangement where parties, known as business partners, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, interest-based organizations, schools, governments or combinations.",
       "Related Topics": "Entrepreneurship, Enterprise, Local Businesses, Growth, Investment",
-      "Rewrite": "Partnership refers to an arrangement where parties, known as business partners, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, interest-based organizations, schools, governments or combinations."
+      "description": "Partnership refers to an arrangement where parties, known as business partners, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, interest-based organizations, schools, governments or combinations."
    },
    {
-      "Feature Word": "Innovation",
+      "term": "Innovation",
       "Definition": "Innovation is the creation, development and implementation of a new product, process or service, with the aim of improving efficiency, effectiveness or competitive advantage.",
       "Sources": "Dr. Ken Hudson",
       "Related Topics": "Entrepreneurship, New Markets, Intelligent, Futuristic, Transformative, Sustainability",
       "Complex": "*",
-      "Rewrite": "Innovation refers to the creation, development and implementation of a new product, process or service, with the aim of improving efficiency, effectiveness or competitive advantage."
+      "description": "Innovation refers to the creation, development and implementation of a new product, process or service, with the aim of improving efficiency, effectiveness or competitive advantage."
    },
    {
-      "Feature Word": "Futuristic",
+      "term": "Futuristic",
       "Definition": "Having or involving very modern technology or design.",
       "Sources": "Oxford",
       "Related Topics": "Smart, Human-Oriented, Development, Intelligent, High-tech, Innovation",
-      "Rewrite": "Futuristic refers to having or involving very modern technology or design that is thought likely to be current or fashionable at some future time"
+      "description": "Futuristic refers to having or involving very modern technology or design that is thought likely to be current or fashionable at some future time"
    },
    {
-      "Feature Word": "Digital",
+      "term": "Digital",
       "Definition": "Digital is any piece of technology that connects people and machines with each other or with information.",
       "Related Topics": "Smart, Human-Oriented, Development, Intelligent, Futuristic, Innovation, High-tech",
-      "Rewrite": "Digital (design) refers to the process of mapping out the look and feel of the content that people view and interact with on a computer, tablet, or phone screen"
+      "description": "Digital (design) refers to the process of mapping out the look and feel of the content that people view and interact with on a computer, tablet, or phone screen"
    },
    {
-      "Feature Word": "Integrative",
+      "term": "Integrative",
       "Definition": "Serving or intending to unify separate things.",
       "Sources": "Oxford",
       "Related Topics": "Public Transportation, Mixed-Modal Transportation, Integrated ICT, Modular, Developable",
-      "Rewrite": "Integrative (design) refers to a comprehensive holistic approach to design which brings together specialisms usually considered separately."
+      "description": "Integrative (design) refers to a comprehensive holistic approach to design which brings together specialisms usually considered separately."
    },
    {
-      "Feature Word": "Contingency",
+      "term": "Contingency",
       "Definition": "A future event or circumstance which is possible but cannot be predicted with certainty.",
       "Sources": "Oxford",
       "Related Topics": "Critical Service, Modality, Developable, Sustainability,  Recycling, ",
       "Complex": "*",
-      "Rewrite": "Contingency refers to a future event or circumstance which is possible but cannot be predicted with certainty."
+      "description": "Contingency refers to a future event or circumstance which is possible but cannot be predicted with certainty."
    },
    {
-      "Feature Word": "Active Transportation",
+      "term": "Active Transportation",
       "Definition": "Active transportation is using your own power to get from one place to another. The focus of the Chief Public Health Officer’s Report on the State of Public Health in Canada 2017 is building communities that support an active, healthy lifestyle. Neighbourhoods can be designed to encourage active transportation that is both practical and recreational. Designing communities to support active transportation means building communities with a mix of areas for different purposes: residential, commercial, educational, employment.",
       "Sources": "Government of Canada",
       "Related Topics": "Connectivity, Transit, Green Network, Air Quality, Clean Energy, Carbon footprint",
-      "Rewrite": "Active Transportation refers to the transport of people or goods, through non-motorized means, based around human physical activity."
+      "description": "Active Transportation refers to the transport of people or goods, through non-motorized means, based around human physical activity."
    },
    {
-      "Feature Word": "Public Transportation",
+      "term": "Public Transportation",
       "Definition": "Buses, trains, subways, and other forms of transportation that charge set fares, run on fixed routes, and are available to the public.",
       "Sources": "Oxford",
       "Related Topics": "Mixed-Modal Access, Inter Connected, Network, Transit, Integration, Green Network, Carbon Footprint",
-      "Rewrite": "Public Transportation refers to a system of transport for passengers by group travel systems available for use by the general public unlike private transport, typically managed on a schedule, operated on established routes, and that charge a posted fee for each trip."
+      "description": "Public Transportation refers to a system of transport for passengers by group travel systems available for use by the general public unlike private transport, typically managed on a schedule, operated on established routes, and that charge a posted fee for each trip."
    },
    {
-      "Feature Word": "Communications",
+      "term": "Communications",
       "Definition": "The imparting or exchanging of information or news. Means of sending or receiving information, such as phone lines or computers.",
       "Sources": "Oxford",
       "Related Topics": "Integrated ICT,  High Tech, Smart, Transformative, Intelligent, Innovation, Digital",
-      "Rewrite": "Communications refers to a process by which information is exchanged between individuals through a common system of symbols, signs, or behaviour."
+      "description": "Communications refers to a process by which information is exchanged between individuals through a common system of symbols, signs, or behaviour."
    },
    {
-      "Feature Word": "Mixed-Modal Access",
+      "term": "Mixed-Modal Access",
       "Definition": "Mixed Modal Access or Mixed Mode Commuting encompasses using two or more modes of transportation in a journey. The major goal of modern mixed modal access is to reduce the dependence on automobiles as the major mode of ground transportation and increase the usage of public transport.",
       "Sources": "Valluri",
       "Related Topics": "Public Transportation,  Inter-connected, Network,  Transit, Integration",
       "Complex": "*",
-      "Rewrite": "Mixed Modal Access or Mixed Mode Commuting encompasses using two or more modes of transportation in a journey. The major goal of modern mixed modal access is to reduce the dependence on automobiles as the major mode of ground transportation and increase the usage of public transport."
+      "description": "Mixed Modal Access or Mixed Mode Commuting encompasses using two or more modes of transportation in a journey. The major goal of modern mixed modal access is to reduce the dependence on automobiles as the major mode of ground transportation and increase the usage of public transport."
    },
    {
-      "Feature Word": "Integrated ICT",
+      "term": "Integrated ICT",
       "Definition": "The integration of ICT in the school practice has not to do with simple improvements of the traditional instruction but to a radically new pedagogy; shift from the traditional instruction model of knowledge transmitting towards autonomous, active, and collaborative learning through students’ engagement in ICT-based learning environments and shared learning resources. This refers to the extent to which information and communication technologies have been adopted into the school environment and the degree of impact on the school’s organization and pedagogues. The level of integration is determined by the interplay between infrastructure, teacher motivations, innovations and development of e-pedagogues.",
       "Sources": "IGI Global",
       "Related Topics": "Communications,  High Tech, Smart, Transformative, Intelligent, Innovation, Digital",
       "Complex": "*",
-      "Rewrite": "The integration of ICT in the school practice has not to do with simple improvements of the traditional instruction but to a radically new pedagogy; shift from the traditional instruction model of knowledge transmitting towards autonomous, active, and collaborative learning through students’ engagement in ICT-based learning environments and shared learning resources. This refers to the extent to which information and communication technologies have been adopted into the school environment and the degree of impact on the school’s organization and pedagogues. The level of integration is determined by the interplay between infrastructure, teacher motivations, innovations and development of e-pedagogies."
+      "description": "The integration of ICT in the school practice has not to do with simple improvements of the traditional instruction but to a radically new pedagogy; shift from the traditional instruction model of knowledge transmitting towards autonomous, active, and collaborative learning through students’ engagement in ICT-based learning environments and shared learning resources. This refers to the extent to which information and communication technologies have been adopted into the school environment and the degree of impact on the school’s organization and pedagogues. The level of integration is determined by the interplay between infrastructure, teacher motivations, innovations and development of e-pedagogies."
    },
    {
-      "Feature Word": "Critical Services",
+      "term": "Critical Services",
       "Definition": "The subset of mission essential services required to conduct manufacturing operations. Function or capability that is required to maintain health, safety, the environment and availability for the equipment under control.",
       "Sources": "US Government",
       "Related Topics": "Water Management, Sustainability, Waste Management, Industrial Science, Developable",
-      "Rewrite": "The subset of mission essential services required to conduct manufacturing operations. Function or capability that is required to maintain health, safety, the environment and availability for the equipment under control."
+      "description": "The subset of mission essential services required to conduct manufacturing operations. Function or capability that is required to maintain health, safety, the environment and availability for the equipment under control."
    },
    {
-      "Feature Word": "Inter-Connected",
+      "term": "Inter-Connected",
       "Definition": "Mutually joined or related, having internal connections between the parts or elements.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Modular, Developable,Development, Connectivity, Network, Assemblage",
-      "Rewrite": "Inter-connected refers to being mutually joined or related, having internal connections between the parts or elements."
+      "description": "Inter-connected refers to being mutually joined or related, having internal connections between the parts or elements."
    },
    {
-      "Feature Word": "Modality",
+      "term": "Modality",
       "Definition": "A particular way of doing or experiencing something.",
       "Sources": "Cambridge",
       "Related Topics": "Creativity, Lifestyle, Culture, Heritage, Tourism",
-      "Rewrite": "Modality refers to a particular way of doing or experiencing something."
+      "description": "Modality refers to a particular way of doing or experiencing something."
    },
    {
-      "Feature Word": "Developable",
+      "term": "Developable",
       "Definition": "(of land or property) able to be adapted or improved so as to become productive or profitable.",
       "Sources": "Oxford",
       "Related Topics": "Modular, Inter-Connected,Development, Connectivity, Network, Assemblage",
-      "Rewrite": "Developable refers to being (of land or property) able to be adapted or improved so as to become productive or profitable."
+      "description": "Developable refers to being (of land or property) able to be adapted or improved so as to become productive or profitable."
    },
    {
-      "Feature Word": "Modular",
+      "term": "Modular",
       "Definition": "Modular design, or modularity in design, is a design principle that subdivides a system into smaller parts called modules, which can be independently created, modified, replaced, or exchanged with other modules or between different systems.",
       "Related Topics": "Design for Disassembly, Inter-Connected,Circular Economy,Collaboration, User-Oriented",
-      "Rewrite": "Modular design, or modularity in design refers to a design principle that subdivides a system into smaller parts called modules, which can be independently created, modified, replaced, or exchanged with other modules or between different systems."
+      "description": "Modular design, or modularity in design refers to a design principle that subdivides a system into smaller parts called modules, which can be independently created, modified, replaced, or exchanged with other modules or between different systems."
    },
    {
-      "Feature Word": "High Tech",
+      "term": "High Tech",
       "Definition": "High technology or frontier technology is technology that is at the cutting edge: the most advanced technology available. It can be defined as either the most complex or the newest technology on the market.",
       "Related Topics": "Smart, Human-Oriented, Development, Intelligent, Futuristic, Innovation",
-      "Rewrite": "High Tech refers to the scientific technology involving the production or use of advanced or sophisticated devices especially in the fields of electronics and computers"
+      "description": "High Tech refers to the scientific technology involving the production or use of advanced or sophisticated devices especially in the fields of electronics and computers"
    },
    {
-      "Feature Word": "Industrial Science",
+      "term": "Industrial Science",
       "Definition": "It is this science that is employed by production companies in order to develop, adapt, and produce a product for the consumer market",
       "Related Topics": "Performance, Efficient, Power, Technical, Development",
-      "Rewrite": "Industrial science refers to the science that is employed by production companies in order to develop, adapt, and produce a product for the consumer market"
+      "description": "Industrial science refers to the science that is employed by production companies in order to develop, adapt, and produce a product for the consumer market"
    },
    {
-      "Feature Word": "Connectivity",
+      "term": "Connectivity",
       "Definition": "The state or extent of being connected or interconnected. Capacity for the interconnection of platforms, systems, and applications.",
       "Sources": "Oxford",
       "Related Topics": "Network, Transit, Communications, Integration, Development",
-      "Rewrite": "Connectivity refers to the state or quality of being connected or connective"
+      "description": "Connectivity refers to the state or quality of being connected or connective"
    },
    {
-      "Feature Word": "Integration",
+      "term": "Integration",
       "Definition": "The act or process of uniting different things. The practice of uniting people from different races in an attempt to give people equal rights racial integration.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Community Engagement, Pubic Space, Equality,  Housing, Diverse",
-      "Rewrite": "Integration refers to the action or process of combining two or more things or uniting people in an effective way"
+      "description": "Integration refers to the action or process of combining two or more things or uniting people in an effective way"
    },
    {
-      "Feature Word": "Assemblage",
+      "term": "Assemblage",
       "Definition": "A collection or gathering of things or people. A machine or object made of pieces fitted together. A work of art made by grouping found or unrelated objects.",
       "Sources": "Oxford",
       "Related Topics": "Design for Disassembly, Regenerative Design,Circular Economy,Collaboration, User-Oriented",
-      "Rewrite": "assemblage refers to a collection or gathering of things or people."
+      "description": "assemblage refers to a collection or gathering of things or people."
    },
    {
-      "Feature Word": "Network",
+      "term": "Network",
       "Definition": "An interconnected or interrelated chain, group, or system.",
       "Sources": "Merriam-Webster",
       "Related Topics": "Connectivity, Transit, Green Network, Communications, Clean Energy, Development",
       "Complex": "*",
-      "Rewrite": "Network refers to a large system consisting of many similar parts that are connected together to allow movement or communication between or along the parts, or between the parts and a control centre"
+      "description": "Network refers to a large system consisting of many similar parts that are connected together to allow movement or communication between or along the parts, or between the parts and a control centre"
    },
    {
-      "Feature Word": "Transit",
+      "term": "Transit",
       "Definition": "The carrying of people, goods, or materials from one place to another.",
       "Sources": "Oxford",
       "Related Topics": "Connectivity, Network, Green Network, Air Quality, Clean Energy, Carbon footprint",
-      "Rewrite": "Transit refers to the carrying of people, goods, or materials from one place to another."
+      "description": "Transit refers to the carrying of people, goods, or materials from one place to another."
    }
 ]
