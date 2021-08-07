@@ -6,14 +6,18 @@ import HorizontalProjectMenu from "../components/HorizontalProjectSummaries/Hori
 // import MarkPointOnMap from "../components/MarkPointOnMap";
 import MarkPointOnMap2 from "../components/MarkPointOnMap2";
 import "../styles/MarkPointOnMap2.css";
+import {useState} from 'react'
+
 
 export default function Map() {
+  let [selectedProjectIndex, setSelectedProjectIndex] = useState(0)
+
   return (
     <div>
-      <MarkPointOnMap2 />
+      <MarkPointOnMap2 setSelectedProjectIndex = {setSelectedProjectIndex}/>
       {/* <MarkPointOnMap /> */}
       <Header />
-      <HorizontalProjectMenu />
+      <HorizontalProjectMenu  selectedProjectIndex = {selectedProjectIndex}/>
       <Navbar />
     </div>
   );

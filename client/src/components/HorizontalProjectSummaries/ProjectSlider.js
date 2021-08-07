@@ -1,16 +1,12 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { Button } from "./Button";
 // import * as projectData from "../../data/projectsampleinfo.json";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "../../styles/Styles.css";
 
 import ClassificationContext from "../../store/ClassificationContext";
 
-const ProjectSlider = ({
-  slides,
-  // ProjectSummaryImage
-}) => {
+const ProjectSlider = ({ slides, selectedProjectIndex }) => {
   // const sectionStyle = {
   //    // width: "100%",
   //    // height: "200%",
@@ -20,6 +16,14 @@ const ProjectSlider = ({
   // }
   const classificationCtx = useContext(ClassificationContext);
   const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    if (selectedProjectIndex) {
+      setCurrent(selectedProjectIndex);
+    }
+  }, [selectedProjectIndex])
+
+  // pass setCurrent add this to context 
   const features = Array.from(classificationCtx.projects);
   // const ProjectSummaryImage = Array.from()
   // const length = slides.length;
