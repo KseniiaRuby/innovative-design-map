@@ -10,5 +10,7 @@ const glossarySchema = new Schema({
 })
 
 module.exports = mongoose.model(
-   glossarySchema
-)
+   "Glossary",
+   glossarySchema,
+   "Glossary"
+ );
