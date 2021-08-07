@@ -6,7 +6,7 @@ import ProjectDescription from "./components/ProjectDescription";
 import ProjectRelatedClassifications from "./components/ProjectRelatedClassifications";
 import FeatureWordsList from "./components/ProjectFeatureWords";
 import ProjectClassifications from "./components/ProjectClassifications";
-import ProjectGallery from "./components/ProjectGallery";
+// import ProjectGallery from "./components/ProjectGallery";
 import Navbar from "../../components/Navbar";
 import GlossaryContainer from "../../components/glossary/GlossaryContainer";
 

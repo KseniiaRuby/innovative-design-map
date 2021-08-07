@@ -1,5 +1,5 @@
 import mapboxgl from "mapbox-gl";
-import React, { useRef, useEffect, useState, useContext } from "react";
+import React, { useRef, useEffect, useContext } from "react";
 import ClassificationContext from "../store/ClassificationContext";
 
 import "../styles/Styles.css";
@@ -8,7 +8,7 @@ import "../styles/MarkPointOnMap2.css";
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 function MarkPointOnMap2({ setSelectedProjectIndex }) {
-   let [markerColor, setMarkerColor] = useState("white")
+   // let [markerColor, setMarkerColor] = useState("white")
    const mapContainer = useRef(null);
    const classificationCtx = useContext(ClassificationContext);
    const features = Array.from(classificationCtx.projects);
@@ -47,7 +47,7 @@ function MarkPointOnMap2({ setSelectedProjectIndex }) {
 
       features.forEach((feature, index) => {
          let marker = new mapboxgl.Marker({
-            color: markerColor,
+            color: "white",
             scale: ".6",
             interactive: true,
          })
