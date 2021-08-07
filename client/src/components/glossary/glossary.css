@@ -1,0 +1,34 @@
+
+.glossary-header {
+    width: 100%;
+}
+
+.glossary-button-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.glossary-cancel {
+    margin: 20px;
+}
+
+.glossary-header h1 {
+    margin-left: 20px;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.glossary-body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.glossary-entry-title {
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.glossary-word {
+    text-decoration: underline;
+}

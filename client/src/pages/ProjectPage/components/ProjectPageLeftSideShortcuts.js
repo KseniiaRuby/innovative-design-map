@@ -1,6 +1,18 @@
 import React from "react";
 import "../../../styles/Styles.css";
 
+function hasAValue(value) {
+  return value !== undefined && value.length > 0 
+}
+
+const LeftSideShortcutField= ({label, value}) => {
+  return hasAValue(value) && (
+    <div>
+     <div>{label}</div>
+     <u>{value}</u>
+   </div>
+  )
+}
 const ProjectPageLeftSideShortcuts = ({
   projectAddress,
   projectCity,
@@ -12,24 +24,13 @@ const ProjectPageLeftSideShortcuts = ({
   console.log("Project Address: ", projectAddress);
   return (
     <div className="border-right projectpageleftsideshortcuts project-padding">
-      {/* <p> */}
-      Address:
+      <LeftSideShortcutField label='Address:' value={projectAddress} />
       <br />
-      <u>{projectAddress}</u>
+      <LeftSideShortcutField label='City:' value={projectCity} />
       <br />
-      City:
+      <LeftSideShortcutField label='Province:' value={projectProvince} />
       <br />
-      <u>{projectCity}</u>
-      <br />
-      <br />
-      Province:
-      <br />
-      <u>{projectProvince}</u>
-      <br />
-      <br />
-      Postal Code:
-      <br />
-      <u>{projectPostalCode}</u>
+      <LeftSideShortcutField label='Postal Code:' value={projectPostalCode} />
       {/* </p> */}
       {/* <p>Access to Public: Yes</p> */}
       {/* <p> */}

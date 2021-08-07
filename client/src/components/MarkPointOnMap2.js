@@ -33,17 +33,17 @@ function MarkPointOnMap2({ setSelectedProjectIndex }) {
          // }
       ));
 
-      // Add geolocate control to the map.
-      map.addControl(
-         new mapboxgl.GeolocateControl({
-            positionOptions: {
-               enableHighAccuracy: true,
-            },
-            trackUserLocation: true,
-            showUserLocation: true,
-            showAccuracyCircle: true,
-         })
-      );
+    // Add geolocate control to the map.
+    map.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true,
+        },
+        trackUserLocation: true,
+        showUserLocation: true,
+        showAccuracyCircle: true,
+      })
+    );
 
       features.forEach((feature, index) => {
          let marker = new mapboxgl.Marker({

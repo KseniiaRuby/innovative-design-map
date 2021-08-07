@@ -1,4 +1,5 @@
 import React from "react";
+import TextWithGlossaryLinks from "../../../components/glossary/TextWithGlossaryLinks";
 import "../../../styles/Styles.css";
 
 const ProjectClassifications = ({
@@ -15,7 +16,7 @@ const ProjectClassifications = ({
       <div className="classificationTitle">
         <u>Project Description</u>
       </div>
-      <p>{projectDescription}</p>
+      <p><TextWithGlossaryLinks text={projectDescription}/></p>
       <br />
       <div className="classificationTitle">
         <u>Related Classifications</u>
