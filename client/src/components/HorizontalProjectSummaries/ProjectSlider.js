@@ -1,10 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Button } from "./Button";
-// import * as projectData from "../../data/projectsampleinfo.json";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "../../styles/Styles.css";
-
-import ClassificationContext from "../../store/ClassificationContext";
 
 const ProjectSlider = ({ slides, selectedProjectIndex }) => {
   // const sectionStyle = {
@@ -14,7 +11,7 @@ const ProjectSlider = ({ slides, selectedProjectIndex }) => {
   //    //   backgroundImage:
   //    //     "https://i.ibb.co/LnHDd7y/Riverdale-Avenue-Retaining-Wall-Replacement-Project-1.jpg",
   // }
-  const classificationCtx = useContext(ClassificationContext);
+  // const classificationCtx = useContext(ClassificationContext);
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -24,11 +21,9 @@ const ProjectSlider = ({ slides, selectedProjectIndex }) => {
   }, [selectedProjectIndex])
 
   // pass setCurrent add this to context 
-  const features = Array.from(classificationCtx.projects);
-  // const ProjectSummaryImage = Array.from()
-  // const length = slides.length;
+  const features = Array.from(slides);
+  // get the length of the projects array
   const length = features.length;
-  // const features = Array.from(projectData.features);
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -38,8 +33,8 @@ const ProjectSlider = ({ slides, selectedProjectIndex }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  // if (!Array.isArray(slides).length <= 0) {
-  if (!Array.isArray(features) || features.length <= 0) {
+  if (!Array.isArray(features).length <= 0) {
+  // if (!Array.isArray(features) || length <= 0) {
     return null;
   }
 
