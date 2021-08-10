@@ -10,10 +10,10 @@ export default function Navbar() {
                <Link to="/" className="nav-links">
                   Home
                </Link>
+               <Link to="/Category" className="nav-links">
+                  Details
+               </Link>
                {/* <Link to="/" className="nav-links">
-            Menu
-          </Link>
-          <Link to="/" className="nav-links">
             Search
           </Link> */}
                <Link to="/Map" className="nav-links">
