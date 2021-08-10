@@ -1,6 +1,5 @@
 import React, {useContext} from "react";
 import ProjectSlider from "./ProjectSlider";
-import projectData from "../../data/projectsampleinfo.json";
 import ClassificationContext from "../../store/ClassificationContext";
 
 function HorizontalProjectMenu({selectedProjectIndex}) {
