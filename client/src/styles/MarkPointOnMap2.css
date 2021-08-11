@@ -24,3 +24,44 @@ body {
 .map-spacer-bottom {
   padding-bottom: 20px;
 }
+
+.geocoder {
+position: absolute;
+z-index: 1;
+width: 50%;
+left: 50%;
+margin-left: -25%;
+top: 10px;
+}
+.mapboxgl-ctrl-geocoder {
+min-width: 100%;
+}
+#map {
+margin-top: 75px;
+}
+
+.geocoder-dropdown-item {
+  padding: 5px;
+  }
+  .geocoder-dropdown-icon {
+  margin-right: 10px;
+  }
+  .geocoder-dropdown-text {
+  color: #5a3fc0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  }
+  
+ .markers {
+   background-image: url('../images/whiteMarker.png');
+   background-size: 100%;
+   height: 25px;
+   width: 25px;
+ }
+
+ .markers:hover {
+  background-image: url('../images/red_marker2.png');
+   background-size: 100%;
+   height: 50px;
+   width: 50px;
+ }

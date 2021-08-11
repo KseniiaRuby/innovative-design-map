@@ -18,7 +18,11 @@
     font-weight: 400;
 }
 
-.glossary-body {
+.glossary-index {
+
+}
+
+.glossary-entry {
     margin-left: 20px;
     margin-right: 20px;
 }

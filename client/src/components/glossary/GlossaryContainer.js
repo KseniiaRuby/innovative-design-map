@@ -19,9 +19,23 @@ const modalStyles = {
   }
 }
 
+const GlossaryIndex = ({terms, selectTerm}) => {
+  let sorted = [...terms]
+  sorted.sort()
+  return (
+    <div class='glossary-index'>
+      {
+        sorted.map((term, index) => (
+          <div key={'term'+index} onClick={() => selectTerm(term)}>{term}</div>
+        ))
+      }
+    </div>
+  )
+}
+
 const GlossaryEntry = ({ selectedDefinition }) => {
       return selectedDefinition ? (
-        <div className='glossary-body'>
+        <div className='glossary-entry'>
           <div className='glossary-entry-title'>
             { selectedDefinition.term }
           </div>
@@ -47,6 +61,10 @@ const GlossaryEntry = ({ selectedDefinition }) => {
       setShowGlossary(false)
     }
 
+    const selectTerm = (term) => {
+      glossaryContext.setSelectedTerm(term)
+    }
+
     return (
       <ReactModal isOpen={showGlossary} style={modalStyles}>
       <div className='glossary-fullscreen'>
@@ -57,6 +75,7 @@ const GlossaryEntry = ({ selectedDefinition }) => {
           <h1>Glossary</h1> 
         </div>
         <GlossaryEntry selectedDefinition={glossaryContext.selectedDefinition} />
+        <GlossaryIndex terms={glossaryContext.allTerms} selectTerm={selectTerm}/>
       </div>
       </ReactModal>
     )
