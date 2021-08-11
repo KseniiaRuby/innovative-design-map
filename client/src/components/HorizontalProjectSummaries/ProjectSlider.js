@@ -18,9 +18,9 @@ const ProjectSlider = ({ slides, selectedProjectIndex }) => {
     if (selectedProjectIndex) {
       setCurrent(selectedProjectIndex);
     }
-  }, [selectedProjectIndex])
+  }, [selectedProjectIndex]);
 
-  // pass setCurrent add this to context 
+  // pass setCurrent add this to context
   const features = Array.from(slides);
   // get the length of the projects array
   const length = features.length;
@@ -34,14 +34,14 @@ const ProjectSlider = ({ slides, selectedProjectIndex }) => {
   };
 
   if (!Array.isArray(features).length <= 0) {
-  // if (!Array.isArray(features) || length <= 0) {
+    // if (!Array.isArray(features) || length <= 0) {
     return null;
   }
 
   return (
     <section className="slider">
-      <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
-      <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
+      {/* <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
+      <IoIosArrowForward className="right-arrow" onClick={nextSlide} /> */}
 
       {features.map((project, index) => {
         return (
@@ -49,49 +49,43 @@ const ProjectSlider = ({ slides, selectedProjectIndex }) => {
             className={index === current ? "slide active" : "slide"}
             key={index}
           >
+            <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
+            <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
             {index === current && (
-              // <Button>
               <Button linkProperty={`/ProjectPage/` + project._id}>
                 <div className="slider-div">
                   <div className="project-name-align">
                     {project.projectName}{" "}
                   </div>
-                  <div style={{ padding: "7px 0px 0px 0px" }}>
+                  <div className="img-style">
                     <img
                       src={project.imageUrls.image1.image}
                       alt={project.imageUrls.image1.alt}
                       style={{
-                        // width: "100%",
-                        height: "75px",
-                        padding: "0em 0em 0em 0em",
+                        // width: "60vw",
+                        height: "100px",
                         opacity: "100%",
-                        // opacity: "50%",
                         overflow: "hidden",
-                        // margin: "-2em 0em 0em 0em",
-                        // position: "absolute",
+
+                        // padding: "0em 0em 0em 0em",
+                        // margin: "0em 0em 0em 0em",
                       }}
                     />
                   </div>
                   <div className="description-align">
                     {" "}
-                    {JSON.stringify(project.innovationDescriptions.featureWords)
-                      .replace('["', " ")
-                      .replace('","', ", ")
-                      .replace('","', ", ")
-                      .replace('","', ", ")
-                      .replace('","', ", ")
-                      .replace('","', ", ")
-                      .replace('","', ", ")
-                      .replace('"]', " ")}
-                    {/* {project.innovationDescriptions.featureWords.map(
-                      (featureWord) => {
-                        return (
-                          <ul key={featureWord}>
-                            <li>{featureWord}</li>
-                          </ul>
-                        );
+                    {project.innovationDescriptions.featureWords.map(
+                      (word, index) => {
+                        if (
+                          index <
+                          project.innovationDescriptions.featureWords.length - 1
+                        )
+                          return word + ", ";
+                        return word;
                       }
-                    )} */}
+                    )}{" "}
+                    <br></br>
+                    {index + 1} of {length}{" "}
                   </div>
                 </div>
               </Button>
