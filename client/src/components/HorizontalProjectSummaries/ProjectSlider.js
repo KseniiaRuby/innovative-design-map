@@ -3,7 +3,11 @@ import { Button } from "./Button";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "../../styles/Styles.css";
 
-const ProjectSlider = ({ slides, selectedProjectIndex, setSelectedProjectOnSlider }) => {
+const ProjectSlider = ({
+  slides,
+  selectedProjectIndex,
+  setSelectedProjectOnSlider,
+}) => {
   // const sectionStyle = {
   //    // width: "100%",
   //    // height: "200%",
@@ -27,12 +31,12 @@ const ProjectSlider = ({ slides, selectedProjectIndex, setSelectedProjectOnSlide
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
-    setSelectedProjectOnSlider(current)
+    // setSelectedProjectOnSlider(current)
   };
 
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
-    setSelectedProjectOnSlider(current)
+    // setSelectedProjectOnSlider(current)
   };
 
   if (!Array.isArray(features).length <= 0) {
