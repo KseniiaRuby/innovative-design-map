@@ -67,6 +67,7 @@ const ProjectSlider = ({
                      <Button
                         imageUrl={project.imageUrls.image1.image}
                         linkProperty={`/ProjectPage/` + project._id}>
+
                         <div className="slider-div">
                            <div className="project-name-align">
                               {project.projectName}{" "}
@@ -74,7 +75,7 @@ const ProjectSlider = ({
                            {/* <div className="img-style"
                               style={{
                                  'background-image':
-                                    `url(${project.imageUrls.image1.image})`
+                                 `url(${project.imageUrls.image1.image})`
                               }}> */}
 
                            {/* <img
@@ -85,11 +86,11 @@ const ProjectSlider = ({
                                     // height: "",
                                     // opacity: "100%",
                                     // overflow: "hidden",
-
+                                    
                                     // padding: "0em 0em 0em 0em",
                                     // margin: "0em 0em 0em 0em",
-                                    }
-                                    /> */}
+                                 }
+                              /> */}
                            {/* </div> */}
                            <div className="description-align">
                               {" "}
