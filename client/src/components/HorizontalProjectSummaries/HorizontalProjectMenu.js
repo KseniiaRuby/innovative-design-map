@@ -1,19 +1,19 @@
-import React, { useContext } from "react";
-import ProjectSlider from "./ProjectSlider";
-import ClassificationContext from "../../store/ClassificationContext";
+import React, { useContext } from "react"
+import ProjectSlider from "./ProjectSlider"
+import ClassificationContext from "../../store/ClassificationContext"
 
 function HorizontalProjectMenu({
-  selectedProjectIndex,
-  setSelectedProjectIndex,
+   selectedProjectIndex,
+   setSelectedProjectIndex,
 }) {
-  const classificationCtx = useContext(ClassificationContext);
-  return (
-    <ProjectSlider
-      slides={classificationCtx.projects}
-      selectedProjectIndex={selectedProjectIndex}
-      setSelectedProjectIndex={setSelectedProjectIndex}
-    />
-  );
+   const classificationCtx = useContext(ClassificationContext)
+   return (
+      <ProjectSlider
+         slides={classificationCtx.projects}
+         selectedProjectIndex={selectedProjectIndex}
+         setSelectedProjectIndex={setSelectedProjectIndex}
+      />
+   )
 }
 
-export default HorizontalProjectMenu;
+export default HorizontalProjectMenu
