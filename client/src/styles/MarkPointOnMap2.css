@@ -53,10 +53,10 @@ body {
 }
 
 .markers {
-  background-image: url("../images/0.5\ -\ large1.png");
+  background-image: url("../images/1.0\ -\ large1.png");
   background-size: 100%;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
 }
 
 .markers:hover {
