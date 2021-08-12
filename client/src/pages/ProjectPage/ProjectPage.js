@@ -146,12 +146,12 @@ const ProjectPage = () => {
 }) {
   const classificationCtx = useContext(ClassificationContext);
              return ( */}
-            <ProjectSlider
+            {/* <ProjectSlider
                className="slider-on-project-page border-top border-bottom"
                slides={classificationCtx.projects}
                selectedProjectIndex={selectedProjectIndex}
                setSelectedProjectIndex={setSelectedProjectIndex}
-            />
+            /> */}
             {/* <ProjectGallery /> */}
             {/* <div className="slider-on-project-page border-top border-bottom">
                <HorizontalProjectMenu />
