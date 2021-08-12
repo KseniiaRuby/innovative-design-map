@@ -111,10 +111,11 @@ option {
    font-size: 1.5em;
    padding: 1em 0em 1em 1.35em;
    margin: auto;
+   /* margin-bottom: 2rem; */
 }
 
 .project-title-spacer {
-   padding-bottom: 5em;
+   padding-bottom: 8em;
    /* margin: auto; */
 }
 
