@@ -153,20 +153,37 @@ option {
 
 /* project slider image style tag */
 
+/* div */
+
 .img-style {
-   padding: 5px 0px 5px 0px;
-   text-align: center;
+   /* background-image: image();
+object-fit: cover;
+max-height: 100%;
+max-width: 100%;
+width: auto; */
+   /* opacity: 1; */
+   /* padding: 5px 0px 5px 0px; */
+   /* text-align: center; */
    /* Floating */
    /* z-index: 0; */
    /* position: absolute; */
 }
 
+/* image */
+
+.img-slider {}
+
 /* Project Slider Buttons and Border */
 
 .btn-large {
    /* text-align: center; */
-   background-color: black;
-   border: 1px solid white;
+   /* background-size: 200%; */
+   /* object-fit: cover; */
+   /* background-size: contain; */
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   /* opacity: 0.4; */
+   border: 1.5px solid white;
    /* border-radius: 5px; */
    /* padding: 5px 20px 10px 20px; */
    margin: 0px 70px 0px 45px;
@@ -175,9 +192,23 @@ option {
 }
 
 .btn-text {
-   color: white;
-   font-size: 18px;
+   /* opacity: 1; */
+   font-size: 20px;
    text-decoration: none;
+   /* option 1 */
+   color: black;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 0.7px;
+   -webkit-text-stroke-color: white;
+   /* option 2 */
+   /* color: white;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 0.7px;
+   -webkit-text-stroke-color: black; */
+   /* option 3 */
+   /* color: black; */
+   /* option 4 */
+   /* color: white; */
 }
 
 /* Slider: Project Name Title */
@@ -197,6 +228,7 @@ option {
 .description-align {
    font-size: 0.6em;
    padding-left: 0.25em;
+   /* padding:2em 0.25em 5em 0.25em; */
    /* display: inline;
    color: white; */
    /* Floating */
@@ -372,7 +404,7 @@ option {
    font-size: 5em;
    top: 0;
    width: 100%;
-   height: 110px;
+   height: 100px;
 }
 
 /* Classification Title Text on Classification Page */
@@ -387,7 +419,7 @@ option {
    -webkit-text-stroke-color: white;
    /*  */
    text-decoration: none;
-   padding: 1.5rem 1rem 1rem 2rem;
+   padding: 1rem 1rem 1rem 2rem;
 }
 
 /* Classification Container on Classification Page */
