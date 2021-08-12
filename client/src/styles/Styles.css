@@ -115,10 +115,11 @@ option {
   font-size: 1.5em;
   padding: 1em 0em 1em 1.35em;
   margin: auto;
+  /* margin-bottom: 2rem; */
 }
 
 .project-title-spacer {
-  padding-bottom: 5em;
+  padding-bottom: 8em;
   /* margin: auto; */
 }
 
@@ -128,9 +129,8 @@ option {
   position: fixed;
   /* text-align: center; */
   /* height: 23vh; */
-  /* width: 100px; */
+  /* width: 50vw; */
   /* border: 2px solid white; */
-
   /* box-sizing: border-box; */
   /* height: 100vh; */
   /* width: 95vw; */
@@ -138,9 +138,9 @@ option {
 }
 
 .slider-div {
-  overflow: hidden;
+  /* overflow: hidden; */
   /* centers feature words */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .slide {
@@ -156,26 +156,26 @@ option {
 }
 
 /* project slider image style tag */
+
 .img-style {
-  padding: 6px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
   text-align: center;
   /* Floating */
   /* z-index: 0; */
   /* position: absolute; */
 }
 
-/* Project Slider Buttons */
+/* Project Slider Buttons and Border */
 
 .btn-large {
-  text-align: center;
+  /* text-align: center; */
   background-color: black;
   border: 1px solid white;
   /* border-radius: 5px; */
   /* padding: 5px 20px 10px 20px; */
-  /* margin: 0px 70px 0px 70px; */
-
-  height: 23vh;
-  width: 84vw;
+  margin: 0px 70px 0px 45px;
+  height: 25vh;
+  width: 65vw;
 }
 
 .btn-text {
@@ -183,29 +183,30 @@ option {
   font-size: 18px;
   text-decoration: none;
 }
-
+/* Slider: Project Name Title */
 .project-name-align {
-  font-size: 1em;
-  font-weight: 400;
-  padding-top: 0.5em;
+  /* font-size: 1em; */
+  /* font-weight: 400; */
+  /* padding-top: 0em; */
   text-align: center;
   /* Floating */
   /* z-index: 1; */
   /* position: absolute; */
 }
 
+/* Classification Page: Feature Words on Slider */
+
 .description-align {
-  display: inline;
-  color: white;
   font-size: 0.6em;
+  padding-left: 0.25em;
+  /* display: inline;
+   color: white; */
   /* Floating */
   /* z-index: 1; */
   /* position: absolute; */
-  /* padding: 5px 10px 5px 10px; */
   /* overflow: hidden; */
   /* background-color: gray; */
   /* font-weight: lighter; */
-
   /* text-overflow: ellipsis; */
   /* display: -webkit-box; */
   /* border-radius: 5px; */
@@ -214,10 +215,13 @@ option {
   /* -webkit-box-orient: vertical; */
 }
 
+.count {
+}
+
 .right-arrow {
   position: absolute;
   top: 70px;
-  right: 10px;
+  right: 25px;
   font-size: 2rem;
   /* color: white; */
   z-index: 10;
@@ -228,7 +232,7 @@ option {
 .left-arrow {
   position: absolute;
   top: 70px;
-  left: 10px;
+  left: 0px;
   font-size: 2rem;
   /* color: white; */
   z-index: 10;
@@ -288,7 +292,7 @@ option {
 
 .project-title {
   font-size: 10vw;
-  padding: 0.5em 2em 0em 0em;
+  padding: 0.5em 2em 0em 0.25em;
   position: absolute;
   /* height: 10vw; */
   /* font-size: 1.25vm; */
