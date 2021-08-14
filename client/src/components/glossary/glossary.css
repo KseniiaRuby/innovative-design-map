@@ -32,7 +32,6 @@
 .glossary-entry-def {
   position: fixed;
   padding: 15px 20px 0px 30px;
-  text-decoration: underline;
 }
 
 .glossary-letter {
@@ -43,6 +42,7 @@
 .glossary-index {
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: underline;
 }
 
 .glossary-entry {
@@ -52,8 +52,11 @@
 
 .glossary-entry-title {
   font-size: 2em;
-  text-decoration: underline;
   margin-bottom: 10px;
+}
+
+glossary-entry-text {
+  text-decoration: none;
 }
 
 .glossary-word {
