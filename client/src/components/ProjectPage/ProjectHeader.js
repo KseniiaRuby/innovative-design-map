@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from "react";
-import "../../../styles/Styles.css";
+import "../../styles/Styles.css";
 
 const ProjectHeader = ({
   projectName,

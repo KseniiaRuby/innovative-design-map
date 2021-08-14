@@ -2,11 +2,11 @@ import mapboxgl from "mapbox-gl";
 import React, { useRef, useEffect, useState, useContext } from "react";
 import ClassificationContext from "../store/ClassificationContext";
 import "../styles/Styles.css";
-import "../styles/MarkPointOnMap2.css";
+import "../styles/MarkPointOnMap.css";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
-function MarkPointOnMap2({ setSelectedProjectIndex, selectedProjectIndex }) {
+function MarkPointOnMap({ setSelectedProjectIndex, selectedProjectIndex }) {
   const mapContainer = useRef(null);
   const classificationCtx = useContext(ClassificationContext);
   const features = Array.from(classificationCtx.projects);
@@ -79,4 +79,4 @@ function MarkPointOnMap2({ setSelectedProjectIndex, selectedProjectIndex }) {
   );
 }
 
-export default MarkPointOnMap2;
+export default MarkPointOnMap;

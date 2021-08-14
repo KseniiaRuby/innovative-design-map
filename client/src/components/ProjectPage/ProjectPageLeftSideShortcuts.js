@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/Styles.css";
+import "../../styles/Styles.css";
 
 function hasAValue(value) {
   return value !== undefined && value.length > 0;

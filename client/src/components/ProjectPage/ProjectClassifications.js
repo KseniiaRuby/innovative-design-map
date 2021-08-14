@@ -1,6 +1,6 @@
 import React from "react";
-import TextWithGlossaryLinks from "../../../components/glossary/TextWithGlossaryLinks";
-import "../../../styles/Styles.css";
+import TextWithGlossaryLinks from "../Glossary/TextWithGlossaryLinks";
+import "../../styles/Styles.css";
 
 const ProjectClassifications = ({
   projectDescription,

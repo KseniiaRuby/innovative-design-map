@@ -1,17 +1,17 @@
 import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
-import ProjectHeader from "./components/ProjectHeader";
-import ProjectPageLeftSideShortcuts from "./components/ProjectPageLeftSideShortcuts";
-import ProjectDescription from "./components/ProjectDescription";
-import ProjectRelatedClassifications from "./components/ProjectRelatedClassifications";
-import FeatureWordsList from "./components/ProjectFeatureWords";
-import ProjectClassifications from "./components/ProjectClassifications";
+import ProjectHeader from "../components/ProjectPage/ProjectHeader";
+import ProjectPageLeftSideShortcuts from "../components/ProjectPage/ProjectPageLeftSideShortcuts";
+import ProjectDescription from "../components/ProjectPage/ProjectDescription";
+import ProjectRelatedClassifications from "../components/ProjectPage/ProjectRelatedClassifications";
+import FeatureWordsList from "../components/ProjectPage/ProjectFeatureWords";
+import ProjectClassifications from "../components/ProjectPage/ProjectClassifications";
 // import ProjectGallery from "./components/ProjectGallery";
-import Navbar from "../../components/Navbar";
-import GlossaryContainer from "../../components/glossary/GlossaryContainer";
-import ProjectSlider from "../../components/HorizontalProjectSummaries/ProjectSlider";
-import ClassificationContext from "../../store/ClassificationContext";
-import "../../styles/Styles.css";
+import Navbar from "../components/Navbar";
+import GlossaryContainer from "../components/Glossary/GlossaryContainer";
+import ProjectSlider from "../components/HorizontalProjectSummaries/ProjectSlider";
+import ClassificationContext from "../store/ClassificationContext";
+import "../styles/Styles.css";
 
 const ProjectPage = () => {
   const params = useParams();

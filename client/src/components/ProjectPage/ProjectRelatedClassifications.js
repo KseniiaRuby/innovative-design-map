@@ -1,6 +1,5 @@
 import React from "react";
-
-import "../../../styles/Styles.css";
+import "../../styles/Styles.css";
 
 const ProjectRelatedClassifications = ({
   projectPrimaryName,
