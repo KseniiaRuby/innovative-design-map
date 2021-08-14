@@ -2,21 +2,21 @@ import { Button } from "./Button";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "../../styles/Styles.css";
 
-const ProjectSlider = ({slides, selectedProjectIndex, setSelectedProjectIndex }) => {
-
+const ProjectSlider = ({
+  slides,
+  selectedProjectIndex,
+  setSelectedProjectIndex,
+}) => {
   const features = Array.from(slides);
-  // get the length of the projects array
   const length = features.length;
 
   const nextSlide = () => {
-
     setSelectedProjectIndex(
       selectedProjectIndex === length - 1 ? 0 : selectedProjectIndex + 1
     );
   };
 
   const prevSlide = () => {
-
     setSelectedProjectIndex(
       selectedProjectIndex === 0 ? length - 1 : selectedProjectIndex - 1
     );
@@ -28,7 +28,6 @@ const ProjectSlider = ({slides, selectedProjectIndex, setSelectedProjectIndex })
 
   return (
     <section className="slider">
-
       {features.map((project, index) => {
         return (
           <div
@@ -44,10 +43,11 @@ const ProjectSlider = ({slides, selectedProjectIndex, setSelectedProjectIndex })
                 imageUrl={project.imageUrls.image1.image}
                 linkProperty={`/ProjectPage/` + project._id}
               >
-                <div className="slider-div">
+                <div>
                   <div className="project-name-align">
                     {project.projectName}{" "}
                   </div>
+                  <p></p>
                   <div className="count">
                     {index + 1} of {length}{" "}
                   </div>

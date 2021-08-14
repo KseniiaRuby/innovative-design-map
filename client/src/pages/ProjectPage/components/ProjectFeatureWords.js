@@ -9,10 +9,10 @@ const FeatureWordsList = ({ featureWords }) => {
     //    </p>
     //    <div>
     <div>
-      <div className="border-top projectclassification project-padding-left">
+      <div className="border-top project-padding-left">
         <h2>FEATURES</h2>
       </div>
-      <div className="border-top projectclassification project-padding-left">
+      <div className="border-top project-padding-left">
         {featureWords.map((featureWord) => {
           return (
             <div key={featureWord}>

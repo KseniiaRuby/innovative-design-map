@@ -9,7 +9,7 @@ const CheckIfHasValue = ({ label, value }) => {
     hasAValue(value) && (
       <div>
         <div>{label}</div>
-        <u>{value}</u>
+        {value}
       </div>
     )
   );
@@ -27,22 +27,18 @@ const ProjectDescription = ({
 }) => {
   return (
     <div className="border project-description project-padding">
-      The <u>{projectName}</u> is a <u>{projectTypology}</u> located in the{" "}
-      <u>{projectNeighbourhood}</u> neighbourhood in{" "}
-      <u>
-        {projectCity}, <u></u>
-        {projectProvince}
-      </u>
+      The {projectName} is a {projectTypology} located in the{" "}
+      {projectNeighbourhood} neighbourhood in {projectCity},{projectProvince}
       <br />
       <br />
       The project was{" "}
       <CheckIfHasValue value={projectFirm}>
         {" "}
-        designed by <u>{projectFirm}</u> and
+        designed by {projectFirm} and
       </CheckIfHasValue>{" "}
-      completed in <u>{projectYear}</u>{" "}
+      completed in {projectYear}{" "}
       <CheckIfHasValue value={projectClient}>for the</CheckIfHasValue>{" "}
-      <u>{projectClient}</u>
+      {projectClient}
     </div>
   );
 };

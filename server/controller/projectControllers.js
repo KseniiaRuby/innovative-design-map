@@ -58,7 +58,6 @@ const newProjects = async (req, res) => {
   try {
     const Projects = new Project(newProject);
     await Projects.save();
-    console.log("Created Project", Projects);
     res.send(Projects);
   } catch (error) {
     console.error(error);

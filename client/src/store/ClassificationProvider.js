@@ -36,11 +36,9 @@ export default function ClassificationProvider({ children }) {
 
   useEffect(() => {
     if (gatewayWord) {
-      console.log("Looking up classification for Gateway word: ", gatewayWord);
       let foundClassification = allClassifications.find((classification) => {
         return classification.gatewayWords.includes(gatewayWord);
       });
-      console.log("Found Classification object: ", foundClassification);
       setClassification(foundClassification);
     }
   }, [gatewayWord, allClassifications]);
@@ -55,12 +53,7 @@ export default function ClassificationProvider({ children }) {
       };
 
       if (classification) {
-        console.log(
-          "Looking up project summaries for Classification Name: ",
-          classification.classificationName
-        );
         try {
-          console.log("Classification ID: ", classification._id);
           let response = await fetch(
             "/api/project/findProjectsByClassification?classificationId=" +
               classification._id,
@@ -71,7 +64,6 @@ export default function ClassificationProvider({ children }) {
           }
           let projects = await response.json();
           setProjects(projects);
-          console.log("Project Summary: " + JSON.stringify(projects));
         } catch (err) {
           console.log("Error on client-side.", err);
         }

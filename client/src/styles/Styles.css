@@ -9,32 +9,16 @@ body {
   background-color: black;
 }
 
-option {
-  /* color: black; */
-}
-
 h2 {
   font-size: 20px;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: white;
 }
-:root {
-}
-
-.project-dual-grid-container {
-}
-
-.project-main-photo {
-}
-
-.directory-dual-grid-container {
-}
 
 /* "What makes ..." title on Landing(Gateway) Page*/
 
 .choose-gateway-word-title {
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 3.5em;
@@ -45,12 +29,11 @@ h2 {
   -webkit-text-stroke-color: white;
   padding-top: 3em;
   background-image: url("../images/Calgary_DT.jpg");
-  /* background-size: 100%; */
   padding-bottom: 75%;
   margin: auto;
 }
 
-/*Dropdown list on Landing(Gateway) Page*/
+/*Dropdown list on Landing (Gateway) Page*/
 
 .list-spacer {
   text-align: left;
@@ -66,7 +49,6 @@ h2 {
 /*Let's Go Button on Landing(Gateway) Page*/
 
 .button-spacer {
-  /* padding-left: 62%; */
   padding-left: 235px;
 }
 
@@ -122,34 +104,17 @@ h2 {
   font-size: 1.5em;
   padding: 1em 0em 1em 1.35em;
   margin: auto;
-
-  /* margin-bottom: 2rem; */
 }
 
 .project-title-spacer {
-  padding-bottom: 8em;
-  /* margin: auto; */
+  padding-bottom: 5em;
 }
 
 /* Projects Slider on Classification, Map and Individual Project Page */
 
 .slider {
-  /* position: fixed; */
   position: relative;
-  /* text-align: center; */
-  /* height: 23vh; */
-  /* width: 50vw; */
-  /* border: 2px solid white; */
-  /* box-sizing: border-box; */
-  /* height: 100vh; */
-  /* width: 95vw; */
-  margin: 0em 0em 0em 2em;
-}
-
-.slider-div {
-  /* overflow: hidden; */
-  /* centers feature words */
-  /* text-align: center; */
+  margin: 0em 0em 0em 1.5em;
 }
 
 .slide {
@@ -158,48 +123,17 @@ h2 {
 }
 
 .slide.active {
-  /* position: fixed; */
   text-align: center;
   opacity: 1;
   transition-duration: 1.5s;
 }
 
-/* project slider image style tag */
-
-/* div */
-
-.img-style {
-  /* background-image: image();
-object-fit: cover;
-max-height: 100%;
-max-width: 100%;
-width: auto; */
-  /* opacity: 1; */
-  /* padding: 5px 0px 5px 0px; */
-  /* text-align: center; */
-  /* Floating */
-  /* z-index: 0; */
-  /* position: absolute; */
-}
-
-/* image */
-
-.img-slider {
-}
-
 /* Project Slider Buttons and Border */
 
 .btn-large {
-  /* text-align: center; */
-  /* background-size: 200%; */
-  /* object-fit: cover; */
-  /* background-size: contain; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* opacity: 0.2; */
   border: 1.5px solid white;
-  /* border-radius: 5px; */
-  /* padding: 5px 20px 10px 20px; */
   margin: 0px 70px 0px 45px;
   height: 25vh;
   width: 65vw;
@@ -207,39 +141,21 @@ width: auto; */
 }
 
 .btn-text {
-  /* opacity: 1; */
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
-  /* option 1 */
   color: white;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: white;
-  /* option 2 */
-  /* color: white;
-   -webkit-text-fill-color: white;
-   -webkit-text-stroke-width: 0.7px;
-   -webkit-text-stroke-color: black; */
-  /* option 3 */
-  /* color: black; */
-  /* option 4 */
-  /* color: white; */
 }
 
 /* Slider: Project Name Title */
 
 .project-name-align {
-  /* font-size: 1em; */
-  /* font-weight: 400; */
-  /* padding-top: 0em; */
-  /* text-align: center; */
   text-transform: uppercase;
   text-align: center;
   font-weight: 800;
   letter-spacing: 0.3px;
-  /* Floating */
-  /* z-index: 1; */
-  /* position: absolute; */
 }
 
 /* Classification Page: Feature Words on Slider */
@@ -247,21 +163,6 @@ width: auto; */
 .description-align {
   font-size: 0.6em;
   padding-left: 0.25em;
-  /* padding:2em 0.25em 5em 0.25em; */
-  /* display: inline;
-   color: white; */
-  /* Floating */
-  /* z-index: 1; */
-  /* position: absolute; */
-  /* overflow: hidden; */
-  /* background-color: gray; */
-  /* font-weight: lighter; */
-  /* text-overflow: ellipsis; */
-  /* display: -webkit-box; */
-  /* border-radius: 5px; */
-  /* -webkit-line-clamp: 2; */
-  /* number of lines to show */
-  /* -webkit-box-orient: vertical; */
 }
 
 .count {
@@ -276,9 +177,7 @@ width: auto; */
   top: 70px;
   right: 20px;
   font-size: 2rem;
-  /* color: white; */
   z-index: 10;
-  /* cursor: pointer; */
   user-select: none;
 }
 
@@ -287,9 +186,7 @@ width: auto; */
   top: 70px;
   left: 0px;
   font-size: 2rem;
-  /* color: white; */
   z-index: 10;
-  /* cursor: pointer; */
   user-select: none;
 }
 
@@ -320,19 +217,10 @@ width: auto; */
 .project-header {
   overflow: hidden;
   display: flex;
-  /* max-height: 20vh; */
 }
 
 .navbar-project-page {
-  /* overflow: visible; */
   position: unset;
-}
-
-.project-container {
-  /* padding-bottom: 1em; */
-  /* position: relative;
-   display: flex;
-   text-align: right; */
 }
 
 .project-padding {
@@ -349,50 +237,22 @@ width: auto; */
 
 .project-title {
   font-size: 9.5vw;
-  padding: 0.5em 2em 0em 0.25em;
+  padding: 0.5em 2em 0em 0.4em;
   position: absolute;
   font-weight: 800;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-  /* height: 10vw; */
-  /* font-size: 1.25vm; */
-  /* word-wrap: break-word; */
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  /* check with client */
-  /* -webkit-text-fill-color:white;
-   -webkit-text-stroke-color:black; */
-}
-
-.project-centered {
-  /* font-size:1em; */
-  /* position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%); */
-}
-
-.projectpageleftsideshortcuts {
-  /* padding: 1em 1em 1em 1em; */
-  /* min-width: min(50%, 100vh); */
 }
 
 .project-description {
-  /* padding: 1em 1em 0em 1em; */
   font-size: 1.1em;
 }
 
-.projectclassification {
-  /* padding: 1em 0.5em 0em 0.5em; */
-}
-
-.classificationTitle {
-  /* font-size: 12px; */
-}
-
 .classificationName {
-  /* font-size: 1.1em; */
+  text-transform: uppercase;
 }
 
 /* Project Buttons under Header */
@@ -405,13 +265,7 @@ width: auto; */
   bottom: 0px;
 }
 
-.lists {
-  /* border-color:white; */
-}
-
 .slider-on-project-page {
-  /* position: unset; */
-  /* display: flex; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -453,6 +307,10 @@ width: auto; */
   padding: 1rem 1rem 1rem 2rem;
 }
 
+.title-text-padding {
+  padding-left: 1.5em;
+}
+
 /* Classification Container on Classification Page */
 
 .classification-container {
@@ -473,26 +331,6 @@ width: auto; */
   padding: 0rem 1rem 1rem 2rem;
 }
 
-/* Map */
-
-.map {
-  /* height: 50vh; */
-  /* position: absolute; */
-  /* size: 15%; */
-  /* background-color: none; */
-  padding: 1.5em 0em 1em 0em;
-}
-
-/* Mark Points on Map */
-
-/* .map-container {
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-} */
-
 .sidebarStyle {
   display: inline-block;
   position: absolute;
@@ -505,24 +343,6 @@ width: auto; */
   padding: 6px;
   font-weight: bold;
 }
-
-/*  */
-
-.marker-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/*  */
-
-.marker-btn img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-/*  */
 
 .img-description-on-map {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -542,12 +362,6 @@ width: auto; */
   justify-content: space-between;
   align-items: center;
   color: #011627;
-}
-
-/* Image on map ??? Do we use it? */
-
-.img-description-on-map img {
-  width: 150px;
 }
 
 /* Glossary */

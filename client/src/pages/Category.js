@@ -1,4 +1,3 @@
-// import ScrollMenu from "react-horizontal-scrolling-menu";
 import { useState } from "react";
 import Header from "../components/Header";
 import ClassificationHeader from "../components/ClassificationHeader";
@@ -11,7 +10,6 @@ export default function Category() {
   return (
     <div>
       <ClassificationHeader />
-      {/* <div className="projects-title">Explore Projects</div> */}
       <div className="project-title-spacer"></div>
       <HorizontalProjectMenu
         selectedProjectIndex={selectedProjectIndex}

@@ -11,7 +11,6 @@ import Navbar from "../../components/Navbar";
 import GlossaryContainer from "../../components/glossary/GlossaryContainer";
 import ProjectSlider from "../../components/HorizontalProjectSummaries/ProjectSlider";
 import ClassificationContext from "../../store/ClassificationContext";
-// import HorizontalProjectMenu from "../../components/HorizontalProjectSummaries/HorizontalProjectMenu"
 import "../../styles/Styles.css";
 
 const ProjectPage = () => {
@@ -30,26 +29,14 @@ const ProjectPage = () => {
         },
       };
 
-      console.log("Looking up project by ID: ", chosenID);
       try {
         let response = await fetch("/api/project/" + chosenID, requestOptions);
         if (response.status !== 200) {
           throw new Error("Fetch for project ID failed");
         }
         let data = await response.json();
-        // data.location.city = ""
-        // data.location.province = ""
 
         setProject(data);
-        console.log("Project: " + JSON.stringify(data));
-        console.log("Project ID: " + JSON.stringify(data._id));
-        console.log(
-          "Project Name: " +
-            JSON.stringify(
-              data.innovationDescriptions.secondaryTypeOfInnovation
-                .classificationName
-            )
-        );
       } catch (err) {
         console.log("Error on client-side.", err);
       }
@@ -81,7 +68,6 @@ const ProjectPage = () => {
               />
             )}
             <ProjectDescription
-              //  projectDescription={project.projectDescription}
               projectName={project.projectName}
               projectTypology={project.projectTypology}
               projectNeighbourhood={project.Neighbourhood}
@@ -137,7 +123,7 @@ const ProjectPage = () => {
             }
           />
         </div>
-        <div className="border-top projectclassification project-padding-left">
+        <div className="border-top project-padding-left">
           <h2>RELATED PROJECTS</h2>
         </div>
         <div className="border-top">
@@ -152,16 +138,7 @@ const ProjectPage = () => {
         <div className="navbar-project-page">
           <Navbar />
         </div>
-        {/* function HorizontalProjectMenu({
-                selectedProjectIndex,
-                setSelectedProjectIndex,
-}) {
-  const classificationCtx = useContext(ClassificationContext);
-             return ( */}
         {/* <ProjectGallery /> */}
-        {/* <div className="slider-on-project-page border-top border-bottom">
-               <HorizontalProjectMenu />
-            </div> */}
         <GlossaryContainer />
       </div>
     );

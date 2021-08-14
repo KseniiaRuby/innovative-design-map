@@ -15,7 +15,6 @@ const newGlossary = async (req, res) => {
   try {
     const glossary = new Glossary(newGlossary);
     await glossary.save();
-    console.log("Created Glossary", glossary);
     res.send(glossary);
   } catch (error) {
     console.error(error);
