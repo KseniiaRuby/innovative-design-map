@@ -115,6 +115,7 @@ option {
   font-size: 1.5em;
   padding: 1em 0em 1em 1.35em;
   margin: auto;
+
   /* margin-bottom: 2rem; */
 }
 
@@ -153,7 +154,7 @@ option {
   /* position: fixed; */
   text-align: center;
   opacity: 1;
-  transition-duration: 1s;
+  transition-duration: 1.5s;
 }
 
 /* project slider image style tag */
@@ -200,7 +201,7 @@ width: auto; */
 
 .btn-text {
   /* opacity: 1; */
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   /* option 1 */
   color: white;
@@ -224,7 +225,11 @@ width: auto; */
   /* font-size: 1em; */
   /* font-weight: 400; */
   /* padding-top: 0em; */
+  /* text-align: center; */
+  text-transform: uppercase;
   text-align: center;
+  font-weight: 800;
+  letter-spacing: 0.3px;
   /* Floating */
   /* z-index: 1; */
   /* position: absolute; */
@@ -253,12 +258,16 @@ width: auto; */
 }
 
 .count {
+  text-align: center;
+  position: relative;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .right-arrow {
   position: absolute;
   top: 70px;
-  right: 25px;
+  right: 20px;
   font-size: 2rem;
   /* color: white; */
   z-index: 10;
@@ -328,9 +337,12 @@ width: auto; */
 }
 
 .project-title {
-  font-size: 10vw;
+  font-size: 9.5vw;
   padding: 0.5em 2em 0em 0.25em;
   position: absolute;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
   /* height: 10vw; */
   /* font-size: 1.25vm; */
   /* word-wrap: break-word; */
@@ -408,7 +420,7 @@ width: auto; */
 .header-container {
   background-color: black;
   position: fixed;
-  text-align: left;
+  text-align: center;
   font-size: 5em;
   top: 0;
   width: 100%;

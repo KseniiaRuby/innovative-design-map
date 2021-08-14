@@ -57,6 +57,7 @@ body {
   background-size: 100%;
   height: 35px;
   width: 35px;
+  z-index: 1;
 }
 
 .markers:hover {
@@ -71,4 +72,5 @@ body {
   background-size: 100%;
   height: 100px;
   width: 100px;
+  z-index: 2;
 }
