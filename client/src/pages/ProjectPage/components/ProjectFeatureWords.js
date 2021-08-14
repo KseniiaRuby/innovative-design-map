@@ -10,7 +10,7 @@ const FeatureWordsList = ({ featureWords }) => {
     //    <div>
     <div>
       <div className="border-top projectclassification project-padding-left">
-        <h2 className="">FEATURES</h2>
+        <h2>FEATURES</h2>
       </div>
       <div className="border-top projectclassification project-padding-left">
         {featureWords.map((featureWord) => {

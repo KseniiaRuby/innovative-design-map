@@ -12,24 +12,31 @@ const ProjectClassifications = ({
   projectTertiaryDescription,
 }) => {
   return (
-    <div className="border-bottom border-top project-padding">
-      <div className="classificationTitle">
-        <u>Project Description</u>
+    <div>
+      <div className="border-top projectclassification project-padding-left">
+        <h2>PROJECT DESCRIPTION</h2>
       </div>
-      <p><TextWithGlossaryLinks text={projectDescription}/></p>
-      <br />
-      <div className="classificationTitle">
-        <u>Related Classifications</u>
+      <div className="border-top projectclassification project-padding-left">
+        <p>
+          <TextWithGlossaryLinks text={projectDescription} />
+        </p>
       </div>
-      <br />
-      <div className="classificationName">{projectPrimaryName}</div>
-      <p>{projectPrimaryDescription}</p>
-      <br />
-      <div className="classificationName">{projectSecondaryName}</div>
-      <p>{projectSecondaryDescription}</p>
-      <br />
-      <div className="classificationName">{projectTertiaryName}</div>
-      <p>{projectTertiaryDescription}</p>
+      <div>
+        <div className="border-top projectclassification project-padding-left">
+          <h2>RELATED CLASSIFICATIONS</h2>
+        </div>
+        <div className="border-top projectclassification project-padding-left">
+          <br />
+          <div className="classificationName">{projectPrimaryName}</div>
+          <p>{projectPrimaryDescription}</p>
+          <br />
+          <div className="classificationName">{projectSecondaryName}</div>
+          <p>{projectSecondaryDescription}</p>
+          <br />
+          <div className="classificationName">{projectTertiaryName}</div>
+          <p>{projectTertiaryDescription}</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -339,7 +339,7 @@ width: auto; */
 }
 
 .project-padding-left {
-  padding-left: 1em;
+  padding: 0em 1em 0em 1em;
 }
 
 .project-margins {
