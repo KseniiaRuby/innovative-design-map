@@ -1,23 +1,28 @@
-import React from "react"
-import "../../../styles/Styles.css"
+import React from "react";
+import "../../../styles/Styles.css";
 
 const FeatureWordsList = ({ featureWords }) => {
-   return (
-      <div className="project-margins">
-         <p>
-            <u>Features</u>
-         </p>
-         <div>
-            {featureWords.map((featureWord) => {
-               return (
-                  <div key={featureWord}>
-                     <p>{featureWord}</p>
-                  </div>
-               )
-            })}
-         </div>
+  return (
+    // <div className="project-margins">
+    //    <p>
+    //       <u>Features</u>
+    //    </p>
+    //    <div>
+    <div>
+      <div className="border-top projectclassification project-padding-left">
+        <h2 className="">FEATURES</h2>
       </div>
-   )
-}
+      <div className="border-top projectclassification project-padding-left">
+        {featureWords.map((featureWord) => {
+          return (
+            <div key={featureWord}>
+              <p>{featureWord}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 
-export default FeatureWordsList
+export default FeatureWordsList;

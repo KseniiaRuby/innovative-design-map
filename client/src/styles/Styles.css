@@ -13,6 +13,12 @@ option {
   /* color: black; */
 }
 
+h2 {
+  font-size: 20px;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: white;
+}
 :root {
 }
 
@@ -321,6 +327,10 @@ width: auto; */
 
 .project-padding {
   padding: 1em 1em 1em 1em;
+}
+
+.project-padding-left {
+  padding-left: 1em;
 }
 
 .project-margins {
