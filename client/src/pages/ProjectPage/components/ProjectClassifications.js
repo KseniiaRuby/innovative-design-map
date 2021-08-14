@@ -13,10 +13,10 @@ const ProjectClassifications = ({
 }) => {
   return (
     <div>
-      <div className="border-top projectclassification project-padding-left">
+      <div className="border-top project-padding-left">
         <h2>PROJECT DESCRIPTION</h2>
       </div>
-      <div className="border-top projectclassification project-padding-left">
+      <div className="border-top project-padding-left">
         <p>
           <TextWithGlossaryLinks text={projectDescription} />
         </p>

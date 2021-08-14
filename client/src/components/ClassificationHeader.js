@@ -19,7 +19,7 @@ export default function Header() {
               {classificationCtx.classification.shortDescription}
             </div>
           )}
-          <div className="projects-title">Explore Projects</div>
+          <h2 className="title-text-padding">EXPLORE PROJECTS</h2>
         </div>
       </div>
     </>

@@ -2,14 +2,14 @@ import GlossaryContext from "./GlossaryContext";
 import { useState, useEffect } from "react";
 
 function removeNBSP(text) {
-  return text.replace(/\u00A0/g, '\x20')
+  return text.replace(/\u00A0/g, "\x20");
 }
 
 function fixDefinition(definition) {
   return {
     term: removeNBSP(definition.term),
-    description: removeNBSP(definition.description)
-  }
+    description: removeNBSP(definition.description),
+  };
 }
 
 export default function GlossaryProvider({ children }) {
@@ -26,7 +26,6 @@ export default function GlossaryProvider({ children }) {
         }
         let definitions = await response.json();
         setAllDefinitions(definitions.map(fixDefinition));
-        //console.log("All Glossary: " + JSON.stringify(definitions));
       } catch (err) {
         console.log("Error on Client-Side: Glossary Defintions", err);
       }

@@ -9,11 +9,11 @@ const ProjectRelatedClassifications = ({
 }) => {
   return (
     <div>
-      <div className="border-top projectclassification project-padding-left">
+      <div className="border-top project-padding-left">
         <h2>CLASSIFICATIONS</h2>
       </div>
-      <div className="border-top projectclassification project-padding-left">
-        <p className="lists">{projectPrimaryName}</p>
+      <div className="border-top project-padding-left">
+        <p>{projectPrimaryName}</p>
         <p>{projectSecondaryName}</p>
         <p>{projectTertiaryName}</p>
       </div>

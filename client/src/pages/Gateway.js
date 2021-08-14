@@ -6,7 +6,6 @@ import "../styles/Styles.css";
 export function Gateway() {
   const classificationCtx = useContext(ClassificationContext);
   const [gateway, setGateway] = useState(classificationCtx.gatewayWord);
-  //   let selectedGateway = "";
 
   return (
     <div className="choose-gateway-word-title">
@@ -17,9 +16,7 @@ export function Gateway() {
           className="list-style"
           value={gateway}
           onChange={(e) => {
-            // selectedGateway = e.target.value;
             setGateway(e.target.value);
-            // classificationCtx.setGatewayWord(selectedGateway);
             classificationCtx.setGatewayWord(e.target.value);
           }}
         >
@@ -31,7 +28,6 @@ export function Gateway() {
         &nbsp;?
         <div>
           <div className="button-spacer">
-            {/*  */}
             {gateway ? (
               <div>
                 <button className="button-lets-go">
@@ -41,7 +37,6 @@ export function Gateway() {
                 </button>
               </div>
             ) : null}
-            {/*  */}
           </div>
         </div>
       </div>
