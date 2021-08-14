@@ -548,3 +548,9 @@ width: auto; */
 .img-description-on-map img {
   width: 150px;
 }
+
+/* Glossary */
+
+.glossary-index {
+  text-decoration: underline;
+}
