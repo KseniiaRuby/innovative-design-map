@@ -7,7 +7,6 @@ const classificationSchema = new Schema({
   gatewayWords: [String],
   featureWords: [String],
   longDescription: String,
-  shortDescription: String,
 });
 
 module.exports = mongoose.model(

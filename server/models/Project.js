@@ -7,23 +7,6 @@ const projectSchema = new Schema({
   dateOfCompletion: String,
   projectDescription: String,
   phoneNumber: String,
-  hours: {
-    sunday: String,
-    monday: String,
-    tuesday: String,
-    wednesday: String,
-    thursday: String,
-    friday: String,
-    saturday: String,
-  },
-  contactInformation: {
-    companyName: String,
-    firstName: String,
-    lastName: String,
-    email: String,
-    phoneNumber: String,
-    projectWebsite: String,
-  },
   Neighbourhood: String,
   projectOwnersAndClients: [String],
   projectDesigners: String,
@@ -32,11 +15,6 @@ const projectSchema = new Schema({
   projectProfile: String,
   keyFactsAboutTheProject: String,
 
-  vistorsInformation: {
-    openToPublic: String,
-    reception: String,
-    otherComments: String,
-  },
   innovationDescriptions: {
     featureWords: [String],
 
