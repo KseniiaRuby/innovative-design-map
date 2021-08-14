@@ -27,8 +27,6 @@ function MarkPointOnMap2({ setSelectedProjectIndex, selectedProjectIndex }) {
                .setLngLat(feature.location.coordinates)
                .addTo(map)
             el.addEventListener("click", () => {
-               // marker.getElement().addEventListener('click', () => {
-               // alert("Clicked on" + index);
                setSelectedProjectIndex(index)
             })
          })

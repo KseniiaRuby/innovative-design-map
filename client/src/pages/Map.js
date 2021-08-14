@@ -14,7 +14,6 @@ export default function Map() {
         setSelectedProjectIndex={setSelectedProjectIndex}
         selectedProjectIndex={selectedProjectIndex}
       />
-      {/* <MarkPointOnMap /> */}
       <Header />
       <HorizontalProjectMenu
         selectedProjectIndex={selectedProjectIndex}
