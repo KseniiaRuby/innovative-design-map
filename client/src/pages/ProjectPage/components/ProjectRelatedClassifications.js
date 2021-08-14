@@ -1,20 +1,24 @@
-import React from "react"
+import React from "react";
 
-import "../../../styles/Styles.css"
+import "../../../styles/Styles.css";
 
 const ProjectRelatedClassifications = ({
-   projectPrimaryName,
-   projectSecondaryName,
-   projectTertiaryName,
+  projectPrimaryName,
+  projectSecondaryName,
+  projectTertiaryName,
 }) => {
-   return (
-      <div className="border-bottom border-top projectclassification project-padding">
-         <u>Classifications</u>
-         <p className="lists">{projectPrimaryName}</p>
-         <p>{projectSecondaryName}</p>
-         <p>{projectTertiaryName}</p>
+  return (
+    <div>
+      <div className="border-top projectclassification project-padding-left">
+        <h2>CLASSIFICATIONS</h2>
       </div>
-   )
-}
+      <div className="border-top projectclassification project-padding-left">
+        <p className="lists">{projectPrimaryName}</p>
+        <p>{projectSecondaryName}</p>
+        <p>{projectTertiaryName}</p>
+      </div>
+    </div>
+  );
+};
 
-export default ProjectRelatedClassifications
+export default ProjectRelatedClassifications;
