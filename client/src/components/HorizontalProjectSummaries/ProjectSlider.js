@@ -2,11 +2,7 @@ import { Button } from "./Button";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "../../styles/Styles.css";
 
-const ProjectSlider = ({
-  slides,
-  selectedProjectIndex,
-  setSelectedProjectIndex,
-}) => {
+const ProjectSlider = ({slides, selectedProjectIndex, setSelectedProjectIndex }) => {
 
   const features = Array.from(slides);
   // get the length of the projects array
@@ -52,44 +48,10 @@ const ProjectSlider = ({
                   <div className="project-name-align">
                     {project.projectName}{" "}
                   </div>
-                  {/* <div className="img-style"
-                              style={{
-                                 'background-image':
-                                 `url(${project.imageUrls.image1.image})`
-                              }}> */}
-
-                  {/* <img
-                                 className="img-slider"
-                                 alt={project.imageUrls.image1.alt}
-                                 style={
-                                    // width: "60vw",
-                                    // height: "",
-                                    // opacity: "100%",
-                                    // overflow: "hidden",
-                                    
-                                    // padding: "0em 0em 0em 0em",
-                                    // margin: "0em 0em 0em 0em",
-                                 }
-                              /> */}
-                  {/* </div> */}
-                  {/* <div className="description-align">
-                              {" "}
-                              {project.innovationDescriptions.featureWords.map(
-                                 (word, index) => {
-                                    if (
-                                       index <
-                                       project.innovationDescriptions.featureWords.length - 1
-                                    )
-                                       return word + ", "
-                                    return word
-                                 }
-                              )}{" "} */}
-
                   <div className="count">
                     {index + 1} of {length}{" "}
                   </div>
                 </div>
-                {/* </div> */}
               </Button>
             )}
           </div>
