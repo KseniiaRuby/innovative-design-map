@@ -6,7 +6,6 @@ import ProjectDescription from "../components/ProjectPage/ProjectDescription";
 import ProjectRelatedClassifications from "../components/ProjectPage/ProjectRelatedClassifications";
 import FeatureWordsList from "../components/ProjectPage/ProjectFeatureWords";
 import ProjectClassifications from "../components/ProjectPage/ProjectClassifications";
-// import ProjectGallery from "./components/ProjectGallery";
 import Navbar from "../components/Navbar";
 import GlossaryContainer from "../components/Glossary/GlossaryContainer";
 import ProjectSlider from "../components/HorizontalProjectSummaries/ProjectSlider";
@@ -138,7 +137,6 @@ const ProjectPage = () => {
         <div className="navbar-project-page">
           <Navbar />
         </div>
-        {/* <ProjectGallery /> */}
         <GlossaryContainer />
       </div>
     );

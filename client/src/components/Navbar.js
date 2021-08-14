@@ -13,9 +13,6 @@ export default function Navbar() {
           <Link to="/Category" className="nav-links">
             Explore
           </Link>
-          {/* <Link to="/" className="nav-links">
-            Search
-          </Link> */}
           <Link to="/Map" className="nav-links">
             Map
           </Link>
