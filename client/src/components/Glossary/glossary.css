@@ -1,0 +1,64 @@
+.glossary-header {
+  width: 100%;
+}
+
+.glossary-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.glossary-cancel {
+  margin: 20px;
+}
+
+.glossary-header h1 {
+  margin-left: 20px;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.glossary-body {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.glossary-letters {
+  overflow-y: scroll;
+  padding: 20px 15px 0px 5px;
+  height: 61vh;
+}
+
+.glossary-entry-def {
+  position: fixed;
+  padding: 15px 20px 0px 30px;
+}
+
+.glossary-letter {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.glossary-index {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+.glossary-entry {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.glossary-entry-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+glossary-entry-text {
+  text-decoration: none;
+}
+
+.glossary-word {
+  text-decoration: underline;
+}
