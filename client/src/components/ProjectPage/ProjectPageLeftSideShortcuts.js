@@ -23,13 +23,13 @@ const ProjectPageLeftSideShortcuts = ({
 }) => {
   return (
     <div className="border-right project-padding">
-      <LeftSideShortcutField label="Address:" value={projectAddress} />
+      <LeftSideShortcutField label="ADDRESS" value={projectAddress} />
       <br />
-      <LeftSideShortcutField label="City:" value={projectCity} />
+      <LeftSideShortcutField label="CITY" value={projectCity} />
       <br />
-      <LeftSideShortcutField label="Province:" value={projectProvince} />
+      <LeftSideShortcutField label="PROVINCE" value={projectProvince} />
       <br />
-      <LeftSideShortcutField label="Postal Code:" value={projectPostalCode} />
+      <LeftSideShortcutField label="POSTAL CODE:" value={projectPostalCode} />
     </div>
   );
 };

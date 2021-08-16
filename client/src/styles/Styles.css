@@ -36,6 +36,7 @@ h2 {
 /*Dropdown list on Landing (Gateway) Page*/
 
 .list-spacer {
+  margin-top: 20px;
   text-align: left;
   background-color: transparent !important;
 }
@@ -279,6 +280,7 @@ h2 {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1.25px;
   -webkit-text-stroke-color: black;
+  line-height: 28px;
 }
 
 .project-description {
