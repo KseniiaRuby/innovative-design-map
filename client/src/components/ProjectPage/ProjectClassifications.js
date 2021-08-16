@@ -27,6 +27,7 @@ const ProjectClassifications = ({
         </div>
         <div className="border-top projectclassification project-padding-left">
           <br />
+          <div className="classificationName">{projectPrimaryName}</div>
           <p className="descriptionFormat">
             <TextWithGlossaryLinks text={projectPrimaryDescription} />
           </p>
