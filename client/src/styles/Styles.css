@@ -36,6 +36,7 @@ h2 {
 /*Dropdown list on Landing (Gateway) Page*/
 
 .list-spacer {
+   margin-top: 20px;;
   text-align: left;
   background-color: transparent !important;
 }
@@ -134,8 +135,8 @@ h2 {
 /* Project Slider Buttons and Border */
 
 .btn-large {
-   background-color: black;
-   background-size: 100% 80%;
+   /* background-color: black; */
+   background-size: 100% 100%;
    /* background-position: bottom; */
    /*image at the bottom*/
    background-repeat: no-repeat;
@@ -172,11 +173,11 @@ display: flex;
 
 .project-name-slider {
    position: absolute;
-   size: 55vw;
-   padding-right: 5px;
-   bottom: -90px;
+   /* size: 55vw; */
+   /* padding-right: 5px; */
+   /* bottom: -90px; */
    /*text at the bottom*/
-   /* top: -95px; text at the top */
+   top: -90px; /*text at the top*/
    left: 0;
 }
 
