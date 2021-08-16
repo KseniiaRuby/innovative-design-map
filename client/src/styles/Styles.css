@@ -102,15 +102,15 @@ h2 {
 /* Project Title on Classification Page */
 
 .projects-title {
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
-  padding: 1em 0em 1em 1.35em;
-  margin: auto;
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5em;
+   /* padding: 1em 0em 1em 1.35em; */
+   /* margin: auto; */
 }
 
 .project-title-spacer {
-  padding-bottom: 5em;
+   padding-bottom: 7em;
 }
 
 /* Projects Slider on Classification, Map and Individual Project Page */
@@ -134,16 +134,21 @@ h2 {
 /* Project Slider Buttons and Border */
 
 .btn-large {
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border: 1.5px solid white;
-  margin: 0px 70px 0px 45px;
-  height: 25vh;
-  width: 65vw;
-  box-shadow: inset 0 0 1000em 40px rgba(0, 0, 0, 1);
-  /* mix-blend-mode: multiply; */
+   background-color: black;
+   background-size: 100% 80%;
+   /* background-position: bottom; */
+   /*image at the bottom*/
+   background-repeat: no-repeat;
+   border: 1.5px solid white;
+   margin: 0px 70px 0px 45px;
+   height: 25vh;
+   width: 65vw;
+   box-shadow: inset 0 0 1000em 40px rgba(0, 0, 0, 1);
+   /* mix-blend-mode: multiply; */
 }
+
 /* Slider text */
+
 .btn-text {
   font-size: 20px;
   text-decoration: none;
@@ -156,24 +161,38 @@ h2 {
 /* Slider: Project Name Title */
 
 .project-name-align {
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 800;
-  letter-spacing: 0.3px;
+display: flex;
+   /* grid-template-columns: 80% 20%; */
+   /* justify-content: space-between; */
+   text-transform: uppercase;
+   font-weight: 800;
+   letter-spacing: 0.5px;
+   position: relative;
+}
+
+.project-name-slider {
+   position: absolute;
+   size: 55vw;
+   padding-right: 5px;
+   bottom: -90px;
+   /*text at the bottom*/
+   /* top: -95px; text at the top */
+   left: 0;
 }
 
 /* Classification Page: Feature Words on Slider */
 
-.description-align {
-  font-size: 0.6em;
-  padding-left: 0.25em;
-}
+/* .description-align {
+   font-size: 0.6em;
+   padding-left: 0.25em;
+} */
 
 .count {
-  text-align: center;
-  position: relative;
-  font-weight: bolder;
-  font-size: 18px;
+   /* text-align:justify; */
+   /* position: relative; */
+   bottom: 0px;
+   /* font-weight: bolder; */
+   font-size: 18px;
 }
 
 .right-arrow {
