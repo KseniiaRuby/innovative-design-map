@@ -17,7 +17,7 @@ const ProjectClassifications = ({
         <h2>PROJECT DESCRIPTION</h2>
       </div>
       <div className="border-top project-padding-left">
-        <p>
+        <p className="descriptionFormat">
           <TextWithGlossaryLinks text={projectDescription} />
         </p>
       </div>
@@ -27,7 +27,6 @@ const ProjectClassifications = ({
         </div>
         <div className="border-top projectclassification project-padding-left">
           <br />
-
           <p className="descriptionFormat">
             <TextWithGlossaryLinks text={projectPrimaryDescription} />
           </p>
