@@ -10,22 +10,22 @@ export default function Map() {
   let [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   return (
     <div className="container-flex">
-      <div className="container-flex-section">
+      <div>
         <MarkPointOnMap
           setSelectedProjectIndex={setSelectedProjectIndex}
           selectedProjectIndex={selectedProjectIndex}
         />
       </div>
-      <div className="container-flex-section">
+      <div>
         <Header />
       </div>
-      <div className="container-flex-section">
+      <div>
         <HorizontalProjectMenu
           selectedProjectIndex={selectedProjectIndex}
           setSelectedProjectIndex={setSelectedProjectIndex}
         />
       </div>
-      <div className="container-flex-section">
+      <div>
         <Navbar />
       </div>
     </div>

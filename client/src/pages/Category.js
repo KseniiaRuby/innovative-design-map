@@ -9,20 +9,20 @@ export default function Category() {
   let [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   return (
     <div className="container-flex">
-      <div className="container-flex-section">
+      <div>
         <Header />
       </div>
-      <div className="container-flex-section">
+      <div>
         <ClassificationHeader />
       </div>
       {/* <div className="project-title-spacer"></div> */}
-      <div className="container-flex-section">
+      <div>
         <HorizontalProjectMenu
           selectedProjectIndex={selectedProjectIndex}
           setSelectedProjectIndex={setSelectedProjectIndex}
         />
       </div>
-      <div className="container-flex-section">
+      <div>
         <Navbar />
       </div>
     </div>

@@ -103,11 +103,7 @@ h2 {
 .container-flex {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-}
-
-.container-flex-section {
-  display: flex;
+  align-items: stretch;
   /* justify-content: space-around; */
 }
 
@@ -360,7 +356,6 @@ h2 {
   top: 120px;
   width: 100%;
   padding-top: 110px;
-  height: 105px;
 }
 
 /* Classification Container Description Text on Classification Page */
