@@ -259,6 +259,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.descriptionFormat {
+  text-indent: 1.5em;
+  justify-content: left;
+}
+
 /* Project Buttons under Header */
 
 .project-buttons {
