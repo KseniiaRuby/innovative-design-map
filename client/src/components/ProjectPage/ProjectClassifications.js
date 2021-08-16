@@ -28,13 +28,19 @@ const ProjectClassifications = ({
         <div className="border-top projectclassification project-padding-left">
           <br />
           <div className="classificationName">{projectPrimaryName}</div>
-          <p>{projectPrimaryDescription}</p>
+          <p>          
+            <TextWithGlossaryLinks text={projectPrimaryDescription} />
+          </p>
           <br />
           <div className="classificationName">{projectSecondaryName}</div>
-          <p>{projectSecondaryDescription}</p>
+          <p>
+            <TextWithGlossaryLinks text={projectSecondaryDescription} />
+          </p>
           <br />
           <div className="classificationName">{projectTertiaryName}</div>
-          <p>{projectTertiaryDescription}</p>
+          <p>
+            <TextWithGlossaryLinks text={projectTertiaryDescription} />
+          </p>
         </div>
       </div>
     </div>
