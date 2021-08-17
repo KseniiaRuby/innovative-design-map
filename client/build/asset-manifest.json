@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb93acb6.chunk.css",
-    "main.js": "/static/js/main.49b1f4c6.chunk.js",
-    "main.js.map": "/static/js/main.49b1f4c6.chunk.js.map",
+    "main.css": "/static/css/main.0e1a719b.chunk.css",
+    "main.js": "/static/js/main.e8dc6ea8.chunk.js",
+    "main.js.map": "/static/js/main.e8dc6ea8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.43808cf2.js",
     "runtime-main.js.map": "/static/js/runtime-main.43808cf2.js.map",
     "static/css/2.c0a07d5a.chunk.css": "/static/css/2.c0a07d5a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.2e24a906.chunk.js.map": "/static/js/3.2e24a906.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c0a07d5a.chunk.css.map": "/static/css/2.c0a07d5a.chunk.css.map",
-    "static/css/main.cb93acb6.chunk.css.map": "/static/css/main.cb93acb6.chunk.css.map",
+    "static/css/main.0e1a719b.chunk.css.map": "/static/css/main.0e1a719b.chunk.css.map",
     "static/js/2.9ab5cf8a.chunk.js.LICENSE.txt": "/static/js/2.9ab5cf8a.chunk.js.LICENSE.txt",
     "static/media/Styles.css": "/static/media/Calgary_DT.f5e6e670.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.43808cf2.js",
     "static/css/2.c0a07d5a.chunk.css",
     "static/js/2.9ab5cf8a.chunk.js",
-    "static/css/main.cb93acb6.chunk.css",
-    "static/js/main.49b1f4c6.chunk.js"
+    "static/css/main.0e1a719b.chunk.css",
+    "static/js/main.e8dc6ea8.chunk.js"
   ]
 }
