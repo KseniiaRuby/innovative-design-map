@@ -22,14 +22,14 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 3.5em;
-  padding-left: 0.5em;
+  height: 77vh;
+  padding: 0em 0em 0em 0.5em;
   -webkit-text-fill-color: black;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   padding-top: 3em;
   background-image: url("../images/Calgary_DT.jpg");
-  padding-bottom: 75%;
   margin: auto;
 }
 
@@ -90,8 +90,6 @@ h2 {
   padding: 0.5rem 1rem;
 }
 
-/*  */
-
 .category-explore {
   text-align: center;
   font-size: 2.5em;
@@ -141,6 +139,10 @@ h2 {
 .slide.active {
   opacity: 1;
   transition-duration: 1.5s;
+}
+
+.slider-spacer {
+  padding-top: 45vh;
 }
 
 /* Project Slider Buttons and Border */
@@ -220,7 +222,7 @@ h2 {
 }
 
 .navbar-project-page {
-  position: unset;
+  position: fixed;
 }
 
 .project-padding {
@@ -237,7 +239,7 @@ h2 {
 
 .project-title {
   font-size: 9.5vw;
-  padding: 0.5em 2em 0em 0.4em;
+  padding: 0.5em 1em 0em 0.4em;
   position: absolute;
   font-weight: 800;
   letter-spacing: 0.3px;
@@ -262,22 +264,12 @@ h2 {
   white-space: pre-wrap;
 }
 
-/* Project Buttons under Header */
-
-.project-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 6vh;
-  bottom: 0px;
-}
-
 .slider-on-project-page {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 65vw;
   height: 28vh;
   bottom: 6.2vh;
   position: static;

@@ -9,17 +9,18 @@ import "../styles/MarkPointOnMap.css";
 export default function Map() {
   let [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   return (
-    <div className="container-flex">
-      <div className="container-flex-header">
+    // <div className="container-flex">
+    <div>
+      <div>
         <Header />
       </div>
-      <div className="container-flex-map">
+      <div>
         <MarkPointOnMap
           setSelectedProjectIndex={setSelectedProjectIndex}
           selectedProjectIndex={selectedProjectIndex}
         />
       </div>
-      <div className="container-flex-slider">
+      <div className="slider-spacer">
         <HorizontalProjectMenu
           selectedProjectIndex={selectedProjectIndex}
           setSelectedProjectIndex={setSelectedProjectIndex}
