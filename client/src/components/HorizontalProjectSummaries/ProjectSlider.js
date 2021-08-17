@@ -48,12 +48,9 @@ const ProjectSlider = ({
                   <div>
                     <div className="project-name-align">
                       <div>
-                        <span className="project-name-slider">
+                        <span>
                           {project.projectName}{" "}
                           <div className="count">
-                            <br />
-                            <br />
-                            <br />
                             {index + 1} of {length}{" "}
                           </div>
                         </span>

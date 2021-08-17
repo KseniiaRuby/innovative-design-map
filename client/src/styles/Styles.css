@@ -103,8 +103,6 @@ h2 {
 .container-flex {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  /* justify-content: space-around; */
 }
 
 /* Project Title on Classification Page */
@@ -113,8 +111,6 @@ h2 {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  /* padding: 1em 0em 1em 1.35em; */
-  /* margin: auto; */
 }
 
 .project-title-spacer {
@@ -140,11 +136,9 @@ h2 {
 
 .slide {
   opacity: 0;
-  text-align: center;
 }
 
 .slide.active {
-  text-align: center;
   opacity: 1;
   transition-duration: 1.5s;
 }
@@ -153,16 +147,12 @@ h2 {
 
 .btn-large {
   background-color: black;
-  background-size: 100% 80%;
-  /* background-position: bottom; */
-  /*image at the bottom*/
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   border: 1.5px solid white;
-  /* margin: 50px 70px 50px 45px; */
   height: 25vh;
   width: 65vw;
   box-shadow: inset 0 0 1000em 40px rgba(0, 0, 0, 1);
-  /* mix-blend-mode: multiply; */
 }
 
 /* Slider text */
@@ -182,36 +172,15 @@ h2 {
 
 .project-name-align {
   display: flex;
-  /* grid-template-columns: 80% 20%; */
-  /* justify-content: space-between; */
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.5px;
-  position: relative;
-}
-
-.project-name-slider {
-  position: absolute;
-  size: 55vw;
-  padding-right: 5px;
-  bottom: -90px;
-  /*text at the bottom*/
-  /* top: -95px; text at the top */
-  left: 0;
 }
 
 /* Classification Page: Feature Words on Slider */
 
-/* .description-align {
-   font-size: 0.6em;
-   padding-left: 0.25em;
-} */
-
 .count {
-  /* text-align:justify; */
-  /* position: relative; */
   bottom: 0px;
-  /* font-weight: bolder; */
   font-size: 18px;
 }
 
@@ -365,37 +334,4 @@ h2 {
   font-size: 1 rem;
   text-decoration: none;
   padding: 0rem 1rem 1rem 2rem;
-}
-
-.sidebarStyle {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 12px;
-  background-color: #404040;
-  color: #ffffff;
-  z-index: 1 !important;
-  padding: 6px;
-  font-weight: bold;
-}
-
-.img-description-on-map {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  width: 50px;
-  font-size: medium;
-  position: fixed;
-  object-fit: contain;
-  left: 25%;
-  top: 30%;
-  width: 50%;
-  border: 1px solid #011627;
-  border-radius: 1em;
-  box-shadow: -2px 5px 5px #242323;
-  background-color: #fdfffc;
-  display: block;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: #011627;
 }

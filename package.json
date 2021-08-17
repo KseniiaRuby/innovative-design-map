@@ -4,7 +4,7 @@
   "description": "npm install ### `npm start` Open [http://localhost:5000]",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "14.16.0"
   },
   "scripts": {
     "install-server": "cd server && npm install && cd ..",
