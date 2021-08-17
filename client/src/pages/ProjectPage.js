@@ -125,7 +125,7 @@ const ProjectPage = () => {
         <div className="border-top project-padding-left">
           <h2>RELATED PROJECTS</h2>
         </div>
-        <div className="border-top">
+        <div>
           <br></br>
           <ProjectSlider
             className="slider-on-project-page border-top border-bottom"

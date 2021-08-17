@@ -247,6 +247,10 @@ h2 {
   list-style-type: none;
 }
 
+.project-padding-bottom {
+  padding-bottom: 1em;
+}
+
 .project-margins {
   margin: 1em 1em 1em 1em;
 }
