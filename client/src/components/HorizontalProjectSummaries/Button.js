@@ -20,7 +20,6 @@ export const Button = ({ children, type, onClick, linkProperty, imageUrl }) => {
                   backgroundImage: `url(${imageUrl})`,
                }}
                className={"btn-large"}
-               // onClick={onClick}
                onClick={scrollToTop}
                type={type}
             >
