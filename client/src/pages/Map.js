@@ -10,16 +10,16 @@ export default function Map() {
   let [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   return (
     <div className="container-flex">
-      <div>
+      <div className="container-flex-header">
+        <Header />
+      </div>
+      <div className="container-flex-map">
         <MarkPointOnMap
           setSelectedProjectIndex={setSelectedProjectIndex}
           selectedProjectIndex={selectedProjectIndex}
         />
       </div>
-      <div>
-        <Header />
-      </div>
-      <div>
+      <div className="container-flex-slider">
         <HorizontalProjectMenu
           selectedProjectIndex={selectedProjectIndex}
           setSelectedProjectIndex={setSelectedProjectIndex}
