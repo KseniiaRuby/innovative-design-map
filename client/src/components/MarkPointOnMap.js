@@ -1,4 +1,6 @@
-import mapboxgl from "mapbox-gl";
+/* eslint-disable */
+// import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 import React, { useRef, useEffect, useState, useContext } from "react";
 import ClassificationContext from "../store/ClassificationContext";
 import "../styles/Styles.css";

@@ -40,11 +40,6 @@ const ProjectHeader = ({
         <br />
         <br />
       </div>
-      {/* work on Like and Share once it's on Heroku */}
-      {/* <div className="project-buttons">
-            <Link to="" className="nav-links">Like</Link>
-            <Link to="" className="nav-links">Share</Link>
-         </div> */}
     </div>
   );
 };

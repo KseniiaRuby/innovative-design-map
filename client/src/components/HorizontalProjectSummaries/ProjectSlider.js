@@ -27,26 +27,27 @@ const ProjectSlider = ({
    }
 
    return (
-      <section className="slider">
-         {features.map((project, index) => {
-            return (
-               <div
-                  className={
-                     index === selectedProjectIndex ? "slide active" : "slide"
-                  }
-                  key={index}
-               >
-                  <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
-                  <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
-                  {index === selectedProjectIndex && (
-                     <Button
-                        imageUrl={project.imageUrls.image1.image}
-                        linkProperty={`/ProjectPage/` + project._id}
-                     >
-                        <div>
-                           <div className="project-name-align">
-                              <div>
-                                 <span className="project-name-slider">
+      <div className="slider-container">
+         <div className="slider-container-left">
+            <IoIosArrowBack className="arrow" onClick={prevSlide} />
+         </div>
+         <section className="slider">
+            {features.map((project, index) => {
+               return (
+                  <div
+                     className={
+                        index === selectedProjectIndex ? "slide active" : "slide"
+                     }
+                     key={index}
+                  >
+                     {index === selectedProjectIndex && (
+                        <Button
+                           imageUrl={project.imageUrls.image1.image}
+                           linkProperty={`/ProjectPage/` + project._id}
+                        >
+                           <div>
+                              <div className="project-name-align">
+                                 <span>
                                     {project.projectName}{" "}
                                     <div className="count">
                                        {index + 1} of {length}{" "}
@@ -54,13 +55,16 @@ const ProjectSlider = ({
                                  </span>
                               </div>
                            </div>
-                        </div>
-                     </Button>
-                  )}
-               </div>
-            )
-         })}
-      </section>
+                        </Button>
+                     )}
+                  </div>
+               )
+            })}
+         </section>
+         <div className="slider-container-right">
+            <IoIosArrowForward className="arrow" onClick={nextSlide} />
+         </div>
+      </div>
    )
 }
 

@@ -8,15 +8,23 @@ import "../styles/Styles.css";
 export default function Category() {
   let [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   return (
-    <div>
-      <ClassificationHeader />
-      <div className="project-title-spacer"></div>
-      <HorizontalProjectMenu
-        selectedProjectIndex={selectedProjectIndex}
-        setSelectedProjectIndex={setSelectedProjectIndex}
-      />
-      <Header />
-      <Navbar />
+    <div className="container-flex">
+      <div>
+        <Header />
+      </div>
+      <div>
+        <ClassificationHeader />
+      </div>
+      {/* <div className="project-title-spacer"></div> */}
+      <div>
+        <HorizontalProjectMenu
+          selectedProjectIndex={selectedProjectIndex}
+          setSelectedProjectIndex={setSelectedProjectIndex}
+        />
+      </div>
+      <div>
+        <Navbar />
+      </div>
     </div>
   );
 }
