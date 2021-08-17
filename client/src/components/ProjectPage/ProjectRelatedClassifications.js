@@ -12,9 +12,9 @@ const ProjectRelatedClassifications = ({
         <h2>CLASSIFICATIONS</h2>
       </div>
       <div className="border-top project-padding-left">
-        <p>{projectPrimaryName}</p>
-        <p>{projectSecondaryName}</p>
-        <p>{projectTertiaryName}</p>
+        <li>{projectPrimaryName}</li>
+        <li>{projectSecondaryName}</li>
+        <li>{projectTertiaryName}</li>
       </div>
     </div>
   );

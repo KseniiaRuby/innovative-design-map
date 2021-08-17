@@ -16,7 +16,7 @@ const FeatureWordsList = ({ featureWords }) => {
         {featureWords.map((featureWord) => {
           return (
             <div key={featureWord}>
-              <p>{featureWord}</p>
+              <li>{featureWord}</li>
             </div>
           );
         })}
