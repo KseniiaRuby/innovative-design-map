@@ -82,7 +82,7 @@ h2 {
   height: 6vh;
   bottom: 0px;
   position: fixed;
-  padding-top: 1%;
+  padding: 0.35em 0em 0.35em 0em;
   background-color: black;
   z-index: 10;
 }
