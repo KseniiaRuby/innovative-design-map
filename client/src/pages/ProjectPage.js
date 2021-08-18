@@ -8,6 +8,7 @@ import FeatureWordsList from "../components/ProjectPage/ProjectFeatureWords";
 import ProjectClassifications from "../components/ProjectPage/ProjectClassifications";
 import Navbar from "../components/Navbar";
 import GlossaryContainer from "../components/Glossary/GlossaryContainer";
+import ProjectGallery from "../components/ProjectPage/ProjectGallery";
 import ProjectSlider from "../components/HorizontalProjectSummaries/ProjectSlider";
 import ClassificationContext from "../store/ClassificationContext";
 import "../styles/Styles.css";
@@ -121,6 +122,14 @@ const ProjectPage = () => {
                 .projectDescription
             }
           />
+        </div>
+        <div>
+          <div>
+            <h2>VIEW GALLERY</h2>
+          </div>
+          <div>
+            {/* <ProjectGallery projectImageUrls={project.imageUrls} /> */}
+          </div>
         </div>
         <div className="project-padding-bottom">
           <div className="border-top project-padding-left">
