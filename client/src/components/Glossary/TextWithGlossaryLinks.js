@@ -3,8 +3,28 @@ import GlossaryContext from "../../store/GlossaryContext";
 
 import './glossary.css'
 
+const isLetter = (letter) => {
+  let isLetter =  (letter.length === 1 && letter.match(/[A-Z]/i)) ? true : false
+  return isLetter
+}
+
+const isIncludedInOtherWord = (term, text, possibleIndex) => {
+  let embeddedInOtherWord = false
+  if (possibleIndex > 0 ) {
+    embeddedInOtherWord |= isLetter(text.charAt(possibleIndex-1))
+  }
+  if (possibleIndex+term.length < text.length) {
+    embeddedInOtherWord |= isLetter(text.charAt(possibleIndex + term.length))
+  }
+  return embeddedInOtherWord;
+}
+
 const indexOfTerm = (term, text, startingAt) => {
-    return text.indexOf(term, startingAt)
+    let index = text.indexOf(term, startingAt)
+    while (index !== -1 && isIncludedInOtherWord(term, text, index)) {
+      index = text.indexOf(term, index+term.length)
+    }
+    return index
 }
 
 const splitSpanWithTerm = (term, spanDetail) => {
@@ -28,13 +48,13 @@ const splitSpanWithTerm = (term, spanDetail) => {
 const TextSpan = ({text, term}) => {
     let glossaryContext = useContext(GlossaryContext)
     return term?
-        (<span className='glossary-word' onClick={() => glossaryContext.setSelectedTerm(term)} >{text} </span>)
+        (<span className='glossary-word' onClick={() => glossaryContext.setSelectedTerm(term)} >{text}</span>)
     :
         (<span>{text}</span>)
 
 }
 
-const TextWithGlossaryLinks = ({text}) => {
+const TextWithGlossaryLinks = ({text, excludeTerm}) => {
   let glossaryContext = useContext(GlossaryContext)
   let [ textSpanDetails, setTextSpanDetails ] = useState([])
 
@@ -48,6 +68,7 @@ const TextWithGlossaryLinks = ({text}) => {
 
     // one by one look for the terms and split the text up
     terms.forEach((term) => {
+        if (term === excludeTerm) return;
         let newSpanDetails = []
         spanDetails.forEach((spanDetail) => {
             if (spanDetail.term) {
@@ -61,7 +82,7 @@ const TextWithGlossaryLinks = ({text}) => {
     })
     setTextSpanDetails(spanDetails)
 
-  }, [text, glossaryContext])
+  }, [text, excludeTerm, glossaryContext])
 
   return (
     <>

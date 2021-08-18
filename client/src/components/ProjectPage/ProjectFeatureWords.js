@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Styles.css";
+import TextWithGlossaryLinks from "../Glossary/TextWithGlossaryLinks";
 
 const FeatureWordsList = ({ featureWords }) => {
   return (
@@ -16,7 +17,7 @@ const FeatureWordsList = ({ featureWords }) => {
         {featureWords.map((featureWord) => {
           return (
             <div key={featureWord}>
-              <li>{featureWord}</li>
+              <li><TextWithGlossaryLinks text={featureWord} /></li>
             </div>
           );
         })}

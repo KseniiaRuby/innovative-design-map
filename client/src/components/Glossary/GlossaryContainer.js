@@ -3,6 +3,7 @@ import ReactModal from 'react-modal'
 import GlossaryContext from "../../store/GlossaryContext"
 
 import './glossary.css'
+import TextWithGlossaryLinks from './TextWithGlossaryLinks'
 
 // I couldn't figure out how to do this with css
 const modalStyles = {
@@ -41,7 +42,7 @@ const GlossaryEntry = ({ selectedDefinition }) => {
             {selectedDefinition.term}
          </div>
          <div className='glossary-entry-text'>
-            {selectedDefinition.description}
+            <TextWithGlossaryLinks text={selectedDefinition.description}  excludeTerm={selectedDefinition.term}/>
          </div>
       </div>
    ) : null
