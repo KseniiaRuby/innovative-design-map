@@ -10,11 +10,11 @@ export default function Navbar() {
           <Link to="/" className="nav-links">
             Home
           </Link>
-          <Link to="/Category" className="nav-links">
-            Explore
-          </Link>
           <Link to="/Map" className="nav-links">
             Map
+          </Link>
+          <Link to="/Category" className="nav-links">
+            Explore
           </Link>
         </div>
       </div>
