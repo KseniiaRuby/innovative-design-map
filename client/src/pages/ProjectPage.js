@@ -122,17 +122,18 @@ const ProjectPage = () => {
             }
           />
         </div>
-        <div className="border-top project-padding-left">
-          <h2>RELATED PROJECTS</h2>
-        </div>
-        <div>
-          <br></br>
-          <ProjectSlider
-            className="slider-on-project-page border-top border-bottom"
-            slides={classificationCtx.projects}
-            selectedProjectIndex={selectedProjectIndex}
-            setSelectedProjectIndex={setSelectedProjectIndex}
-          />
+        <div className="project-padding-bottom">
+          <div className="border-top project-padding-left">
+            <h2>RELATED PROJECTS</h2>
+          </div>
+          <div>
+            <ProjectSlider
+              className="slider-on-project-page border-top border-bottom"
+              slides={classificationCtx.projects}
+              selectedProjectIndex={selectedProjectIndex}
+              setSelectedProjectIndex={setSelectedProjectIndex}
+            />
+          </div>
         </div>
         <div className="navbar-project-page">
           <Navbar />
