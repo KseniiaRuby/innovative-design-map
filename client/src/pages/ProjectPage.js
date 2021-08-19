@@ -129,7 +129,6 @@ const ProjectPage = () => {
                </div>
                <div>
                   <ProjectGallery projectImageUrls={project.imageUrls} />
-
                </div>
             </div>
             <div className="project-padding-bottom">

@@ -6,38 +6,29 @@ import "../../styles/Styles.css"
 
 const ProjectGallery = ({ projectImageUrls }) => {
    const objectImages = Object.values(projectImageUrls)
-   let slideImages = []
-   const loadSlide = (objectImages) => {
-      for (let i = 0, len = objectImages.length; i < len; i++) {
-         slideImages[i] = objectImages[i].image
-      }
-   }
-   loadSlide(objectImages)
+   const slideImages = objectImages.map(element => element.image).filter(url => url !== "")
 
-   slideImages.forEach((image) => {
-      if (image !== "") {
 
-      }
-   })
+   console.log(objectImages)
 
    console.log(slideImages)
 
    return (
-      <div className="slide-container gallery-container">
-         <Slide>
-            {slideImages.map((index) => {
-               return (
-                  <div>
+      <div className="slide-container">
+         <div className="gallery-container">
+            <Slide>
+               {slideImages.map((each, index) => {
+                  return (
                      <div key={index} className="each-slide">
                         <div
-                           style={{ "backgroundImage": `url(${slideImages[1]})` }}
+                           style={{ "backgroundImage": `url(${each})` }}
                         >
                         </div>
                      </div>
-                  </div>
-               )
-            })}
-         </Slide>
+                  )
+               })}
+            </Slide>
+         </div>
       </div>
    )
 }
