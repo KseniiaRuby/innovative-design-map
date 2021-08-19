@@ -6,21 +6,21 @@ const ProjectHeader = ({
   projectImageBackground,
   projectImageAlt,
 }) => {
-  // const ResizeToFitText = useCallback((element, outerHeight) => {
-  //    const fontSize = window.getComputedStyle(element).fontSize
-  //    element.style.fontSize = parseInt(fontSize) - 0.1 + "px"
-  //    if (element.clientHeight > outerHeight) {
-  //       ResizeToFitText(element, outerHeight)
-  //    }
-  // }, [])
+  //   const ResizeToFitText = useCallback((element, outerHeight) => {
+  //     const fontSize = window.getComputedStyle(element).fontSize;
+  //     element.style.fontSize = parseInt(fontSize) - 0.1 + "px";
+  //     if (element.clientHeight > outerHeight) {
+  //       ResizeToFitText(element, outerHeight);
+  //     }
+  //   }, []);
 
-  // useEffect(() => {
-  //    const outerHeight = document.getElementById("outer").clientHeight
-  //    const titleDiv = document.getElementById("title")
-  //    if (titleDiv.clientHeight > outerHeight) {
-  //       ResizeToFitText(titleDiv, outerHeight)
-  //    }
-  // }, [projectName, ResizeToFitText])
+  //   useEffect(() => {
+  //     const outerHeight = document.getElementById("outer").clientHeight;
+  //     const titleDiv = document.getElementById("title");
+  //     if (titleDiv.clientHeight > outerHeight) {
+  //       ResizeToFitText(titleDiv, outerHeight);
+  //     }
+  //   }, [projectName, ResizeToFitText]);
 
   return (
     <div className="border-bottom">
