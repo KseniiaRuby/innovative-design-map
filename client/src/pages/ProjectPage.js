@@ -47,9 +47,6 @@ const ProjectPage = () => {
       getProject()
    }, [chosenID])
 
-   // ***
-   console.log(classificationCtx.projects)
-   console.log(project)
    if (project !== undefined) {
       return (
          <div className="container-grid">
@@ -129,7 +126,7 @@ const ProjectPage = () => {
                   }
                />
             </div>
-            <div>
+            <div className="border-top">
                <div>
                   <h2>VIEW GALLERY</h2>
                </div>
