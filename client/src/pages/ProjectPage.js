@@ -123,14 +123,14 @@ const ProjectPage = () => {
             }
           />
         </div>
-        <div className="project-padding-bottom">
+        {/* <div className="project-padding-bottom">
           <div className="border-top project-padding-left">
             <h2>VIEW GALLERY</h2>
           </div>
           <div>
             <ProjectGallery projectImageUrls={project.imageUrls} />
           </div>
-        </div>
+        </div> */}
         <div className="project-padding-bottom">
           <div className="border-top project-padding-left">
             <h2>RELATED PROJECTS</h2>

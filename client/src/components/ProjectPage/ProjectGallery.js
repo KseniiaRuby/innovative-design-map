@@ -26,14 +26,14 @@ const ProjectGallery = ({ projectImageUrls }) => {
           {slideImages.map((each, index) => {
             return (
               <div key={index} className="each-slide">
-                <div
-                  style={{ backgroundImage: `url(${each})` }}
-                  // style={{ backgroundImage: `url(${slideImages[0]})` }}
-                  // imageUrl={`${each}`}
-                ></div>
-                {/* <div>
+                {/* <div
+                // style={{ backgroundImage: `url('${each}')` }}
+                // style={{ backgroundImage: `url(${slideImages[0]})` }}
+                // imageUrl={`${each}`}
+                ></div> */}
+                <div>
                   <img src={`${each}`} alt={``} />
-                </div> */}
+                </div>
               </div>
             );
           })}
