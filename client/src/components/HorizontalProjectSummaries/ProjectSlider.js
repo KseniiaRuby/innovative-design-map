@@ -36,7 +36,7 @@ const ProjectSlider = ({
                return (
                   <div
                      className={
-                        index === selectedProjectIndex ? "slide active" : "slide"
+                        index === selectedProjectIndex ? "slide active" : "slide-opacity"
                      }
                      key={index}
                   >
