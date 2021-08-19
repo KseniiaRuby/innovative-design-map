@@ -3,15 +3,9 @@ import { Slide } from "react-slideshow-image"
 import "react-slideshow-image/dist/styles.css"
 import "../../styles/Styles.css"
 
-
 const ProjectGallery = ({ projectImageUrls }) => {
    const objectImages = Object.values(projectImageUrls)
    const slideImages = objectImages.map(element => element.image).filter(url => url !== "")
-
-
-   console.log(objectImages)
-
-   console.log(slideImages)
 
    return (
       <div className="slide-container">

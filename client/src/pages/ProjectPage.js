@@ -19,6 +19,9 @@ const ProjectPage = () => {
    const [project, setProject] = useState()
    const classificationCtx = useContext(ClassificationContext)
    let [selectedProjectIndex, setSelectedProjectIndex] = useState(0)
+   const sliderRelatedProjects = classificationCtx.projects.filter(function (obj) {
+      return obj.projectName !== project?.projectName
+   })
 
    useEffect(() => {
       const getProject = async () => {
@@ -44,6 +47,9 @@ const ProjectPage = () => {
       getProject()
    }, [chosenID])
 
+   // ***
+   console.log(classificationCtx.projects)
+   console.log(project)
    if (project !== undefined) {
       return (
          <div className="container-grid">
@@ -138,7 +144,7 @@ const ProjectPage = () => {
                <div>
                   <ProjectSlider
                      className="slider-on-project-page border-top border-bottom"
-                     slides={classificationCtx.projects}
+                     slides={sliderRelatedProjects}
                      selectedProjectIndex={selectedProjectIndex}
                      setSelectedProjectIndex={setSelectedProjectIndex}
                   />
@@ -150,6 +156,7 @@ const ProjectPage = () => {
             <GlossaryContainer />
          </div>
       )
+
    }
    return null
 }
