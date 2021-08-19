@@ -248,6 +248,7 @@ h2 {
 
 .navbar-project-page {
   position: fixed;
+  z-index: 10;
 }
 
 .project-padding {
