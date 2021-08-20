@@ -90,9 +90,9 @@ const LetterSelectors = ({ selectLetter }) => {
   );
 };
 
-const GlossaryContainer = () => {
+const GlossaryContainer = ({showGlossary, setShowGlossary}) => {
   let glossaryContext = useContext(GlossaryContext);
-  let [showGlossary, setShowGlossary] = useState(false);
+  // let [showGlossary, setShowGlossary] = useState(false);
   let [selectedLetter, setSelectedLetter] = useState();
 
   useEffect(() => {

@@ -10,10 +10,9 @@ body {
 .map-container {
   width: 100vw;
   height: 45vh;
-  position: fixed;
+  /* position: fixed; */
   margin: 0;
   padding: 0;
-  /* border: 2px solid red; */
   z-index: 30;
 }
 
