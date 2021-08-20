@@ -42,9 +42,14 @@ h2 {
 }
 
 .list-style {
-   color: rgb(253, 252, 252);
+   color: rgb(161, 161, 158);
    font-size: 1em;
    background-color: transparent !important;
+   background-color: black;
+   /* color: black;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white; */
 }
 
 /*Let's Go Button on Landing(Gateway) Page*/
