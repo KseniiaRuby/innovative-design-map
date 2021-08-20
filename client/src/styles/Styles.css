@@ -192,6 +192,8 @@ h2 {
   -webkit-text-stroke-color: black;
   height: 25vh;
   width: 65vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /* Slider: Project Name Title */
@@ -201,14 +203,18 @@ h2 {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.5px;
-  padding-top: 5vh;
+  padding-top: 2vh;
 }
 
 /* Classification Page: Feature Words on Slider */
 
 .count {
-  bottom: 0px;
+  bottom: 2.5vh;
   font-size: 14px;
+  position: relative;
+  text-align: justify;
+  font-weight: 800;
+  padding-left: 1vh;
 }
 
 .arrow {

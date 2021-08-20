@@ -25,6 +25,13 @@ const ProjectSlider = ({
   if (!Array.isArray(features).length <= 0) {
     return null;
   }
+  //   const lengthOfFirstLine= (projectName)=>{
+  //      const indexOfSpace = projectName.indexOf(" ",14)
+  //      if(indexOfSpace>=0 && indexOfSpace<20){
+  //         return (indexOfSpace)
+  //      }
+  //      else if (indexOfSpace<0 && )
+  //   }
 
   return (
     <div className="slider-container">
@@ -43,21 +50,24 @@ const ProjectSlider = ({
               key={index}
             >
               {index === selectedProjectIndex && (
-                <Button
-                  imageUrl={project.imageUrls.image1.image}
-                  linkProperty={`/ProjectPage/` + project._id}
-                >
-                  <div>
-                    <div className="project-name-align">
-                      <span>
-                        {project.projectName}{" "}
-                        <div className="count">
-                          {index + 1}/{length}{" "}
-                        </div>
+                <div>
+                  <Button
+                    imageUrl={project.imageUrls.image1.image}
+                    linkProperty={`/ProjectPage/` + project._id}
+                  >
+                    <div>
+                      {/* <span className="project-name-align">
+                      {project.projectName.substring(0, 10)}
+                    </span> */}
+                      <span className="project-name-align">
+                        {project.projectName}
                       </span>
                     </div>
+                  </Button>
+                  <div className="count">
+                    {index + 1}/{length}{" "}
                   </div>
-                </Button>
+                </div>
               )}
             </div>
           );
