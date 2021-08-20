@@ -59,7 +59,7 @@ const LetterSelector = ({ letter, selectLetter }) => {
 
 const LetterSelectors = ({ selectLetter }) => {
   return (
-    <div className="glossary-letters border-right">
+    <div className="glossary-letters border-right border-bottom">
       <LetterSelector letter="A" selectLetter={selectLetter} />
       <LetterSelector letter="B" selectLetter={selectLetter} />
       <LetterSelector letter="C" selectLetter={selectLetter} />
@@ -125,7 +125,11 @@ const GlossaryContainer = () => {
   };
 
   return (
-    <ReactModal isOpen={showGlossary} style={modalStyles} overflow="hidden">
+    <ReactModal
+      isOpen={showGlossary}
+      style={modalStyles}
+      // overflow="hidden"
+    >
       <div className="glossary-fullscreen">
         <div className="glossary-header border-bottom">
           <div className="glossary-button-container">
@@ -137,7 +141,7 @@ const GlossaryContainer = () => {
         </div>
         <div className="glossary-body">
           <LetterSelectors selectLetter={selectLetter} />
-          <div className="glossary-entry-def">
+          <div className="glossary-entry-def border-bottom">
             {glossaryContext.selectedDefinition ? (
               <GlossaryEntry
                 selectedDefinition={glossaryContext.selectedDefinition}

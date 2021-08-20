@@ -112,6 +112,11 @@ h2 {
   font-size: 1.5em;
 }
 
+.outer {
+  width: 100vw;
+}
+
+/* Specifically for Map page on Heroku */
 .project-title-spacer {
   padding-bottom: 7em;
 }
@@ -230,6 +235,10 @@ h2 {
 
 .border-bottom {
   border-bottom: 2px solid gray;
+}
+
+.border-left {
+  border-left: 2px solid gray;
 }
 
 .border-right {

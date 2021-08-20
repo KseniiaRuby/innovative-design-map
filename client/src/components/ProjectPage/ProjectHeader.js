@@ -25,7 +25,7 @@ const ProjectHeader = ({
   return (
     <div className="border-bottom">
       <div className="project-header">
-        <div id="outer">
+        <div className="outer" id="outer">
           <div className="project-title" id="title">
             {" "}
             {projectName}{" "}
