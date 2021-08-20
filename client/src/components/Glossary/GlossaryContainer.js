@@ -125,7 +125,7 @@ const GlossaryContainer = ({showGlossary, setShowGlossary}) => {
   };
 
   return (
-    <ReactModal isOpen={showGlossary} style={modalStyles} overflow="hidden">
+    <ReactModal isOpen={showGlossary} style={modalStyles}>
       <div className="glossary-fullscreen">
         <div className="glossary-header border-bottom">
           <div className="glossary-button-container">

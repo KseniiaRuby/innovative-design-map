@@ -1,6 +1,6 @@
 # EvolveU - P3 - Innovative Design Mapping
 
-<img src="https://github.com/navinjetha/innovative-design-map/blob/master/client/src/images/Calgary_DT.jpg" width="600">
+<img src="https://github.com/navinjetha/innovative-design-map/blob/master/client/src/images/Calgary_DT_1.jpg" width="600">
 
 An in-class proof-of-concept, skills-building exercise to construct the framework for a database structuring and digital mapping communication tool for design innovation projects in Calgary. This is a mobile application built using `React`, `Mapbox-GL`, `node`, `Express JS`, `MongoDB Atlas` and other technologies.
 
