@@ -59,7 +59,7 @@ const LetterSelector = ({ letter, selectLetter }) => {
 
 const LetterSelectors = ({ selectLetter }) => {
   return (
-    <div className="glossary-letters border-right border-bottom">
+    <div className="glossary-letters border-right">
       <LetterSelector letter="A" selectLetter={selectLetter} />
       <LetterSelector letter="B" selectLetter={selectLetter} />
       <LetterSelector letter="C" selectLetter={selectLetter} />
@@ -141,7 +141,7 @@ const GlossaryContainer = () => {
         </div>
         <div className="glossary-body">
           <LetterSelectors selectLetter={selectLetter} />
-          <div className="glossary-entry-def border-bottom">
+          <div className="glossary-entry-def">
             {glossaryContext.selectedDefinition ? (
               <GlossaryEntry
                 selectedDefinition={glossaryContext.selectedDefinition}
