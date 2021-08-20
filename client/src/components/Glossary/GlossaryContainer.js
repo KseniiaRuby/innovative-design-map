@@ -90,9 +90,9 @@ const LetterSelectors = ({ selectLetter }) => {
   );
 };
 
-const GlossaryContainer = () => {
+const GlossaryContainer = ({showGlossary, setShowGlossary}) => {
   let glossaryContext = useContext(GlossaryContext);
-  let [showGlossary, setShowGlossary] = useState(false);
+  // let [showGlossary, setShowGlossary] = useState(false);
   let [selectedLetter, setSelectedLetter] = useState();
 
   useEffect(() => {
@@ -125,7 +125,7 @@ const GlossaryContainer = () => {
   };
 
   return (
-    <ReactModal isOpen={showGlossary} style={modalStyles} overflow="hidden">
+    <ReactModal isOpen={showGlossary} style={modalStyles}>
       <div className="glossary-fullscreen">
         <div className="glossary-header border-bottom">
           <div className="glossary-button-container">

@@ -2,10 +2,15 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  position: absolute !important;
+  /* z-index: 1000000000000; */
+  /* overflow-y: auto; */
 }
 
 .glossary-header {
   width: 100%;
+  /* position: absolute; */
+  /* z-index: 100000; */
 }
 
 .glossary-button-container {
@@ -14,32 +19,50 @@
 }
 
 .glossary-cancel {
-  margin: 20px;
+  margin: 10px;
 }
 
 .glossary-header h1 {
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  margin: 15px 0px 15px 20px;
   font-size: 3em;
   font-weight: 400;
 }
 
 .glossary-body {
+
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  /* position: absolute; */
+  /* z-index: 100000; */
 }
 
 .glossary-letters {
-  overflow-y: scroll;
+<<<<<<< HEAD
+  overflow-y: auto;
   padding: 20px 25px 0px 10px;
   height: 61vh;
+  /* z-index: 100000; */
+}
+
+.glossary-entry-def {
+  overflow-y: auto;
+  /* position: fixed; */
+  /* position: relative; */
+  padding: 15px 20px 0px 0px;
+=======
+  overflow-y: scroll;
+  padding: 20px 20px 20px 10px;
+  height: 52vh;
 }
 
 .glossary-entry-def {
   overflow-y: scroll;
-  /* position: fixed; */
-  /* position: relative; */
-  padding: 15px 20px 0px 0px;
+  width: 60em;
+  height: 52vh;
+  padding: 20px 20px 20px 0px;
+>>>>>>> ffa34eda637a0b344398c57b5d17be3a23b30d0a
 }
 
 .glossary-letter {
