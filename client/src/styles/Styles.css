@@ -124,24 +124,29 @@ h2 {
 /* Gallery */
 
 .gallery-container {
-  border: 1.5px solid white;
-  width: 99vw;
+  /* border: 1.5px solid white;
+  width: 99vw; */
+  width: 100vw;
 }
 
 .each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  /* background-position-y: center; */
   height: 350px;
 }
 
-.each-slide span {
+/* .each-slide span {
   padding: 20px;
   font-size: 20px;
   background: #efefef;
   text-align: center;
-}
+} */
 
 /* Projects Slider on Classification, Map and Individual Project Page */
 
