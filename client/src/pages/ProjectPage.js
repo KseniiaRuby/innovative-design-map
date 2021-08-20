@@ -14,9 +14,11 @@ import ClassificationContext from "../store/ClassificationContext";
 import "../styles/Styles.css";
 
 const ProjectPage = () => {
+
   const params = useParams();
   const chosenID = params.id;
   const [project, setProject] = useState();
+  let [showGlossary, setShowGlossary] = useState(false) 
   const classificationCtx = useContext(ClassificationContext);
   let [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   const sliderRelatedProjects = classificationCtx.projects.filter(function (
@@ -152,7 +154,7 @@ const ProjectPage = () => {
         <div className="navbar-project-page">
           <Navbar />
         </div>
-        <GlossaryContainer />
+        <GlossaryContainer showGlossary={showGlossary} setShowGlossary={setShowGlossary}/>
       </div>
     );
   }

@@ -13,7 +13,8 @@ body {
   /* position: fixed; */
   margin: 0;
   padding: 0;
-  z-index: 30;
+  /* z-index: 30; */
+  /* z-index: 20; */
 }
 
 .map-spacer-top {
@@ -24,46 +25,23 @@ body {
   padding-bottom: 20px;
 }
 
-.geocoder {
-  position: absolute;
-  z-index: 1;
-  width: 50%;
-  left: 50%;
-  margin-left: -25%;
-  top: 10px;
-}
-.mapboxgl-ctrl-geocoder {
-  min-width: 100%;
-}
 #map {
   margin-top: 75px;
-}
-
-.geocoder-dropdown-item {
-  padding: 5px;
-}
-.geocoder-dropdown-icon {
-  margin-right: 10px;
-}
-.geocoder-dropdown-text {
-  color: #5a3fc0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
 }
 
 .markers {
   background-image: url("../images/1.0\ -\ large1.png");
   background-size: 100%;
-  height: 35px;
-  width: 35px;
-  z-index: 1;
+  height: 8vh;
+  width: 8vw;
+  /* z-index: 1; */
 }
 
 .markers:hover {
   background-image: url("../images/1.0\ -\ large1.png");
   background-size: 100%;
-  height: 50px;
-  width: 50px;
+  height: 12vh;
+  width: 12vw;
 }
 
 .red-marker {
@@ -71,5 +49,5 @@ body {
   background-size: 100%;
   height: 100px;
   width: 100px;
-  z-index: 2;
+  /* z-index: 2; */
 }

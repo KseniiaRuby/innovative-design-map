@@ -2,10 +2,9 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "../styles/Styles.css";
 import GlossaryContainer from "./Glossary/GlossaryContainer";
-// import GlossaryContainer from "./Glossary/GlossaryContainer";
 
 export default function Navbar() {
-  const [showGlossary, setShowGlossary] = useState(false) 
+  let [showGlossary, setShowGlossary] = useState(false) 
 
   return (
     <>
