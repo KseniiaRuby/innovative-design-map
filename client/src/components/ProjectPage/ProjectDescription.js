@@ -25,6 +25,13 @@ const ProjectDescription = ({
   projectYear,
   projectClient,
 }) => {
+  const projectNameFilter = () => {
+    if (projectName.substring(0, 4) === "The ") {
+      projectName = projectName.substring(4);
+    }
+  };
+  projectNameFilter();
+
   return (
     <div className="border project-description project-padding">
       The {projectName} is a {projectTypology} located in the{" "}
