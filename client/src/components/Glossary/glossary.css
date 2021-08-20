@@ -37,8 +37,7 @@
 
 .glossary-entry-def {
   overflow-y: scroll;
-  /* position: fixed; */
-  /* position: relative; */
+  width: 40em;
   padding: 15px 20px 0px 0px;
 }
 
