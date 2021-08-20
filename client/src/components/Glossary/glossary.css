@@ -40,14 +40,23 @@
 .glossary-letters {
   overflow-y: scroll;
   padding: 20px 20px 20px 10px;
-  height: 52vh;
+  height: 65vh;
 }
 
 .glossary-entry-def {
   overflow-y: scroll;
   width: 60em;
-  height: 52vh;
+  height: 65vh;
   padding: 20px 20px 20px 0px;
+}
+
+@media only screen and (max-height: 1792px) {
+  .glossary-letters {
+    height: 52vh;
+  }
+  .glossary-entry-def {
+    height: 52vh;
+  }
 }
 
 .glossary-letter {
@@ -79,7 +88,15 @@
   text-decoration: underline;
 }
 
-.mapbox-logo{ display: none; } 
-.mapboxgl-ctrl-logo { display: none !important; } 
-.mapbox-improve-map { display: none; } 
-.mapboxgl-ctrl-compass { display: none; } 
+.mapbox-logo {
+  display: none;
+}
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+.mapbox-improve-map {
+  display: none;
+}
+.mapboxgl-ctrl-compass {
+  display: none;
+}
