@@ -16,6 +16,7 @@ export default function GlossaryProvider({ children }) {
   const [allDefintions, setAllDefinitions] = useState([]);
   const [allTerms, setAllTerms] = useState([]);
   const [selectedDefinition, setSelectedDefinition] = useState();
+  const [showGlossary, setShowGlossary] = useState(false);
 
   useEffect(() => {
     const getAllDefinitions = async () => {
@@ -52,6 +53,8 @@ export default function GlossaryProvider({ children }) {
         allTerms,
         setSelectedTerm,
         selectedDefinition,
+        showGlossary,
+        setShowGlossary
       }}
     >
       {children}

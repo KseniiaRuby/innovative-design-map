@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React, {useState, useContext} from "react";
 import { Link } from "react-router-dom";
 import "../styles/Styles.css";
 import GlossaryContainer from "./Glossary/GlossaryContainer";
+import GlossaryContext from "../store/GlossaryContext";
 
 export default function Navbar() {
-  let [showGlossary, setShowGlossary] = useState(false) 
-
+  let glossaryContext = useContext(GlossaryContext);
   return (
     <>
       <div>
@@ -24,12 +24,12 @@ export default function Navbar() {
           </Link>
           <Link 
             className="nav-links"
-            onClick={() => setShowGlossary(true)}>
+            onClick={() => glossaryContext.setShowGlossary(true)}>
             Glossary
           </Link>
         </div>
       </div>
-            {showGlossary ? <GlossaryContainer showGlossary={showGlossary} setShowGlossary={setShowGlossary}/> : null}
+            {glossaryContext.showGlossary ? <GlossaryContainer/> : null}
     </>
   );
 }

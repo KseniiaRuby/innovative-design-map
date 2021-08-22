@@ -90,28 +90,28 @@ const LetterSelectors = ({ selectLetter }) => {
   );
 };
 
-const GlossaryContainer = ({showGlossary, setShowGlossary}) => {
+const GlossaryContainer = () => {
   let glossaryContext = useContext(GlossaryContext);
   let [selectedLetter, setSelectedLetter] = useState();
 
   useEffect(() => {
     if (glossaryContext.selectedDefinition) {
       setSelectedLetter(glossaryContext.selectedDefinition.term.charAt(0));
-      setShowGlossary(true);
+      glossaryContext.setShowGlossary(true);
     }
   }, [glossaryContext]);
 
   useEffect(() => {
-    if (showGlossary) {
+    if (glossaryContext.showGlossary) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "unset";
     }
-  }, [showGlossary]);
+  }, [glossaryContext.showGlossary]);
 
   const hideGlossary = () => {
     glossaryContext.setSelectedTerm(null);
-    setShowGlossary(false);
+    glossaryContext.setShowGlossary(false);
   };
 
   const selectTerm = (term) => {
@@ -124,7 +124,7 @@ const GlossaryContainer = ({showGlossary, setShowGlossary}) => {
   };
 
   return (
-    <ReactModal isOpen={showGlossary} style={modalStyles}>
+    <ReactModal isOpen={glossaryContext.showGlossary} style={modalStyles}>
       <div className="glossary-fullscreen">
         <div className="glossary-header border-bottom">
           <div className="glossary-button-container">

@@ -32,16 +32,16 @@ body {
 .markers {
   background-image: url("../images/1.0\ -\ large1.png");
   background-size: 100%;
-  height: 8vh;
-  width: 8vw;
-  /* z-index: 1; */
+  height: 35px;
+  width: 35px;
+  z-index: 1;
 }
 
 .markers:hover {
   background-image: url("../images/1.0\ -\ large1.png");
   background-size: 100%;
-  height: 12vh;
-  width: 12vw;
+  height: 50px;
+  width: 50px;
 }
 
 .red-marker {
@@ -49,9 +49,16 @@ body {
   background-size: 100%;
   height: 100px;
   width: 100px;
-  /* z-index: 2; */
+  z-index: 2;
 }
 
-.mapboxgl-ctrl-logo {
-  display: none !important;
+.display-block {
+display: inline-block;
 }
+.display-none {
+  display: none;
+}
+
+/* .mapboxgl-ctrl-logo {
+  display: none !important;
+} */
