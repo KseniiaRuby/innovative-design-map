@@ -20,7 +20,7 @@ export function Gateway() {
                   classificationCtx.setGatewayWord(e.target.value)
                }}
             >
-               <option value=""></option>
+               <option value="" className="dropdown-text"></option>
                {classificationCtx.allGatewayWords.map((gatewayWord) => {
                   return <option key={gatewayWord}>{gatewayWord}</option>
                })}
