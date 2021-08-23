@@ -1,4 +1,4 @@
-import React, {useState, useContext} from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Styles.css";
 import GlossaryContainer from "./Glossary/GlossaryContainer";
@@ -10,26 +10,24 @@ export default function Navbar() {
     <>
       <div>
         <div className="navbar-container border-top">
-          <Link to="/"
-            className="nav-links">
+          <Link to="/" className="nav-links">
             Home
           </Link>
-          <Link to="/Map"
-            className="nav-links">
+          <Link to="/Map" className="nav-links">
             Map
           </Link>
-          <Link to="/Category"
-            className="nav-links">
+          <Link to="/Category" className="nav-links">
             Explore
           </Link>
-          <Link 
+          <div
             className="nav-links"
-            onClick={() => glossaryContext.setShowGlossary(true)}>
+            onClick={() => glossaryContext.setShowGlossary(true)}
+          >
             Glossary
-          </Link>
+          </div>
         </div>
       </div>
-            {glossaryContext.showGlossary ? <GlossaryContainer/> : null}
+      {glossaryContext.showGlossary ? <GlossaryContainer /> : null}
     </>
   );
 }

@@ -4,11 +4,6 @@ import TextWithGlossaryLinks from "../Glossary/TextWithGlossaryLinks";
 
 const FeatureWordsList = ({ featureWords }) => {
   return (
-    // <div className="project-margins">
-    //    <p>
-    //       <u>Features</u>
-    //    </p>
-    //    <div>
     <div>
       <div className="border-top project-padding-left">
         <h2>FEATURES</h2>
@@ -17,7 +12,9 @@ const FeatureWordsList = ({ featureWords }) => {
         {featureWords.map((featureWord) => {
           return (
             <div key={featureWord}>
-              <li><TextWithGlossaryLinks text={featureWord} /></li>
+              <li>
+                <TextWithGlossaryLinks text={featureWord} />
+              </li>
             </div>
           );
         })}
