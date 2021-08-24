@@ -390,3 +390,10 @@ h2 {
    float: right;
    text-align: right;
 }
+
+.display-block {
+   display: inline-block;
+   }
+.display-none {
+     display: none;
+}

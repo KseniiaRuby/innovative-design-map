@@ -124,7 +124,7 @@ const GlossaryContainer = () => {
   };
 
   return (
-    <ReactModal isOpen={glossaryContext.showGlossary} style={modalStyles}>
+    <ReactModal isOpen={glossaryContext.showGlossary} style={modalStyles} ariaHideApp={false}>>
       <div className="glossary-fullscreen">
         <div className="glossary-header border-bottom">
           <div className="glossary-button-container">

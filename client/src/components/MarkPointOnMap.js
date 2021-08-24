@@ -19,9 +19,7 @@ function MarkPointOnMap({ setSelectedProjectIndex, selectedProjectIndex }) {
   useEffect(() => {
     let pins = [];
     if (map) {
-      console.log("Features", features)
       features.forEach((feature, index) => {
-        console.log("Feature Index", index)
         let el = document.createElement("div");
         pins.push(el);
         if (index === selectedProjectIndex) {
