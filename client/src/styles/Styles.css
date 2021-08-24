@@ -297,7 +297,7 @@ h2 {
 
 .project-title {
   font-size: 9.5vw;
-  padding: 1.25em 1em 0em 0.4em;
+  padding: 1.25em 0em 0em 0.4em;
   position: absolute;
   font-weight: 800;
   letter-spacing: 0.3px;
@@ -386,15 +386,15 @@ h2 {
 }
 
 #pict {
-   margin: 2em 0em 2em 0em;
-   width: 75%;
-   float: right;
-   text-align: right;
+  margin: 2em 0em 2em 0em;
+  width: 75%;
+  float: right;
+  text-align: right;
 }
 
 .display-block {
-   display: inline-block;
-   }
+  display: inline-block;
+}
 .display-none {
-     display: none;
+  display: none;
 }
