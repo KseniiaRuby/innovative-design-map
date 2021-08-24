@@ -10,7 +10,7 @@ import "../styles/MarkPointOnMap.css";
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 function MarkPointOnMap({ setSelectedProjectIndex, selectedProjectIndex }) {
-  let glossaryContext = useContext(GlossaryContext)
+  let glossaryContext = useContext(GlossaryContext);
   const mapContainer = useRef(null);
   const classificationCtx = useContext(ClassificationContext);
   const features = Array.from(classificationCtx.projects);
@@ -76,7 +76,11 @@ function MarkPointOnMap({ setSelectedProjectIndex, selectedProjectIndex }) {
   }, [classificationCtx.projects]);
 
   return (
-    <div className={`map-spacer-top ${glossaryContext.showGlossary ? "display-none" : "display-block"}`}>
+    <div
+      className={`map-spacer-top ${
+        glossaryContext.showGlossary ? "display-none" : "display-block"
+      }`}
+    >
       <div className="map-container" ref={mapContainer} />
       <div className="map-spacer-bottom"></div>
     </div>
