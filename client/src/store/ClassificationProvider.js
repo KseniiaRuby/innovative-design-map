@@ -6,7 +6,32 @@ export default function ClassificationProvider({ children }) {
   const [allGatewayWords, setAllGatewayWords] = useState([]);
   const [gatewayWord, setGatewayWord] = useState();
   const [classification, setClassification] = useState();
-  const [projects, setProjects] = useState([]);
+  // const [projects, setProjects] = useState([]);
+
+  //
+  // set the initial state for projects
+  const firstProjects = [];
+
+  sessionStorage.setItem("initialProjects", JSON.stringify(firstProjects));
+
+  function initialProjectState() {
+    const projectsData = JSON.parse(sessionStorage.getItem("lastProjects"));
+    const initialProjectsData = JSON.parse(
+      sessionStorage.getItem("initialProjects")
+    );
+    if (projectsData) {
+      return projectsData;
+    } else {
+      return initialProjectsData;
+    }
+  }
+
+  const [projects, setProjects] = useState(() => initialProjectState());
+
+  useEffect(() => {
+    sessionStorage.setItem("lastProjects", JSON.stringify(projects));
+  }, [projects]);
+  //
 
   useEffect(() => {
     const getAllClassifications = async () => {
@@ -64,6 +89,9 @@ export default function ClassificationProvider({ children }) {
           }
           let projects = await response.json();
           setProjects(projects);
+          //
+          sessionStorage.setItem("lastProjects", JSON.stringify(projects));
+          //
         } catch (err) {
           console.log("Error on client-side.", err);
         }
