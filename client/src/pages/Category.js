@@ -15,7 +15,6 @@ export default function Category() {
       <div>
         <ClassificationHeader />
       </div>
-      {/* <div className="project-title-spacer"></div> */}
       <div>
         <HorizontalProjectMenu
           selectedProjectIndex={selectedProjectIndex}

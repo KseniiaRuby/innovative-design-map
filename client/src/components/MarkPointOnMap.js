@@ -76,14 +76,18 @@ function MarkPointOnMap({ setSelectedProjectIndex, selectedProjectIndex }) {
   }, [classificationCtx.projects]);
 
   return (
-    <div
-      className={`map-spacer-top ${
-        glossaryContext.showGlossary ? "display-none" : "display-block"
-      }`}
-    >
-      <div className="map-container" ref={mapContainer} />
-      <div className="map-spacer-bottom"></div>
-    </div>
+    <>
+      <div>
+        <div
+          className={`map-spacer-top ${
+            glossaryContext.showGlossary ? "display-none" : "display-block"
+          }`}
+        >
+          <div className="map-container" ref={mapContainer} />
+          <div className="map-spacer-bottom"></div>
+        </div>
+      </div>
+    </>
   );
 }
 
