@@ -10,11 +10,9 @@ body {
 .map-container {
   width: 100vw;
   height: 45vh;
-  /* position: fixed; */
   margin: 0;
   padding: 0;
-  /* z-index: 30; */
-  /* z-index: 20; */
+  z-index: -1;
 }
 
 .map-spacer-top {
@@ -53,7 +51,7 @@ body {
 }
 
 .display-block {
-display: inline-block;
+  display: inline-block;
 }
 .display-none {
   display: none;

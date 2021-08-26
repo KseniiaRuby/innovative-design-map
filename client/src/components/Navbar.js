@@ -6,32 +6,36 @@ import GlossaryContext from "../store/GlossaryContext";
 
 export default function Navbar() {
   let glossaryContext = useContext(GlossaryContext);
-  const [navbar, setNavbar] = useState()
+  const [navbar, setNavbar] = useState();
 
-        return (
-        <>
-          <div className={`${glossaryContext.showGlossary ? "display-none" : "display-block"}`}>
-            <div className="navbar-container border-top">
-              <Link to="/"
-                className="nav-links">
-                Home
-              </Link>
-              <Link to="/Map"
-                className="nav-links">
-                Map 
-              </Link>
-              <Link to="/Category"
-                className="nav-links">
-                Explore
-              </Link> 
-              <Link
-                className="nav-links"
-                onClick={() => glossaryContext.setShowGlossary(true) && setNavbar(false)}>
-                Glossary
-              </Link>
-            </div>
+  return (
+    <>
+      <div
+        className={`${
+          glossaryContext.showGlossary ? "display-none" : "display-block"
+        }`}
+      >
+        <div className="navbar-container border-top">
+          <Link to="/" className="nav-links">
+            Home
+          </Link>
+          <Link to="/Map" className="nav-links">
+            Map
+          </Link>
+          <Link to="/Category" className="nav-links">
+            Explore
+          </Link>
+          <div
+            className="nav-links"
+            onClick={() =>
+              glossaryContext.setShowGlossary(true) && setNavbar(false)
+            }
+          >
+            Glossary
           </div>
-          {glossaryContext.showGlossary ? <GlossaryContainer /> : null }
-        </>
-        );
+        </div>
+      </div>
+      {glossaryContext.showGlossary ? <GlossaryContainer /> : null}
+    </>
+  );
 }

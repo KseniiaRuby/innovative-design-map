@@ -5,9 +5,34 @@ export default function ClassificationProvider({ children }) {
   const [allClassifications, setAllClassifications] = useState([]);
   const [allGatewayWords, setAllGatewayWords] = useState([]);
   const [gatewayWord, setGatewayWord] = useState();
-  const [classification, setClassification] = useState();
-  // const [projects, setProjects] = useState([]);
 
+  //
+  // set the initial state for classifications
+  const firstClassifications = [];
+
+  sessionStorage.setItem(
+    "initialClassifications",
+    JSON.stringify(firstClassifications)
+  );
+
+  function initialClassificationState() {
+    const classificationsData = JSON.parse(
+      sessionStorage.getItem("lastClassifications")
+    );
+    const initialClassificationsData = JSON.parse(
+      sessionStorage.getItem("initialClassifications")
+    );
+    if (classificationsData) {
+      return classificationsData;
+    } else {
+      return initialClassificationsData;
+    }
+  }
+
+  const [classification, setClassification] = useState(() =>
+    initialClassificationState()
+  );
+  //
   //
   // set the initial state for projects
   const firstProjects = [];
@@ -27,10 +52,6 @@ export default function ClassificationProvider({ children }) {
   }
 
   const [projects, setProjects] = useState(() => initialProjectState());
-
-  useEffect(() => {
-    sessionStorage.setItem("lastProjects", JSON.stringify(projects));
-  }, [projects]);
   //
 
   useEffect(() => {
@@ -65,6 +86,12 @@ export default function ClassificationProvider({ children }) {
         return classification.gatewayWords.includes(gatewayWord);
       });
       setClassification(foundClassification);
+      //
+      sessionStorage.setItem(
+        "lastClassifications",
+        JSON.stringify(foundClassification)
+      );
+      //
     }
   }, [gatewayWord, allClassifications]);
 
